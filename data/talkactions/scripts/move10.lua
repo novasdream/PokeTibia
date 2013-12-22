@@ -1,36 +1,157 @@
 -- Boost sistem --
 boostrate = 1
- ps1 = createCombatArea(pokeSpell.ps1)
- ws1 = createCombatArea(pokeSpell.ws1)
- ws2 = createCombatArea(pokeSpell.ws2)
- ws3 = createCombatArea(pokeSpell.ws3)
- ws4 = createCombatArea(pokeSpell.ws4)
- tor1 = createCombatArea(pokeSpell.tor1)
- tor2 = createCombatArea(pokeSpell.tor2)
- tor3 = createCombatArea(pokeSpell.tor3)
- ps2 = createCombatArea(pokeSpell.ps2)
- wingn = createCombatArea(pokeSpell.wingn)
- wings = createCombatArea(pokeSpell.wings)
- winge = createCombatArea(pokeSpell.winge)
- wingw = createCombatArea(pokeSpell.wingw)
- wingds = createCombatArea(pokeSpell.wingds)
- wingdn = createCombatArea(pokeSpell.wingdn)
- wingde = createCombatArea(pokeSpell.wingde)
- wingdw = createCombatArea(pokeSpell.wingdw)
- grassarea = createCombatArea(pokeSpell.grassarea)
- wg1n = createCombatArea(pokeSpell.wg1n)
- wg2n = createCombatArea(pokeSpell.wg2n)
- wg3n = createCombatArea(pokeSpell.wg3n)
- wg1s = createCombatArea(pokeSpell.wg1s)
- wg2s = createCombatArea(pokeSpell.wg2s)
- wg3s = createCombatArea(pokeSpell.wg3s)
- wg1e = createCombatArea(pokeSpell.wg1e)
- wg2e = createCombatArea(pokeSpell.wg2e)
- wg3e = createCombatArea(pokeSpell.wg3e)
- wg1w = createCombatArea(pokeSpell.wg1w)
- wg2w = createCombatArea(pokeSpell.wg2w)
- wg3w = createCombatArea(pokeSpell.wg3w)
 
+local ps1 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 1, 1, 2, 1, 1, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local ws1 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0},
+{0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0},
+{0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local ws2 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+{0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0},
+{0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0},
+{0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local ws3 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0},
+{0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0},
+{0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local ws4 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0},
+{0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+{0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0},
+{0, 0, 1, 0, 0, 2, 0, 1, 0, 1, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0},
+{0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+{0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local tor1 = createCombatArea{
+{0, 1, 0}, 
+{1, 2, 1}, 
+{0, 1, 0}, 
+}
+local tor2 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 2, 0, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local tor3 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+{0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+ 
+local ps2 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 2, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local wingn = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+local wings = createCombatArea{
+{1, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local winge = createCombatArea{
+{1, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wingw = createCombatArea{
+{0, 2, 3}, 
+{0, 2, 2}, 
+{0, 0, 0}, 
+}
+local wingds = createCombatArea{
+{1, 1, 1}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wingdn = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{1, 1, 1}, 
+}
+local wingde = createCombatArea{
+{1, 0, 0}, 
+{1, 2, 0}, 
+{1, 0, 0}, 
+}
+local wingdw = createCombatArea{
+{0, 0, 1}, 
+{0, 2, 1}, 
+{0, 0, 1}, 
+}
+-- WING ATTACK END
 function onSay(cid)
 	if #getCreatureSummons(cid) == 0 then
 	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You need a pokemon to use moves.")

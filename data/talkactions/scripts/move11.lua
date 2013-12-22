@@ -1,34 +1,179 @@
 -- Boost sistem --
 boostrate = 1
- vinen = createCombatArea(pokeSpell.vinen)
- vines = createCombatArea(pokeSpell.vines)
- vinee = createCombatArea(pokeSpell.vinee)
- vinew = createCombatArea(pokeSpell.vinew)
- whipn = createCombatArea(pokeSpell.whipn)
- whips = createCombatArea(pokeSpell.whips)
- whipe = createCombatArea(pokeSpell.whipe)
- whipw = createCombatArea(pokeSpell.whipw)
- sand1 = createCombatArea(pokeSpell.sand1)
- whirl3 = createCombatArea(pokeSpell.whirl3)
- whirl5 = createCombatArea(pokeSpell.whirl5)
- whirl32 = createCombatArea(pokeSpell.whirl32)
- whirl52 = createCombatArea(pokeSpell.whirl52)
- ps1 = createCombatArea(pokeSpell.ps1)
- ps2 = createCombatArea(pokeSpell.ps2)
- wg1n = createCombatArea(pokeSpell.wg1n)
- wg2n = createCombatArea(pokeSpell.wg2n)
- wg3n = createCombatArea(pokeSpell.wg3n)
- wg1s = createCombatArea(pokeSpell.wg1s)
- wg2s = createCombatArea(pokeSpell.wg2s)
- wg3s = createCombatArea(pokeSpell.wg3s)
- wg1e = createCombatArea(pokeSpell.wg1e)
- wg2e = createCombatArea(pokeSpell.wg2e)
- wg3e = createCombatArea(pokeSpell.wg3e)
- wg1w = createCombatArea(pokeSpell.wg1w)
- wg2w = createCombatArea(pokeSpell.wg2w)
- wg3w = createCombatArea(pokeSpell.wg3w)
 
+local vinen = createCombatArea{
+{0, 0, 0},
+{0, 0, 0},
+{0, 2, 0},
+{1, 0, 0}
+}
+local vines = createCombatArea{
+{0, 0, 0},
+{1, 0, 0},
+{0, 0, 0},
+{0, 2, 0}
+}
+local vinee = createCombatArea{
+{0, 0, 0},
+{1, 0, 0},
+{0, 0, 2},
+{0, 0, 0}
+}
+local vinew = createCombatArea{
+{0, 0, 0},
+{0, 0, 3},
+{0, 2, 0},
+{0, 0, 0}
+}
+local whipn = createCombatArea{
+{0, 0, 0},
+{0, 2, 0},
+{1, 1, 1},
+{1, 1, 1}
+}
+local whips = createCombatArea{
+{1, 1, 1},
+{1, 1, 1},
+{0, 2, 0},
+{0, 0, 0}
+}
+local whipe = createCombatArea{
+{1, 1, 0},
+{1, 1, 2},
+{1, 1, 0},
+{0, 0, 0}
+}
+local whipw = createCombatArea{
+{0, 1, 1},
+{2, 1, 1},
+{0, 1, 1},
+{0, 0, 0}
+}
 
+local sand1 = createCombatArea{
+{0, 0, 0}, 
+{0, 3, 0}, 
+{0, 0, 0}, 
+}
+
+local whirl3 = createCombatArea{
+{0, 0, 0}, 
+{1, 3, 1}, 
+{0, 0, 0}, 
+}
+
+local whirl5 = createCombatArea{
+{0, 0, 0, 0, 0}, 
+{1, 1, 3, 1, 1}, 
+{0, 0, 0, 0, 0}, 
+}
+
+local whirl32 = createCombatArea{
+{0, 0, 0}, 
+{1, 3, 1}, 
+{0, 0, 0}, 
+}
+
+local whirl52 = createCombatArea{
+{0, 0, 0, 0, 0}, 
+{1, 1, 3, 1, 1}, 
+{0, 0, 0, 0, 0}, 
+}
+
+local ps1 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 1, 1, 2, 1, 1, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+ 
+local ps2 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 2, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+-- WATER GUN
+local wg1n = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 1, 0}, 
+}
+local wg2n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 1, 0}, 
+{0, 1, 0}, 
+{0, 1, 0}, 
+}
+local wg3n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 1, 0}, 
+}
+
+local wg1s = createCombatArea{
+{0, 1, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2s = createCombatArea{
+{0, 1, 0},
+{0, 1, 0},
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+local wg3s = createCombatArea{
+{0, 1, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+
+local wg1e = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2e = createCombatArea{ 
+{1, 1, 1, 0, 2}, 
+}
+local wg3e = createCombatArea{ 
+{1, 0, 0, 0, 0, 2}, 
+}
+
+local wg1w = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 1}, 
+{0, 0, 0}, 
+}
+local wg2w = createCombatArea{ 
+{2, 0, 1, 1, 1}, 
+}
+local wg3w = createCombatArea{ 
+{2, 0, 0, 0, 0, 1}, 
+}
+-- WATER GUN END
 function onSay(cid)
 	if #getCreatureSummons(cid) == 0 then
 	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You need a pokemon to use moves.")
