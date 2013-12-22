@@ -1,0 +1,908 @@
+The Forgotten Server, version 0.3.6 (Crying Damson)
+Compiled with GNU C++ version 4.7.2 at Dec 22 2013, 16:16:41.
+A server developed by Elf, slawkens, Talaturen, KaczooH, Lithium, Kiper, Kornholijo.
+Visit our forum for updates, support and resources: http://otland.net.
+
+>> Loading config (config.lua)
+> Using plaintext encryption
+>> Loading RSA key
+>> Starting SQL connection
+>> Running Database Manager
+> Optimizing table: account_viplist... [success]
+> Optimizing table: accounts... [success]
+> Optimizing table: bans... [success]
+> Optimizing table: environment_killers... [success]
+> Optimizing table: global_storage... [success]
+> Optimizing table: guild_invites... [success]
+> Optimizing table: guild_ranks... [success]
+> Optimizing table: guilds... [success]
+> Optimizing table: house_auctions... [success]
+> Optimizing table: house_data... [success]
+> Optimizing table: house_lists... [success]
+> Optimizing table: houses... [success]
+> Optimizing table: killers... [success]
+> Optimizing table: player_deaths... [success]
+> Optimizing table: player_depotitems... [success]
+> Optimizing table: player_items... [success]
+> Optimizing table: player_killers... [success]
+> Optimizing table: player_namelocks... [success]
+> Optimizing table: player_skills... [success]
+> Optimizing table: player_spells... [success]
+> Optimizing table: player_storage... [success]
+> Optimizing table: player_viplist... [success]
+> Optimizing table: players... [success]
+> Optimizing table: server_config... [success]
+> Optimizing table: server_motd... [success]
+> Optimizing table: server_record... [success]
+> Optimizing table: server_reports... [success]
+> Optimizing table: tile_items... [success]
+> Optimizing table: tiles... [success]
+>> Loading items
+>> Loading groups
+>> Loading vocations
+>> Loading script systems
+[Error - LuaScriptInterface::loadFile] cannot open data/spells/scripts/poke/shadow area.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/spells/scripts/poke/shadow area.lua)
+cannot open data/spells/scripts/poke/shadow area.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/spells/scripts/poke/horn drill.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/spells/scripts/poke/horn drill.lua)
+cannot open data/spells/scripts/poke/horn drill.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/spells/scripts/poke/Melody.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/spells/scripts/poke/Melody.lua)
+cannot open data/spells/scripts/poke/Melody.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/spells/scripts/poke/selfheal.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/spells/scripts/poke/selfheal.lua)
+cannot open data/spells/scripts/poke/selfheal.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/spells/scripts/poke/earthquake.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/spells/scripts/poke/earthquake.lua)
+cannot open data/spells/scripts/poke/earthquake.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/actions/scripts/pokemon/pokedex.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/actions/scripts/pokemon/pokedex.lua)
+cannot open data/actions/scripts/pokemon/pokedex.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/actions/scripts/goDesertents.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/actions/scripts/goDesertents.lua)
+cannot open data/actions/scripts/goDesertents.lua: No such file or directory
+[Error - LuaScriptInterface::loadFile] cannot open data/actions/scripts/diamond.lua: No such file or directory
+[Warning - Event::loadScript] Cannot load script (data/actions/scripts/diamond.lua)
+cannot open data/actions/scripts/diamond.lua: No such file or directory
+>> Loading chat channels
+>> Loading outfits
+>> Loading experience stages
+>> Loading monsters
+[Warning - Monsters::loadMonster] Cannot load monster (lickitung) file (data/monster/pokes/lickitung.xml).
+Info: failed to load external entity "data/monster/pokes/lickitung.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (aerodactyl) file (data/monster/pokes/aerodactyl.xml).
+Info: failed to load external entity "data/monster/pokes/aerodactyl.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (tentacruel cm) file (data/monster/pokes/tentacruel cm.xml).
+Info: failed to load external entity "data/monster/pokes/tentacruel cm.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (haunter cm) file (data/monster/pokes/haunter cm.xml).
+Info: failed to load external entity "data/monster/pokes/haunter cm.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (gengar cm) file (data/monster/pokes/gengar cm.xml).
+Info: failed to load external entity "data/monster/pokes/gengar cm.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (shiny alakazam cm) file (data/monster/pokes/shiny alakazam cm.xml).
+Info: failed to load external entity "data/monster/pokes/shiny alakazam cm.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (lapras) file (data/monster/pokes/lapras.xml).
+Info: failed to load external entity "data/monster/pokes/lapras.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (ditto) file (data/monster/pokes/ditto.xml).
+Info: failed to load external entity "data/monster/pokes/ditto.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (chansey) file (data/monster/pokes/chansey.xml).
+Info: failed to load external entity "data/monster/pokes/chansey.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (tangela) file (data/monster/pokes/tangela.xml).
+Info: failed to load external entity "data/monster/pokes/tangela.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (kangaskhan) file (data/monster/pokes/kangaskhan.xml).
+Info: failed to load external entity "data/monster/pokes/kangaskhan.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (scyther) file (data/monster/pokes/scyther.xml).
+Info: failed to load external entity "data/monster/pokes/scyther.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (jynx) file (data/monster/pokes/jynx.xml).
+Info: failed to load external entity "data/monster/pokes/jynx.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (electabuzz) file (data/monster/pokes/electabuzz.xml).
+Info: failed to load external entity "data/monster/pokes/electabuzz.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (magmar) file (data/monster/pokes/magmar.xml).
+Info: failed to load external entity "data/monster/pokes/magmar.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (pinsir) file (data/monster/pokes/pinsir.xml).
+Info: failed to load external entity "data/monster/pokes/pinsir.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (tauros) file (data/monster/pokes/tauros.xml).
+Info: failed to load external entity "data/monster/pokes/tauros.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Mini Magikarp) file (data/monster/pokes/mini magikarp.xml).
+Info: failed to load external entity "data/monster/pokes/mini magikarp.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Medio Magikarp) file (data/monster/pokes/medio magikarp.xml).
+Info: failed to load external entity "data/monster/pokes/medio magikarp.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Big Magikarp) file (data/monster/pokes/big magikarp.xml).
+Info: failed to load external entity "data/monster/pokes/big magikarp.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Big Magikarp) file (data/monster/pokes/shiny big magikarp.xml).
+Info: failed to load external entity "data/monster/pokes/shiny big magikarp.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Mini Gyarados) file (data/monster/pokes/mini gyarados.xml).
+Info: failed to load external entity "data/monster/pokes/mini gyarados.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (bulbasaur) file (data/monster/pokes/bulbasaur.xml).
+Info: failed to load external entity "data/monster/pokes/bulbasaur.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (ivysaur) file (data/monster/pokes/ivysaur.xml).
+Info: failed to load external entity "data/monster/pokes/ivysaur.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (venusaur) file (data/monster/pokes/venusaur.xml).
+Info: failed to load external entity "data/monster/pokes/venusaur.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Charmander) file (data/monster/pokes/charmander.xml).
+Info: failed to load external entity "data/monster/pokes/charmander.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (squirtle) file (data/monster/pokes/squirtle.xml).
+Info: failed to load external entity "data/monster/pokes/squirtle.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (wartortle) file (data/monster/pokes/wartortle.xml).
+Info: failed to load external entity "data/monster/pokes/wartortle.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (blastoise) file (data/monster/pokes/blastoise.xml).
+Info: failed to load external entity "data/monster/pokes/blastoise.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (caterpie) file (data/monster/pokes/caterpie.xml).
+Info: failed to load external entity "data/monster/pokes/caterpie.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (metapod) file (data/monster/pokes/metapod.xml).
+Info: failed to load external entity "data/monster/pokes/metapod.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (butterfree) file (data/monster/pokes/butterfree.xml).
+Info: failed to load external entity "data/monster/pokes/butterfree.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (spearow) file (data/monster/pokes/spearow.xml).
+Info: failed to load external entity "data/monster/pokes/spearow.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (fearow) file (data/monster/pokes/fearow.xml).
+Info: failed to load external entity "data/monster/pokes/fearow.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (ekans) file (data/monster/pokes/ekans.xml).
+Info: failed to load external entity "data/monster/pokes/ekans.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (arbok) file (data/monster/pokes/arbok.xml).
+Info: failed to load external entity "data/monster/pokes/arbok.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (pikachu) file (data/monster/pokes/pikachu.xml).
+Info: failed to load external entity "data/monster/pokes/pikachu.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (raichu) file (data/monster/pokes/raichu.xml).
+Info: failed to load external entity "data/monster/pokes/raichu.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (nidorina) file (data/monster/pokes/nidorina.xml).
+Info: failed to load external entity "data/monster/pokes/nidorina.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (nidoqueen) file (data/monster/pokes/nidoqueen.xml).
+Info: failed to load external entity "data/monster/pokes/nidoqueen.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (nidorino) file (data/monster/pokes/nidorino.xml).
+Info: failed to load external entity "data/monster/pokes/nidorino.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (nidoking) file (data/monster/pokes/nidoking.xml).
+Info: failed to load external entity "data/monster/pokes/nidoking.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (clefairy) file (data/monster/pokes/clefairy.xml).
+Info: failed to load external entity "data/monster/pokes/clefairy.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (clefable) file (data/monster/pokes/clefable.xml).
+Info: failed to load external entity "data/monster/pokes/clefable.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (vulpix) file (data/monster/pokes/vulpix.xml).
+Info: failed to load external entity "data/monster/pokes/vulpix.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (ninetales) file (data/monster/pokes/ninetales.xml).
+Info: failed to load external entity "data/monster/pokes/ninetales.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (jigglypuff) file (data/monster/pokes/jigglypuff.xml).
+Info: failed to load external entity "data/monster/pokes/jigglypuff.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (wigglytuff) file (data/monster/pokes/wigglytuff.xml).
+Info: failed to load external entity "data/monster/pokes/wigglytuff.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (paras) file (data/monster/pokes/paras.xml).
+Info: failed to load external entity "data/monster/pokes/paras.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (parasect) file (data/monster/pokes/parasect.xml).
+Info: failed to load external entity "data/monster/pokes/parasect.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (venonat) file (data/monster/pokes/venonat.xml).
+Info: failed to load external entity "data/monster/pokes/venonat.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (venomoth) file (data/monster/pokes/venomoth.xml).
+Info: failed to load external entity "data/monster/pokes/venomoth.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (diglett) file (data/monster/pokes/diglett.xml).
+Info: failed to load external entity "data/monster/pokes/diglett.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dugtrio) file (data/monster/pokes/dugtrio.xml).
+Info: failed to load external entity "data/monster/pokes/dugtrio.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (meowth) file (data/monster/pokes/meowth.xml).
+Info: failed to load external entity "data/monster/pokes/meowth.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (persian) file (data/monster/pokes/persian.xml).
+Info: failed to load external entity "data/monster/pokes/persian.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (psyduck) file (data/monster/pokes/psyduck.xml).
+Info: failed to load external entity "data/monster/pokes/psyduck.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (golduck) file (data/monster/pokes/golduck.xml).
+Info: failed to load external entity "data/monster/pokes/golduck.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (mankey) file (data/monster/pokes/mankey.xml).
+Info: failed to load external entity "data/monster/pokes/mankey.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (primeape) file (data/monster/pokes/primeape.xml).
+Info: failed to load external entity "data/monster/pokes/primeape.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (growlithe) file (data/monster/pokes/growlithe.xml).
+Info: failed to load external entity "data/monster/pokes/growlithe.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (arcanine) file (data/monster/pokes/arcanine.xml).
+Info: failed to load external entity "data/monster/pokes/arcanine.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (machop) file (data/monster/pokes/machop.xml).
+Info: failed to load external entity "data/monster/pokes/machop.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (machoke) file (data/monster/pokes/machoke.xml).
+Info: failed to load external entity "data/monster/pokes/machoke.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (machamp) file (data/monster/pokes/machamp.xml).
+Info: failed to load external entity "data/monster/pokes/machamp.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (tentacool) file (data/monster/pokes/tentacool.xml).
+Info: failed to load external entity "data/monster/pokes/tentacool.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (tentacruel) file (data/monster/pokes/tentacruel.xml).
+Info: failed to load external entity "data/monster/pokes/tentacruel.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (ponyta) file (data/monster/pokes/ponyta.xml).
+Info: failed to load external entity "data/monster/pokes/ponyta.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (rapidash) file (data/monster/pokes/rapidash.xml).
+Info: failed to load external entity "data/monster/pokes/rapidash.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (slowpoke) file (data/monster/pokes/slowpoke.xml).
+Info: failed to load external entity "data/monster/pokes/slowpoke.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (slowbro) file (data/monster/pokes/slowbro.xml).
+Info: failed to load external entity "data/monster/pokes/slowbro.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (seel) file (data/monster/pokes/seel.xml).
+Info: failed to load external entity "data/monster/pokes/seel.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dewgong) file (data/monster/pokes/dewgong.xml).
+Info: failed to load external entity "data/monster/pokes/dewgong.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (onix) file (data/monster/pokes/onix.xml).
+Info: failed to load external entity "data/monster/pokes/onix.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (shellder) file (data/monster/pokes/shellder.xml).
+Info: failed to load external entity "data/monster/pokes/shellder.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (cloyster) file (data/monster/pokes/cloyster.xml).
+Info: failed to load external entity "data/monster/pokes/cloyster.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (gastly) file (data/monster/pokes/gastly.xml).
+Info: failed to load external entity "data/monster/pokes/gastly.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (haunter) file (data/monster/pokes/haunter.xml).
+Info: failed to load external entity "data/monster/pokes/haunter.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (gengar) file (data/monster/pokes/gengar.xml).
+Info: failed to load external entity "data/monster/pokes/gengar.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (hypno) file (data/monster/pokes/hypno.xml).
+Info: failed to load external entity "data/monster/pokes/hypno.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (krabby) file (data/monster/pokes/krabby.xml).
+Info: failed to load external entity "data/monster/pokes/krabby.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (exeggcute) file (data/monster/pokes/exeggcute.xml).
+Info: failed to load external entity "data/monster/pokes/exeggcute.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (exeggutor) file (data/monster/pokes/exeggutor.xml).
+Info: failed to load external entity "data/monster/pokes/exeggutor.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (cubone) file (data/monster/pokes/cubone.xml).
+Info: failed to load external entity "data/monster/pokes/cubone.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (marowak) file (data/monster/pokes/marowak.xml).
+Info: failed to load external entity "data/monster/pokes/marowak.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (hitmonlee) file (data/monster/pokes/hitmonlee.xml).
+Info: failed to load external entity "data/monster/pokes/hitmonlee.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (hitmonchan) file (data/monster/pokes/hitmonchan.xml).
+Info: failed to load external entity "data/monster/pokes/hitmonchan.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (weezing) file (data/monster/pokes/weezing.xml).
+Info: failed to load external entity "data/monster/pokes/weezing.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (koffing) file (data/monster/pokes/koffing.xml).
+Info: failed to load external entity "data/monster/pokes/koffing.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (rhydon) file (data/monster/pokes/rhydon.xml).
+Info: failed to load external entity "data/monster/pokes/rhydon.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (rhyhorn) file (data/monster/pokes/rhyhorn.xml).
+Info: failed to load external entity "data/monster/pokes/rhyhorn.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (staryu) file (data/monster/pokes/staryu.xml).
+Info: failed to load external entity "data/monster/pokes/staryu.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (starmie) file (data/monster/pokes/starmie.xml).
+Info: failed to load external entity "data/monster/pokes/starmie.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (goldeen) file (data/monster/pokes/goldeen.xml).
+Info: failed to load external entity "data/monster/pokes/goldeen.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (seaking) file (data/monster/pokes/seaking.xml).
+Info: failed to load external entity "data/monster/pokes/seaking.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (eevee) file (data/monster/pokes/eevee.xml).
+Info: failed to load external entity "data/monster/pokes/eevee.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (vaporeon) file (data/monster/pokes/vaporeon.xml).
+Info: failed to load external entity "data/monster/pokes/vaporeon.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (flareon) file (data/monster/pokes/flareon.xml).
+Info: failed to load external entity "data/monster/pokes/flareon.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (jolteon) file (data/monster/pokes/jolteon.xml).
+Info: failed to load external entity "data/monster/pokes/jolteon.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (porygon) file (data/monster/pokes/porygon.xml).
+Info: failed to load external entity "data/monster/pokes/porygon.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (omanyte) file (data/monster/pokes/omanyte.xml).
+Info: failed to load external entity "data/monster/pokes/omanyte.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (omastar) file (data/monster/pokes/omastar.xml).
+Info: failed to load external entity "data/monster/pokes/omastar.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (kabuto) file (data/monster/pokes/kabuto.xml).
+Info: failed to load external entity "data/monster/pokes/kabuto.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (kabutops) file (data/monster/pokes/kabutops.xml).
+Info: failed to load external entity "data/monster/pokes/kabutops.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (snorlax) file (data/monster/pokes/snorlax.xml).
+Info: failed to load external entity "data/monster/pokes/snorlax.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (articuno) file (data/monster/pokes/articuno.xml).
+Info: failed to load external entity "data/monster/pokes/articuno.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (zapdos) file (data/monster/pokes/zapdos.xml).
+Info: failed to load external entity "data/monster/pokes/zapdos.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (moltres) file (data/monster/pokes/moltres.xml).
+Info: failed to load external entity "data/monster/pokes/moltres.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dratini) file (data/monster/pokes/dratini.xml).
+Info: failed to load external entity "data/monster/pokes/dratini.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dragonair) file (data/monster/pokes/dragonair.xml).
+Info: failed to load external entity "data/monster/pokes/dragonair.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dragonite) file (data/monster/pokes/dragonite.xml).
+Info: failed to load external entity "data/monster/pokes/dragonite.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (mew) file (data/monster/pokes/mew.xml).
+Info: failed to load external entity "data/monster/pokes/mew.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (mewtwo) file (data/monster/pokes/mewtwo.xml).
+Info: failed to load external entity "data/monster/pokes/mewtwo.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Beedrill) file (data/monster/pokes/shinys/Shiny Beedrill.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Shiny Beedrill.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Blastoise) file (data/monster/pokes/shinys/Shiny Blastoise.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Shiny Blastoise.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Butterfree) file (data/monster/pokes/shinys/Shiny Butterfree.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Shiny Butterfree.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Elder Charizard) file (data/monster/pokes/shinys/Elder Charizard.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Elder Charizard.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Dratini) file (data/monster/pokes/shinys/Shiny Dratini.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Shiny Dratini.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Arcanine s) file (data/monster/pokes/Shinys/Selvagens/Shiny Arcanine s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Arcanine s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Beedril s) file (data/monster/pokes/shinys/Selvagens/Shiny Beedril s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/Shiny Beedril s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Blastoise s) file (data/monster/pokes/shinys/Selvagens/Shiny Blastoise s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/Shiny Blastoise s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Butterfree s) file (data/monster/pokes/shinys/Selvagens/Shiny Butterfree s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/Shiny Butterfree s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Big Magikarp s) file (data/monster/pokes/shinys/Selvagens/shiny big magikarp s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/shiny big magikarp s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Elder Charizard s) file (data/monster/pokes/shinys/Selvagens/Elder Charizard s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/Elder Charizard s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Dratini s) file (data/monster/pokes/shinys/Selvagens/Shiny Dratini s.xml).
+Info: failed to load external entity "data/monster/pokes/shinys/Selvagens/Shiny Dratini s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Electrode s) file (data/monster/pokes/Shinys/Selvagens/Shiny Electrode s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Electrode s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Elite Farfetchd s) file (data/monster/pokes/Shinys/Selvagens/Elite Farfetchd s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Elite Farfetchd s.xml"
+
+
+[Error - Monsters::deserializeSpell] Shiny Gengar s - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Shinys/Selvagens/Shiny Gengar s.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Grimer s) file (data/monster/pokes/Shinys/Selvagens/Shiny Grimer s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Grimer s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Growlithe s) file (data/monster/pokes/Shinys/Selvagens/Shiny Growlithe s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Growlithe s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Red Gyarados s) file (data/monster/pokes/Shinys/Selvagens/Red Gyarados s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Red Gyarados s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Elite Hitmonchan s) file (data/monster/pokes/Shinys/Selvagens/Elite Hitmonchan s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Elite Hitmonchan s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Elite Hitmonlee s) file (data/monster/pokes/Shinys/Selvagens/Elite Hitmonlee s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Elite Hitmonlee s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Horsea s) file (data/monster/pokes/Shinys/Selvagens/Shiny Horsea s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Horsea s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Jynx s) file (data/monster/pokes/Shinys/Selvagens/Shiny Jynx s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Jynx s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Kingler s) file (data/monster/pokes/Shinys/Selvagens/Shiny Kingler s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Kingler s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Krabby s) file (data/monster/pokes/Shinys/Selvagens/Shiny Krabby s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Krabby s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (shiny Magikarp s) file (data/monster/pokes/Shinys/Selvagens/Shiny Magikarp s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Magikarp s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Muk s) file (data/monster/pokes/Shinys/Selvagens/Shiny Muk s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Muk s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Oddish s) file (data/monster/pokes/Shinys/Selvagens/Shiny Oddish s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Oddish s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Paras s) file (data/monster/pokes/Shinys/Selvagens/Shiny Paras s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Paras s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Parasect s) file (data/monster/pokes/Shinys/Selvagens/Shiny Parasect s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Parasect s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Raichu s) file (data/monster/pokes/Shinys/Selvagens/Shiny Raichu s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Raichu s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Raticate s) file (data/monster/pokes/Shinys/Selvagens/Shiny Raticate s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Raticate s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Rattata s) file (data/monster/pokes/Shinys/Selvagens/Shiny Rattata s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Rattata s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Scyther s) file (data/monster/pokes/Shinys/Selvagens/Shiny Scyther s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Scyther s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Seadra s) file (data/monster/pokes/Shinys/Selvagens/Shiny Seadra s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Seadra s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Tentacool s) file (data/monster/pokes/Shinys/Selvagens/Shiny Tentacool s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Tentacool s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Tentacruel s) file (data/monster/pokes/Shinys/Selvagens/Shiny Tentacruel s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Tentacruel s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Venomoth s) file (data/monster/pokes/Shinys/Selvagens/Shiny Venomoth s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Venomoth s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Venusaur s) file (data/monster/pokes/Shinys/Selvagens/Shiny Venusaur s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Venusaur s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Voltorb s) file (data/monster/pokes/Shinys/Selvagens/Shiny Voltorb s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Voltorb s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Shiny Zubat s) file (data/monster/pokes/Shinys/Selvagens/Shiny Zubat s.xml).
+Info: failed to load external entity "data/monster/pokes/Shinys/Selvagens/Shiny Zubat s.xml"
+
+
+[Error - Monsters::deserializeSpell] Shiny Rhydon s - Unknown spell name: horn drill
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/Shinys/Selvagens/Shiny Rhydon s.xml)
+[Error - Monsters::deserializeSpell] Agatha Gengar - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/agatha/Agatha Gengar.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (falkner pidgeot) file (data/monster/pokes/falkner/falkner pidgeot.xml).
+Info: failed to load external entity "data/monster/pokes/falkner/falkner pidgeot.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (bugsy scyther) file (data/monster/pokes/bugsy/bugsy scyther.xml).
+Info: failed to load external entity "data/monster/pokes/bugsy/bugsy scyther.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Whitney Miltank) file (data/monster/pokes/Whitney/Whitney miltank.xml).
+Info: failed to load external entity "data/monster/pokes/Whitney/Whitney miltank.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (dewgong s) file (data/monster/pokes/selvagens/dewgong s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/dewgong s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Kakuna s) file (data/monster/pokes/selvagens/kakuna s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/kakuna s.xml"
+
+
+[Error - Monsters::deserializeSpell] Nidoqueen s - Unknown spell name: Earthquake
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Nidoqueen s.xml)
+[Error - Monsters::deserializeSpell] Nidoking s - Unknown spell name: Earthquake
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Nidoking s.xml)
+[Error - Monsters::deserializeSpell] Jigglypuff s - Unknown spell name: selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Jigglypuff s.xml)
+[Error - Monsters::deserializeSpell] Wigglytuff s - Unknown spell name: Melody
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Wigglytuff s.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (Venomoth s) file (data/monster/pokes/selvagens/Venomoth s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/Venomoth s.xml"
+
+
+[Error - Monsters::deserializeSpell] Rhyhorn s - Unknown spell name: horn drill
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Rhyhorn s.xml)
+[Error - Monsters::deserializeSpell] Rhydon s - Unknown spell name: horn drill
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Rhydon s.xml)
+[Error - Monsters::deserializeSpell] Gastly s - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Gastly s.xml)
+[Error - Monsters::deserializeSpell] Haunter s - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Haunter s.xml)
+[Error - Monsters::deserializeSpell] Gengar s - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Gengar s.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (Mini Magikarp s) file (data/monster/pokes/selvagens/mini magikarp s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/mini magikarp s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Medio Magikarp s) file (data/monster/pokes/selvagens/medio magikarp s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/medio magikarp s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Big Magikarp s) file (data/monster/pokes/selvagens/big magikarp s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/big magikarp s.xml"
+
+
+[Error - Monsters::deserializeSpell] Chansey s - Unknown spell name: Selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Chansey s.xml)
+[Error - Monsters::deserializeSpell] Kangaskhan s - Unknown spell name: Earthquake
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Kangaskhan s.xml)
+[Error - Monsters::deserializeSpell] Blissey s - Unknown spell name: Selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Johto/Blissey s.xml)
+[Error - Monsters::deserializeSpell] Cleffa s - Unknown spell name: selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Johto/Cleffa s.xml)
+[Error - Monsters::deserializeSpell] Misdreavus s - Unknown spell name: shadow area
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Johto/Misdreavus s.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (Chikorita s) file (data/monster/pokes/selvagens/Johto/Chikorita s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/Johto/Chikorita s.xml"
+
+
+[Warning - Monsters::loadMonster] Cannot load monster (Bayleef s) file (data/monster/pokes/selvagens/Johto/Bayleef s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/Johto/Bayleef s.xml"
+
+
+[Error - Monsters::deserializeSpell] Togetic s - Unknown spell name: selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Johto/Togetic s.xml)
+[Error - Monsters::deserializeSpell] Togepi s - Unknown spell name: selfheal
+[Warning - Monsters::loadMonster] Cant load spell. (data/monster/pokes/selvagens/Johto/Togepi s.xml)
+[Warning - Monsters::loadMonster] Cannot load monster (Magby s) file (data/monster/pokes/selvagens/Johto/Magby s.xml).
+Info: failed to load external entity "data/monster/pokes/selvagens/Johto/Magby s.xml"
+
+
+>> Loading mods...
+> Loading highscorebook.xml... done.
+> Loading customspells.xml... done, but disabled.
+> Loading firstitems.xml... done.
+> Loading custommonsters.xml... done.
+> Loading changender_command.xml... done.
+> 5 mods were loaded (1 disabled).
+>> Loading map and spawns...
+> Map size: 1916x1889.
+> Map descriptions: 
+"Saved with Remere's Map Editor 2.1"
+"Poketibia Erondino Site v15"
+> Map loading time: 7.324 seconds.
+[Spawn::addMonster] Cannot find "Shiny Electrode s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Shiny Venusaur s"
+[Spawn::addMonster] Cannot find "Shiny Blastoise s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Elder Charizard s"
+[Spawn::addMonster] Cannot find "Shiny Voltorb s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Bayleef s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Shiny Dratini s"
+[Spawn::addMonster] Cannot find "Shiny Krabby s"
+[Spawn::addMonster] Cannot find "Shiny Beedril s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Shiny Oddish s"
+[Spawn::addMonster] Cannot find "Shiny Butterfree s"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Metapod"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Shiny Zubat s"
+[Spawn::addMonster] Cannot find "Kakuna s"
+[Spawn::addMonster] Cannot find "Chikorita s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Shiny Grimer s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Elite Farfetchd s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Shiny Growlithe s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Shiny Rattata s"
+[Spawn::addMonster] Cannot find "Shiny Paras s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Shiny Venomoth s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Shiny Tentacool s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Magby s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Shiny Jynx s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Red Gyarados s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Dewgong s"
+[Spawn::addMonster] Cannot find "Shiny Arcanine s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+[Spawn::addMonster] Cannot find "Venomoth s"
+> Data parsing time: 0.404 seconds.
+> Houses synchronization time: 0.11 seconds.
+> Content unserialization time: 0.114 seconds.
+>> Checking world type... NoN-PvP
+>> Initializing game state modules and registering services...
+> Global address: server.tibiaotserv.com.br
+> Local ports: 7171	7172	
+>> All modules were loaded, server is starting up...
+>> Poketibia Erondino Site v15 server Online!
+
