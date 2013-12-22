@@ -1,0 +1,13 @@
+Name: Venonat
+Type: poison
+Required level: 20
+
+Evolutions:
+Venonat, requires level 20
+Venomoth, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

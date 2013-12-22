@@ -1,0 +1,12 @@
+Name: Lapras
+Type: water
+Required level: 80
+
+Evolutions:
+Lapras, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

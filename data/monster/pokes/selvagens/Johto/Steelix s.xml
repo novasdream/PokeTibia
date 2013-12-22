@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Steelix" nameDescription="a Wild Steelix" race="rock" experience="1500" speed="260" manacost="390">
+	<health now="25000" max="25000"/>
+	<look type="724" head="0" body="0" legs="0" feet="0" corpse="11472"/>
+	<targetchange interval="100" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-80" max="-860">
+    </attack>
+    <attack name="rock throw" interval="3000" range="5" chance="50" min="-1940" max="-2050">
+    </attack>
+    <attack name="iron tail" interval="3000" range="1" chance="50" min="-2020" max="-2090">
+    </attack>
+    <attack name="rock slide" interval="4500" range="5" chance="50" min="-2040" max="-2150">
+    </attack>
+    <attack name="earthshock" interval="9000" range="1" chance="80" min="-2340" max="-2370">
+    </attack>
+ <attack name="earth power" interval="6000" range="5" chance="80" min="-1820" max="-1840">
+    </attack>
+    <attack name="shockwave" interval="10500" range="5" chance="80" min="-2080" max="-2100">
+    </attack>
+   <attack name="falling rocks" interval="15000" range="5" chance="100" min="-2280" max="-2310">
+    </attack>
+    <attack name="rock bash" interval="12000" range="5" chance="100" min="-2240" max="-2260">
+    </attack>
+ <attack name="tri rock" interval="12000"  range="5" chance="100" min="-2220" max="-2240">
+    </attack>
+  </attacks>
+
+	<voices interval="3000" chance="200">
+		<voice sentence="Steelix!"/>
+		<voice sentence="Stee!!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="13" chance="11000"/> -- stone orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+<item id="1294" countmax="100" chance="62000"/> -- small stone
+<item id="12155" countmax="1" chance="1900"/> -- metal stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

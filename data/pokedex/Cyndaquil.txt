@@ -1,0 +1,15 @@
+Name: Cyndaquil
+Type: fire
+Required level: 20
+
+Evolutions:
+Cyndaquil, requires level 20
+Quilava, requires level 40
+Typhlosion, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut/Corta

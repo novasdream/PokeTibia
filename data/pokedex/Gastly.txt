@@ -1,0 +1,14 @@
+Name: Gastly
+Type: ghost
+Required level: 20
+
+Evolutions:
+Gastly, requires level 20
+Haunter, requires level 45
+Gengar, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

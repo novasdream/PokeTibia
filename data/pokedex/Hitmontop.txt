@@ -1,0 +1,16 @@
+Name: Hitmontop
+Type: fighting
+Required level: 60
+
+Evolutions:
+Tyrogue, requires level 30
+Hitmonchan, requires level 60
+Hitmonlee, requires level 60
+Hitmontop, requires level 60
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Rock smash

@@ -1,0 +1,22 @@
+General:
+It's named Seadra (water).
+Can be used at level 45.
+
+Status:
+It's base health is 2500.
+It gains 68 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Water Spout (water) - m1 - level 45
+Water Pulse (water) - m2 - level 45
+Water Gun (water) - m3 - level 45
+Waterball (water) - m4 - level 46
+Twister (dragon) - m5 - level 47
+Dragon Pulse (dragon) - m6 - level 49
+Water Oath (water) - m7 - level 52
+
+Habilities:
+Surf (walk on the water)

@@ -1,0 +1,12 @@
+Name: Qwilfish
+Type: water
+Required level: 55
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

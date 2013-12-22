@@ -1,0 +1,22 @@
+General:
+It's named Raticate (normal).
+Can be used at level 20.
+Agressive behavior.
+
+Status:
+It's base health is 900.
+It gains 68 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Quick Attack (normal) - m1 - level 20
+Scratch (normal) - m2 - level 20
+Bite (normal) - m3 - level 20
+Hyper Fang (normal) - m4 - level 23
+Fury (normal) - passive
+
+Habilities:
+Dig (use order on diggable holes)
+Cut (use order on cuttable bushes)

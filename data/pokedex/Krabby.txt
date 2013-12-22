@@ -1,0 +1,14 @@
+Name: Krabby
+Type: water
+Required level: 10
+
+Evolutions:
+Krabby, requires level 10
+Kingler, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Cut

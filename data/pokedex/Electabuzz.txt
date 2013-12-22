@@ -1,0 +1,14 @@
+Name: Electabuzz
+Type: electric
+Required level: 80
+
+Evolutions:
+Elekid, requires levle 30
+Electabuzz, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash
+Light

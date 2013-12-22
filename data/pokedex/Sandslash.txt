@@ -1,0 +1,15 @@
+Name: Sandslash
+Type: earth
+Required level: 65
+
+Evolutions:
+Sandshrew, requires level 25
+Sandslash, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash
+Cut

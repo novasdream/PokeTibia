@@ -1,0 +1,25 @@
+General:
+It's named Charizard (fire).
+Can be used at level 85.
+
+Status:
+It's base health is 5200.
+It gains 140 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Scratch (normal) - m1 - level 85
+Ember (fire) - m2 - level 85
+Fire Fang (fire) - m3 - level 85
+Fireball (fire) - m4 - level 85
+Flamethrower (fire) - m5 - level 85
+Raging Blast (fire) - m6 - level 85
+Wing Attack (flying) - m7 - level 86
+Fire Blast (fire) - m8 - level 89
+Rage (normal) - passive
+
+Habilities:
+Cut (use order on cuttable bushes)
+Fly (use order on yourself)

@@ -1,0 +1,22 @@
+General:
+It's named Charmeleon (fire).
+Can be used at level 40.
+
+Status:
+It's base health is 2900.
+It gains 70 life/level.
+
+Evolutions:
+Charizard (level 85 / 2 fire stones)
+
+Moves used:
+Scratch (normal) - m1 - level 40
+Ember (fire) - m2 - level 40
+Fire Fang (fire) - m3 - level 40
+Fireball (fire) - m4 - level 40
+Flamethrower (fire) - m5 - level 42
+Raging Blast (fire) - m6 - level 47
+Rage (normal) - passive
+
+Habilities:
+Cut (use order on cuttable bushes).

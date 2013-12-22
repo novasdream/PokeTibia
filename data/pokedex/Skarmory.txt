@@ -1,0 +1,12 @@
+Name: Skarmory
+Type: flying
+Required level: 85
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

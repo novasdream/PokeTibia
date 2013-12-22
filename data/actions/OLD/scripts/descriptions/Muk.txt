@@ -1,0 +1,22 @@
+General:
+It's named Muk (poison).
+Can be used at level 30.
+Agressive behavior.
+
+Status:
+It's base health is 2400.
+It gains 85 life/level.
+
+Evolutions:
+It doesnt evolve.
+
+Moves used:
+Mud Shot (ground) - m1 - level 30
+Acid (poison) - m2 - level 30
+Sludge (poison) - m3 - level 30
+Poison Bomb (poison) - m4 - level 32
+Gunk Shot (poison) - m5 - level 35
+Slime Wave (poison) - m6 - level 40
+
+Habilities:
+None.

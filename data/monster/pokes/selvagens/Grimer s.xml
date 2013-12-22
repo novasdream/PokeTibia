@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Grimer" namedescription="a wild Grimer" race="poison" experience="250" speed="155" manacost="0">
+  <health now="1450" max="1450"/>
+  <look type="214" head="20" body="30" legs="40" feet="50" corpse="6055"/>
+	<targetchange interval="50000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="mud shot" range="5" interval="3000" chance="50" min="-190" max="-205">
+    </attack>
+  <attack name="acid" range="5" interval="4500" chance="50" min="-250" max="-280">
+    </attack>
+<attack name="sludge" range="5" interval="4500" chance="50" min="-175" max="-185">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="6000" chance="80" min="-240" max="-260">
+    </attack>
+    <attack name="gunk shot" range="4" interval="9000" chance="80" min="-280" max="-300">
+    </attack> 
+    <attack name="harden" range="0" interval="9000" chance="80" /> 
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GRIMER!"/>
+    <voice sentence="GRII!"/>
+    <voice sentence="MER!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+	<item id="8857" countmax="1" chance="12000"/> -- gosme
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

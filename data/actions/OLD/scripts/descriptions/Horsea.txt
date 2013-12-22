@@ -1,0 +1,19 @@
+General:
+It's named Horsea (water).
+Can be used at level 5.
+
+Status:
+It's base health is 300.
+It gains 19 life/level.
+
+Evolutions:
+Seadra (level 45 / 1 water stone)
+
+Moves used:
+Bubbles (water) - m1 - level 5
+Water Pulse (water) - m2 - level 10
+Water Gun (water) - m3 - level 12
+Waterball (water) - m4 - level 16
+
+Habilities:
+None.

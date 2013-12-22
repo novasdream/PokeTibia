@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Slowpoke" namedescription="a Wild Slowpoke" race="water" experience="300" speed="176" manacost="300">
+  <health now="1825" max="1825"/>
+  <look type="75" head="20" body="30" legs="40" feet="50" corpse="2926"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="17"/>
+	<attack name="aqua tail" interval="3000" range="1" chance="50" min="-215" max="-225">
+	</attack>
+    <attack name="psy pulse" interval="4500" range="5" chance="50" min="-275" max="-305">
+    </attack>
+   <attack name="water gun" interval="6000" range="5" chance="80" min="-225" max="-245">
+    </attack>
+    <attack name="confusion" interval="9000" range="5" chance="80" min="-305" max="-325">
+    </attack>
+ <attack name="water sky" interval="6000" range="5" chance="80" min="-295" max="-315"> </attack>
+ <attack name="headbutt" interval="7500" range="1" chance="80" min="-295" max="-305"> </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="slow!"/>
+    <voice sentence="poke!"/>
+  </voices>
+<loot>
+	<item id="6528" countmax="10" chance="65000"/> -- water gem
+	<item id="12012" countmax="1" chance="10000"/> -- slow tail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

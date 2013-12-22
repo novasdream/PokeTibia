@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a shiny tentacruel" race="undead" experience="195" speed="250" manacost="590">
+	<health now="43500" max="43500"/>
+	<look type="489" corpse="128"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+ <attacks>
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-3" /> 
+    <attack name="acid" interval="3000" chance="50" range="5"  target="1" min="-2570" max="-2690">
+    </attack>
+   <attack name="bubbles" interval="4500" chance="50" range="5"  target="1" min="-2820" max="-2900">
+    </attack>
+    <attack name="super sonic" interval="3000" chance="50" range="5">
+    </attack>
+   <attack name="Bubblebeam" interval="9000" chance="80" range="5"  target="1" min="-2660" max="-2810">
+    </attack>
+   <attack name="Bubble Blast" interval="7500" chance="80" range="5"  target="1" min="-2570" max="-2590">
+    </attack>
+   <attack name="psybeam" interval="9000" chance="80" range="5"  target="1" min="-2890" max="-2930">
+    </attack>
+    <attack name="water oath" interval="10500" chance="80" range="5"  target="1" min="-3050" max="-3110">
+    </attack>
+   <attack name="poison oath" interval="10500" chance="80" range="5"  target="1" min="-3010" max="-3050">
+    </attack>
+   
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

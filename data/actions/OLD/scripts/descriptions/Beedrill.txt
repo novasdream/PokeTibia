@@ -1,0 +1,22 @@
+General:
+It's named Beedrill (bug).
+Can be used at level 30.
+Agressive behavior.
+
+Status:
+It's base health is 1900.
+It gains 64 life/level.
+
+Evolutions:
+It doesnt evolve.
+
+Moves used:
+Fury Attack (normal) - m1 - level 30
+String Shot (bug) - m2 - level 30
+Pin Missile (normal) - m3 - level 30
+Toxic Needle (poison) - m4 - level 32
+Mega Prick (bug) - m5 - level 34
+Fury (normal) - passive
+
+Habilities:
+None.

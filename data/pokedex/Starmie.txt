@@ -1,0 +1,13 @@
+Name: Starmie
+Type: water
+Required level: 35
+
+Evolutions:
+Staryu, requires level 15
+Starmie, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

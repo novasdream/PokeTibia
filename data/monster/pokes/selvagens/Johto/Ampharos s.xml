@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ampharos" nameDescription="a Wild Ampharos" race="electric" experience="1200" speed="220" manacost="600">
+  <health now="19700" max="19700"/>
+  <look type="533" head="20" body="30" legs="40" feet="50" corpse="11393"/>
+	<targetchange interval="5" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+
+  <attacks>
+   <attack name="melee" interval="1700" min="-100" max="-120" />
+  <attack name="quick attack" range="4" interval="2000" chance="16" min="-43" max="-100" > </attack>
+  <attack name="thunder punch" range="4" interval="1800" chance="22" min="-83" max="-200" > </attack>
+  <attack name="thunderbolt" range="4" interval="3000" chance="25" min="-200" max="-220" > </attack>
+  <attack name="thunder wave" range="4" interval="3000" chance="25" min="-130" max="-150" > </attack>
+  <attack name="thunder" range="4" interval="5000" chance="25" min="-200" max="-250" > </attack> 
+  <attack name="psybeam" interval="10000" chance="100" min="-200" max="-300">
+    </attack>
+
+  <attack name="electric storm" range="4" interval="5000" chance="25" min="-300" max="-350" > </attack> 
+
+    <attack name="thunder oath" range="4" interval="2000" chance="16" min="-543" max="-800" > 
+    </attack>
+    <attack name="psy pulse" range="4" interval="1800" chance="22" min="-830" max="-1080" > 
+    </attack>
+  </attacks>
+  
+
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Ampharos!"/>
+	</voices>
+	<loot>
+	<item id="8862" countmax="2" chance="17000"/> -- elec box
+	<item id="8861" countmax="27" chance="75000"/> -- screw
+	<item id="2279" countmax="1" chance="1500"/> -- thunder stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

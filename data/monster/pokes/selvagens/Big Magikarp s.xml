@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Big Magikarp" nameDescription="a wild big magikarp" race="water" experience="700" speed="240" manacost="200">
+    <health now="5000" max="5000"/>
+    <look type="328" head="0" body="0" legs="0" feet="0" corpse="12137"/>
+	<targetchange interval="10000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+
+    <attacks>
+    <attack name="melee" interval="2000" range="1" min="-75" max="-100"/>
+    <attack name="splash" interval="1500" range="1" chance="50" min="-615" max="-670">
+    </attack>
+    <attack name="bubbles" interval="3000" range="5" chance="50" min="-640" max="-760">
+    </attack>
+    <attack name="water gun" interval="3000" range="5" chance="50" min="-610" max="-810">
+    </attack>
+    </attacks>
+
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="890"/> -- water stone
+	</loot>
+    <voices interval="6000" chance="0">
+      <voice sentence="MAGIKARP!"/>
+      <voice sentence="KARP!"/>
+    </voices>
+<script>
+<event name="Exp"/>
+</script>
+  </monster>

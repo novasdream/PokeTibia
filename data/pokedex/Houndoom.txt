@@ -1,0 +1,15 @@
+Name: Houndoom
+Type: fire
+Required level: 80
+
+Evolutions:
+Houndour, requires level 25
+Houndoom, requires level 80
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

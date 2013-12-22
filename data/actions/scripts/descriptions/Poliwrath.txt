@@ -1,0 +1,23 @@
+General:
+It's named Poliwrath (water).
+Can be used at level 65.
+Agressive behavior.
+
+Status:
+It's base health is 4400.
+It gains 138 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Mega Punch (fighting) - m1 - level 65
+Waterball (water) - m2 - level 65
+Mud Shot (ground) - m3 - level 65
+Water Gun (water) - m4 - level 65
+Dizzy Punch (fighting) - m5 - level 69
+Dynamic Punch (fighting) - m6 - level 73
+
+Habilities:
+Surf (walk on water)
+Rock Smash (use order on smashable rock)

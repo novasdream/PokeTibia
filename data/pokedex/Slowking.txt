@@ -1,0 +1,14 @@
+Name: Slowking
+Type: water
+Required level: 100
+
+Evolutions:
+Slowpoke, requires level 15
+Slowbro, requires level 45
+Slowking, requires level 100
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

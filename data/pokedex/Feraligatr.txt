@@ -1,0 +1,17 @@
+Name: Feraligatr
+Type: water
+Required level: 85
+
+
+Evolutions:
+Totodile, requires level 20
+Croconaw, requires level 40
+Feraligatr, requires level 85
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Surf/Nadar

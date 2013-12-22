@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ledian" nameDescription="a Wild Ledian" race="bug" experience="750" speed="320" manacost="600">
+  <health now="6100" max="6100"/>
+  <look type="573" head="20" body="30" legs="40" feet="50" corpse="11432"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="string shot" interval="5000" chance="90" min="-160" max="-370">
+    </attack>
+    <attack name="bug bite" interval="3000" chance="90" min="-150" max="-280">
+    </attack>
+    <attack name="gust" interval="10000" chance="90" min="-100" max="-700">
+    </attack>
+    <attack name="headbutt" interval="9750" chance="90" min="-100" max="-400">
+    </attack>
+    <attack name="air gust" interval="6500" chance="50" min="-120" max="-220">
+    </attack>
+
+    <attack name="bug wing" interval="6500" chance="50" min="-420" max="-520">
+    </attack>
+    <attack name="poison oath" interval="2000" chance="25" min="-250" max="-560">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Lediaaan!"/>
+    <voice sentence="Lediiii!"/>
+	</voices>
+ <loot>
+		<item id="8858" countmax="2" chance="59000"/> -- pot of moss bug
+	<item id="8859" countmax="1" chance="21000"/> -- bug antenna
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2284" countmax="1" chance="3000"/> -- coccon stone
+  </loot>
+          <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

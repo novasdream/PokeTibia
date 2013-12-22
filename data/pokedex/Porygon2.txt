@@ -1,0 +1,16 @@
+Name: Porygon2
+Type: normal
+Required level: 75
+
+Evolutions:
+Porygon, requires level 45
+Porygon2, requires level 75
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Teleport
+Light
+Fly
+Blink

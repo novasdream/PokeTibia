@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="NidoranMA" nameDescription="a Wild NidoranMA" race="poison" experience="125" speed="120" manacost="0">
+
+	<health now="1350" max="1350"/>
+
+	<look type="66" corpse="6015"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="1"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="95"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+
+
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-5" /> 
+  <attack name="quick attack" interval="3000" range="1" chance="50" min="-165" max="-1750"> </attack>
+  <attack name="bite" interval="5100" range="1" chance="80" min="-200" max="-230"> </attack>
+  <attack name="poison fang" interval="3900" range="1" chance="50" min="-180" max="-210"> </attack>
+  <attack name="Headbutt" interval="4500" range="1" chance="50" min="-230" max="-240"> </attack>
+
+
+	</attacks>
+
+	<defenses armor="0" defense="0">
+	</defenses>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nidoo!" yell="0"/>
+		<voice sentence="Niidoraan!" yell="0"/>
+		<voice sentence="Nii!" yell="0"/>
+	</voices>
+	<loot>
+	<item id="8868" countmax="1" chance="12000"/> -- nail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+  <script>
+	<event name="Exp"/>
+        </script>
+</monster>

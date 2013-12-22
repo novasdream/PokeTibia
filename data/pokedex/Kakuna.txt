@@ -1,0 +1,14 @@
+Name: Kakuna
+Type: bug
+Required level: 15
+
+Evolutions:
+Weedle, requires level 1
+Kakuna, requires level 15
+Beedrill, requires level 25
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

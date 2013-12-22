@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Vileplume" nameDescription="a Shiny vileplume" race="grass" experience="9847" speed="175" manacost="0">
+  <health now="13500" max="13500"/>
+  <look type="369" head="20" body="30" legs="40" feet="50" corpse="6025"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+ 
+  <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-80" max="-150"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="VILEPLUME!"/>
+    <voice sentence="PLUME!"/>
+  </voices>
+</monster>

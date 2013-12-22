@@ -1,0 +1,15 @@
+Name: Politoed
+Type: water
+Required level: 65
+
+Evolutions:
+Poliwag, requires level 5
+Poliwhirl, requires level 25
+Poliwrath, requires level 65
+Politoed, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

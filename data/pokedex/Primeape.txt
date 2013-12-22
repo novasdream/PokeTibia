@@ -1,0 +1,13 @@
+Name: Primeape
+Type: fighting
+Required level: 50
+
+Evolutions:
+Mankey, requires level 15
+Primeape, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash

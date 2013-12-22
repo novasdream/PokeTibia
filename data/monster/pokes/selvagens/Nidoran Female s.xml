@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="NidoranFe" nameDescription="a Wild NidoranFE" race="poison" experience="125" speed="200" manacost="650">
+  <health now="1250" max="1250"/>
+  <look type="70" head="20" body="30" legs="40" feet="50" corpse="6013"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-5" /> 
+  <attack name="quick attack" interval="2400" range="1" chance="50" min="-160" max="-170"> </attack>
+  <attack name="poison sting" interval="4500" range="1" chance="50" min="-200" max="-220"> </attack>
+  <attack name="poison fang" interval="3900" range="1" chance="50" min="-180" max="-210"> </attack>
+<attack name="headbutt" interval="4500" range="1" chance="50" min="-230" max="-240"> </attack>
+  <attack name="bite" interval="4500" range="1" chance="50" min="-180" max="-210"> </attack>
+
+  </attacks>
+
+
+  <defenses armor="5" defense="3"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidoooran!"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="12000"/> -- nail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

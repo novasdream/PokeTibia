@@ -1,0 +1,22 @@
+General:
+It's named Pidgeotto (flying).
+Can be used at level 20.
+Agressive behavior.
+
+Status:
+It's base health is 1400.
+It gains 47 life/level.
+
+Evolutions:
+Pidgeot (level 65 / 2 heart stones)
+
+Moves used:
+Quick Attack (normal) - m1 - level 20
+Peck (flying) - m2 - level 20
+Sand Attack (ground) - m3 - level 20
+Whirlwind (flying) - m4 - level 22
+Wing Attack (flying) - m5 - level 25
+Tornado (flying) - m6 - level 35
+
+Habilities:
+None.

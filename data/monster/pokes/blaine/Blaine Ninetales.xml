@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blaine Ninetales" nameDescription="a Ninetales" race="undead" experience="110" speed="240" manacost="0">
+  <health now="46000" max="46000"/>
+  <look type="114" head="20" body="30" legs="40" feet="50" corpse="6040"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="1900" range="1" min="-180" max="-200" />
+    <attack name="quick attack" interval="2000" chance="25" min="-2240" max="-2270" > </attack>
+    <attack name="bite" interval="7100" chance="100" min="-3200" max="-3300"> </attack>
+    <attack name="flamethrower" interval="2000" chance="20" min="-2230" max="-2310" > </attack>
+    <attack name="ember" interval="2000" chance="20" min="-2250" max="-2300" > </attack>
+    <attack name="Flame Wheel" interval="2500" chance="15" min="-2290" max="-2320" > </attack>
+<attack name="raging blast" interval="3800" chance="27" > </attack>
+    <attack name="Flame Strike" interval="2500" chance="15" min="-2420" max="-2440" > </attack>
+    
+    <attack name="fire blast" interval="3100" chance="20" > </attack>
+
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Niinetalees!"/>
+  </voices>
+
+</monster>

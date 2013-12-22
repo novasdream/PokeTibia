@@ -1,0 +1,13 @@
+Name: Teddiursa
+Type: normal
+Required level: 30
+
+Evolutions:
+Teddiursa, requires level 30
+Ursaring, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig

@@ -1,0 +1,10 @@
+Name: Granbbul
+Type: normal
+Required level: 65
+
+Evolutions:
+Snubbul, requires level 20
+Granbbul, requires level 65
+
+Ability:
+None

@@ -1,0 +1,21 @@
+General:
+It's named Poliwhirl (water).
+Can be used at level 20.
+Agressive behavior.
+
+Status:
+It's base health is 1200.
+It gains 44 life/level.
+
+Evolutions:
+Poliwrath (level 65 / 1 water and 1 punch stone)
+
+Moves used:
+Doubleslap (normal) - m1 - level 20
+Bubbles (water) - m2 - level 20
+Mud Shot (ground) - m3 - level 22
+Water Gun (water) - m4 - level 25
+Mega Punch (fighing) - m5 - level 24
+
+Habilities:
+Surf (walk on water)

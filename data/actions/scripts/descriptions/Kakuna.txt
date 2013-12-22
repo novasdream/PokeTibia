@@ -1,0 +1,20 @@
+General:
+It's named Kakuna (bug).
+Can be used at level 10.
+Agressive behavior.
+
+Status:
+It's base health is 900.
+It gains 32 life/level.
+
+Evolutions:
+Beedrill (level 30 / 2 coccon stones)
+
+Moves used:
+Headbutt (normal) - m1 - level 10
+String Shot (bug) - m2 - level 10
+Bug Bite (bug) - m3 - level 10
+Harden (normal) - m4 - level 10
+
+Habilities:
+None.

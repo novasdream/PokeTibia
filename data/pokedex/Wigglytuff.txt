@@ -1,0 +1,14 @@
+Name: Wigglytuff
+Type: normal
+Required level: 65
+
+Evolutions:
+igglybuff, requires level 20
+Jigglypuff, requires level 40
+Wigglytuff, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

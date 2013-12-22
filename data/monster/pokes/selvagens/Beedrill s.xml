@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Beedrill" namedescription="a beedrill" race="bug" experience="500" speed="182" manacost="250">
+  <health now="4400" max="4400"/>
+  <look type="45" head="20" body="30" legs="40" feet="50" corpse="5990"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-64" max="-74"/>
+	<attack name="string shot" interval="1500" chance="50" range="5">
+    </attack>
+<attack name="horn attack" interval="4500" chance="50" range="1" min="-470" max="-500">
+    </attack>
+<attack name="pin missile" interval="6000" chance="80" range="5" min="-470" max="-500">
+    </attack>
+	<attack name="wing attack" interval="5100" chance="80" range="5" min="-465" max="-515">
+    </attack>
+<attack name="bug bite" interval="6000" chance="80" range="1" min="-455" max="-465">
+    </attack>
+	<attack name="rage" interval="9000" chance="80" range="5" min="-365" max="-375">
+    </attack>
+	<attack name="missile oath" interval="9000" chance="80" range="5" min="-510" max="-540">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="BEE!"/>
+    <voice sentence="BEEDRILL!"/>
+    <voice sentence="DRILL!"/>
+  </voices>
+	<loot>
+		<item id="8858" countmax="10" chance="100000"/>-- pot of moss bug
+		<item id="8859" countmax="1" chance="85000"/>-- bug antenna
+		<item id="2284" countmax="1" chance="1500"/>-- coccon stone
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

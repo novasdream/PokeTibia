@@ -1,0 +1,16 @@
+General:
+It's named Magikarp (water).
+Can be used at any level.
+
+Status:
+It's base health is 120.
+It gains 5 life/level.
+
+Evolutions:
+Gyarados (level 75 / 1 crystal and 1 water stone)
+
+Moves used:
+Splash - m1 - level 1
+
+Habilities:
+None.

@@ -1,0 +1,13 @@
+Name: Quagsire
+Type: water
+Required level: 65
+
+Evolutions:
+Wooper, requires level 20
+Quagsire, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

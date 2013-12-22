@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hicker" script="data/npc/scripts/hicker.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="174" head="96" body="95" legs="0" feet="95" addons="0"/>
+        <parameters>
+                <parameter key="message_greet" value="Ola |PLAYERNAME|, deseja ir para este destino?" />
+                <parameter key="message_farewell" value="Bye! See you next time."/>
+        </parameters>     
+</npc>

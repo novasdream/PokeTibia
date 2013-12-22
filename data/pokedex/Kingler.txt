@@ -1,0 +1,14 @@
+Name: Kingler
+Type: water
+Required level: 40
+
+Evolutions:
+Krabby, requires level 10
+Kingler, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Cut

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zubat" nameDescription="a wild Zubat" race="poison" experience="150" speed="152" manacost="280">
+  <health now="875" max="875"/>
+  <look type="44" head="20" body="30" legs="40" feet="50" corpse="5989"/>
+	<targetchange interval="5000" chance="0"/>
+<targetchange interval="100" chance="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-11" max="-30"/>
+    <attack name="absorb" interval="4500" range="1" chance="50" min="-140" max="-160">
+    </attack>
+    <attack name="poison sting" interval="4500" range="1" chance="50" min="-145" max="-175">
+    </attack>
+    <attack name="super sonic" interval="4500" range="5" chance="50" min="-0" max="-0">
+    </attack>
+  <attack name="poison fang" interval="6000" range="1" chance="80" min="-175" max="-220">
+    </attack>
+    <attack name="toxic" interval="7500" range="5" chance="80" min="-235" max="-245">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="ZUBAT!"/>
+    <voice sentence="BAT!"/>
+  </voices>
+	<loot>
+	<item id="8855" countmax="1" chance="12000"/> -- zubat wing
+<item id="12023" countmax="1" chance="12000"/> -- tooth
+	<item id="8856" countmax="11" chance="68000"/> -- bottle of poison
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

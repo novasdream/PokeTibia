@@ -1,0 +1,14 @@
+Name: Paras
+Type: bug
+Required level: 5
+
+Evolutions:
+Paras, requires level 5
+Parasect, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Cut

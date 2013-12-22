@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Krabby" nameDescription="a shiny krabby" race="undead" experience="110" speed="340" manacost="0">
+        <health now="5160" max="5160"/>
+	<look type="508" corpse="126"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="bubbles" range="5" interval="3000" chance="50" min="-420" max="-450">
+    </attack>
+    <attack name="slash" range="1" interval="3000" chance="50" min="-500" max="-580" > </attack>
+ <attack name="water gun" range="5" interval="4500" chance="50" min="-310" max="-360">
+    </attack>
+    <attack name="crab hammer" range="1" interval="6000" chance="80" min="-500" max="-540">
+    </attack>
+    <attack name="mud bomb" range="5" interval="6000" chance="80" min="-460" max="-490">
+    </attack>
+
+
+
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Krabby"/>
+  </voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

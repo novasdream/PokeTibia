@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Metapod" nameDescription="a Wild Metapod" race="bug" experience="175" speed="200" manacost="260">
+  <health now="1450" max="1450"/>
+  <look type="31" head="20" body="30" legs="40" feet="50" corpse="5970"/>
+
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="2000" range="1" min="-25" max="-50" /> 
+  <attack name="string shot" range="5" interval="1500" chance="50" /> 
+  <attack name="poison sting" range="1" interval="3000" chance="50" min="-235" max="-255" /> 
+  <attack name="headbutt" range="1" interval="4500" chance="50" min="-240" max="-275" /> 
+  <attack name="harden" range="5" interval="3000" chance="50" min="-75" max="-75" /> 
+
+
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Meetaapoood!!"/>
+  </voices>
+	<loot>
+		<item id="8858" countmax="1" chance="77000"/>-- pot of moss bug
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+		<item id="2284" countmax="1" chance="1000"/>-- coccon stone
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>
+

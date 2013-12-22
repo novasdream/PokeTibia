@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Yanma" namedescription="a Wild Yanma" race="bug" experience="700" speed="282" manacost="250">
+  <health now="8400" max="8400"/>
+  <look type="659" head="20" body="30" legs="40" feet="50" corpse="11516"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+  <attack name="melee" interval="2000" min="-150" max="-180" />
+  <attack name="quick attack" interval="3000" chance="50" range="1" min="-550" max="-570"> </attack>
+  <attack name="bug bite" interval="3900" chance="50" range="1" min="-765" max="-800" > </attack>
+  <attack name="fury attack" range="1" interval="4500" chance="50" min="-580" max="-600" > </attack>
+  <attack name="toxic needle" interval="6000" chance="80" range="1" target="1" min="-630" max="-650" > </attack>
+  <attack name="air gust" interval="7500" chance="80" range="5" target="1" min="-650" max="-670" > </attack>
+  <attack name="bug wing" interval="8100" chance="80" range="2" target="1" min="-680" max="-700" > </attack>
+  <attack name="poison oath" interval="10500" chance="80" range="5" target="1" min="-680" max="-720" > </attack>
+
+
+  </attacks>
+
+	<loot>
+		<item id="8858" countmax="1" chance="100000"/>-- pot of moss bug
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,12 @@
+Name: Magby
+Type: Fogo
+Required level: 30
+
+Evolutions:
+-/-
+
+Moves: 
+xxx
+
+Ability:
+Light

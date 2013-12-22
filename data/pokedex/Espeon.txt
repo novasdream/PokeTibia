@@ -1,0 +1,14 @@
+Name: Espeon
+Type: psychic
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Espeon, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig

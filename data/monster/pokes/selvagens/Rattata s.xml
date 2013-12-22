@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rattata" nameDescription="a wild Rattata" race="normal" experience="50" speed="153" manacost="270">
+	<health now="400" max="400"/>
+	<look type="36" corpse="5974"/>
+	<targetchange interval="1000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	
+ 
+ <attacks>		
+	<attack name="melee" interval="1700" min="-12" max="-20"/>
+	<attack name="quick attack" range="1" interval="3000" chance="50" min="-122" max="-132">
+   	</attack>
+<attack name="bite" range="1" interval="3000" chance="50" min="-117" max="-127">
+   	</attack>	
+	<attack name="slash" range="1" interval="4500" chance="50" min="-132" max="-152">
+   	</attack>
+	
+	<attack name="super fang" range="1" interval="4500" chance="50" min="-162" max="-182">
+   	</attack>
+</attacks>	
+
+  <voices interval="5000" chance="10">
+    <voice sentence="RATTATA!"/>
+    <voice sentence="TAA!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="1" chance="59000"/> -- apple bite
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

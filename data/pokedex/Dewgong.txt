@@ -1,0 +1,13 @@
+Name: Dewgong
+Type: ice
+Required level: 65
+
+Evolutions:
+Seel, requires level 20
+Dewgong, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

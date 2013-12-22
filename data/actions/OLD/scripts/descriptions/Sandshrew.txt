@@ -1,0 +1,22 @@
+General:
+It's named Sandshrew (ground).
+Can be used at level 18.
+
+Status:
+It's base health is 700.
+It gains 30 life/level.
+
+Evolutions:
+Sandslash (level 55 / 2 earth stones)
+
+Moves used:
+Scratch (normal) - m1 - level 18
+Sand Attack (ground) - m2 - level 18
+Mud Shot (ground) - m3 - level 18
+Rollout (ground) - m4 - level 22
+Mud Bomb (ground) - m5 - level 20
+
+Habilities:
+Dig (use order on diggable holes)
+Cut (use order on cuttable bushes)
+Rock Smash (use order on smashable rocks)

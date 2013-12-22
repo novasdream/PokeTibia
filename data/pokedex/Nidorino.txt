@@ -1,0 +1,14 @@
+Name: Nidorino
+Type: poison
+Required level: 25
+
+Evolutions:
+NidoranMA, requires level 10
+Nidorino, requires level 25
+Nidoking, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig

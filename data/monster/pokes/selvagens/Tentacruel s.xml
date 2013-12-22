@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a Wild Tentacruel" race="water" experience="875" speed="270" manacost="0">
+  <health now="16100" max="16100"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+ <attacks>
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-3" /> 
+    <attack name="acid" interval="3000" chance="50" range="5" radius="1" target="1" min="-1220" max="-1280">
+    </attack>
+   <attack name="bubbles" interval="4500" chance="50" range="5" radius="1" target="1" min="-1340" max="-1380">
+    </attack>
+    <attack name="super sonic" interval="4500" chance="50" range="5" radius="1" target="1">
+    </attack>
+   <attack name="Bubblebeam" interval="9000" chance="80" range="5" radius="1" target="1" min="-1270" max="-1340">
+    </attack>
+   <attack name="Bubble Blast" interval="7500" chance="80" range="5" radius="1" target="1" min="-1220" max="-1230">
+    </attack>
+   <attack name="psybeam" interval="9000" chance="80" range="5" radius="1" target="1" min="-1380" max="-1400">
+    </attack>
+    <attack name="water oath" interval="10500" chance="80" range="5" radius="1" target="1" min="-1460" max="-1490">
+    </attack>
+   <attack name="poison oath" interval="10500" chance="80" range="5" radius="1" target="1" min="-1440" max="-1460">
+    </attack>
+    
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="12001" countmax="1" chance="5000"/> -- ruby
+	<item id="8820" countmax="3" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="2000"/> -- water stone
+ <item id="2278" countmax="1" chance="1000"/> -- venom stone
+ <item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

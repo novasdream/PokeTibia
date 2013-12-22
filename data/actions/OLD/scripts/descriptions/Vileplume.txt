@@ -1,0 +1,22 @@
+General:
+It's named Vileplume (grass).
+Can be used at level 50.
+
+Status:
+It's base health is 3300.
+It gains 96 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Absorb (grass) - m1 - level 50
+Acid (poison) - m2 - level 50
+Leech Seed (grass) - m3 - level 50
+Poison Bomb (poison) - m4 - level 50
+Poison Gas (poison) - m5 - level 50
+Petal Dance (grass) - m6 - level 56
+Gastro Acid (poison) - m7 - level 52
+
+Habilities:
+Cut (use order on cuttable bushes)

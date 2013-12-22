@@ -1,0 +1,14 @@
+Name: Wartortle
+Type: water
+Required level: 40
+
+Evolutions:
+Squirtle, requires level 20
+Wartortle, requires level 40
+Blastoise, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

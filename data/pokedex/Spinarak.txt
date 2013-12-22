@@ -1,0 +1,16 @@
+Name: Spinarak
+Type: bug
+Required level: 10
+
+
+Evolutions:
+Spinarak, requires level 10
+Ariados, requires level 35
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

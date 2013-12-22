@@ -1,0 +1,14 @@
+Name: Butterfree
+Type: bug
+Required level: 30
+
+Evolutions:
+Caterpie, requires level 1
+Metapod, requires level 15
+Butterfree, requires level 30
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

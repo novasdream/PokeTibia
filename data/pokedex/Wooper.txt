@@ -1,0 +1,13 @@
+Name: Wooper
+Type: water
+Required level: 20
+
+Evolutions:
+Wooper, requires level 20
+Quagsire, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

@@ -1,0 +1,13 @@
+Name: Dunsparce
+Type: normal
+Required level: 30
+
+Evolutions:
+none/Não possui
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

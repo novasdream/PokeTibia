@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tyranitar" nameDescription="a Wild Tyranitar" race="rock" experience="2500" speed="200" manacost="0">
+  <health now="22500" max="22500"/>
+  <look type="626" head="20" body="30" legs="40" feet="50" corpse="11483"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+    <attack name="rock throw" interval="3000" range="5" chance="50" min="-1950" max="-2050">
+    </attack>
+    <attack name="headbutt" interval="3000" range="1" chance="50" min="-2070" max="-2150">
+    </attack>
+    <attack name="stomp" interval="4500" range="5" chance="50" min="-2050" max="-2150">
+    </attack>
+    <attack name="earthshock" interval="9000" range="1" chance="80" min="-2250" max="-2300"></attack>
+  <attack name="rock tomb" interval="6000" range="5" chance="80" min="-2150" max="-2170">
+    </attack>
+    <attack name="shockwave" interval="10500" range="5" chance="80" min="-2380" max="-2400">
+    </attack>
+    <attack name="epicenter" interval="12000" range="5" chance="100" min="-2250" max="-2300">
+    </attack>
+
+    <attack name="rock bash" interval="9000" range="5" chance="30" min="-2140" max="-2160">
+    </attack>
+    <attack name="ancient storm" interval="15000" range="5" chance="100" min="-2350" max="-2370">    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="TYRANITAR!"/>
+    <voice sentence="NITAAAAAAAR!"/>
+    <voice sentence="TYRAAAAAN!"/>
+  </voices>
+	<loot>
+	<item id="8864" countmax="6" chance="24000"/> -- stone orb
+	<item id="1294" countmax="100" chance="72000"/> -- small stone
+	<item id="2280" countmax="1" chance="2500"/> -- rock stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

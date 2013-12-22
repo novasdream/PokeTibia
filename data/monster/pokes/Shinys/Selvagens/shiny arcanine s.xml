@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arcanine" nameDescription="a shiny arcanine" race="fire" experience="270" speed="230" manacost="640">
+        <health now="17000" max="17000"/>
+	<look type="493" corpse="120"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-75" max="-90"/>
+    <attack name="bite" interval="3000" chance="100" min="-0" max="-120">
+</attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-105" > </attack>
+    <attack name="fire fang" interval="2000" chance="25" min="-35" max="-45" > </attack>
+
+   <attack name="Fireball" interval="2400" chance="27" range="1" target="1" min="-70" max="-95">
+    </attack>
+   <attack name="flames" interval="2100" chance="26" range="1" target="1" min="-50" max="-90">
+    </attack>
+    <attack name="raging blast" interval="2000" chance="20" min="-45" max="-105" > </attack>
+    <attack name="fire blast" interval="2000" chance="25" min="-35" max="-45" > </attack>
+    <attack name="wardog" interval="2000" chance="20" min="-45" max="-105" > </attack>
+
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+  </voices>
+  <loot>
+		
+  </loot>
+</monster>

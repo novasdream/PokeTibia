@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+	<instant name="whirlwind" words="exevo 252frigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/whirlwind.lua">
+	</instant>
+	<instant name="rock tomb" words="exevo 252fhjrigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/rock tomb.lua">
+	</instant>
+	<instant name="punch area" words="punch area 252fhjrigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/punch area.lua">
+	</instant>
+	<instant name="raging blast" words="exevo 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/raging blast.lua">
+	</instant>
+	<instant name="evasion kick" words="evasion kick 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/evasion kick.lua">
+	</instant>
+	<instant name="toxic needle" words="toxic needle 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/toxic needle.lua">
+	</instant>
+	<instant name="dark fang" words="dark fang 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/dark fang.lua">
+	</instant>
+	<instant name="air area" words="airarea 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/air area.lua">
+	</instant>
+	<instant name="ice punch" words="ice punch 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/ice punch.lua">
+	</instant>
+	<instant name="air gust" words="airgust 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/air gust.lua">
+	</instant>
+	<instant name="wing storm" words="wingstorm 252fhjrdsaigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/wing storm.lua">
+	</instant>
+	<instant name="shockwave" words="exevo 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/shockwave.lua">
+	</instant>
+	<instant name="tri rock" words="tri rock 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/tri rock.lua">
+	</instant>
+	<instant name="Aromatherapy" words="Aromatherapy 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Aromatherapy.lua">
+	</instant>
+<instant name="bug ruller" words="bug ruller 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/bug ruller.lua">
+	</instant>
+<instant name="bug Wheel" words="bug Wheel 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/bug Wheel.lua">
+	</instant>
+<instant name="dark cannon" words="dark cannon 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/dark cannon.lua">
+	</instant>
+<instant name="dark ruller" words="dark ruller 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/dark ruller.lua">
+	</instant>
+<instant name="dark slash" words="dark slash 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/dark slash.lua">
+	</instant>
+<instant name="Echoed Voice" words="Echoed Voice 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Echoed Voice.lua">
+	</instant>
+<instant name="egg fire bomb" words="egg fire bomb 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/egg fire bomb.lua">
+	</instant>
+<instant name="epicenter" words="epicenter 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/epicenter.lua">
+	</instant>
+<instant name="erupt" words="erupt 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/erupt.lua">
+	</instant>
+<instant name="fire wave" words="fire wave 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/fire wave.lua">
+	</instant>
+<instant name="fury attack" words="fury attack 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/fury attack.lua">
+	</instant>
+<instant name="ghost bash" words="ghost bash 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/ghost bash.lua">
+	</instant>
+<instant name="kick" words="kick 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/kick.lua">
+	</instant>
+<instant name="leaf blade" words="leaf blade 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/leaf blade.lua">
+	</instant>
+<instant name="leaf magical" words="leaf magical 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/leaf magical.lua">
+	</instant>
+<instant name="poison fang" words="poison fang 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison fang.lua">
+	</instant>
+<instant name="psy oath" words="psy oath 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/psy oath.lua">
+	</instant>
+<instant name="psy storm" words="psy storm 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/psy storm.lua">
+	</instant>
+<instant name="psy unw" words="psy unw 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/psy unw.lua">
+	</instant>
+<instant name="smooch" words="smooch 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/smooch.lua">
+	</instant>
+<instant name="stomp tomb" words="stomp tomb 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/stomp tomb.lua">
+	</instant>
+<instant name="string wave" words="string wave 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/string wave.lua">
+	</instant>
+<instant name="tri darkghost" words="tri darkghost 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/tri darkghost.lua">
+	</instant>
+<instant name="tri flames" words="tri flames 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/tri flames.lua">
+	</instant>
+<instant name="tri wings" words="tri wings 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/tri wings.lua">
+	</instant>
+<instant name="unw" words="unw 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/unw.lua">
+	</instant>
+<instant name="Whirlpool" words="Whirlpool 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Whirlpool.lua">
+	</instant>
+<instant name="X-Mantine" words="X-Mantine 252friasdgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/X-Mantine.lua">
+	</instant>
+
+	<instant name="gust" words="exevo 252frssgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/gust.lua">
+	</instant>
+	<instant name="slime wave" words="exevo 25dsa2frssgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/slime wave.lua">
+	</instant>
+	<instant name="toxic" words="exevsdso vis lux" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/toxic.lua">		
+	</instant>
+<instant name="sleep" words="slefdgdgeasdasdp" lvl="100000000" mana="10000000" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/sleep.lua">
+	</instant>
+	<instant name="charge beam" words="exevsdsos vis lux" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/charge beam.lua">	
+	</instant>
+	<instant name="fire blast" words="exevosdf 252frssgao hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/fire blast.lua">
+	</instant>
+	<instant name="absorb" words="eg5hjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/absorb.lua">
+	</instant>
+<instant name="shadow punch" words="shadowfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadow punch.lua">
+	</instant>
+	<instant name="mega punch" words="esg5hgfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mega punch.lua">
+	</instant>
+	<instant name="thunder punch" words="esgsd5hgfjrsssi" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunder punch.lua">
+	</instant>
+	<instant name="thunder" words="esgsd5hgfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunder.lua">
+	</instant>
+	<instant name="thunder fang" words="esgsgd5hgfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunder fang.lua">
+	</instant>
+	<instant name="poison fang" words="esgsgd5htyrtgfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison fang.lua">
+	</instant>
+	<instant name="fire punch" words="esagsd5hgfjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/fire punch.lua">
+	</instant>
+	<instant name="flamethrower" words="esagsd5hgdsafjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/flamethrower.lua">
+	</instant>
+	
+	<instant name="thunder wave" words="exevo gfdgvis lux" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunder wave.lua">
+	</instant>
+	<instant name="psy wave" words="exevo gfdgasdasdvis lux" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/psy wave.lua">
+	</instant>
+	<instant name="drill peck" words="esgbsd5hgfajri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/drill peck.lua">
+	</instant>
+	<instant name="triattack" words="esgbsd5hgfdfajri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/triattack.lua">
+	</instant>
+
+	<instant name="trifire" words="esgbsd5hgfliiadfajri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/triattack.lua">
+	</instant>
+	<instant name="metronome" words="metronome" lvl="10005" mana="2000" prem="1" range="4" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/metronome.lua">
+	</instant>
+	<instant name="trepadera" words="treparedeasd" lvl="10005" mana="2000" prem="1" range="4" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/trepadera.lua">
+	</instant>
+	<instant name="hyper fang" words="hyperredeasd" lvl="10005" mana="2000" prem="1" range="4" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/hyper fang.lua">
+	</instant>
+	<instant name="aqua tail" words="eg5hdjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/aqua tail.lua">
+	</instant>
+	<instant name="absorb2" words="eg5ashjri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/absorb.lua">
+	</instant>
+<instant name="mega drain" words="megari sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mega drain.lua">
+	</instant>
+	<instant name="waterball" words="exoriggdfsd vit" lvl="12" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/waterball.lua">
+	</instant>
+	<instant name="fireball" words="exoriggdfsd vdsit" lvl="12" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/fireball.lua">
+	</instant>
+	
+	<instant name="poisonbomb" words="exorigsd vit" lvl="12" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/poison bomb.lua">
+	</instant>
+<instant name="plantbomb" words="plant exorigsd vit" lvl="12" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/plant bomb.lua">
+	</instant>
+	<instant name="mud bomb" words="exorigsd vdsit" lvl="12" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/mud bomb.lua">
+	</instant>
+
+	<instant name="solar beam" words="beamsolarsolarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/solar beam.lua">
+	</instant>
+	<instant name="leaf storm" words="beamsolars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/leaf storm.lua">
+	</instant>
+	<instant name="water oath" words="beamsoladsars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/water oath.lua">
+	</instant>
+<instant name="poison oath" words="beapoisonmsoladsars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison oath.lua">
+	</instant>
+<instant name="thunder oath" words="beathundernmsoladsars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunder oath.lua">
+	</instant>
+<instant name="ice oath" words="beaicenmsoladsars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/ice oath.lua">
+	</instant>
+<instant name="wing oath" words="beawingnmsoladsars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/wing oath.lua">
+	</instant>
+	<instant name="petal dance" words="beamsdasolars215olarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/petal dance.lua">
+	</instant>
+	<instant name="falling rocks" words="beamsdasolars215fdolarbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/falling rocks.lua">
+	</instant>
+	<instant name="blizzard" words="beamsolarsolafsdrbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/blizzard.lua">
+	</instant>
+<instant name="Guillotine" words="Guillotinesolarsolafsdrbeam" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Guillotine.lua">
+	</instant>
+	<instant name="water gun" words="wwwaterg" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/water gun.lua">
+	</instant>
+	<instant name="ice beam" words="wsadas" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/ice beam.lua">
+	</instant>
+<instant name="aurora beam" words="aurorawsadas" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/aurora beam.lua">
+	</instant>
+	<instant name="hyper beam" words="hyper beam attack" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/hyper beam.lua">
+	</instant>
+
+	<instant name="vine whip" words="wshjfasfjasafgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/vine whip.lua">
+	</instant>
+	<instant name="wing attack" words="wshdjfasfjasafgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/wing attack.lua">
+	</instant>
+<instant name="bug wing" words="bugwshdjfasfjasafgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/bug wing.lua">
+	</instant>
+	<instant name="Wings Ruller" words="wshdjfasfjasasdasdafgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Wings Ruller.lua">
+	</instant>
+	<instant name="poisonous wing" words="wshdjfasdasfjasafgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poisonous wing.lua">
+	</instant>
+	<instant name="rock slide" words="rock slide attack" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/rock slide.lua">
+	</instant>
+	<instant name="windstorm" words="wsfsahajfasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/windstorm.lua">
+	</instant>
+	<instant name="tornado" words="wsfsahajfasfjdsfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/tornado.lua">
+	</instant>
+	<instant name="earthshock" words="wshajssfasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/earthshock.lua">
+	</instant>
+       <instant name="destroyer hand" words="wshaasdfrjssfasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/destroyer hand.lua">
+	</instant>
+	<instant name="poison gas" words="wshajssfsdasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison gas.lua">
+	</instant>
+	<instant name="magma storm" words="wshajssfaasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/magma storm.lua">
+	</instant>
+	<instant name="leech seed" words="wshajssdasfasfjfgs" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" casterTargetOrDirection="1" needlearn="0" event="script" value="poke/leech seed.lua">
+	</instant>
+	<instant name="razor leaf" words="easjanm" lvl="150000" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/razor leaf.lua">
+        </instant>
+	<instant name="confusion" words="pasdaddgs" lvl="5000" mana="30" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/confusion.lua">
+	</instant>
+	<instant name="rollout" words="exorirollout" lvl="35232" mana="1" prem="0" needweapon="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/rollout.lua">
+	</instant>
+<instant name="aeroblast" words="exoreroblasout" lvl="35232" mana="1" prem="0" needweapon="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/aeroblast.lua">
+	</instant>
+	<instant name="psy pulse" words="exgvdsfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/psy pulse.lua">
+	</instant>
+	<instant name="mind blast" words="exgvdfdssfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mind blast.lua">
+	</instant>
+	<instant name="psycho shift" words="exgvdsfdsgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/psycho shift.lua">
+	</instant>
+	<instant name="water pulse" words="exgvasdsfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/water pulse.lua">
+	</instant>
+	<instant name="toxic needle" words="exgvasdsfdsgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/toxic needle.lua">
+	</instant>
+	<instant name="mega prick" words="57asdsasdafddsasgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mega kick.lua">
+	</instant>
+	<instant name="super sonic" words="exgvasdsfddsasgffdghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/super sonic.lua">
+	</instant>
+	<instant name="pin missile" words="exggdgvasdsfdsgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/pin missile.lua">
+	</instant>
+	<instant name="Squishy Licking" words="exgavasdsfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Squishy Licking.lua">
+	</instant>
+	<instant name="rock throw" words="exgasvasdsfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/rock throw.lua">
+	</instant>
+	<instant name="splash" words="exgvasplashdsasgffdghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/splash.lua">
+	</instant>
+	<instant name="thunderbolt" words="exgasvassddsfgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thunderbolt.lua">
+	</instant>
+	<instant name="restore" words="exura fsdgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/restore.lua">
+	</instant>
+<instant name="roost" words="exura toostran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/roost.lua">
+	</instant>
+<instant name="afro rest" words="exura afro fsdgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/afro rest.lua">
+	</instant>
+	<instant name="harden" words="exura fsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/harden.lua">
+	</instant>
+
+	<instant name="reflect" words="exurafsdfsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/reflect.lua">
+	</instant>
+<instant name="crab hammer" words="crabhammerdfsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/crab hammer.lua">
+	</instant>
+	<instant name="fist machine" words="fistmacsdfsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/fist machine.lua">
+	</instant>
+	<instant name="eggbomb" words="eggbombsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/eggbomb.lua">
+	</instant>
+<instant name="dreameater" words="dreameaterdfsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/dreameater.lua">
+	</instant>
+	<instant name="earth power" words="earthsdfsdsaddgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/earth power.lua">
+	</instant>
+
+
+
+	<instant name="scratch" words="eg5hjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/scratch.lua">
+	</instant>
+	<instant name="acid" words="eg5hfsasjri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/acid.lua">
+	</instant>
+	<instant name="ember" words="eg5hfsdsasjri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/ember.lua">
+	</instant>
+	<instant name="fire fang" words="eg5hfsdasasjri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/fire fang.lua">
+	</instant>
+	<instant name="thundershock" words="eg5hfsasjrifffrigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thundershock.lua">
+	</instant>
+	<instant name="sludge" words="eg5hfsadsasjri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/sludge.lua">
+	</instant>
+	<instant name="twister" words="eg5hfsasjdsri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/twister.lua">
+	</instant>
+
+	<instant name="dizzy punch" words="eg5hfsasgjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/dizzy punch.lua">
+	</instant>
+	
+	<instant name="swift" words="eg5hfwsasdsajri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/swift.lua">
+	</instant>
+	<instant name="mud shot" words="eg5hfsassjri frigo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mud shot.lua">
+	</instant>
+	<instant name="bubbles" words="eg5hfsasjasari frigo" lvl="10005" mana="2000" prem="1" casterTargetOrDirection="1" range="4" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/bubbles.lua">
+	</instant>
+	<instant name="bite" words="eg5hsjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/bite.lua">
+	</instant>
+	<instant name="fury attack" words="eg5hfsdsjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/drill peck.lua">
+	</instant>
+	<instant name="bug bite" words="eg5hsjri fdsarigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/bug bite.lua">
+	</instant>
+	<instant name="headbutt" words="eg5hsjri frifsdgo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/headbutt.lua">
+	</instant>
+	<instant name="string shot" words="eg5hsjdsdri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/string shot.lua">
+	</instant>
+	<instant name="horn attack" words="eg5hdasdsjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn attack.lua">
+	</instant>
+	<instant name="poison sting" words="eg5hdasdsjridsa frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison sting.lua">
+	</instant>
+	<instant name="gunk shot" words="eg5hdsasjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/gunk shot.lua">
+	</instant>
+	<instant name="gastro acid" words="eg5hsjri dsfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/gastro acid.lua">
+	</instant>
+	<instant name="leaf blade" words="eg5hsjri dsafrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/leaf blade.lua">
+	</instant>
+	<instant name="peck" words="eg5hsjsri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/peck.lua">
+	</instant>
+	<instant name="slash" words="eg5hssajri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/slash.lua">
+	</instant>
+	<instant name="slamp" words="eg5hssajri slampfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/slamp.lua">
+	</instant>
+<instant name="slamsh" words="eg5hssajri slamshfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/slamsh.lua">
+	</instant>
+	<instant name="iron tail" words="eg5hssaasdjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/iron tail.lua">
+	</instant>
+	<instant name="hyper fang" words="eg5hsjri frasigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/hyper fang.lua">
+	</instant>
+	<instant name="psychic" words="pasdadssdgs" lvl="5000" mana="30" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/psychic.lua">
+	</instant>
+	<instant name="discharge" words="pasddsadssdgs" lvl="5000" mana="30" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/discharge.lua">
+	</instant>
+	
+	<instant name="quick attack" words="eg5hsasjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/quick attack.lua">
+	</instant>
+	
+	<instant name="slam" words="eg5hsasjri dsfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/slam.lua">
+	</instant>
+	<instant name="punch bash" words="eg5hsasjri punchbashrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/punch bash.lua">
+	</instant>
+	<instant name="doubleslap" words="eg5hssdfasjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/doubleslap.lua">
+	</instant>
+	<instant name="Death Strike" words="exori mort" lvl="160000" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/death strike.lua">
+	</instant>
+	<instant name="sand oath" words="exori coco" lvl="100006" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/sand oath.lua">
+	</instant>
+	<instant name="mortal gas" words="exori venufaasd" lvl="100006" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mortal gas.lua">
+	</instant>
+	<instant name="lick lick" words="exori venuflickaasd" lvl="100006" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/lick lick.lua">
+	</instant>
+	<instant name="poison bomb" words="exori mapoison bombe" lvl="100006" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/poison bomb.lua">
+	</instant>
+<instant name="plant bomb" words="exori mapkaton bombe" lvl="100006" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/plant bomb.lua">
+	</instant>
+	<instant name="Flame Strike" words="exori flam" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/flame strike.lua">
+	</instant>
+<instant name="Flame Wheel" words="exori Flame Wheel" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Flame Wheel.lua">
+	</instant>
+	<instant name="Energy Strike" words="exori vis" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy strike.lua">
+	</instant>
+	<instant name="merda" words="exori merda" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/merda.lua">
+	</instant>
+	<instant name="Energy Strikee" words="exori vise" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy strikee.lua">
+	</instant>
+	<instant name="Energy Strik" words="exori vi" lvl="10002" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/energy strik.lua">
+	</instant>
+	<instant name="great love" words="exori vitgreat" lvl="12" mana="20000" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/great love.lua">
+	</instant>
+	<instant name="mag" words="exori mag" lvl="12" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/mag.lua">
+	</instant>
+	<instant name="Fear" words="exori fear" lvl="12" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/fear.lua">
+	</instant>
+	<instant name="geo" words="exori geo" lvl="12" mana="200000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/geo.lua">
+	</instant>
+	<instant name="osso" words="exori osso" lvl="12" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/osso.lua">
+	</instant>
+	<instant name="laprass" words="exori la" lvl="12" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/laprass.lua">
+	</instant>
+	<instant name="Tangela" words="exori hu" lvl="12" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/tangela.lua">
+	</instant>
+	<instant name="Whirlwind Throw" words="exoriasda hur" lvl="10005" mana="40" prem="1" range="5" needtarget="1" blockwalls="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="attack/whirlwind throw.lua">
+	</instant>
+	<instant name="Fire Wave" words="exevo flamsada hur" lvl="10008" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/fire wave.lua">
+	</instant>
+	<instant name="trepar Wave" words="exevo trpar wave hur" lvl="10008" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/trepar wave.lua">
+	</instant>
+	<instant name="bell2" words="exevo flam bell" lvl="10008" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/bell2.lua">
+	</instant>
+	<instant name="venusaur" words="exevo flam ve" lvl="10008" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/venusaur.lua">
+	</instant>
+	<instant name="lapras" words="exevo flam lapras" lvl="10008" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/lapras.lua">
+	</instant>
+	<instant name="seadra" words="exevo flam se" lvl="18" mana="20005" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/seadra.lua">
+	</instant>
+	<instant name="maga" words="exevo flam mag" lvl="18" mana="20005" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/maga.lua">
+	</instant>
+	<instant name="ossos" words="exevo flam ossos" lvl="1800" mana="20005" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/ossos.lua">
+	</instant>
+	<instant name="Bullet Seed" words="exevo seed hur" lvl="1800" mana="200005" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/bullet seed.lua">
+	</instant>
+	<instant name="Ethereal Spear" words="exori con" lvl="23000" mana="25" prem="1" range="5" exhaustion="2000" blockwalls="1" needlearn="0" event="script" value="attack/ethereal spear.lua">
+	</instant>
+	<instant name="water spout" words="exori waterspout" lvl="23000" mana="25" prem="1" range="5" exhaustion="2000" needtarget="1" blockwalls="1" needlearn="0" event="script" value="poke/water spout.lua">
+	</instant>
+	<instant name="shadow area" words="exevo vis lux" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadow area.lua">
+	</instant>
+	<instant name="nightmare" words="exevo vis lnerghg" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/nightmare.lua">
+	</instant>
+	<instant name="shadow shadow" words="exevo gshadowux" lvl="20009" mana="110" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadow shadow.lua">
+	</instant>
+	<instant name="nightshade" words="exevo ing" lvl="20009" mana="110" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/nightshade.lua">
+	</instant>
+	<instant name="Groundshaker" words="exori mas" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="attack/groundshaker.lua">
+	</instant>
+	<instant name="ground chop" words="exorasdasfasfwqmkji mas" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/ground chop.lua">
+	</instant>
+	<instant name="sticks" words="exorij" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/sticks.lua">
+	</instant>
+	<instant name="horn oath" words="exori horn" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn oath.lua">
+	</instant>
+	<instant name="horn drill" words="exori ghorn drill" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn drill.lua">
+	</instant>
+	<instant name="swift" words="exori tau" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/swift.lua">
+	</instant>
+	<instant name="Bubblebeam" words="exori dig" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/Bubblebeam.lua">
+	</instant>
+	<instant name="wardog" words="exori wardog" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/wardog.lua">
+	</instant>
+	<instant name="flames" words="exori flames" lvl="3005" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="poke/flames.lua">
+	</instant>
+	<instant name="pay day" words="exoriii pay day" lvl="1" mana="115" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/pay day.lua">
+	</instant>
+	<instant name="Melody" words="exori vulpix" lvl="3005" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="poke/Melody.lua">
+	</instant>
+	<instant name="hyper voice" words="exori machow" lvl="3005" mana="115" prem="1" needtarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/hyper voice.lua">
+	</instant>
+	<instant name="selfheal" words="exevo vis hur" lvl="300008" mana="170" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/selfheal.lua">
+	</instant>
+	<instant name="horn water" words="exevo gran mas vis" lvl="50005" mana="650" selftarget="1" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn water.lua">
+		
+	</instant>
+	<instant name="agility" words="exori granagility" lvl="7000" mana="340" prem="1"  exhaustion="2000" needlearn="0" event="script" value="poke/agility.lua">
+		
+	</instant>
+		<instant name="super fang" words="exevo grsuper fang flam" lvl="60000" mana="1200" prem="1" exhaustion="2000" selftarget="1" needlearn="0" event="script" value="poke/super fang.lua">
+		
+	</instant>
+	<instant name="tri flames" words="exortri flamesan" lvl="40000" mana="20" prem="1" range="4" casterTargetOrDirection="1" needlearn="0" blockwalls="1" exhaustion="2000" event="script" value="poke/tri flames.lua">
+		
+	</instant>
+	<instant name="giant absorb" words="exevo giant absorban" lvl="50000" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/giant absorb.lua">
+		
+	</instant>
+	<instant name="Cofusion Stun" words="stun" lvl="500000" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/cofusion stun.lua">
+		<vocation id="3"/>
+		<vocation id="7"/>
+	</instant>
+	<instant name="Eternal Winter" words="exevo gran mas frigo" lvl="6000" mana="1200" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/eternal winter.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Magmar" words="exevo gran mas" lvl="6000" mana="1200" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="magmar.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ice Strike" words="exori frigo" lvl="10005" mana="2000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/ice strike.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="bell" words="exori bell" lvl="10005" mana="2000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/bell.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Ice Wave" words="exevo frigo hur" lvl="18000" mana="25" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/ice wave.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Terra Strike" words="exori tera" lvl="1300" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/terra strike.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="hit" words="exori hit" lvl="13000" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/hit.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="hitt" words="exori hitt" lvl="13000" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/hitt.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="macho" words="exori macho" lvl="10003" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/macho.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="char" words="exori char" lvl="10003" mana="20" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="attack/char.lua">
+		<vocation id="1"/>
+		<vocation id="5"/>
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Terra Wave" words="exevo tera hur" lvl="30008" mana="210" direction="1" exhaustion="2000" needlearn="0" event="script" value="attack/terra wave.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+	<instant name="Wrath of Nature" words="exevo gran mas tera" lvl="50005" mana="770" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="attack/wrath of nature.lua">
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</instant>
+
+
+
+
+
+	<instant name="auraeletrica" words="auraeletrica" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraeletrica.lua">
+	</instant>
+	<instant name="auraagua" words="auraagua" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraagua.lua">
+	</instant>
+	<instant name="aurafogo" words="aurafogo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafogo.lua">
+	</instant>
+	<instant name="aurainseto" words="aurainseto" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurainseto.lua">
+	</instant>
+	<instant name="aurapsiquica" words="aurapsiquica" lvl="10005" mana="2000" prem="1" range="7" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapsiquica.lua">
+	</instant>
+	<instant name="auraveneno" words="auraveneno" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraveneno.lua">
+	</instant>
+	<instant name="auraplanta" words="auraplanta" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragrama.lua">
+	</instant>
+	<instant name="auranormal" words="auranormal" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auranormal.lua">
+	</instant>
+	<instant name="auravoador" words="auravoador" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auravoador.lua">
+	</instant>
+	<instant name="aurapedra" words="aurapedra" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurapedra.lua">
+	</instant>
+	<instant name="auragelo" words="auragelo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auragelo.lua">
+	</instant>
+	<instant name="aurafantasma" words="aurafantasma" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/aurafantasma.lua">
+	</instant>
+	<instant name="auralutador" words="auralutador" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auralutador.lua">
+	</instant>
+	<instant name="auraterra" words="auraterra" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/auraterra.lua">
+	</instant>
+	<instant name="mega kick" words="exgvasdsasdafddsasgfghfdo" lvl="10005" mana="2000" prem="1" range="10" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/mega kick.lua">
+	</instant>
+	<instant name="triple kick" words="esgbsd5hgvbnfdfajgo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/triple kick.lua">
+	</instant>
+<instant name="triple ice" words="esgbsdasdasd5hgvbnfdfajgo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/triple ice.lua">
+	</instant>
+<instant name="triple fire" words="etriplefiresdasd5hgvbnfdfajgo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/triple fire.lua">
+	</instant>
+
+	<instant name="intense healing" words="droaafrdfajri sdfrigo" lvl="10005" mana="2000" prem="1" selftarget="0" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="healing/intense healing.lua">
+	</instant>
+	<instant name="sleeeeppp" words="sleep" lvl="100000" mana="100000000" aggressive="0" selftarget="1" exhaustion="100000000000" needlearn="0" event="script" value="poke/sleep.lua">
+	</instant>
+<instant name="sing attack" words="single lick attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/sing attack.lua">
+</instant>
+<instant name="Tackle" words="tackle attack" lvl="999" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/tackle.lua">
+</instant>
+<instant name="Taur attack" words="taur tackle attack" lvl="999" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/taur attack.lua">
+</instant>
+<instant name="X-Scissor" words="XScissor tackle attack" lvl="999" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/X-Scissor.lua">
+</instant>
+
+<instant name="Bubble Blast" words="Bubble Blast attack" lvl="9999" mana="20" prem="1" range="4" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Bubble Blast.lua">
+</instant>
+<instant name="Icy Wind" words="icy attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/icywind.lua">
+</instant>
+<instant name="Ice Shard" words="shard attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/ice shard.lua">
+</instant>
+<instant name="Shadow Punch" words="shadow punch attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadow punch.lua">
+</instant>
+<instant name="shadowball" words="shadow ball attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadowball.lua">
+</instant>
+<instant name="Dream Eater" words="dream attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/dreameater.lua">
+</instant>
+<instant name="Night Shade" words="nightshade attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/nightshade.lua">
+</instant>
+
+<instant name="Rock bash" words="rock bash attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/rock bash.lua">
+</instant>
+<instant name="skull bash" words="skull bash attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/skull bash.lua">
+</instant>
+<instant name="scy bash" words="scy bash attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/scy bash.lua">
+</instant>
+<instant name="water bash" words="water bash attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/water bash.lua">
+</instant>
+<instant name="water sky" words="water sky attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/water sky.lua">
+</instant>
+
+<instant name="Sand Tomb" words="tomb attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/sandtomb.lua">
+</instant>
+<instant name="Sandstorm" words="sandstorm attack" lvl="3005" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="poke/sandstorm.lua">
+</instant>
+<instant name="stickmerang" words="asdroadfajri sdfrigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/stickmerang.lua">
+</instant>
+<instant name="Bone Rush" words="rush attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/bonerush.lua">
+</instant>
+<instant name="Guitar Paralizy" words="Guitar Paralizyh attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/Guitar Paralizy.lua">
+</instant>
+<instant name="BoneClub" words="bone attack" lvl="9999" mana="99" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/boneclub.lua">
+</instant>
+<instant name="Bone slash" words="bone slash" lvl="9999" mana="999" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/boneclub.lua">
+</instant>
+<instant name="Earthquake" words="earthquake attack" lvl="9999" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/earthquake.lua">
+</instant>
+<instant name="Multi Punch" words="Multi Punchtest" lvl="10" mana="999" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Multi Punch.lua">
+</instant>
+<instant name="Double Kick" words="kick attack" lvl="999" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/doublekick.lua">
+</instant>
+
+<instant name="Multi Slap" words="solar Multi Slapack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/Multi Slap.lua">
+</instant>
+<instant name="earth fang" words="soearthr attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/earth fang.lua">
+</instant>
+<instant name="missile oath" words="rmissay attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/missile oath.lua">
+</instant>
+
+<instant name="Psybeam" words="psybeam attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/psybeam.lua">
+</instant>
+<instant name="Psyusion" words="psyusion attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/psyusion.lua">
+</instant>
+<instant name="Sonicboom" words="sonic attack" lvl="999" mana="10" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/sonicboom.lua">
+</instant>
+
+<instant name="super vines" words="vine attack" lvl="3800" mana="210" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/super vines.lua">
+</instant>
+	<instant name="fury cutter" words="e69g5hfsdsjri frigo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/fury cutter.lua">
+	</instant>
+
+<instant name="Thrash" words="thrash attack" lvl="9999" mana="20000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/thrash.lua">
+</instant>
+
+<instant name="Egg Bomb" words="egg attack" lvl="999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/eggbomb.lua">
+</instant>
+<instant name="hydropump" words="hydro attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/hydropump.lua">
+</instant>
+
+	<instant name="body slam" words="body slam att" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/body slam.lua">
+	</instant>
+<instant name="Dragon claw" words="dragon claw attack" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/dragon claw.lua">
+</instant>
+<instant name="bonemerang" words="bonemerang attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/bonerush.lua">
+</instant>
+
+<instant name="Dragon breath" words="dragon rage attack breath" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/dragon breath.lua">
+</instant>
+<instant name="tempest" words="dragon rage attackasdasd" lvl="9999" mana="20" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/tempest.lua">
+</instant>
+      
+        <instant name="rage" words="rage exsdsadura 525fsdgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/rage.lua">
+	</instant>
+  <instant name="bone quake" words="bone exsdsadura 525fsdgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/bone quake.lua">
+	</instant>
+  <instant name="bone club" words="bone eclubsadura 525fsdgran" lvl="100000" mana="1" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="poke/boneclub.lua">
+	</instant>
+
+<instant name="Dynamicpunch" words="dynamicpunch attack" lvl="10" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/dynamicpunch.lua">
+</instant>
+<instant name="punch" words="dypunch attack" lvl="10" mana="10" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/punch.lua">
+</instant>
+<instant name="Karate Chop" words="karate attack" lvl="9999" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/karate chop.lua">
+</instant>
+	<instant name="ancient power" words="ancient power attack" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/ancient power.lua">
+	</instant>
+	<instant name="ancient storm" words="ancient power attack storm" lvl="10002" mana="20" prem="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/ancient storm.lua">
+	</instant>
+	<instant name="leech seed 2" words="leech seed 200" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" casterTargetOrDirection="1" needlearn="0" event="script" value="poke/leech seed.lua">
+	</instant>
+	<instant name="legendarypower mew" words="legendarypower mew" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/legendarypower mew.lua">
+	</instant>
+	<instant name="legendarypower mewtwo" words="legendarypower mewtwo" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/legendarypower mewtwo.lua">
+	</instant>
+	<instant name="legendary storm" words="legendary storm" lvl="10005" mana="2000" prem="1" range="1" casterTargetOrDirection="0" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="aura/legendary storm.lua">
+	</instant>
+	<instant name="iceball" words="iceball" lvl="999000" mana="20000" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="0" needlearn="0" event="script" value="poke/iceball.lua">
+	</instant>
+	<instant name="fire wav" words="fire wav" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/fire wave.lua">
+	</instant>
+	<instant name="electric wave" words="electric wavasdasd" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/electric wave.lua">
+	</instant>
+	<instant name="electric storm" words="electric wavstormasd" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/electric storm.lua">
+	</instant>
+	<instant name="ice wav" words="ice wav" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/ice wave.lua">
+	</instant>
+	<instant name="icywind" words="icywindsada" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/icywind.lua">
+	</instant>
+	<instant name="Plant Carnivore" words="psyPlantCarnivorehicmew" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Plant Carnivore.lua">
+	</instant>
+	<instant name="zap cannon" words="pszapcannonewtwo" lvl="2021013" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/zap cannon.lua">
+	</instant>
+	<instant name="shadowstorm" words="shadowstorm" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadowstorm.lua">
+	</instant>
+	<instant name="stomp" words="stomp attack" lvl="10002" mana="20" prem="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/stomp.lua">
+	</instant>
+<instant name="hydro cannon" words="Hydro cannon attack" lvl="9999" mana="160" prem="1" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/hydro cannon.lua">
+</instant>
+	<instant name="invisibility" words="utana vid" lvl="35" mana="440" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" script="support/invisible.lua">
+	</instant>
+	
+
+
+
+
+
+</spells>

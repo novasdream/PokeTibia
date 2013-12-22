@@ -1,0 +1,13 @@
+Name: Delibird
+Type: ice
+Required level: 45
+
+Evolutions:
+none/não possui
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+	
+<health now="150" max="150"/>
+	
+<look type="255" head="91" body="114" legs="86" feet="0"/>
+
+	<parameters>
+	
+		<parameter key="message_greet" value="Ola querido consumidor! Quer ver o que tenho a oferecer? vamo la, diga {trade}!"/>
+
+			<parameter key="message_farewell" value="Flws!"/>
+		
+	<parameter key="message_idletimeout" value="Flws!"/>
+			
+<parameter key="message_walkaway" value="Flws!"/>
+		
+	<parameter key="module_shop" value="1"/>
+		
+	<parameter key="shop_buyable" value="greatbag,1997,8000;pokeball,2147,500;greatball,2642,2000;superball,2645,5500;ultraball,2146,12000;small potion,2273,400;great potion,2272,1000;super potion,2274,1500;mega potion,2271,4000;hyper potion,2275,8000;revive,2269,15000;"/>
+			<parameter key="shop_sellable" value="seeds,8850,50;pair of leaves,8851,500;bag of pollem,8852,2000;rat tail,8854,2500;zubat wing,8855,600;bottle of poison,8856,50;gosme,8857,1000;pot of moss bug,8858,500;bug antennas,8859,2000;screw,8861,50;electric box,8862,500;imam,8863,1000;stone orb,8864,1000;sandbag,8865,500;essence of fire,8866,50;pot of lava,8867,2000;nail,8868,1000;future orb,8869,1500;psychic spoons,8870,5000;blue vines,11993,10000;fox tail,11994,20000;charmander tail,11996,5000;horns,11997,2000;luck medalion,11999,10000;furs,11998,2000;wool balls,12000,5000;rubys,12001,8000;tongues,12002,10000;chansey egg,12003,20000;toge eggs,12004,20000;topknots,12005,1000;bitten apple,8853,500;dragon tooth,12006,10000;dragonair tail,12007,20000;squirtle hulls,12009,1000;psyduck pots,12010,1000;karate ducks,12011,1500;slow tail,12012,1000;locksmith of shells,12013,500;crab claw,12014,400;gyarados tail,12015,20000;mushroom,12017,1300;stars,12016,800;scythe,12018,10000;pinsir horn,12019,2000;missiles,12020,500;bug venom,12021,8000;farfetchd sticks,12022,2000;tooth,12023,100;venom flute,12024,800;golbat wing,12025,800;nidorino ears,12026,800;nidorina ears,12027,800;electabuzz tail,12029,20000;raichu tail,12031,10000;pikachu tail,12032,5000;bone,12033,1000;marowak head,12034,10000;sands claws,12035,5000;small earth,12036,50;linearly guided hypnose,12037,5000;mimi clothes,12038,10000;iron braceler,12039,50000;belt of chanpion,12040,5000;onix tail,12043,5000;rhydon horn,12044,10000;ice orb,12045,800;ice bra,12046,10000;dewgong tail,12048,5000;seel tail,12049,1000;traces of ghost,12050,1000;bulb,11617,2000;water gem,6528,50"/>
+	</parameters></npc>

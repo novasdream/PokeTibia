@@ -1,0 +1,13 @@
+Name: Magikarp
+Type: water
+Required level: 5
+
+Evolutions:
+Magikarp, requires level 5
+Gyarados, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

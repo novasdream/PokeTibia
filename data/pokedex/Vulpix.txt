@@ -1,0 +1,13 @@
+Name: Vulpix
+Type: fire
+Required level: 20
+
+Evolutions:
+Vulpix, requires level 20
+Ninetales, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

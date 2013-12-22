@@ -1,0 +1,15 @@
+Name: Phanpy
+Type: earth
+Required level: 20
+
+Evolutions:
+Phanpy, requires level 20
+Donphan, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig
+Rock smash

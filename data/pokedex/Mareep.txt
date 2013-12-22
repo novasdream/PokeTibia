@@ -1,0 +1,17 @@
+Name: Mareep
+Type: electric
+Required level: 20
+
+
+Evolutions:
+Mareep, requires level 20
+Flaaffy, requires level 40
+Ampharos, requires level 80
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

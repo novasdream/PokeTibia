@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="500" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200" event="script" value="clean.lua"/>
+	<globalevent name="Safari" interval="10"  script="safari.lua"/>
+	<globalevent name="PokePlayerSexo" interval="1" script="pokesexoP.lua"/>
+ <globalevent name="mensagem" interval="200" script="mensagem.lua"/>
+
+       
+        <globalevent name="navio1" interval="75" event="script" value="naviovermilion1.lua"/>
+        <globalevent name="navio2" interval="90" event="script" value="naviovermilion2.lua"/>
+        <globalevent name="navio3" interval="90" event="script" value="naviocinnabar1.lua"/>
+        <globalevent name="navio4" interval="75" event="script" value="naviocinnabar2.lua"/>
+
+<globalevent name="navioilha1" interval="75" event="script" value="navioilha1.lua"/>
+        <globalevent name="navioilha2" interval="90" event="script" value="navioilha2.lua"/>
+        <globalevent name="navioilha3" interval="90" event="script" value="navioilha1.lua"/>
+        <globalevent name="navioilha4" interval="75" event="script" value="naviotogepi2.lua"/>
+
+
+
+
+	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+     
+
+
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+</globalevents>

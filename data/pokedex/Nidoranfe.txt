@@ -1,0 +1,14 @@
+Nome: Nidoranfe
+Tipo: Veneno
+Nível necessário: 10
+
+Evoluções:
+Nidoran, requer nível 10
+Nidorina, requer nível 25
+Nidoqueen, requer nível 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Escavar (Dig)

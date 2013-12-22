@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weezing" nameDescription="a Wild Weezing" race="poison" experience="550" speed="460" manacost="280">
+  <health now="5600" max="5600"/>
+  <look type="231" head="20" body="30" legs="40" feet="50" corpse="6306"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+<attacks>
+
+  <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60" /> 
+
+  <attack name="mud shot" interval="3000" range="5" chance="50" min="-435" max="-455">
+</attack>
+  <attack name="acid" interval="4500" range="5" chance="50" min="-535" max="-585">
+</attack>
+  <attack name="headbutt" interval="4500" range="1" chance="50" min="-505" max="-525">
+</attack>
+  <attack name="poison bomb" interval="7500" range="5" chance="80" min="-530" max="-550">
+</attack>
+  <attack name="poison gas" interval="9000" range="5" chance="80" min="-320" max="-330">
+</attack>
+  <attack name="mortal gas" interval="15000" range="5" chance="100" min="-605" max="-615">
+</attack>
+
+</attacks>
+
+
+  <voices interval="5000" chance="100">
+    <voice sentence="Weezing!!"/>
+  </voices>
+	<loot>
+	<item id="8856" countmax="21" chance="48000"/> -- bottle of poison
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12024" countmax="1" chance="12000"/> -- venom flute
+	<item id="2278" countmax="1" chance="600"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

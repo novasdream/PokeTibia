@@ -1,0 +1,12 @@
+Name: Elekid
+Type: Eletrico
+Required level: 30
+
+Evolutions:
+-/-
+
+Moves: 
+xxx
+
+Ability:
+Light

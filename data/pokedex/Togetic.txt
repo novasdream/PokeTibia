@@ -1,0 +1,13 @@
+Name: Togetic
+Type: normal
+Required level: 65
+
+Evolutions:
+Togepi, requires level 5
+Togetic, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

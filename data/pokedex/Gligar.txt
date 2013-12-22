@@ -1,0 +1,13 @@
+Name: Gligar
+Type: poison
+Required level: 40
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig

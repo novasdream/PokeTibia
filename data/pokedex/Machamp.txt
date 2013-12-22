@@ -1,0 +1,14 @@
+Name: Machamp
+Type: fighting
+Required level: 80
+
+Evolutions:
+Machop, requires level 20
+Machoke, requires level 45
+Machamp, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash

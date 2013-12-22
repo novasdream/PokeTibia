@@ -1,0 +1,21 @@
+General:
+It's named Doduo (flying).
+Can be used at level 12.
+Non-agressive behavior.
+
+Status:
+It's base health is 600.
+It gains 31 life/level.
+
+Evolutions:
+Dodrio (level 45 / 1 heart stone)
+
+Moves used:
+Quick Attack (normal) - m1 - level 12
+Pluck (flying) - m2 - level 12
+Fury Attack (normal) - m3 - level 13
+Rage (normal) - passive
+Drill Peck (flying) - m5 - level 16
+
+Habilities:
+Ride (use order on yourself)

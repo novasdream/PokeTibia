@@ -1,0 +1,13 @@
+Name: Ninetales
+Type: fire
+Required level: 65
+
+Evolutions:
+Vulpix, requires level 20
+Ninetales, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Ride

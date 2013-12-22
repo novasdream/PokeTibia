@@ -1,0 +1,20 @@
+General:
+It's named Gloom (grass).
+Can be used at level 18.
+
+Status:
+It's base health is 1400.
+It gains 51 life/level.
+
+Evolutions:
+Vileplume (level 50 / 1 leaf and 1 venom stone)
+
+Moves used:
+Absorb (grass) - m1 - level 18
+Acid (poison) - m2 - level 18
+Leech Seed (grass) - m3 - level 20
+Poison Bomb (poison) - m4 - level 22
+Poison Gas (poison) - m5 - level 26
+
+Habilities:
+Cut (use order on cuttable bushes)

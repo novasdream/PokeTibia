@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Viajante" script="data/npc/scripts/premiumboot.lua" walkinterval="3000" floorchange="0" access="5" >
+<health now="150" max="150"/>
+<look type="253" head="0" body="114" legs="114" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Welcome to the premium move."/>
+<parameter key="message_farewell" value="Bye! See you next time."/>
+</parameters>
+</npc>

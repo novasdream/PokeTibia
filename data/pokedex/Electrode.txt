@@ -1,0 +1,13 @@
+Name: Electrode
+Type: electric
+Required level: 35
+
+Evolutions:
+Voltorb, requires level 15
+Electrode, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

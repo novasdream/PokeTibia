@@ -1,0 +1,22 @@
+General:
+It's named Geodude (rock).
+Can be used at level 15.
+
+Status:
+It's base health is 700.
+It gains 30 life/level.
+
+Evolutions:
+Graveler (level 40 / 1 rock stone)
+Golem (level 70 / 2 rock stones)
+
+Moves used:
+Rock Throw (rock) - m1 - level 15
+Sand Attack (ground) - m2 - level 15
+Rock Slide (rock) - m3 - level 16
+Harden (normal) - m4 - level 17
+Selfdestruct (normal) - m5 - level 20
+
+Habilities:
+Rock Smash (use order on smashable rocks)
+Dig (use order on diaggable holes)

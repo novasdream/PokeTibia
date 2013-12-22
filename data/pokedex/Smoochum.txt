@@ -1,0 +1,13 @@
+Name: Smoochum
+Type: ice
+Required level: 30
+
+Evolutions:
+Smoochum, requires level 30
+Jynx, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

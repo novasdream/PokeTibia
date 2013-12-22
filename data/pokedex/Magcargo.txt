@@ -1,0 +1,15 @@
+Name: Magcargo
+Type: fire
+Required level: 60
+
+Evolutions:
+Slugma, requires level 15
+Magcargo, requires level 60
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

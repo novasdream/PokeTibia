@@ -1,0 +1,23 @@
+General:
+It's named Golbat (poison).
+Can be used at level 30.
+Agressive behavior.
+
+Status:
+It's base health is 1900.
+It gains 70 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Bite (normal) - m1 - level 30
+Absorb (grass) - m2 - level 30
+Toxic (poison) - m3 - level 30
+Whirlwind (flying) - m4 - level 32
+Poisonous Wing (poison) - m5 - level 35
+Super Sonic (normal) - m6 - level 31
+
+
+Habilities:
+None.

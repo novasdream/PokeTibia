@@ -1,0 +1,13 @@
+Name: Psyduck
+Type: water
+Required level: 20
+
+Evolutions:
+Psyduck, requires level 20
+Golduck, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

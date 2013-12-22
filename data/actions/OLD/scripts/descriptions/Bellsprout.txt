@@ -1,0 +1,20 @@
+General:
+It's named Bellsprout (grass).
+Can be used at level 5.
+
+Status:
+It's base health is 420.
+It gains 24 life/level.
+
+Evolutions:
+Weepinbell (level 18 / 1 leaf stone)
+Victreebel (level 50 / 2 leaf stones)
+
+Moves used:
+Slash (normal) - m1 - level 5
+Razor Leaf (grass) - m2 - level 7
+Acid (poison) - m3 - level 10
+Vine Whip (grass) - m4 - level 12
+
+Habilities:
+Cut (use order on cuttable bushes)

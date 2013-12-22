@@ -1,0 +1,14 @@
+Name: Hypno
+Type: psychic
+Required level: 55
+
+Evolutions:
+Drowzee, requires level 25
+Hypno, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Teleport
+Light

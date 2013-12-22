@@ -1,0 +1,22 @@
+General:
+It's named Electrode (electric).
+Can be used at level 38.
+
+Status:
+It's base health is 2000.
+It gains 76 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Slam (normal) - m1 - level 38
+Spark (electric) - m2 - level 38
+Thundershock (electric) - m3 - level 38
+Rollout (ground) - m4 - level 39
+Discharge (electric) - m5 - level 40
+Charge Beam (electric) - m6 - level 42
+Selfdestruct (normal) - m7 - level 44
+
+Habilities:
+Flash (use order on pokemon)

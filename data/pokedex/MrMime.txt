@@ -1,0 +1,14 @@
+Name: Mr.Mime
+Type: psychic
+Required level: 60
+
+Evolutions:
+Mr.Mime, requires level 60
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Teleport
+Light
+Blink

@@ -1,0 +1,13 @@
+Name: Voltorb
+Type: electric
+Required level: 15
+
+Evolutions:
+Voltorb, requires level 15
+Electrode, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

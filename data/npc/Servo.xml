@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Servo" script="port_inf.lua" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look type="251" head="78" body="10" legs="58" feet="0"/>
+	<parameters>
+<parameter key="message_greet" value="Ola, soube que esta querendo entrar  para fazer uma quest."/>
+</parameters>
+</npc>

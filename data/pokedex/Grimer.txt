@@ -1,0 +1,13 @@
+Name: Grimer
+Type: poison
+Required level: 15
+
+Evolutions:
+Grimer, requires level 15
+Muk, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

@@ -1,0 +1,12 @@
+Name: Farfetch'd
+Type: flying
+Required level: 45
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

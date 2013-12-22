@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Whitney" script="Whitney.lua" walkinterval="35000000" floorchange="0" speed="90">
+	<health now="150" max="150"/>
+	<look type="809" head="44" body="77" legs="23" feet="0"/>
+	<parameters>
+			<parameter key="message_greet" value="Eu sou o Brock Lider do ginasio de Pewter ."/>
+			<parameter key="message_farewell" value="Good bye!"/>
+			<parameter key="message_idletimeout" value="Good bye!"/>
+			<parameter key="message_walkaway" value="Good bye!"/>
+	</parameters>
+</npc>

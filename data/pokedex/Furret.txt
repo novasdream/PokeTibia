@@ -1,0 +1,11 @@
+Name: Furret
+Type: normal
+Required level: 35
+
+
+Evolutions:
+Sentret, requires level 15
+Furret, requires level 35
+
+Ability:
+Dig

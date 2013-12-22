@@ -1,0 +1,22 @@
+General:
+It's named Abra (psychic).
+Can be used at level 15.
+
+Status:
+It's base health is 620.
+It gains 20 life/level.
+
+Evolutions:
+Kadabra (level 45 / 1 enigma stone)
+Alakazam (level 80 / 2 enigma stones)
+
+Moves used:
+Confusion (psychic) - m1 - level 10
+Restore (healing) - m2 - level 13
+Psy Pulse (psychic) - m3 - level 17
+Psycho Shift (psychic) - m4 - level 24
+
+Habilities:
+Teleport (type either /h or h")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)

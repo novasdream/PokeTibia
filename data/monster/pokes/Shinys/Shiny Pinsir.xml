@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pinsir" nameDescription="a Shiny Pinsir" race="bug" experience="23" speed="190" manacost="300">
+  <health now="13500" max="13500"/>
+  <look type="365" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+  <targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="19" attack="11"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Pinsirr"/>
+  </voices>
+</monster>

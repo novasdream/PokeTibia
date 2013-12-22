@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Moves The Target" nameDescription="a Moves The Target" race="normal" experience="1" speed="0" manacost="0">
+  <health now="2400000" max="2400000"/>
+<look typeex="5777" corpse="2253"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="0"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+    <flag skull="1" />
+  </flags>
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="10000" chance="60000" min="2300000" max="2400000"/>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="0"/>
+  </immunities>
+</monster>

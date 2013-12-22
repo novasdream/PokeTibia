@@ -1,0 +1,12 @@
+Name: Pinsir
+Type: bug
+Required level: 45
+
+Evolutions:
+Pinsir, requires level 45
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

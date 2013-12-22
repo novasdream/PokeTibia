@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Houndoom" nameDescription="a Wild Houndoom" race="fire" experience="1000" speed="520" manacost="600">
+  <health now="15300" max="15300"/>
+  <look type="566" head="20" body="30" legs="40" feet="50" corpse="11425"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-175" max="-190"/>
+    <attack name="bite" interval="3000" chance="100" min="-0" max="-150"> </attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-105" > </attack>
+    <attack name="flamethrower" interval="2000" chance="25" min="-135" max="-145" > </attack>
+
+   <attack name="dark slash" interval="2400" chance="27" range="1" target="1" min="-170" max="-195">
+    </attack>
+   <attack name="flames" interval="2100" chance="26" range="1" target="1" min="-150" max="-190">
+</attack>
+    <attack name="dark cannon" interval="2000" chance="20" min="-45" max="-105" > </attack>
+
+    <attack name="fire blast" interval="3100" chance="20" min="-900" max="1200">    </attack>
+    <attack name="ghost bash" interval="2500" chance="27" range="1" min="-940" max="-1090">    </attack>
+
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Houndoom."/>
+    <voice sentence="Houuuu."/>
+  </voices>
+  <loot>
+	<item id="8866" countmax="80" chance="50000"/><!-- Essence of fire -->
+	<item id="8867" countmax="2" chance="30000"/><!-- Pot of lava --> 
+	<item id="8868" countmax="2" chance="10000"/><!-- Nail -->
+	<item id="2283" countmax="1" chance="1000"/><!-- Fire stone -->
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+<item id="11998" countmax="1" chance="5000"/><!-- fur -->
+		
+  </loot>
+</monster>

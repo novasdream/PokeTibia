@@ -1,0 +1,25 @@
+General:
+It's named Golem (rock).
+Can be used at level 70.
+
+Status:
+It's base health is 6500.
+It gains 111 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Rock Throw (rock) - m1 - level 70
+Sand Attack (ground) - m2 - level 70
+Rock Slide (rock) - m3 - level 70
+Harden (normal) - m4 - level 70
+Rock Tomb (rock) - m5 - level 70
+Falling Rocks (rock) - m6 - level 70
+Earthshock (ground) - m7 - level 73
+Rollout (ground) - m8 - level 77
+Selfdestruct (normal) - m9 - level 80
+
+Habilities:
+Rock Smash (use order on smashable rocks)
+Dig (use order on diaggable holes)

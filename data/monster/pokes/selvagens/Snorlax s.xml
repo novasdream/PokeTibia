@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snorlax" nameDescription="a Wild Snorlax" race="normal" experience="1500" speed="220" manacost="0">
+  <health now="22500" max="22500"/>
+  <look type="51" head="20" body="30" legs="40" feet="50" corpse="6016"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+
+  
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-60" max="-100">
+    </attack>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-1780" max="-1830">
+    </attack>
+    <attack name="punch" interval="4500" range="1" chance="50" min="-2050" max="-2140">
+    </attack>
+    <attack name="headbutt" interval="4500" range="1" chance="50" min="-1790" max="-1870">
+    </attack>
+    <attack name="stomp" interval="12000" range="5" chance="100" min="-1990" max="-2030">
+   </attack>
+    <attack name="dizzy punch" interval="12000" range="1" chance="100" min="-1920" max="-1950">
+    </attack>
+    <attack name="hyper beam" interval="12000" range="5" chance="100" min="-2020" max="-2050">
+    </attack>
+    <attack name="Multi Punch" interval="12000" range="1" chance="100" min="-2020" max="-2040">
+    </attack>
+
+  </attacks>
+  
+  
+ 
+  <voices interval="5000" chance="10">
+    <voice sentence="Snooorlax!"/>
+	</voices>
+	
+	<loot>
+	<item id="2289" countmax="1" chance="1900"/> -- heart stone
+	<item id="8853" countmax="5" chance="20000"/> -- bitten apple
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	
+	</loot>
+	
+<script>
+<event name="Exp"/>
+</script>
+</monster>

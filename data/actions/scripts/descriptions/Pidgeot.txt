@@ -1,0 +1,23 @@
+General:
+It's named Pidgeot (flying).
+Can be used at level 65.
+Agressive behavior.
+
+Status:
+It's base health is 3800.
+It gains 101 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Quick Attack (normal) - m1 - level 65
+Peck (flying) - m2 - level 65
+Sand Attack (ground) - m3 - level 65
+Whirlwind (flying) - m4 - level 65
+Wing Attack (flying) - m5 - level 67
+Tornado (flying) - m6 - level 70
+Windstorm (flying) - m7 - level 76
+
+Habilities:
+Fly (use order on yourself)

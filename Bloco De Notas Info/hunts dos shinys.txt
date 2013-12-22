@@ -1,0 +1,67 @@
+>Shiny Arcanine = 675,1463,12 (hunt 1 em 1 hr)
+
+>Shiny Beedrill = 958,780,7 (hunt 30 em 30 min)  
+
+>Shiny Blastoise = 819,1238,5 (hunt 1 em 1 hr) 
+
+>Shiny Butterfree = 494,844,7 (hunt 30 em 30 min) 
+
+>Elder Charizard = 257,468,6 (hunt 1 em 1 hr)  
+
+>Shiny Dratini = 1163,1828,6 (hunt 1 em 1 hr) 
+
+>Shiny Electabuzz = 1316,944,0 (hunt 1 em 1 hr) 
+
+>Shiny Electrode = 1321,837,4 (hunt 1 em 1 hr) 
+
+>Elite farfetchd = 1272,1348,7 (hunt 45 em 45 min) 
+
+>Shiny Grimer = 491,1211,7 (hunt 45 em 45 min) 
+
+>Shiny Growlithe = 618,1547,7 (hunt 45 em 45 min) 
+
+>Red gyarados = 1210,1324,10 (hunt 1 em 1 hr) 
+
+>Shiny Jynx = 1221,1753,9 (hunt 1 em 1 hr) 
+
+>Shiny Krabby = 721,750,7 (hunt 30 min em 30 min) 
+
+>Shiny Oddish = 331,818,7 (hunt 30 em 30 min)
+
+>Shiny Paras = 528,1122,8 (hunt 45 em 45 min) 
+
+>Shiny Parasect = 1097,874,8 (hunt 1 em 1 hr) 
+
+>Shiny Raticate = 1032,1301,9 (hunt 40 em 40 min) 
+
+>Shiny Rattata = 1045,949,8 (hunt 25 em 25 min) 
+
+>Shiny Tentacool = 1219,1248,9 (hunt 40 a 40 min) 
+
+>shin venomoth = 1168,1411,8 (1 em 1 hr) 
+
+>Shiny Venusaur = 716,1104,5 (1 em 1 hr) 
+
+>Shiny Voltorb = 359,726,6 (30 em 30 min) 
+
+>Shiny Zubat = 1007,1134,7 (30 em 30 min)
+
+>crystal onix = 1255,989,8 (1 em 1 hr) 
+
+>Shiny Cubone = 1213,879,8 (40 em 40 min) avalanche
+
+>Shiny Alakazam = 1466,1118,10 (1 em 1 hr) azerus
+
+>Shiny Pidgeot = 1079,642,6 (1 em 1 hr) scorpion
+
+>Shiny Ninetales = 707,1431,5 (1 em 1 hr) omruc
+
+>Shiny Magneton = 1153,1288,5 (1 em 1 hr) nomad
+
+>Shiny Rhydon = 744,770,4 (1 em 1 hr) achad
+
+>Shiny Dodrio = 1124,1407,7 (40 em 40 min) panda
+
+>Shiny Magmar = 522,1305,8 (1 em 1 hr) parrot
+
+>Shiny Machamp = 1434,1558,7 (1 em 1 hr) penguin

@@ -1,0 +1,21 @@
+General:
+It's named Charmander (fire).
+Can be used at level 20.
+
+Status:
+It's base health is 970.
+It gains 30 life/level.
+
+Evolutions:
+Charmeleon (level 40 / 1 fire stone)
+Charizard (level 85 / 2 fire stones)
+
+Moves used:
+Scratch (normal) - m1 - level 20
+Ember (fire) - m2 - level 20
+Fire Fang (fire) - m3 - level 20
+Fireball (fire) - m4 - level 22
+Flamethrower (fire) - m5 - level 27
+
+Habilities:
+Cut (use order on cuttable bushes).

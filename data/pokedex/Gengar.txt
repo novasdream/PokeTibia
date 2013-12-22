@@ -1,0 +1,14 @@
+Name: Gengar
+Type: ghost
+Required level: 80
+
+Evolutions:
+Gastly, requires level 20
+Haunter, requires level 45
+Gengar, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Control minds

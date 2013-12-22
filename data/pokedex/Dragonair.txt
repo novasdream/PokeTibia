@@ -1,0 +1,14 @@
+Name: Dragonair
+Type: dragon
+Required level: 60
+
+Evolutions:
+Dratini, requires level 20
+Dragonair, requires level 60
+Dragonite, requires level 100
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

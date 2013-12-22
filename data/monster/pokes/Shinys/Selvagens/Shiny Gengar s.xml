@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gengar" nameDescription="a shiny gengar" race="undead" experience="110" speed="340" manacost="0">
+	<health now="14000" max="14000"/>
+	<look type="798" corpse="2956"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+ <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="shadow area" interval="5000" chance="90" min="-150" max="-190">
+    </attack>
+    <attack name="shadowball" interval="7000" chance="90" min="-215" max="-299">
+    </attack>
+  <attack name="nightshade" interval="6500" chance="90" min="-300" max="-450">
+    </attack>
+<attack name="fear" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="shadow shadow" interval="3000" chance="90" min="-120" max="-240">
+    </attack>
+    <attack name="nightmare" interval="3000" chance="90" min="-430" max="-660">
+    </attack>
+    <attack name="shadowstorm" interval="7000" chance="90" min="-170" max="-290">
+    </attack>
+    <attack name="skull bash" interval="6500" chance="90" min="-700" max="-800">
+    </attack>
+  </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Ssshhhhhhh!"/>
+	</voices>
+ <loot>
+
+
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,15 @@
+Name: Pineco
+Type: bug
+Required level: 10
+
+Evolutions:
+Pineco, requires level 10
+Forretress, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig
+Cut

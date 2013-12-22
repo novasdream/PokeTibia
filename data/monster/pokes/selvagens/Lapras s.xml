@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lapras" nameDescription="a Wild Lapras" race="water" experience="1100" speed="265" manacost="0">
+  <health now="16600" max="16600"/>
+  <look type="193" head="0" body="0" legs="0" feet="0" corpse="6018"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-20" max="-60">
+    </attack>
+    <attack name="triple ice" interval="4500" range="1" chance="50" min="-1240" max="-1290">
+    </attack>
+    <attack name="bubbles" interval="4500" range="5" chance="50" min="-1380" max="-1420">
+    </attack>
+    <attack name="water gun" interval="4500" range="5" chance="50" min="-1270" max="-1320">
+    </attack>
+    <attack name="iceball" interval="6000" range="5" chance="80" min="-1400" max="-1430">
+    </attack>
+    <attack name="Bubble Blast" interval="9000" range="5" chance="80" min="-1220" max="-1230">
+    </attack>
+    <attack name="afro rest" interval="13500" range="5" chance="100" min="-8040" max="-8040">
+    </attack>
+    <attack name="blizzard" interval="15000" range="5" chance="100" min="-1560" max="-1580">
+    </attack>
+    <attack name="hydropump" interval="15000" range="5" chance="100" min="-1580" max="-1600">
+    </attack>
+    <attack name="sing attack" interval="9000" range="5" chance="80" min="-1500" max="-1530">
+    </attack>
+  </attacks>
+
+
+	<loot>
+	        <item id="6528" countmin="7" countmax="100" chance="85000"/> -- water gem
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+		<item id="2290" chance="1800"/><!-- ice Stone -->
+                <item id="2277" countmax="1" chance="1500"/> -- water stone
+				<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

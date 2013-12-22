@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Parasect" nameDescription="a shiny parasect" race="undead" experience="110" speed="340" manacost="0">
+	<health now="25200" max="25200"/>
+	<look type="501" corpse="127"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+
+  <attack name="melee" interval="1900" range="1" min="-150" max="-200" /> 
+  <attack name="absorb" range="1" interval="2200" chance="17" min="-150" max="-190" > </attack>
+  <attack name="bug bite" interval="2000" chance="25" min="-200" max="-220" > </attack>
+  <attack name="slash" range="5" interval="2600" chance="18" min="-200" max="-300" > </attack>
+  <attack name="poison sting" range="5" interval="3000" chance="21" min="-120" max="-200" > </attack>
+  <attack name="wing attack" interval="2000" chance="25" min="-200" max="-220" > </attack>
+  <attack name="bug wing" range="5" interval="2600" chance="18" min="-200" max="-300" > </attack>
+   <attack name="poison oath" range="5" interval="2600" chance="18" min="-200" max="-300" > </attack>
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="PARASECT!"/>
+   </voices>
+
+	<loot>
+
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+
+
+</monster>

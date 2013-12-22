@@ -1,0 +1,20 @@
+General:
+It's named Weedle (bug).
+Can be used at any level.
+Agressive behavior.
+
+Status:
+It's base health is 325.
+It gains 16 life/level.
+
+Evolutions:
+Kakuna (level 10 / 1 coccon stone)
+Beedrill (level 30 / 2 coccon stones)
+
+Moves used:
+Horn Attack (normal) - m1 - level 1
+String Shot (bug) - m2 - level 1
+Poison Sting (poison) - m3 - level 1
+
+Habilities:
+None.

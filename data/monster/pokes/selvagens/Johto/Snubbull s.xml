@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Snubbull" nameDescription="a Wild Snubbull" race="normal" experience="500" speed="220" manacost="600">
+  <health now="3500" max="3500"/>
+  <look type="611" head="20" body="30" legs="40" feet="50" corpse="11469"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+	
+<attacks>		
+	<attack name="melee" interval="1550" min="-80" max="-95"/>
+   	<attack name="quick attack" interval="3000" chance="50" range="1" target="1" min="-250" max="-270">
+    </attack>
+   	<attack name="thunder punch" interval="4500" chance="50" range="1" target="1" min="-290" max="-305">
+    </attack>
+   	<attack name="fire punch" interval="4500" chance="50" range="1" target="1" min="-270" max="-300">
+    </attack>
+   	<attack name="headbutt" interval="5100" chance="80" range="1" target="1" min="-330" max="-345">
+    </attack>
+    <attack name="bite" interval="4500" chance="50" range="1" target="1" min="-280" max="-315">
+    </attack>
+<attack name="rage" interval="9000" chance="80" range="5" min="-265" max="-275">
+    </attack>
+</attacks>	
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Snubuull!"/>
+    <voice sentence="BULLLLL!"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="89000"/> -- nail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="11998" countmax="1" chance="20100"/> -- fur
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

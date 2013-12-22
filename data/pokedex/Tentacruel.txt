@@ -1,0 +1,14 @@
+Name: Tentacruel
+Type: water
+Required level: 80
+
+Evolutions:
+Tentacool, requires level 15
+Tentacruel, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf
+Control minds

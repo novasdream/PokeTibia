@@ -1,0 +1,14 @@
+Name: Golbat
+Type: poison
+Required level: 35
+
+Evolutions:
+Zubat, requires level 10
+Golbat, requires level 35
+Crobat, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

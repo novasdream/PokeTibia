@@ -1,0 +1,13 @@
+Name: Omanyte
+Type: stone
+Required level: 20
+
+Evolutions:
+Omanyte, requires level 20
+Omastar, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

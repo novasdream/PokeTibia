@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Natu" nameDescription="a Wild Natu" race="psychic" experience="400" speed="220" manacost="600">
+  <health now="2300" max="2300"/>
+  <look type="585" head="20" body="30" legs="40" feet="50" corpse="11444"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1700" chance="16" min="-450" max="-500">
+   	</attack>
+	<attack name="agility" interval="1700" chance="22" min="-174" max="-208"> </attack>
+    <attack name="peck" range="1" interval="2700" chance="19" min="-20" max="-25">
+    </attack>
+    <attack name="psy pulse" range="1" interval="3000" chance="25" min="-27" max="-42">
+    </attack>
+<attack name="confusion" interval="1500" chance="22" min="-212" max="-321">
+	</attack>
+<attack name="whirlwind" interval="1700" chance="22" min="-174" max="-208"> </attack>
+    <attack name="psychic" range="1" interval="2700" chance="19" min="-20" max="-25">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+	<voice sentence="Natuu!"/>
+    <voice sentence="Naaatu!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="1" chance="32500"/>-- future orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

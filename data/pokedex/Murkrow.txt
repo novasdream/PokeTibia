@@ -1,0 +1,13 @@
+Name: Murkrow
+Type: flying
+Required level: 55
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

@@ -1,0 +1,13 @@
+Name: Chansey
+Type: normal
+Required level: 60
+
+Evolutions:
+Chansey, requires level 60
+Blissey, requires level 100
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

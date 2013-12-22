@@ -1,0 +1,12 @@
+Name: Yanma
+Type: bug
+Required level: 50
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

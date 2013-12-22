@@ -1,0 +1,14 @@
+Name: Magby
+Type: fire
+Required level: 30
+
+Evolutions:
+Magby, requires level 30
+Magmar, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+None

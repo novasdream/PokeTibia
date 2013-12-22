@@ -1,0 +1,16 @@
+Name: Ariados
+Type: bug
+Required level: 35
+
+
+Evolutions:
+Spinarak, requires level 10
+Ariados, requires level 35
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

@@ -1,0 +1,15 @@
+coordenada das quests.
+
+*Báu
+>Ice Quest         1198,1672,11
+>Desert Quest         1520,1091,10
+>Pewter Quest        464,771,7
+>Cerulean Quest        945,938,13
+
+*Npc
+>Leaf Stone     871,1051,6
+>Rock Stone   667,568,7
+>Venom Stone   1213,1059,7
+>Box 2 Police   529,1111,6
+>box 2 rocket   869,1024,7
+

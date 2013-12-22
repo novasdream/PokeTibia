@@ -1,0 +1,12 @@
+Name: Smeargle
+Type: normal
+Required level: 40
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash

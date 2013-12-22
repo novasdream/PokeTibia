@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Whitney Miltank" nameDescription="a Whitney Miltank" race="normal" experience="700" speed="280" manacost="600">
+  <health now="19800" max="19800"/>
+  <look type="582" head="20" body="30" legs="40" feet="50" corpse="0"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="quick attack" interval="4500" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="punch" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+    <attack name="stomp" interval="3500" chance="90" min="-40" max="-140">
+    </attack>
+    <attack name="rollout" interval="7000" chance="90" min="-198" max="-218">
+    </attack>
+    <attack name="mega punch" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+   <attack name="afro rest" interval="4500" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="destroyer hand" interval="4500" chance="90" min="-60" max="-90">
+    </attack>
+    <attack name="stomp tomb" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Miltank!"/>
+	</voices>
+	
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

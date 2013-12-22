@@ -1,0 +1,12 @@
+Name: Farfetch'd
+Type: Normal/Planta
+Required level: 45
+
+Evolutions:
+Farfetch'd, requires level 45
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

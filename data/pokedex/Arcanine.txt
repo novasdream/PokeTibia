@@ -1,0 +1,13 @@
+Name: Arcanine
+Type: fire
+Required level: 80
+
+Evolutions:
+Growlithe, requires level 25
+Arcanine, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Ride

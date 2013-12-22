@@ -1,0 +1,16 @@
+Name: Chinchou
+Type: water
+Required level: 15
+
+
+Evolutions:
+Chinchou, requires level 15
+Lanturn, requires level 75
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Surf/Nadar

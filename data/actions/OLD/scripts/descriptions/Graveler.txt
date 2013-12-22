@@ -1,0 +1,23 @@
+General:
+It's named Graveler (rock).
+Can be used at level 40.
+
+Status:
+It's base health is 3000.
+It gains 82 life/level.
+
+Evolutions:
+Golem (level 70 / 2 rock stones)
+
+Moves used:
+Rock Throw (rock) - m1 - level 40
+Sand Attack (ground) - m2 - level 40
+Rock Slide (rock) - m3 - level 40
+Harden (normal) - m4 - level 40
+Rock Tomb (rock) - m5 - level 42
+Falling Rocks (rock) - m6 - level 45
+Selfdestruct (normal) - m7 - level 43
+
+Habilities:
+Rock Smash (use order on smashable rocks)
+Dig (use order on diaggable holes)

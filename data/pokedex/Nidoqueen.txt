@@ -1,0 +1,15 @@
+Name: Nidoqueen
+Type: poison
+Required level: 65
+
+Evolutions:
+NidoranFE, requires level 10
+Nidorina, requires level 25
+Nidoqueen, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash

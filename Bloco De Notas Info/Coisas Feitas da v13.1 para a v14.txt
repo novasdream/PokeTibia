@@ -1,0 +1,620 @@
+SITE OFICIAL DO POKETIBIA ERONDINO SITE : http://tibiapoketibia-erondino.weebly.com
+
+1-Atualizado Sprites dos pokemons:
+>Arcanine
+>Blastoise
+>Charizard
+>Crobat
+>Donphan
+>Houndoon
+>Skarmory
+>Tyranitar
+>Venusaur
+>Nidoqueen
+>Nidoking
+>Elder Charizard
+>Shiny Arcanine
+>Shiny Blastoise
+>Shiny Tentacruel
+>Shiny Raichu
+>Shiny Venusaur
+>Butterfree
+>Electrode
+>Girafarig
+>Kingdra
+>Qwilfish
+>Shiny Butterfree
+>Shiny Electrode
+>Shiny Venomoth
+>Shiny Voltorb
+>Slowking
+>Sudowoodo
+>Voltorb
+>Hitmonlee
+>Electabuzz
+>Magmar
+>Shiny Electabuzz
+>Elite Hitmonlee
+>Umbreon
+>Hitmontop
+
+2-Poder selfdestruct tirando de acordo com a vida do pokemon e aumentando o dano de acordo com o lvl que o player poke e adiciona na vida do pokemon.
+
+
+3-Diminuido a força dos ataques do estilo do "poison gas" pois estava mt forte
+
+4-Bug da casa 132 concertada.
+
+5-Bug do hitmonlee quando ele estava de mass kick nao podia soltar outros ataques concertado.
+
+6-Tirado o bug das hunts sub aquatica que os players ficava perdendo 20 de life por segundo.
+
+7-Bugs do Surf concertado tinha umas aguas que nao dava para surfar :D
+
+8-Trocado o estilo de ataque dos poderes water sky e evasion kick pois estavam sem delay.
+
+9-Efeito de quando evluia concertado.
+
+10-Concertado escada mark de viridian ao descer ficava na parede
+
+11-Concertado bug que so podia atacar os pokemons de perto.
+
+12-Dado uma balançeada nos pokemons para poder começar fazer os selvagens.
+
+13-Adicionado ao loot dos pokemons selvagens o item Pacotinho que da uma cartinha aleatoria
+
+14-Aumentado força de muk e passado ele para lvl 80
+
+15-Novas sprites da corpse dos pokemons:
+>Aerodactyl
+>Arcanine
+>Blastoise
+>Charizard
+>Crobat
+>Donphan
+>Dragonair
+>Dragonite
+>Elder Charizard
+>Fearow
+>Houndoom
+>Ivysaur
+>Machamp
+>Ninetales
+>Pidgeot
+>Raichu
+>Shiny Arcanine
+>Shiny Blastoise
+>Shiny Pidgeot
+>Shiny Raichu
+>Shiny Tentacruel
+>Shiny Venusaur
+>Skarmory
+>Tentacruel
+>Venusaur
+>Voltorb
+>Electrode
+>Shiny Voltorb
+>Shiny Electrode
+>Sudowoodo
+>Kingdra
+>Slowking
+>Girafarig
+>Qwilfish
+>Magmar
+>Hitmonlee
+>Hitmontop
+>Shiny Electabuzz
+>Electabuzz
+
+16-Concertado move2 de voltorb e sunkern que tava sem delay
+
+17-Adicionado e configurado 40 shinys :
+1-Dark Abra              
+2-Shiny Arcanine           
+3-Shiny Beedrill        
+4-Shiny Blastoise          
+5-Shiny Butterfree      
+6-Elder Charizard           
+7-Shiny Dratini        
+8-Shiny Electabuzz          
+9-Shiny Electrode           
+10-Elite Farfetch        
+11-Shiny Gengar        
+12-Shiny Grimer       
+13-Shiny Growlithe      
+14-Red Gyarados        
+15-Elite Hitmonchan       
+16-Elite Hitmonlee       
+17-Shiny Horsea          
+18-Shiny Jynx           
+19-Shiny Kingler          
+20-Shiny Krabby          
+21-Shiny Magikarp        
+22-Shiny Muk          
+23-Shiny Oddish         
+24-Shiny Paras      
+25-Shiny Parasect       
+26-Shiny Raichu         
+27-Shiny Raticate     
+28-Shiny Rattata      
+29-Shiny Scyther        
+30-Shiny Seadra          
+31-Shiny Tentacool        
+32-Shiny Tentacruel     
+33-Shiny Venomoth       
+34-Shiny Venonat        
+35-Shiny Venusaur      
+36-Shiny Voltorb       
+37-Shiny Zubat       
+38-Crystal Onix    
+39-Shiny Big Magikarp
+40-Shiny Golbat    
+
+
+INFO:
+>3X MAIS LIFE INICIAL
+>2X MAIS CONS (LIFE GANHO POR LVL DO PLAYER)
+>2x MAIS ATAQUE
+>2X MAIS BONUS NO ATAQUE POR LVL.
+>DARK ABRA FOI FEITO PELAS INFO DO  ALAKAZAM  E GENGAR
+>LEECH SEED DOS SHINYS TIRA O DOBRO DE SEU LVL.
+
+OBS: Com isso alguns pokes shinys podem ter ficado mt forte ou mt fraco para a proxima versao irei balançea-los melhor :D
+
+18-Configurado e adicionado surf nos pokemons que faltava :
+>Blastoise   
+>Dewgong      
+>Goldeen    
+>Golduck        
+>Gyarados      
+>Kabutops    
+>Lapras     
+>Omastar     
+>Poliwag       
+>Poliwhirl      
+>Poliwrath    
+>Seadra       
+>Seaking      
+>Squirtle    
+>Snorlax      
+>Staryu       
+>Starmie         
+>Tentacool      
+>Tentacruel     
+>Vaporeon     
+>Wartortle    
+>Azumarill  
+>Croconaw   
+>Feraligatr  
+>Kingdra  
+>Mantine   
+>Octillery     
+>Quagsire   
+>Totodile  
+>Wooper    
+>Red Gyarados    
+>Shiny Blastoise        
+>Shiny Seadra    
+>Shiny Tentacool   
+>Shiny Tentacruel      
+
+19-Configurado e adicionado ride nos pokemons que faltava:
+>Arcanine   
+>Dodrio      
+>Doduo    
+>Onix      
+>Ninetales  
+>Ponyta      
+>Rapidash    
+>Rhyhorn     
+>Tauros    
+>Venusaur      
+>Bayleef 
+>Girafarig    
+>Houndoom      
+>Mareep    
+>Meganium   
+>Piloswine   
+>Stantler 
+>Steelix  
+>Crystal Onix      
+>Shiny Arcanine  
+>Shiny Venusaur  
+
+20-Configurado e adicionado fly nos pokemon que faltava:
+>Aerodactyl   
+>Articuno    
+>Charizard  
+>Dragonair     
+>Dragonite  
+>Farfethcd 
+>Fearow     
+>Gengar       
+>Mew    
+>Mewtwo        
+>Moltres    
+>Pidgeot 
+>Porygon     
+>Zapdos    
+>Crobat    
+>Heracross   
+>Noctowl         
+>Porygon2  
+>Skarmory     
+>Xatu      
+>Elder Charizard     
+>Elite farfecth     
+>Shiny Gengar       
+>Shiny Venomoth  
+
+21-Concertado bug de quando logava com o poke para fora da ball ele enchia seu life todo.
+
+22-Concertado ataque Flamethrower que nao estava tirando life.
+
+23-Configurado e adicionado dig nos pokemons que faltava :
+>Nidoranma
+>Nidoranfe                                                                    
+>Diglett                                                                      
+>Paras                                                                        
+>Krabby                                                                       
+>Ekans                                                                   
+>Geodude                                                                    
+>Sandshrew                                                                   
+>Eevee                                                                   
+>Raticate                                                                     
+>Growlithe                                                                  
+>Nidorina                                                                    
+>Rhyhorn                                                                      
+>Nidorino                                                             
+>Arbok                                                                        
+>Dugtrio                                                                      
+>Graveler                                                                     
+>Kingler                                                                      
+>Parasect                                                             
+>Onix                                                                    
+>Jolteon                                                                      
+>Vaporeon                                                                     
+>Flareon                                                                  
+>Nidoking                                                                     
+>Nidoqueen                                                                    
+>Golem                                                                        
+>Sandslash                                                                 
+>Rhydon                                                                       
+>Arcanine                  
+>Cyndaquil
+>Sentret
+>Wooper
+>Houndour
+>Phanpy
+>Larvitar
+>Quilava
+>Furret
+>Dunsparce
+>Aipom
+>Espeon
+>Umbreon
+>Quagsire
+>Forretress
+>Pupitar
+>Typhlosion
+>Sudowoodo
+>Steelix
+>Houndoom
+>Donphan
+>Tyranitar
+>Shiny Arcanine
+>Shiny Growlithe
+>Shiny Kingler
+>Shiny Krabby
+>Shiny Paras
+>Shiny Parasect
+>Shiny Raticate
+>Crystal Onix
+
+24-Configurado e adicionado Blink nos pokemons que faltava:
+>Abra
+>MrMime
+>Porygon
+>Kadabra
+>Jynx
+>Alakazam
+>Exeggutor
+>Natu
+>Smoochum
+>Espeon
+>Xatu
+>Slowking
+>Porygon2
+>Dark Abra
+>Shiny Jynx
+
+25-Configurado e adicionado rock smash nos pokemons que faltava :
+>Diglett
+>Geodude
+>Sandsherew
+>Machop
+>Cubone 
+>Rhyhorn
+>Dugtrio
+>Graveler
+>Machoke
+>Tauros
+>Onix
+>Primeape 
+>Marowak
+>Hitmonlee
+>Hitmonchan
+>Nidoking
+>Nidoqueen
+>Golem 
+>Sandslash
+>Rhydon
+>Kangaskhan
+>Electabuzz
+>Snorlax
+>Machamp
+>Wooper
+>Slugma
+>Swinub
+>Phanpy
+>Larvitar
+>Gligar
+>Shuckle
+>Tyrogue
+>Elekid
+>Corsola
+>Quagsire
+>Magcargo
+>Hitmontop
+>Pupitar
+>Typhlosion
+>Sudowoodo
+>Steelix
+>Scizor
+>Heracross
+>Ursaring
+>Piloswine
+>Donphan
+>Tyranitar
+>Shiny Electabuzz
+>Elite Hitmonchan
+>Elite Hitmonlee
+>Crystal Onix
+                       
+26-Configurado e adicionado cut nos pokemons que faltava :
+>Oddish
+>Paras
+>Krabby
+>Belssprout
+>Meowth 
+>Bulbasaur
+>Sandsherew
+>Kabuto
+>Cubone
+>Gloom
+>Weepinbell 
+>Persian
+>Ivysaur
+>Charmeleon
+>Kingler
+>Pinsir
+>Vileplume
+ >Parasect
+>Victreebel
+>Tangela
+>Marowak
+>Farfetchd
+>Sandslash 
+>Scyther
+>Kabutops
+>Venusaur
+>Charizard
+>Cyndaquil
+>Ledyba
+>Pineco
+>Teddiursa
+>Larvitar
+>Quilava
+>Ledian
+>Aipom
+>Sunflora
+>Gligar
+>Bellossom
+>Yanma
+>Sneasel
+>Pupitar
+>Meganium
+>Typhlosion
+>Sudowoodo
+>Scizor
+>Heracross
+>Ursaring
+>Mantine
+>Skarmory
+>Tyranitar
+>Elder Charizard
+>Elite Farfetchd
+>Shiny Kingler
+>Shiny Krabby
+>Shiny Oddish
+>Shiny Paras
+>Shiny Parasect
+>Shiny Scyther
+>Shiny Venusaur
+
+27-Passado cd de blink para 30 segundos.
+
+28-Concertado os ataques tipo "oath" do move8 que nao dava danos.
+
+29-Configurado magias dos pokemons agora as magias que nao precisam d target podem ser soltas sem estar atacando algum pokemon. (magias de area,heal etc..)
+
+30-Colocado lvl no ataque dos pokemons assim agr quando um player pegar um ditto nao vai poder usar as magias por exemplo do Magmar no lvl 1.
+
+31-Teleport configurado e adicionado nos pokemons que faltava
+>Abra
+>Kadabra
+>Alakazam
+>Drowzee
+>Hypno
+>Mrmime
+>Porygon
+>Exeggutor
+>Slowbro
+>Natu
+>Espeon
+>Xatu
+>Slowking
+>Girafarig
+>Porygon2
+>Dark Abra
+
+32-Adicionado nova abilidade "Dark Portal" (Igual da PXG)
+>Umbreon
+>Misdreavus
+
+33-Trocado magias do Aipom deichado ele mais "Normal" estava muito "Lutador" sendo ele um pokemon normal.
+
+34-Adicionado novos pokemons ao server : 
+>Mini Magikarp
+>Medio Magikarp
+>Big Magikarp
+>Shiny Big Magikarp
+>Mini Gyarados
+
+35-Configurado a rod inicial colocado novos pokemons para vim e agr esta mt facil de vim pokemon... sendo preciçao de cda uso de 99%
+1-Magikarp
+2-Krabby
+3-Poliwag
+4-Marill
+5-Remoraid
+6-Qwilfish
+7-Totodile
+8-Chinchou
+9-Lanturn
+10-Azumarill
+11-Seadra
+12-Seaking
+13-Kingler
+14-Octillery
+15-Dewgong
+16-Mantine
+17-Gyarados
+18-Tentacruel
+19-Wartortle
+20-Croconaw
+21-Mini Magikarp 
+22-Horsea
+23-Medio Magikarp
+24-Big Magikarp
+
+36-Colocado Mini Magikarp Para evoluir para Mini Gyarados
+
+37-Adicionado Evoluçao nos shinys :D
+
+38-Tirado loot de stone de pokes que nao deviam dar 
+>Teddiursa
+>Totodile
+
+39-Concertado algumas areas falhadas no mapa.
+
+40-Concertado magia Agillity que tava sem delay :D
+
+41-Concertado os 2 npcs do saffari que mandava para o lugar errado
+
+42-Concertado metronome ataque leaf que nao tirava dano.
+
+43-Passado para poder usa azumarill lvl 65 pois podia soltar lvl 60 e nao podia soltar as magias.
+
+44-Concertado pokes que tava sem delay
+>Kabutops m8
+>Ariados m6
+
+45-Quando snorlax estiver usando rest agora nao vai mais falar as magias ao tentar usa-las e quando tentar usar as magias vai apareçer um efeito durmindo.
+
+
+46-Acrescentado ataque restore em kadabra e trocado psychic de alakazam por restore.
+
+47-Arrumado area de c.o (Crystal Onix) que se fosse de surf o player bugava
+
+48-Passagem para sub aquatico entrada pela ponte concertada player em ride ou bike ou apé nao conseguiam passar.
+
+49-Bug das casas numero 109 e 110 concertado porta 2 andar nao dava para abrir.
+
+50-Concertado bug da master ball que dava para mover apenas 1 por 1 sendo que tinha 100.
+
+51-Colocado stones agrupaveis.
+
+52-Melhorado ditto
+>Agora ele fica com a msm configuraçao de ataque do pokemon que ele copio pois antes ele tinha um ataque fixo para tds pokemons.
+>Concertado bug de quando nao estava transformando ele ficava falando m2 m3 m4 m5 m6 m7 m8 m9 m10 m11 m12. agora todos esses ataques sao transform e obviamente o msm delay do m1... se usar no m1 o tempo para carregar nos outros moves vao ser msm coisa.
+
+53-Criado o comando !comandos para saber quais comandos existem no server.
+
+54-Mudança Hunts Do mapa
+>Hunt de smeargle trocada e posto Ursarings nela.
+>Criado uma ilha propria para os smeargles virgem :D
+>Colocado npc Henry no shopp de celadon.
+>Tirado Npc paint do shop de celadon. (precisando de ser reconfigurado)
+>Feito uma nova hunt de unowns (A a Z).
+
+55-Feito um novo smeargle por tms.
+>EXPLICAÇAO : Bom como tds sabem no pxg o smeargle vc tem que por ataques nele mas como é tenso fazer isso eu fiz um smeargle de outro jeito vo explicar melhor.
+>Tipo quando vc captura um smeargle ele vem como Smeargle Virgem... para vc por ataques nele vc tem que dropar Tm box deles msm.
+>Tm box? o que faço com isso? bom quando vc ganhar sua tm box vc vai dar use nela e automaticamente se vai ganhar um tm
+>Tm? iai? Bom quando da use na tm box vem uma tm aleatoria por enquanto existentes 5 tipos... vc pega a tm da use e taca no seu smeargle e assim o seu smeargle larga de ser virgem e recebe ataques :D ou seja ja tem 5 tipos de smeargle com 5 ataques diferentes no server...
+>Para vc ver quais ataques vem cda tm so vc digitar !tms
+
+56-Magias aperfeiçoada chances de acerto melhorado
+>Electric Storm
+>Magmar Storm
+>Blizzard
+>Ancient Storm
+>Falling Rocks
+>Egg Storm
+>Psy Storm
+>Pory Storm
+>Dark Storm
+>Shadow Storm
+>Wing Storm
+>Tempest
+>Great Love
+
+57-Configurado Npc Henry o npc que compra stones.
+
+58-Adicionado control mind nos pokemons.
+>Shiny Gengar
+>Shiny Tentacruel
+>Slowking
+
+59-Mechido no Mark agora todos items existentes dropados dos pokemons podem ser vendidos nele.
+
+60-Mechido nos pokemons
+>Octillery aperfeiçoado fortalecido ele (estava configurado para um pokemon de lvl 60 agr esta com configuraçao para um de lvl 70).
+>Drill Peck do pidgey enfraquecido tava muito exagerado.
+>Aperfeiçoado Dragonite deichado ele mais forte e no lugar de tri legend posto tempest.
+>Dado uma melhorada no Bellsprout
+>Tirado Bullet Seed de shiny venusaur e venusaur e posto leaf storm.
+
+61-Configurado as box1 box2 box3 box4
+>Esta de acordo com a pxg... so com algumas pequenas alteraçoes
+>Pokemons johtos foram adicionados.
+>Comandos !box1 !box2 !box3 !box4 adicionado para os players verem quais pokemons podem vim em cda box.
+
+62-Aumentado a força dos pokemons dos lideres de ginasios.
+
+63-Colocado uma database 100% resetada na pasta "bloco de notas uteis" para vc quando quiser resetar o server :D
+
+64-Adicionado no server 2 novas stones:
+>Ancient Stone
+>Metal Stone
+
+65-Atualizado as evoluçoes agora os pokemons evoluem igual pxg o que precisa na pxg precisa no server para evoluir cada pokemon menos o tyrogue que fiz um novo sistema.
+
+66-Novo sistema de evoluçao para o Tyrogue para poer evoluir para Hitmonchan,Hitmonlee,Hitmontop
+>Para evoluir para hitmontop precisa de 1 tyrogue + 5 hitmontop manchines
+>Para evoluir para hitmonlee precisa de 1 tyrogue + 5 hitmonlee manchines
+>Para evoluir para hitmonchan precisa de 1 tyrogue + 5 hitmonchan manchines
+>Para conseguir esses manchines é necessario dropar Hit Box
+>Hit box é um item que ao da use pode vim um dos manchines
+>Hit Box dropa de Machamp e Delibird.
+>Comando !tyrogue adicionado com essas informaçoes para os players saberem como evoluir.

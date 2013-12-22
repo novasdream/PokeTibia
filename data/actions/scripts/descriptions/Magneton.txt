@@ -1,0 +1,21 @@
+General:
+It's named Magneton (electric).
+Can be used at level 40.
+
+Status:
+It's base health is 1750.
+It gains 67 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Super Sonic (normal) - m1 - level 40
+Thundershock (electric) - m2 - level 40
+Thunder Wave (electric) - m3 - level 40
+Thunderbolt (electric) - m4 - level 40
+Sonicboom (normal) - m5 - level 41
+Zap Cannon (electric) - m6 - level 43
+
+Habilities:
+Flash (use order on pokemon)
