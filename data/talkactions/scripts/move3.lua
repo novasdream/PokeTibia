@@ -431,6 +431,8 @@ local toxice = createCombatArea{
 }
 
 local toxicw = createCombatArea{ 
+{2, 1, 1, 1, 1, 0}, 
+}
 
 function onSay(cid)
 	if #getCreatureSummons(cid) == 0 then
