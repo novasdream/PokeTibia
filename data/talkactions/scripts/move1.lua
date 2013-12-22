@@ -1,22 +1,254 @@
-dynpun1 = createCombatArea(pokeSpell.dynpun1)
-dynpun2 = createCombatArea(pokeSpell.dynpun2)
-dynpun3 = createCombatArea(pokeSpell.dynpun3)
-dynpun4 = createCombatArea(pokeSpell.dynpun4)
-dynpun5 = createCombatArea(pokeSpell.dynpun5)
-wg1n = createCombatArea(pokeSpell.wg1n)
-wg2n = createCombatArea(pokeSpell.wg2n)
-wg3n = createCombatArea(pokeSpell.wg3n)
-wg1s = createCombatArea(pokeSpell.wg1s)
-wg2s = createCombatArea(pokeSpell.wg2s)
-wg3s = createCombatArea(pokeSpell.wg3s)
-wg1e = createCombatArea(pokeSpell.wg1e)
-wg2e = createCombatArea(pokeSpell.wg2e)
-wg3e = createCombatArea(pokeSpell.wg3e)
-wg1w = createCombatArea(pokeSpell.wg1w)
-wg2w = createCombatArea(pokeSpell.wg2w)
-wg3w = createCombatArea(pokeSpell.wg3w)
-waterspout = createCombatArea(pokeSpell.waterspout)
-sand1 = createCombatArea(pokeSpell.sand1)
+
+-- HEALERA----
+local hl = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 2, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+---------------------------------------
+
+
+
+-- WATER GUN
+local wg1n = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 1, 0}, 
+}
+local wg2n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 1, 0}, 
+{0, 1, 0}, 
+{0, 1, 0}, 
+}
+local wg3n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 1, 0}, 
+}
+
+local wg1s = createCombatArea{
+{0, 1, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2s = createCombatArea{
+{0, 1, 0},
+{0, 1, 0},
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+local wg3s = createCombatArea{
+{0, 1, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+
+local tsn = createCombatArea{
+{0, 0, 0, 2, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 1, 1, 1, 1, 1, 0},  
+}
+
+local tss = createCombatArea{
+{0, 1, 1, 1, 1, 1, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 2, 0, 0, 0},  
+}
+
+local tse = createCombatArea{
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 1, 1, 0, 0},
+{0, 0, 0, 1, 1, 1, 2},
+{0, 0, 0, 1, 1, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},  
+}
+
+local tsw = createCombatArea{
+{0, 0, 0, 0, 0, 1, 0},
+{0, 0, 0, 0, 1, 1, 0},
+{0, 0, 2, 1, 1, 1, 0},
+{0, 0, 0, 0, 1, 1, 0},
+{0, 0, 0, 0, 0, 1, 0},  
+}
+
+local wg1e = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2e = createCombatArea{ 
+{1, 1, 1, 0, 2}, 
+}
+local wg3e = createCombatArea{ 
+{1, 0, 0, 0, 0, 2}, 
+}
+
+local wg1w = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 1}, 
+{0, 0, 0}, 
+}
+local wg2w = createCombatArea{ 
+{2, 0, 1, 1, 1}, 
+}
+local wg3w = createCombatArea{ 
+{2, 0, 0, 0, 0, 1}, 
+}
+-- WATER GUN END ------------------------------
+local dynpun1 = createCombatArea{
+{1, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+
+local dynpun2 = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 1}, 
+}
+
+
+local dynpun3 = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+
+
+local dynpun4 = createCombatArea{
+{0, 0, 1}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+
+
+local dynpun5 = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 1, 0}, 
+}
+
+local confusion = createCombatArea{
+	{0, 1, 1, 1, 0},
+	{1, 1, 1, 1, 1},
+	{1, 1, 2, 1, 1},
+	{1, 1, 1, 1, 1},
+	{0, 1, 1, 1, 0}
+}
+
+local psychic = createCombatArea{
+	{0, 0, 0, 1, 1, 1, 0, 0, 0},
+	{0, 0, 1, 1, 1, 1, 1, 0, 0},
+	{0, 1, 1, 1, 1, 1, 1, 1, 0},
+	{1, 1, 1, 1, 1, 1, 1, 1, 1},
+	{1, 1, 1, 1, 2, 1, 1, 1, 1},
+	{1, 1, 1, 1, 1, 1, 1, 1, 1},
+	{0, 1, 1, 1, 1, 1, 1, 1, 0},
+	{0, 0, 1, 1, 1, 1, 1, 0, 0},
+	{0, 0, 0, 1, 1, 1, 0, 0, 0}
+}
+
+local waterspout = createCombatArea{
+	{1, 1, 1, 1, 1},
+	{1, 1, 1, 1, 1},
+	{1, 1, 3, 1, 1},
+	{1, 1, 1, 1, 1},
+	{1, 1, 1, 1, 1}
+}
+-- SAND ATTACK
+local sa1n = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 1, 0}, 
+}
+local sa2n = createCombatArea{
+{0, 2, 0}, 
+{0, 0, 0}, 
+{0, 1, 0}, 
+}
+local sa3n = createCombatArea{
+{0, 2, 0}, 
+{0, 0, 0}, 
+{0, 0, 0},
+{0, 1, 0}, 
+}
+local sa4n = createCombatArea{
+{0, 2, 0}, 
+{0, 0, 0}, 
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 1, 0}, 
+}
+
+local sa1s = createCombatArea{
+{0, 1, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local sa2s = createCombatArea{
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+local sa3s = createCombatArea{
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 0, 0},
+{0, 2, 0}, 
+}
+local sa4s = createCombatArea{
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+
+local sa1w = createCombatArea{ 
+{2, 1, 0, 0, 0, 0}, 
+}
+local sa2w = createCombatArea{ 
+{2, 0, 1, 0, 0, 0}, 
+}
+local sa3w = createCombatArea{ 
+{2, 0, 0, 1, 0, 0}, 
+}
+local sa4w = createCombatArea{ 
+{2, 0, 0, 0, 1, 0}, 
+}
+
+local sa1e = createCombatArea{ 
+{0, 0, 0, 0, 1, 2}, 
+}
+local sa2e = createCombatArea{ 
+{0, 0, 0, 1, 0, 2}, 
+}
+local sa3e = createCombatArea{ 
+{0, 0, 1, 0, 0, 2}, 
+}
+local sa4e = createCombatArea{ 
+{0, 1, 0, 0, 0, 2}, 
+}
+-- SAND ATTACK END
 
 -- Boost sistem --
 boostrate = 1
