@@ -3,66 +3,421 @@ boostrate = 1
 
 
 
- confusion = createCombatArea(pokeSpell.confusion)
- waba = createCombatArea(pokeSpell.waba)
- scyther = createCombatArea(pokeSpell.scyther)
- swaven = createCombatArea(pokeSpell.swaven)
- swaves = createCombatArea(pokeSpell.swaves)
- rollout = createCombatArea(pokeSpell.rollout)
- hitmontop = createCombatArea(pokeSpell.hitmontop)
- swavee = createCombatArea(pokeSpell.swavee)
- swavew = createCombatArea(pokeSpell.swavew)
- charge = createCombatArea(pokeSpell.charge)
- tsn = createCombatArea(pokeSpell.tsn)
- tss = createCombatArea(pokeSpell.tss)
- tse = createCombatArea(pokeSpell.tse)
- tsw = createCombatArea(pokeSpell.tsw)
- iwn = createCombatArea(pokeSpell.iwn)
- iws = createCombatArea(pokeSpell.iws)
- iwe = createCombatArea(pokeSpell.iwe)
- iww = createCombatArea(pokeSpell.iww)
- bomb = createCombatArea(pokeSpell.bomb)
- thunder = createCombatArea(pokeSpell.thunder)
- gl1 = createCombatArea(pokeSpell.gl1)
- gl2 = createCombatArea(pokeSpell.gl2)
- destruct1 = createCombatArea(pokeSpell.destruct1)
- destruct2 = createCombatArea(pokeSpell.destruct2)
- destruct3 = createCombatArea(pokeSpell.destruct3)
- grassarea = createCombatArea(pokeSpell.grassarea)
- stomp = createCombatArea(pokeSpell.stomp)
- toxicn = createCombatArea(pokeSpell.toxicn)
- toxics = createCombatArea(pokeSpell.toxics)
- toxice = createCombatArea(pokeSpell.toxice)
- toxicw = createCombatArea(pokeSpell.toxicw)
- whirl3 = createCombatArea(pokeSpell.whirl3)
- whirl5 = createCombatArea(pokeSpell.whirl5)
- whirl32 = createCombatArea(pokeSpell.whirl32)
- whirl52 = createCombatArea(pokeSpell.whirl52)
- flamen = createCombatArea(pokeSpell.flamen)
- flames = createCombatArea(pokeSpell.flames)
- flamew = createCombatArea(pokeSpell.flamew)
- flamee = createCombatArea(pokeSpell.flamee)
- wg1n = createCombatArea(pokeSpell.wg1n)
- wg2n = createCombatArea(pokeSpell.wg2n)
- wg3n = createCombatArea(pokeSpell.wg3n)
- wg1s = createCombatArea(pokeSpell.wg1s)
- wg2s = createCombatArea(pokeSpell.wg2s)
- wg3s = createCombatArea(pokeSpell.wg3s)
- wg1e = createCombatArea(pokeSpell.wg1e)
- wg2e = createCombatArea(pokeSpell.wg2e)
- wg3e = createCombatArea(pokeSpell.wg3e)
- wg1w = createCombatArea(pokeSpell.wg1w)
- wg2w = createCombatArea(pokeSpell.wg2w)
- wg3w = createCombatArea(pokeSpell.wg3w)
- wingn = createCombatArea(pokeSpell.wingn)
- wings = createCombatArea(pokeSpell.wings)
- winge = createCombatArea(pokeSpell.winge)
- wingw = createCombatArea(pokeSpell.wingw)
- wingds = createCombatArea(pokeSpell.wingds)
- wingdn = createCombatArea(pokeSpell.wingdn)
- wingde = createCombatArea(pokeSpell.wingde)
- wingdw = createCombatArea(pokeSpell.wingdw)
+local confusion = createCombatArea{
+{0, 1, 1, 1, 0},
+{1, 1, 1, 1, 1},
+{1, 1, 2, 1, 1},
+{1, 1, 1, 1, 1},
+{0, 1, 1, 1, 0}
+}
 
+local waba = createCombatArea{
+{0, 1, 1, 1, 0},
+{1, 1, 1, 1, 1},
+{1, 1, 3, 1, 1},
+{1, 1, 1, 1, 1},
+{0, 1, 1, 1, 0}
+}
+
+local scyther = {lookType = 15}
+
+local swaven = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0},
+	{0, 0, 3, 0, 0},
+	{0, 0, 1, 0, 0},
+	{0, 0, 1, 0, 0}
+}
+
+local swaves = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0},
+	{0, 1, 2, 0, 0},
+	{0, 1, 0, 0, 0},
+	{0, 1, 0, 0, 0}
+}
+
+
+local rollout = createCombatArea{
+{1, 1, 1}, 
+{1, 2, 1}, 
+{1, 1, 1}, 
+}
+
+
+local hitmontop = {lookType = 668}
+
+
+
+local swavee = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0},
+	{0, 0, 2, 0, 0},
+	{1, 1, 1, 0, 0},
+	{0, 0, 0, 0, 0}
+}
+
+local swavew = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0},
+	{0, 0, 3, 1, 1},
+	{0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0}
+}
+
+local charge = createCombatArea{
+{1, 1, 1}, 
+{1, 2, 1}, 
+{1, 1, 1}, 
+}
+
+local tsn = createCombatArea{
+{0, 0, 0, 2, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},  
+{0, 1, 1, 1, 1, 1, 0},
+}
+local tss = createCombatArea{
+{0, 1, 1, 1, 1, 1, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 2, 0, 0, 0},  
+}
+local tse = createCombatArea{
+{0, 0, 1, 0, 0, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 1, 2},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 0},  
+}
+local tsw = createCombatArea{
+{0, 0, 0, 0, 0, 0, 1},
+{0, 0, 0, 0, 1, 1, 1},
+{0, 0, 2, 1, 1, 1, 1},
+{0, 0, 0, 0, 1, 1, 1},
+{0, 0, 0, 0, 0, 0, 1},  
+}
+
+local iwn = createCombatArea{
+{0, 0, 0, 2, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},  
+{0, 1, 0, 1, 0, 1, 0},
+}
+local iws = createCombatArea{
+{0, 1, 0, 1, 0, 1, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 2, 0, 0, 0},  
+}
+local iwe = createCombatArea{
+{0, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 1, 0, 0},
+{0, 0, 1, 1, 1, 1, 2},
+{0, 0, 0, 1, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 0},  
+}
+local iww = createCombatArea{
+{0, 0, 0, 0, 0, 0, 1},
+{0, 0, 0, 0, 1, 1, 0},
+{0, 0, 2, 1, 1, 1, 1},
+{0, 0, 0, 0, 1, 1, 0},
+{0, 0, 0, 0, 0, 0, 1},  
+}
+
+local bomb = createCombatArea{
+        {1, 1, 1}, 
+        {1, 3, 1}, 
+        {1, 1, 1}, 
+}
+
+local thunder = createCombatArea{
+{1, 0, 0, 1, 0, 0, 1},
+{0, 1, 0, 1, 0, 1, 0},
+{0, 0, 1, 1, 1, 0, 0},
+{1, 1, 1, 2, 1, 1, 1},
+{0, 0, 1, 1, 1, 0, 0}, 
+{0, 1, 0, 1, 0, 1, 0},
+{1, 0, 0, 1, 0, 0, 1}, 
+}
+
+local gl1 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0},
+{0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0},
+{0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 0, 1, 2, 0, 0, 0, 0, 0},
+{0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+{0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+local gl2 = createCombatArea{
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
+{0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 2, 1, 0, 1, 0, 0},
+{0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0},
+{0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0},
+{0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+
+local destruct1 = createCombatArea{
+	{0, 0, 1, 0, 0},
+	{0, 1, 1, 1, 0},
+	{1, 1, 3, 1, 1},
+	{0, 1, 1, 1, 0},
+	{0, 0, 1, 0, 0}
+}
+
+local destruct2 = createCombatArea{
+	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+	{0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0},
+	{0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+	{0, 0, 1, 0, 0, 3, 0, 0, 1, 0, 0},
+	{0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+	{0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0},
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+}
+
+local destruct3 = createCombatArea{
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+	{0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0},
+	{0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+	{0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0},
+	{1, 1, 0, 0, 0, 3, 0, 0, 0, 1, 1},
+	{0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0},
+	{0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0},
+	{0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0},
+	{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0}
+}
+local grassarea = createCombatArea{
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+	{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+	{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+	{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+	{0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+	{1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1},
+	{0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+	{0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0},
+	{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0},
+	{0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+	{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0}
+}
+
+local stomp = createCombatArea{
+        {1, 0, 1, 0, 1},
+	{0, 1, 1, 1, 0},
+	{1, 1, 2, 1, 1},
+	{0, 1, 1, 1, 0},
+	{1, 0, 1, 0, 1}
+}
+
+local toxicn = createCombatArea{
+{0, 2, 0}, 
+{0, 1, 0}, 
+{0, 1, 0},
+{0, 1, 0}, 
+{0, 1, 0}, 
+}
+
+local toxics = createCombatArea{
+{0, 1, 0}, 
+{0, 1, 0}, 
+{0, 1, 0},
+{0, 1, 0}, 
+{0, 2, 0}, 
+}
+
+local toxice = createCombatArea{ 
+{0, 1, 1, 1, 1, 2}, 
+}
+
+local toxicw = createCombatArea{ 
+{2, 1, 1, 1, 1, 0}, 
+}
+
+ sand1 = createCombatArea{
+{0, 0, 0}, 
+{0, 3, 0}, 
+{0, 0, 0}, 
+}
+
+local whirl3 = createCombatArea{
+{0, 0, 0}, 
+{1, 3, 1}, 
+{0, 0, 0}, 
+}
+
+local whirl5 = createCombatArea{
+{0, 0, 0, 0, 0}, 
+{1, 1, 3, 1, 1}, 
+{0, 0, 0, 0, 0}, 
+}
+
+local whirl32 = createCombatArea{
+{0, 0, 0}, 
+{1, 3, 1}, 
+{0, 0, 0}, 
+}
+
+local whirl52 = createCombatArea{
+{0, 0, 0, 0, 0}, 
+{1, 1, 3, 1, 1}, 
+{0, 0, 0, 0, 0}, 
+}
+
+local flamen = createCombatArea{
+	{0, 0, 2, 0, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 0, 0, 0, 0}
+}
+local flames = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 0, 2, 0, 0}
+}
+local flamew = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 1, 1, 1, 0},
+	{2, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 0, 0, 0, 0}
+}
+local flamee = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 2},
+	{0, 1, 1, 1, 0},
+	{0, 0, 0, 0, 0}
+}
+
+local wg1n = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{0, 1, 0}, 
+}
+local wg2n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 1, 0}, 
+{0, 1, 0}, 
+{0, 1, 0}, 
+}
+local wg3n = createCombatArea{
+{0, 2, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 1, 0}, 
+}
+local wg1s = createCombatArea{
+{0, 1, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2s = createCombatArea{
+{0, 1, 0},
+{0, 1, 0},
+{0, 1, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+local wg3s = createCombatArea{
+{0, 1, 0},
+{0, 0, 0},
+{0, 0, 0},
+{0, 0, 0}, 
+{0, 0, 0}, 
+{0, 2, 0}, 
+}
+local wg1e = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+local wg2e = createCombatArea{ 
+{1, 1, 1, 0, 2}, 
+}
+local wg3e = createCombatArea{ 
+{1, 0, 0, 0, 0, 2}, 
+}
+local wg1w = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 1}, 
+{0, 0, 0}, 
+}
+local wg2w = createCombatArea{ 
+{2, 0, 1, 1, 1}, 
+}
+local wg3w = createCombatArea{ 
+{2, 0, 0, 0, 0, 1}, 
+}
+
+-- WATER GUN END
+
+--WING ATTACK
+local wingn = createCombatArea{
+{0, 0, 0}, 
+{1, 2, 0}, 
+{0, 0, 0}, 
+}
+local wings = createCombatArea{
+{1, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local winge = createCombatArea{
+{1, 0, 0}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wingw = createCombatArea{
+{0, 2, 3}, 
+{0, 2, 2}, 
+{0, 0, 0}, 
+}
+local wingds = createCombatArea{
+{1, 1, 1}, 
+{0, 2, 0}, 
+{0, 0, 0}, 
+}
+local wingdn = createCombatArea{
+{0, 0, 0}, 
+{0, 2, 0}, 
+{1, 1, 1}, 
+}
+local wingde = createCombatArea{
+{1, 0, 0}, 
+{1, 2, 0}, 
+{1, 0, 0}, 
+}
+local wingdw = createCombatArea{
+{0, 0, 1}, 
+{0, 2, 1}, 
+{0, 0, 1}, 
+}
 
 function onSay(cid)
 	if #getCreatureSummons(cid) == 0 then
