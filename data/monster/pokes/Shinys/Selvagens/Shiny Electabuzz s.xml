@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Electabuzz" nameDescription="a shiny electabuzz" race="undead" experience="110" speed="340" manacost="0">
+	<health now="10500" max="10500"/>
+	<look type="497" corpse="143"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+  <attacks>
+    <attack name="melee" interval="1000" chance="68" min="-220" max="-360">
+    </attack>
+    <attack name="thundershock" interval="5000" chance="100" min="-400" max="-680">
+    </attack>
+    <attack name="thunder punch" interval="5000" chance="50" min="-600" max="-1480">
+    </attack>
+    <attack name="thunderbolt" range="4" interval="3000" chance="25" min="-1253" max="-1578">
+    </attack>
+<attack name="thunder wave" interval="5000" chance="100" min="-400" max="-680">
+    </attack>
+    <attack name="thunder" interval="5000" chance="50" min="-600" max="-1480">
+    </attack>
+<attack name="charge beam" interval="5000" chance="100" min="-400" max="-680">
+    </attack>
+    <attack name="electric storm" interval="5000" chance="50" min="-600" max="-1480">
+    </attack>
+ <attack name="thunder oath" interval="5000" chance="50" min="-600" max="-1480">
+    </attack>
+  </attacks>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Electaabuzz!"/>
+	   <voice sentence="buzz!"/>
+	</voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

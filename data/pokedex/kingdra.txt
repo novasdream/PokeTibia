@@ -1,0 +1,15 @@
+Name: Kingdra
+Type: water
+Required level: 90
+
+Evolutions:
+Horsea, requires level 10
+Seadra, requires level 45
+Kingdra, requires level 90
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Surf

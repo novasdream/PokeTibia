@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Muk" nameDescription="a shiny muk" race="undead" experience="110" speed="340" manacost="0">
+        <health now="7400" max="7400"/>
+	<look type="488" corpse="121"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="mud shot" range="5" interval="2100" chance="18" min="-40" max="-50">
+    </attack>
+  <attack name="acid" range="5" interval="3000" chance="21" min="-40" max="-55">
+    </attack>
+<attack name="sludge" range="5" interval="2900" chance="19" min="-50" max="-80">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="2600" chance="18" min="-50" max="-60">
+    </attack>
+    <attack name="gunk shot" range="5" interval="2600" chance="18" min="-50" max="-60">
+    </attack> 
+    <attack name="slime wave" range="3" interval="3700" chance="25" min="-200" max="-220">
+    </attack>
+    <attack name="gastro acid" range="5" interval="3000" chance="21" min="-90" max="-95">
+    </attack>
+  <attack name="harden" range="10" interval="1500" chance="80" /> 
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="MUK!"/>
+  </voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Skiploom" nameDescription="a Wild Skiploom" race="grass" experience="600" speed="220" manacost="600">
+  <health now="4000" max="4000"/>
+  <look type="605" head="20" body="30" legs="40" feet="50" corpse="11463"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-50" max="-55"/>
+    <attack name="razor leaf" interval="3000" range="5" chance="50" min="-290" max="-310"> </attack>
+   <attack name="leech seed" interval="4500" range="5" chance="50" min="-25" max="-25" > </attack>
+    <attack name="vine whip" interval="4500" range="3" chance="50" min="-330" max="-370"> </attack>
+    <attack name="plant carnivore" interval="13500" range="5" chance="100" min="-400" max="-460"> </attack>
+    <attack name="trepadera" interval="4500" range="5" chance="50" min="-340" max="-370"> </attack>
+    <attack name="mega drain" interval="15000" range="2" chance="100" min="-450" max="-470" > </attack>
+
+
+  </attacks>
+
+ 
+  <voices interval="5000" chance="10">
+    <voice sentence="Skiploom!"/>
+    <voice sentence="Skiiiplooom!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="25" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2276" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

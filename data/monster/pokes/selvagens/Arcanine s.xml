@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arcanine" nameDescription="a Wild Arcanine" race="fire" experience="950" speed="276" manacost="0">
+  <health now="18400" max="18400"/>
+  <look type="88" head="20" body="30" legs="40" feet="50" corpse="6031"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-75" max="-90"/>
+    <attack name="bite" interval="3000" range="1" chance="50" min="-1390" max="-1450">
+</attack>
+    <attack name="ember" interval="4500" range="5" chance="50" min="-1660" max="-1710">
+ </attack>
+    <attack name="fire fang" interval="4500" range="1" chance="50" min="-1450" max="-1500">
+ </attack>
+   <attack name="Fireball" interval="7500" chance="80" range="5" target="1" min="-1500" max="-1580">
+    </attack>
+   <attack name="flames" interval="10500" chance="80" range="5" target="1" min="-1500" max="-1550">
+    </attack>
+    <attack name="raging blast" interval="12000" range="5" chance="100" min="-1720" max="-1750">
+ </attack>
+    <attack name="fire blast" interval="15000" range="5" chance="100" min="-1770" max="-1800"> 
+</attack>
+    <attack name="wardog" interval="9000" range="1" chance="80" min="-1500" max="-1520"> 
+</attack>
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Arcaniine."/>
+    <voice sentence="Aarrr."/>
+  </voices>
+  <loot>
+	<item id="8866" countmax="80" chance="50000"/><!-- Essence of fire -->
+	<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava --> 
+	<item id="8868" countmax="1" chance="10000"/><!-- Nail -->
+      <item id="11998" countmax="1" chance="10000"/><!-- fur -->
+	<item id="2283" countmax="1" chance="1000"/><!-- Fire stone -->
+<item id="2285" chance="900"/><!-- crystal Stone -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+</monster>

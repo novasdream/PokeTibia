@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venusaur" nameDescription="a Venusaur" race="grass" experience="7000" speed="200" manacost="490">
+  <health now="8500" max="8500"/>
+  <look type="22" head="0" body="0" legs="0" feet="0" corpse="5962"/>
+
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="75"/>
+  </attacks>
+  
+  <defenses armor="15" defense="15"/>
+  
+  <immunities/>
+     <elements>
+		<element energyPercent="100"/>
+		<element earthPercent="-100"/>
+		<element firePercent="50"/>
+	</elements>
+	
+  <voices interval="5000" chance="10">
+    <voice sentence="Venusaur!"/>
+    <voice sentence="Saur."/>
+  </voices>
+
+  
+</monster>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="a Kingler" race="water" experience="2150" speed="210" manacost="0">
+  <health now="4000" max="4000"/>
+  <look type="245" corpse="6340"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="500"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" attack="80" skill="75"/>
+  </attacks>
+
+
+
+  <defenses armor="25" defense="30">
+  </defenses>
+    <elements>
+		<element energyPercent="20"/>
+		<element icePercent="10"/>
+		<element holyPercent="-25"/>
+		<element firePercent="25"/>
+	</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Kingler!"/>
+
+  </voices>
+</monster>

@@ -1,0 +1,13 @@
+Name: Swinub
+Type: ice
+Required level: 15
+
+Evolutions:
+Swinub, requires level 15
+Piloswine, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

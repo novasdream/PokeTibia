@@ -1,0 +1,10 @@
+Name: Sunflora
+Type: grass
+Required level: 40
+
+Evolutions:
+Sunkern, requires level 5
+Sunflora, requires level 40
+
+Ability:
+Cut

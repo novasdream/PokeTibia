@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blastoise" nameDescription="a Blastoise" race="water" experience="6200" speed="280" manacost="0">
+  <health now="8500" max="8500"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="5999"/>
+
+  <targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="10"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="60" attack="70"/>
+
+  </attacks>
+
+  <defenses armor="50" defense="50">
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="BLASTOISE!"/>
+		<voice sentence="TOISE!"/>
+	</voices>
+	<loot>
+	</loot>
+</monster>

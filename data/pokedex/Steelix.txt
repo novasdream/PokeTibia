@@ -1,0 +1,15 @@
+Name: Steelix
+Type: stone
+Required level: 100
+
+Evolutions:
+Onix, requires level 50
+Steelix, requires level 100
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash
+Ride

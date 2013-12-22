@@ -1,0 +1,12 @@
+Name: Stantler
+Type: normal
+Required level: 55
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+none

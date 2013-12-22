@@ -1,0 +1,156 @@
+[02/04/2013 15:56:33] /c teste
+[02/04/2013 15:56:41] /addskill teste,lvl,10
+[02/04/2013 15:56:56] /n nurse
+[02/04/2013 15:57:00] /addskill teste,lvl,10
+[02/04/2013 15:57:09] /m rattata s
+[02/04/2013 15:57:31] /c testing
+[02/04/2013 15:57:40] /addskill testing,lvl,40
+[02/04/2013 15:57:55] /m rattata s
+[02/04/2013 15:58:56] /m rattata s
+[02/04/2013 15:59:08] /addskill testing,lvl,40
+[02/04/2013 15:59:09] /addskill testing,lvl,40
+[02/04/2013 15:59:09] /addskill testing,lvl,40
+[02/04/2013 15:59:12] /m rattata s
+[02/04/2013 16:00:20] /n nurse
+[02/04/2013 16:00:25] /m rattata s
+[02/04/2013 16:00:43] /m rattata s
+[02/04/2013 16:00:43] /m rattata s
+[02/04/2013 16:02:39] /addskill Teste,lvl,200
+[02/04/2013 16:02:44] /m squirtle s
+[02/04/2013 16:05:13] /n nurse
+[02/04/2013 16:06:28] /m squirtle s
+[02/04/2013 16:07:02] /i leaf stone
+[02/04/2013 16:07:03] /i leaf stone
+[02/04/2013 16:07:05] /i venom stone
+[02/04/2013 16:07:36] /m blastoise s
+[02/04/2013 16:07:47] /m blastoise s
+[14/04/2013 11:38:47] /i 2955
+[14/04/2013 11:38:48] /i 2956
+[14/04/2013 11:38:50] /i 2957
+[14/04/2013 11:50:12] /i 141
+[14/04/2013 11:51:07] /i 5767
+[14/04/2013 11:51:24] /i 8767
+[14/04/2013 11:51:55] /i 2954
+[14/04/2013 11:52:40] /i 119
+[14/04/2013 11:53:39] /i 2954
+[14/04/2013 11:53:47] /i 119
+[14/04/2013 11:57:24] /i 8775
+[14/04/2013 11:57:27] /i 8775
+[14/04/2013 12:00:12] /i 144
+[14/04/2013 12:01:04] /shutdown
+[14/04/2013 12:10:04] /m Crystal Onix s
+[14/04/2013 12:10:12] /i master ball
+[14/04/2013 12:13:10] /i defeated shiny gengar
+[14/04/2013 12:21:43] /shutdown
+[14/04/2013 12:31:57] /m Crystal Onix s
+[14/04/2013 12:32:08] /addskill admin,lvl,100
+[14/04/2013 12:32:29] /addskill admin,lvl,100
+[14/04/2013 12:32:35] /n nurse
+[14/04/2013 12:33:08] /m dark abra s
+[14/04/2013 12:35:09] /shutdown
+[14/04/2013 12:36:38] /n nurse
+[14/04/2013 12:36:58] /m elder charizard s
+[14/04/2013 12:37:36] /m elite farfetchd s
+[14/04/2013 12:38:04] /m elite hitmonchan s
+[14/04/2013 12:38:17] /m red gyarados s
+[14/04/2013 12:38:37] /m shiny arcanine s
+[14/04/2013 12:39:10] /m arcanine
+[14/04/2013 12:39:13] /r
+[14/04/2013 12:39:16] /m shiny beedril s
+[14/04/2013 12:39:32] /i defeated shiny beedril
+[14/04/2013 12:40:13] /m shiny blastoise s
+[14/04/2013 12:41:00] /m shiny butterfree s
+[14/04/2013 12:41:28] /m shiny dratini s
+[14/04/2013 12:41:57] /m Shiny Electabuzz s
+[14/04/2013 12:42:22] /m shiny electrode s
+[14/04/2013 12:42:32] /m Shiny Gengar s
+[14/04/2013 12:43:23] /m shiny grimer s
+[14/04/2013 12:44:02] /m shiny growlithe s
+[14/04/2013 12:44:37] /m shiny horsea s
+[14/04/2013 12:44:58] /m shiny jynx s
+[14/04/2013 12:45:30] /m shiny kingler s
+[14/04/2013 12:45:40] /m shiny krabby s
+[14/04/2013 12:46:29] /m shiny magikarp s
+[14/04/2013 12:46:41] /m shiny muk s
+[14/04/2013 12:47:02] /m shiny oddish s
+[14/04/2013 12:47:03] /m paras s
+[14/04/2013 12:47:13] /m shiny paras s
+[14/04/2013 12:47:40] /m shiny parasect s
+[14/04/2013 12:47:42] /m raichu s
+[14/04/2013 12:47:47] /r
+[14/04/2013 12:47:54] /m shiny raichu s
+[14/04/2013 12:48:55] /m shiny raticate s
+[14/04/2013 12:49:00] /m shiny rattata s
+[14/04/2013 12:50:29] /m shiny scyther s
+[14/04/2013 12:50:32] /m shiny seadra s
+[14/04/2013 12:51:35] /m shiny tentacool s
+[14/04/2013 12:51:37] /m tentacruel s
+[14/04/2013 12:51:40] /r
+[14/04/2013 12:51:44] /m shiny tentacruel s
+[14/04/2013 12:52:44] /m shiny venomoth s
+[14/04/2013 12:52:46] /m shiny venonar s
+[14/04/2013 12:52:48] /m shiny venonat s
+[14/04/2013 12:54:58] /m shiny venusaur s
+[14/04/2013 12:55:00] /m voltorb s
+[14/04/2013 12:55:05] /m shiny voltorb s
+[14/04/2013 12:55:07] /r
+[14/04/2013 12:57:12] /m shiny zubat s
+[14/04/2013 13:04:26] /shutdown
+[14/04/2013 13:28:00] /i 2170
+[14/04/2013 13:28:03] /i 2171
+[14/04/2013 13:28:04] /i 2172
+[14/04/2013 13:28:16] /i 2173
+[14/04/2013 13:28:17] /i 2174
+[14/04/2013 13:28:19] /i 2175
+[14/04/2013 13:28:51] /shutdown
+[14/04/2013 16:07:48] /n nurse
+[14/04/2013 16:08:41] /n loottask1
+[14/04/2013 16:08:50] /n loot task1
+[14/04/2013 16:08:53] /i stone orb
+[14/04/2013 16:08:59] /i stone orb
+[14/04/2013 16:09:28] /r
+[14/04/2013 16:09:30] /n local keywordHandler = KeywordHandler:new() local npcHandler = NpcHandler:new(keywordHandler) NpcSystem.parseParameters(npcHandler) local talkState = {20} local focus = 0 local talk_start = 0 local target = 0 local following = false local attacking = 
+[14/04/2013 16:09:34] /n loot task 1
+[14/04/2013 16:09:35] /n loot task1
+[14/04/2013 16:09:46] /r
+[14/04/2013 16:10:30] /r
+[14/04/2013 16:10:33] /n loot task 1
+[14/04/2013 16:10:35] /n loot task1
+[14/04/2013 16:10:56] /r
+[14/04/2013 16:10:58] /n loot task1
+[14/04/2013 16:11:11] /r
+[14/04/2013 16:11:14] /n loot task1
+[14/04/2013 16:11:17] /r
+[14/04/2013 16:11:37] /n loot task1
+[14/04/2013 16:11:44] /i stone orb
+[14/04/2013 16:12:01] /r
+[14/04/2013 16:12:04] /n loot task1
+[14/04/2013 16:12:53] /r
+[14/04/2013 16:12:56] /n loot task1
+[14/04/2013 16:13:09] /r
+[14/04/2013 16:13:11] /n loot task1
+[14/04/2013 16:13:23] /r
+[14/04/2013 16:13:24] /n loot task1
+[14/04/2013 16:13:33] /i stone orb
+[14/04/2013 16:13:40] /i stone orb
+[14/04/2013 16:13:45] /i stone orb
+[21/04/2013 00:11:33] /m magmar
+[21/04/2013 00:12:31] /n nurse
+[21/04/2013 00:18:39] /m wartortle s
+[27/04/2013 12:12:01] /n nurse
+[27/04/2013 12:12:26] /i leaf stone
+[27/04/2013 12:37:26] /shutdown
+[27/04/2013 13:01:49] /i great ball
+[27/04/2013 13:01:52] /m magikarp
+[27/04/2013 13:02:17] /shutdown
+[27/04/2013 13:03:27] /attr action 1111
+[27/04/2013 13:05:07] /shutdown
+[27/04/2013 13:06:16] /attr action 2020
+[27/04/2013 13:06:25] /attr action 2019
+[27/04/2013 13:06:57] /reload movements
+[27/04/2013 13:08:14] /attr action 2020
+[27/04/2013 13:08:21] /town 2
+[27/04/2013 13:09:15] /shutdown
+[27/04/2013 13:10:20] /attr action 2020
+[06/05/2013 17:57:08] /shutdown
+[09/05/2013 15:31:44] /shutdown

@@ -1,0 +1,15 @@
+Name: Lugia
+Type: psychic
+Required level: 600
+
+Evolutions:
+none
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Teleport
+Light
+Blink
+Control minds

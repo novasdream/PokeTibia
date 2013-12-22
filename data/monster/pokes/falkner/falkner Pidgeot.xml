@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="falkner Pidgeot" nameDescription="a falkner Pidgeot" race="flying" experience="800" speed="280" manacost="0">
+  <health now="14000" max="14000"/>
+  <look type="80" head="20" body="30" legs="40" feet="50" corpse="6020"/>
+	<targetchange interval="10000" chance="10"/>
+	
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1700" min="-145" max="-170"/>
+    <attack name="quick attack" interval="2400" chance="15" min="-200" max="-215">
+    </attack>
+    <attack name="peck" range="1" interval="2700" chance="19" min="-230" max="-260">
+    </attack>
+    <attack name="whirlwind" interval="3000" chance="25" min="-270" max="-312">
+    </attack>
+ <attack name="drill peck" interval="3000" chance="25" min="-270" max="-312">
+    </attack>
+  <attack name="aeroblast" interval="3300" chance="18" min="-600" max="-650">
+    </attack>
+    <attack name="wing attack" interval="2800" chance="20" min="-420" max="-452">
+    </attack>
+    <attack name="windstorm" interval="2700" chance="16" min="-450" max="-500">
+    </attack>
+ <attack name="wing oath" interval="2800" chance="20" min="-420" max="-452">
+    </attack>
+ <attack name="roost" interval="2800" chance="20" min="-420" max="-452">
+    </attack>
+  </attacks>
+
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOT!"/>
+    <voice sentence="GEOT!"/>
+  </voices>
+ 
+<script>
+<event name="Exp"/>
+</script>
+</monster>

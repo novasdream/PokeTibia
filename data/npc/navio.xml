@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Navio" walkinterval="350000" floorchange="0" speed="0">
+	<health now="150" max="150"/>
+	<look typeex="4179" head="0" body="0" legs="0" feet="0"/>
+	<parameters>
+			<parameter key="talkradius" value="0"/>
+	</parameters>
+</npc>

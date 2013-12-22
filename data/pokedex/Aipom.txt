@@ -1,0 +1,14 @@
+Name: Aipom
+Type: fighting
+Required level: 35
+
+
+Evolutions:
+não possui
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento

@@ -1,0 +1,14 @@
+Name: Clefairy
+Type: normal
+Required level: 40
+
+Evolutions:
+Cleffa, requires level 20
+Clefairy, requires level 40
+Clefable, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

@@ -1,0 +1,20 @@
+General:
+It's named Weepinbell (grass).
+Can be used at level 18.
+
+Status:
+It's base health is 1100.
+It gains 49 life/level.
+
+Evolutions:
+Victreebel (level 50 / 2 leaf stones)
+
+Moves used:
+Slash (normal) - m1 - level 18
+Razor Leaf (grass) - m2 - level 18
+Acid (poison) - m3 - level 18
+Vine Whip (grass) - m4 - level 20
+Poison Bomb (poison) - m5 - level 23
+
+Habilities:
+Cut (use order on cuttable bushes)

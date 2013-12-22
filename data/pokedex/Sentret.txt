@@ -1,0 +1,15 @@
+Name: Sentret
+Type: normal
+Required level: 15
+
+Evolutions:
+Sentret, requires level 15
+Furret, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Endesivolvimento
+

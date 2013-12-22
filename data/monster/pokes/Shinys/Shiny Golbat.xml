@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Golbat" namedescription="a shiny golbat" race="poison" experience="1344" speed="188" manacost="250">
+  <health now="9000" max="9000"/>
+  <look type="334" head="20" body="30" legs="40" feet="50" corpse="12141"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="50"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1750" min="-152" max="-201"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLBAT!"/>
+    <voice sentence="BAAT!"/>
+  </voices>
+	<loot>
+	</loot>
+</monster>

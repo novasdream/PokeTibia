@@ -1,0 +1,14 @@
+Name: Ivysaur
+Type: grass
+Required level: 40
+
+Evolutions:
+Bulbasaur, requires level 20
+Ivysaur, requires level 40
+Venusaur, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

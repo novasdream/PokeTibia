@@ -1,0 +1,18 @@
+Name: Bayleef
+Type: grass
+Required level: 40
+
+
+Evolutions:
+Chikorita, requires level 20
+Bayleef, requires level 40
+Meganium, requires level 85
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut/Corta
+Ride/Monta

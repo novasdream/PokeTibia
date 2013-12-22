@@ -1,0 +1,21 @@
+General:
+It's named Poliwag (water).
+Can be used at level 5.
+Agressive behavior.
+
+Status:
+It's base health is 400.
+It gains 20 life/level.
+
+Evolutions:
+Poliwhirl (level 20 / 1 water stone)
+Poliwrath (level 65 / 1 water and 1 punch stone)
+
+Moves used:
+Doubleslap (normal) - m1 - level 5
+Bubbles (water) - m2 - level 6
+Aqua Tail (water) - m3 - level 8
+Water Gun (water) - m3 - level 13
+
+Habilities:
+Surf (walk on water)

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Staryu" nameDescription="a Wild Staryu" race="water" experience="260" speed="216" manacost="315">
+  <health now="1900" max="1900"/>
+  <look type="42" head="20" body="30" legs="40" feet="50" corpse="5987"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="swift" interval="3000" range="4" chance="50" min="-220" max="-240">
+    </attack>
+    <attack name="bubbles" interval="4500" range="1" chance="50" min="-240" max="-260">
+    </attack>
+    <attack name="thunder wave" interval="4500" range="5" chance="50" min="-235" max="-275">
+    </attack>
+    <attack name="Bubblebeam" interval="6000" range="5" chance="80" min="-225" max="-275">
+    </attack>
+    <attack name="water sky" interval="9000" range="5" chance="80" min="-295" max="-315">
+    </attack>
+    <attack name="restore" interval="12000" range="5" chance="100" min="+1175" max="+1175">
+    </attack>
+
+
+
+  </attacks>
+
+
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Starrl!"/>
+    <voice sentence="STARYUU!" yell="1"/>
+  </voices>
+	<loot>
+	<item id="6528" countmin="7" countmax="50" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12001" countmax="1" chance="7000"/> -- ruby
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

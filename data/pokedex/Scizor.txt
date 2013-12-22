@@ -1,0 +1,14 @@
+Name: Scizor
+Type: bug
+Required level: 100
+
+Evolutions:
+Scyther, requires level 80
+Scizor, requires level 100
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

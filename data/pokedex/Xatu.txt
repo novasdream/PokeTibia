@@ -1,0 +1,16 @@
+Name: Xatu
+Type: psychic
+Required level: 75
+
+
+Evolutions:
+Natu, requires level 20
+Xatu, requires level 75
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Teleport
+Light
+Blink

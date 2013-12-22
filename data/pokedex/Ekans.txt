@@ -1,0 +1,14 @@
+Name: Ekans
+Type: poison
+Required level: 15
+
+Evolutions:
+Ekans, requires level 15
+Arbok, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+
+Dig

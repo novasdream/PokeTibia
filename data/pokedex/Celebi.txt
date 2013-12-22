@@ -1,0 +1,15 @@
+Name: Celebi
+Type: Pshychic
+Required level: 400
+
+
+Evolutions:
+None
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Fly/Voar

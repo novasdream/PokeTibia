@@ -1,0 +1,15 @@
+Name: Elekid
+Type: electric
+Required level: 30
+
+Evolutions:
+Elekid, requires level 30
+Electabuzz, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Rock smash
+Light

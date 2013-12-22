@@ -1,0 +1,16 @@
+Name: Blissey
+Type: normal
+Required level: 100
+
+
+Evolutions:
+Chansey, requires level 60
+Blissey, requires level 100
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+None/Não possui

@@ -1,0 +1,15 @@
+Name: Geodude
+Type: stone
+Required level: 15
+
+Evolutions:
+Geodude, requires level 15
+Graveler, requires level 40
+Golem, requires level 70
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash

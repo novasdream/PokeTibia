@@ -1,0 +1,14 @@
+Name: Snubbul
+Type: normal
+Required level: 20
+
+Evolutions:
+Snubbul, requires level 20
+Granbbul, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig

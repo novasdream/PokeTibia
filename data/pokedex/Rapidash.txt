@@ -1,0 +1,13 @@
+Name: Rapidash
+Type: fire
+Required level: 50
+
+Evolutions:
+Ponyta, requires level 20
+Rapidash, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Ride

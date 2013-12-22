@@ -1,0 +1,20 @@
+General:
+It's named Magnemite (electric).
+Can be used at level 15.
+
+Status:
+It's base health is 450.
+It gains 27 life/level.
+
+Evolutions:
+Magneton (level 40 / 1 thunder stone)
+
+Moves used:
+Super Sonic (normal) - m1 - level 12
+Thundershock (electric) - m2 - level 12
+Thunder Wave (electric) - m3 - level 14
+Thunderbolt (electric) - m4 - level 17
+Sonicboom (normal) - m5 - level 20
+
+Habilities:
+Flash (use order on pokemon)

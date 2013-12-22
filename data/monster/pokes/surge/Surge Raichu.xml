@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="surge Raichu" nameDescription="a Raichu" race="undead" experience="2538" speed="300" manacost="310">
+  <health now="27000" max="27000"/>
+  <look type="50" head="20" body="30" legs="40" feet="50" corpse="5996"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-200" max="-220" />
+    <attack name="quick attack" interval="10000" chance="100" min="-2770" max="-2800">
+    </attack>
+  <attack name="thunder punch" range="4" interval="5000" chance="25" min="-3440" max="-3500" > </attack> 
+  <attack name="thunderbolt" range="4" interval="2000" chance="16" min="-1500" max="-1620" > </attack>
+  <attack name="thunder fang" range="4" interval="1800" chance="22" min="-3100" max="-3130" > </attack>
+  <attack name="mega punch" range="4" interval="3000" chance="25" min="-3170" max="-3200" > </attack>
+  <attack name="thunder" range="4" interval="3000" chance="25" min="-3150" max="-3160" > </attack>
+    <attack name="thunder oath" interval="7000" chance="100" min="-3270" max="-3300">
+    </attack>
+  <attack name="electric storm" interval="7000" chance="100" min="-3270" max="-3300">
+    </attack>
+
+
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Raiichu!"/>
+  </voices>
+	
+</monster>

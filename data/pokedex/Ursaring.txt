@@ -1,0 +1,13 @@
+Name: Ursaring
+Type: normal
+Required level: 80
+
+Evolutions:
+Teddiursa, requires level 30
+Ursaring, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

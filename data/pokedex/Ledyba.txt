@@ -1,0 +1,15 @@
+Name: Ledyba
+Type: bug
+Required level: 15
+
+Evolutions:
+Ledyba, requires level 15
+Ledian, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig
+Cut

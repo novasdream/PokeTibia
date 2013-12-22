@@ -1,0 +1,12 @@
+Name: Mew
+Type: Pshych
+Required level: 600
+
+Evolutions:
+None
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Fly

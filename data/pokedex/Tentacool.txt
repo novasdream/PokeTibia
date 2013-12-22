@@ -1,0 +1,15 @@
+Name: Tentacool
+Type: water
+Required level: 15
+
+Evolutions:
+Tentacool, requires level 15
+Tentacruel, requires level 80
+
+Description: Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips.
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

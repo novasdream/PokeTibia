@@ -1,0 +1,9 @@
+1-Pokemons selvagens nao estao configurados irei começar a configurar nessa versao v15 :D
+
+2-Pokedex nao esta configurada irei recrutar um membro para a equipe fazer ela.
+
+3-Debug ao abrir o corpse do Donphan e do Skarmory nao sabemos o motivo mas acreditamos que seja no .dat e .spr conseguiu concertar? mande para nos os devidos creditos sera colocado.
+
+4-Bom é isso de bugs que eu saiba mas deve ter outros por ai certo? se achar algum bug que nao seja um desses ai nem relacionado a pokemon selvagem pois vai ser refeitos poste no seguinte link : 
+
+http://tibiapoketibia-erondino.weebly.com/bugs.html

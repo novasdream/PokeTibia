@@ -1,0 +1,12 @@
+Name: Sneasel
+Type: ice
+Required level: 55
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

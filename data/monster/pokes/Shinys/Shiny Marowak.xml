@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Marowak" nameDescription="a Shiny Marowak" race="ground" experience="450" speed="200" manacost="445">
+  <health now="15000" max="15000"/>
+  <look type="360" head="0" body="0" legs="0" feet="0" corpse="6072"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+<attacks>
+    <attack name="melee" interval="2000" skill="23" attack="33"/>
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="MAROWAK!"/>
+   <voice sentence="WAAK"/>
+  </voices>
+</monster>

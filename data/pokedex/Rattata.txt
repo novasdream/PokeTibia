@@ -1,0 +1,13 @@
+Name: Rattata
+Type: normal
+Required level: 1
+
+Evolutions:
+Rattata, requires level 1
+Raticate, requires level 20
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

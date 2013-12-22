@@ -1,0 +1,15 @@
+Name: Jumpluff
+Type: grass
+Required level: 50
+
+Evolutions:
+Hoppip, requires level 5
+Skiploom, requires level 25
+Jumpluff, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

@@ -1,0 +1,16 @@
+Name: Azumarill
+Type: water
+Required level: 60
+
+Evolutions:
+Marill, requires level 20
+Azumarill, requires level 60
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Surf/Nadar
+

@@ -1,0 +1,13 @@
+Name: Umbreon
+Type: ghost
+Required level: 55
+
+Evolutions:
+Eevee, requires level 20
+Umbreon, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig

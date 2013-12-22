@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Koga Venomoth" nameDescription="a venomoth" race="undead" experience="110" speed="200" manacost="0">
+        <health now="20500" max="20500"/>
+	<look type="49" corpse="2925"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+
+  <attacks>
+  <attack name="melee" interval="2000" min="-150" max="-180" />
+  <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-2150" max="-2170" > </attack>
+  <attack name="super sonic" interval="5000" chance="35" range="5" target="1" > </attack>
+  <attack name="poison sting" range="1" interval="2200" chance="17" min="-2200" max="-2250" > </attack>
+  <attack name="confusion" interval="5200" chance="18" min="-2280" max="-2300"> </attack>
+  <attack name="psychic" interval="2500" chance="26" min="-2330" max="-2350" > </attack>
+  <attack name="psybeam" interval="2700" chance="17" range="10" target="1" min="-2250" max="-2270" > </attack>
+  <attack name="gastro acid" interval="3000" chance="17" range="10" target="1" min="-2350" max="-2370" > </attack>
+  </attacks>
+	
+</monster>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Misty Gyarados" nameDescription="a Gyarados" race="undead" experience="145" speed="200" manacost="0">
+  <health now="37000" max="37000"/>
+  <look type="117" head="20" body="30" legs="40" feet="50" corpse="6331"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="20"/>
+   <attack name="aqua tail" range="1" interval="2300" chance="18" min="-3235" max="-3260">
+    </attack>
+    <attack name="bubbles" range="5" interval="2200" chance="19" min="-4180" max="-4250">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-3250" max="-3360">
+    </attack>
+    <attack name="dragon breath" range="5" interval="2400" chance="17" min="-3405" max="-3410">
+    </attack>
+
+    <attack name="Bubble Blast" range="5" interval="2300" chance="18" min="-3190" max="-3230">
+    </attack>
+    <attack name="hydro cannon" range="5" interval="3700" chance="17" min="-3585" max="-3585">
+    </attack>
+  
+    <attack name="water oath" interval="2000" chance="25" min="-3505" max="-3520" > </attack>
+    <attack name="water bash" range="5" interval="2100" chance="18" min="-3065" max="-3050">    
+    </attack>
+    <attack name="hydropump" interval="4000" chance="18" min="-3555" max="-3570"> 
+    </attack>
+
+  </attacks>
+  
+
+</monster>

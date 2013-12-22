@@ -1,0 +1,13 @@
+Name: Eevee
+Type: normal
+Required level: 20
+
+Evolutions:
+Eevee, requires level 20
+Vaporeon, Jolteon or Flareon, Umbreon, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig

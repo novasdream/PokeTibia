@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tauros" nameDescription="a Wild Tauros" race="normal" experience="625" speed="280" manacost="490">
+  <health now="7650" max="7650"/>
+  <look type="93" head="0" body="0" legs="0" feet="0" corpse="6302"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-40" max="-80">
+    </attack>
+    <attack name="slamsh" interval="4500" range="1" chance="50" min="-545" max="-590">
+    </attack>
+    <attack name="headbutt" interval="3000" range="1" chance="50" min="-720" max="-750">
+    </attack>
+    <attack name="slamp" interval="4500" range="1" chance="50" min="-540" max="-620">
+    </attack>
+    <attack name="stomp" interval="9000" range="5" chance="80" min="-600" max="-620">
+    </attack>
+    <attack name="taur attack" interval="2100" range="4" chance="50" min="-655" max="-665">
+    </attack>
+    <attack name="hyper beam" interval="12000" range="5" chance="100" min="-665" max="-690">
+    </attack>
+    <attack name="afro rest" interval="12000" range="5" chance="100" min="+8460" max="+8460">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tauuros!"/>
+	</voices>
+	<loot>
+			<item id="11997" countmax="1" chance="8500"/>-- horn
+			<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2289" countmax="1" chance="800"/> -- heart stone
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

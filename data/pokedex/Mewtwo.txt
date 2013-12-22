@@ -1,0 +1,12 @@
+Name: Mewtwo
+Type: Pshych
+Required level: 700
+
+Evolutions:
+None
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Fly

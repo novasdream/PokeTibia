@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Venomoth" nameDescription="a shiny venomoth" race="undead" experience="110" speed="340" manacost="0">
+        <health now="8850" max="8850"/>
+	<look type="484" corpse="132"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+  <attack name="melee" interval="2000" min="-150" max="-180" />
+  <attack name="absorb" interval="3900" chance="50" range="1" target="1" min="-1800" max="-1840" >
+ </attack>
+  <attack name="super sonic" interval="4500" chance="50" range="5" target="1" > 
+</attack>
+  <attack name="poison sting" range="5" interval="4500" chance="50" min="-1900" max="-2000" > 
+</attack>
+  <attack name="confusion" interval="9000" range="5" chance="80" min="-2060" max="-2100" >
+ </attack>
+  <attack name="psychic" interval="9000" range="5" chance="80" min="-2160" max="-2200" >
+ </attack>
+  <attack name="psybeam" interval="7500" chance="80" range="5" target="1" min="-2000" max="-2040" > 
+</attack>
+  <attack name="gastro acid" interval="12000" chance="100" range="5" target="1" min="-2200" max="-2240" > 
+</attack>
+  </attacks>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

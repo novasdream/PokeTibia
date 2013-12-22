@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pikachu" nameDescription="a Wild Pikachu" race="electric" experience="400" speed="230" manacost="640">
+  <health now="6500" max="6500"/>
+  <look type="59" head="20" body="30" legs="40" feet="50" corpse="6001"/>
+<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-50" max="-80" />
+  <attack name="quick attack" range="1" interval="3000" chance="50" min="-460" max="-470" > </attack>
+  <attack name="thunder punch" range="1" interval="4500" chance="50" min="-650" max="-680" > </attack>
+  <attack name="thunderbolt" range="5" interval="4500" chance="50" min="-510" max="-550" > </attack>
+  <attack name="thunder fang" range="1" interval="5400" chance="80" min="-550" max="-580" > </attack>
+  <attack name="thunder" range="5" interval="12000" chance="100" min="-570" max="-600" > </attack>
+  <attack name="electric storm" range="5" interval="2400" chance="50" min="-620" max="-670" > </attack>
+  </attacks>
+
+  <defenses armor="20" defense="30"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Pikachu!"/>
+  </voices>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

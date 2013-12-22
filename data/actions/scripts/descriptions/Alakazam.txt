@@ -1,0 +1,27 @@
+General:
+It's named Alakazam (psychic).
+Can be used at level 80.
+
+Status:
+It's base health is 4000.
+It gains 94 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Psychic (psychic) - m1 - level 80
+Restore (healing) - m2 - level 80
+Psy Pulse (psychic) - m3 - level 80
+Psycho Shift (psychic) - m4 - level 80
+Calm Mind (psychic) - m5 - level 80
+Psy Beam (psychic) - m6 - level 80
+Reflect (psychic) - m7 - level 82
+Mind Blast (psychic) - m8 - level 84
+Future Sight (psychic) - m9 - level 82
+
+Habilities:
+Teleport (type either /h or h")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)
+Control Mind (use order on a wild pokemon)

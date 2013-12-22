@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furret" nameDescription="a Wild Furret" race="normal" experience="700" speed="520" manacost="600">
+  <health now="5750" max="5750"/>
+  <look type="557" head="20" body="30" legs="40" feet="50" corpse="11416"/>
+	<targetchange interval="5" chance="1000"/>
+<strategy attack="100" defense="0"/>
+	
+
+<attacks>		
+	<attack name="melee" interval="1550" min="-105" max="-150"/>
+<attack name="slash" interval="2100" chance="26" range="1" target="1" min="-120" max="-150">
+    </attack>
+   	<attack name="quick attack" interval="2400" chance="27" range="1" target="1" min="-120" max="-155">
+    </attack>
+   	
+   	<attack name="slamp" interval="2400" chance="19" range="1" target="1" min="-100" max="-180">
+    </attack>
+   	<attack name="headbutt" interval="1800" chance="16" range="1" target="1" min="-165" max="-185">
+    </attack>
+		<attack name="afro rest" interval="1800" chance="16" range="1" target="1" min="-165" max="-185">
+    </attack>
+	<attack name="rage" interval="4000" chance="35" range="10">
+    </attack>
+</attacks>	
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Furret!"/>
+    <voice sentence="Fuuh!"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="89000"/> -- nail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8853" countmax="1" chance="12100"/> -- bitten apple
+	<item id="2289" countmax="1" chance="1100"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

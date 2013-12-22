@@ -1,0 +1,14 @@
+Name: Slugma
+Type: fire
+Required level: 15
+
+Evolutions:
+Slugma, requires level 15
+Magcargo, requires level 60
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut

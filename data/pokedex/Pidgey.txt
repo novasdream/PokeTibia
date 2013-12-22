@@ -1,0 +1,14 @@
+Name: Pidgey
+Type: flying
+Required level: 5
+
+Evolutions:
+Pidgey, requires level 5
+Pidgeotto, requires level 20
+Pidgeot, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

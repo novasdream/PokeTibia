@@ -1,0 +1,14 @@
+Name: Horsea
+Type: water
+Required level: 10
+
+Evolutions:
+Horsea, requires level 10
+Seadra, requires level 45
+Kingdra, requires level 90
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

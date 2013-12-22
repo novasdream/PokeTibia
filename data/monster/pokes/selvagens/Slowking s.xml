@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slowking" nameDescription="a Slowking" race="undead" experience="5000" speed="220" manacost="600">
+  <health now="6000" max="6000"/>
+  <look type="606" head="20" body="30" legs="40" feet="50" corpse="11464"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+   <flags>
+  <flag summonable="1" /> 
+  <flag attackable="1" /> 
+  <flag hostile="1" /> 
+  <flag illusionable="1" /> 
+  <flag convinceable="1" /> 
+  <flag pushable="1" /> 
+  <flag canpushitems="1" /> 
+  <flag canpushcreatures="0" /> 
+  <flag targetdistance="1" /> 
+  <flag runonhealth="0" />
+  </flags>
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="17"/>
+	<attack name="confusion" interval="2500" chance="26" min="-162" max="-271">
+	</attack>
+    <attack name="water pulse" range="5" interval="2100" chance="18" min="-180" max="-305">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-250" max="-372">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-275" max="-380">
+    </attack>
+ <attack name="headbutt" interval="2000" chance="25" min="-235" max="-355" > </attack>
+  </attacks>
+
+
+
+
+  <defenses armor="6" defense="6"/>
+    <elements>
+  <element icePercent="-8"/>
+  <element holyPerent="10"/>
+  <element earthPercent="20"/>
+  <element deathPercent="-10"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="slow!"/>
+    <voice sentence="poke!"/>
+  </voices>
+  <loot>
+  <item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

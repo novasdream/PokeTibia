@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Jynx" nameDescription="a shiny jynx" race="undead" experience="110" speed="340" manacost="0">
+        <health now="11000" max="11000"/>
+	<look type="499" corpse="129"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+
+
+    <attack name="tackle" interval="1000" range="1" chance="50" min="-40" max="-130">
+    </attack>
+    <attack name="triple ice" interval="3000" range="1" chance="50" min="-2760" max="-2900">
+    </attack>
+    <attack name="ice beam" interval="4500" range="5" chance="50" min="-3820" max="-3880">
+    </attack>
+    <attack name="slash" interval="3900" range="1" chance="50" min="-3000" max="-3200">
+    </attack>
+    <attack name="iceball" interval="6000" range="5" chance="80" min="-3260" max="-3300">
+    </attack>
+  <attack name="great love" interval="12000" range="5" chance="100" min="-3480" max="-3520">
+    </attack>
+    <attack name="aurora beam" interval="9000" range="5" chance="80" min="-3480" max="-3520">
+    </attack>
+ <attack name="blizzard" interval="15000" range="5" chance="100" min="-3560" max="-3640">
+    </attack>
+    <attack name="ice oath" interval="10500" range="5" chance="80" min="-3360" max="-3400">
+    </attack>
+  </attacks>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Jyynx!"/>
+		<voice sentence="Jyynx!"/>
+	</voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

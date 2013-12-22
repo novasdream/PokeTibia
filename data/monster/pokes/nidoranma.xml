@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="nidoranma" nameDescription="a nidoranma" race="poison" experience="6000" speed="120" manacost="0">
+
+	<health now="1000" max="1000"/>
+
+	<look type="66" corpse="6015"/>
+
+	<targetchange interval="5000" chance="8"/>
+
+	<strategy attack="100" defense="0"/>
+
+	<flags>
+
+		<flag summonable="1"/>
+
+		<flag attackable="1"/>
+
+		<flag hostile="1"/>
+
+		<flag illusionable="0"/>
+
+		<flag convinceable="1"/>
+
+		<flag pushable="0"/>
+
+		<flag canpushitems="1"/>
+
+		<flag canpushcreatures="1"/>
+
+		<flag targetdistance="1"/>
+
+		<flag staticattack="95"/>
+
+		<flag runonhealth="0"/>
+
+	</flags>
+
+	<attacks>
+		<attack name="melee" interval="1700" min="-50" max="-120"/>
+	</attacks>
+
+	<defenses armor="0" defense="0">
+	</defenses>
+
+	<elements>
+	<element physicalPercent="10"/>
+
+	</elements>
+	<immunities>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nidoo!" yell="0"/>
+		<voice sentence="Niidoraan!" yell="0"/>
+		<voice sentence="Nii!" yell="0"/>
+	</voices>
+
+</monster>

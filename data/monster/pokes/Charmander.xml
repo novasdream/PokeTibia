@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charmander" nameDescription="a Charmander" race="fire" experience="547" speed="166" manacost="550">
+  <health now="1500" max="1500"/>
+  <look type="29" head="20" body="30" legs="40" feet="50" corpse="5983"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="97"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-40" max="-60"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="CHARMANDER!"/>
+    <voice sentence="CHAR!"/>
+    <voice sentence="MANDER!"/>
+  </voices>
+	<loot>
+	</loot>
+</monster>

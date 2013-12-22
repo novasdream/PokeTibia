@@ -1,0 +1,20 @@
+General:
+It's named Grimer (poison).
+Can be used at level 12.
+Agressive behavior.
+
+Status:
+It's base health is 600.
+It gains 30 life/level.
+
+Evolutions:
+Muk (level 30 / 1 venom stone)
+
+Moves used:
+Mud Shot (ground) - m1 - level 12
+Acid (poison) - m2 - level 12
+Sludge (poison) - m3 - level 14
+Poison Bomb (poison) - m4 - level 16
+
+Habilities:
+None.

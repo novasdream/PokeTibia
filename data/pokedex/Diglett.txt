@@ -1,0 +1,14 @@
+Name: Diglett
+Type: earth
+Required level: 10
+
+Evolutions:
+Diglett, requires level 10
+Dugtrio, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash

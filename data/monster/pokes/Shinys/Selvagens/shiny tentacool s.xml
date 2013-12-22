@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacool" nameDescription="a shiny tentacool" race="undead" experience="110" speed="340" manacost="0">
+        <health now="6000" max="6000"/>
+	<look type="502" corpse="122"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+<attacks>
+  <attack name="melee" interval="2000" min="-20" max="-40" poison="-3" /> 
+    <attack name="acid" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+   <attack name="bubbles" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+    <attack name="super sonic" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+   <attack name="Bubblebeam" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+   <attack name="water sky" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+   <attack name="poison sting" interval="3500" chance="1000" range="1" radius="1" target="1" min="-0" max="-390">
+    </attack>
+</attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentacool"/>
+    <voice sentence="cool"/>
+  </voices>
+	<loot>
+
+	</loot>
+</monster>

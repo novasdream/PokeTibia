@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Horsea" namedescription="a Wild Horsea" race="water" experience="110" speed="160" manacost="220">
+  <health now="1000" max="1000"/>
+  <look type="33" head="20" body="30" legs="40" feet="50" corpse="2973"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="mud shot" interval="3000" range="5" chance="50" min="-160" max="-170">
+    </attack>
+    <attack name="bubbles" interval="4500" range="5" chance="50" min="-190" max="-210">
+    </attack>
+    <attack name="water gun" interval="4500" range="5" chance="50" min="-170" max="-190">
+    </attack>
+    <attack name="water pulse" interval="5100" range="5" chance="80" min="-220" max="-240">
+    </attack>
+    <attack name="water sky" interval="4500" range="5" chance="50" min="-200" max="-225">
+    </attack>
+
+  </attacks>
+
+	<loot>
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+  <voices interval="5000" chance="10">
+    <voice sentence="Horsea!"/>
+    <voice sentence="Sea!"/>
+  </voices>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

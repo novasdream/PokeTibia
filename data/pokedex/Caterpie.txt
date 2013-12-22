@@ -1,0 +1,14 @@
+Name: Caterpie
+Type: bug
+Required level: 1
+
+Evolutions:
+Caterpie, requires level 1
+Metapod, requires level 15
+Butterfree, requires level 30
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

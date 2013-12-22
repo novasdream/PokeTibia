@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ariados" nameDescription="a Wild Ariados" race="bug" experience="850" speed="220" manacost="600">
+  <health now="5750" max="5750"/>
+  <look type="534" head="20" body="30" legs="40" feet="50" corpse="11394"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="90" defense="10"/>
+
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-200" max="-300" poison="-50" > 
+   </attack>
+  <attack name="string shot" interval="3000" chance="24" range="1" > 
+  </attack>
+  <attack name="bug bite" range="1" interval="2300" chance="30" min="-250" max="-350" >
+</attack>
+  <attack name="headbutt" range="1" interval="2200" chance="35" min="-300" max="-320" > 
+</attack>
+  <attack name="string wave" interval="3000" chance="24"  min="-300" max="-320" > 
+  </attack>
+<attack name="fear" interval="4000" chance="35" range="10">
+    </attack>
+  <attack name="psychic" range="1" interval="2200" chance="35" min="-300" max="-320" > 
+</attack>
+  <attack name="poison oath" range="1" interval="2000" chance="25" min="-480" max="-650" > 
+</attack>
+
+
+  </attacks>
+
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Ariados!" yell="1"/>
+    <voice sentence="Ariaaaados!!!!" yell="1"/>
+  </voices>
+	<loot>
+	<item id="8858" countmax="2" chance="59000"/> -- pot of moss bug
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8856" countmax="5" chance="100000"/> -- bootle of poison -->
+	<item id="2284" countmax="1" chance="1000"/> -- coccon stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

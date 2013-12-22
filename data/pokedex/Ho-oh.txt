@@ -1,0 +1,13 @@
+Name: Ho-oh
+Type: Fogo
+Required level: 800
+
+Evolutions:
+none
+
+
+Moves: 
+-/-
+
+Ability:
+Fly???????

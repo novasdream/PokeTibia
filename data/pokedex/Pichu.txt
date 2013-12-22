@@ -1,0 +1,14 @@
+Name: Pichu
+Type: electric
+Required level: 20
+
+Evolutions:
+Pichu, requires level 20
+Pikachu, requires level 40
+Raichu, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+
+	<config name="firstitems_config">
+<![CDATA[		config = {
+			storage = 30001,
+			items = {1987,1988, 2376, 2580, 2529, 1992}
+		}
+	]]>
+</config>
+	<event type="login" name="FirstItems" event="script">
+<![CDATA[
+
+		domodlib('firstitems_config')
+
+		function onLogin(cid)
+
+			if(getPlayerStorageValue(cid, config.storage) > 0) then
+			return true
+		end
+
+		for _, id in ipairs(config.items) do
+				doPlayerAddItem(cid, id, 1)
+		end
+
+		if(getPlayerSex(cid) == PLAYERSEX_FEMALE) then
+				doPlayerAddItem(cid, 2550, 1)
+		else
+				doPlayerAddItem(cid, 2550, 1)
+		end
+		
+			
+			
+			local bag = getPlayerItemById(cid, false, 1988).uid
+doAddContainerItem(bag, 12165, 1)
+doAddContainerItem(bag, 12166, 1)
+doAddContainerItem(bag, 12167, 1)
+doAddContainerItem(bag, 12168, 1)
+doAddContainerItem(bag, 12169, 1)
+doAddContainerItem(bag, 12164, 1)
+doAddContainerItem(bag, 12163, 1)
+doAddContainerItem(bag, 12170, 1)
+                         doAddContainerItem(bag, 12174, 1)
+			doAddContainerItem(bag, 217, 1)
+			doAddContainerItem(bag, 216, 1)
+			doAddContainerItem(bag, 215, 1)
+			doAddContainerItem(bag, 214, 1)
+			doAddContainerItem(bag, 213, 1)
+			doAddContainerItem(bag, 212, 1)
+			doAddContainerItem(bag, 211, 1)
+			doAddContainerItem(bag, 210, 1)
+                      doAddContainerItem(bag, 12173, 1)
+
+local bag = getPlayerItemById(cid, false, 1992).uid
+  doAddContainerItem(bag, 12159, 4)
+ doAddContainerItem(bag, 12161, 1)
+			setPlayerStorageValue(cid, config.storage, 1)
+
+
+
+
+			return true
+		end
+	]]></event>
+</mod>

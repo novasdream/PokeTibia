@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Murkrow" nameDescription="a Wild Murkrow" race="flying" experience="600" speed="280" manacost="600">
+  <health now="9050" max="9050"/>
+  <look type="584" head="20" body="30" legs="40" feet="50" corpse="11443"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="tornado" interval="1700" chance="16" min="-450" max="-500">
+   	</attack>
+	<attack name="psy pulse" interval="1700" chance="22" min="-174" max="-208"> </attack>
+	<attack name="confusion" interval="1500" chance="26" min="-162" max="-171">
+	</attack>
+	<attack name="psycho shift" interval="1500" chance="22" min="-212" max="-321">
+	</attack>
+	<attack name="restore" interval="4200" chance="41" min="200" max="350">
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="Murkroww!"/>
+    <voice sentence="Krowwww!"/>
+  </voices>
+ <loot>
+<item id="2694" countmax="19" chance="65000"/> -- straw
+<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

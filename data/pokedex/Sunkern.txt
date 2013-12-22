@@ -1,0 +1,13 @@
+Name: Sunkern
+Type: grass
+Required level: 5
+
+Evolutions:
+Sunkern, requires level 5
+Sunflora, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

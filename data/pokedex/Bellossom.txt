@@ -1,0 +1,17 @@
+Name: Belossom
+Type: grass
+Required level: 50
+
+Evolutions:
+Oddish, requires level 5
+Gloom, requires level 18
+Vileplume, requires level 50
+Bellossom, requires level 50
+
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Cut/Corta

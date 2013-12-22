@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tyranitar" nameDescription="a fucking wild tyranitar" race="rock" experience="2500" speed="200" manacost="0">
+  <health now="16000" max="16000"/>
+  <look type="626" head="20" body="30" legs="40" feet="50" corpse="11483"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-300" max="-405"/>
+    <attack name="rock throw" interval="2400" chance="19" min="-590" max="-705">
+    </attack>
+    <attack name="rock tomb" interval="2800" range="1" chance="20" min="-532" max="-750">
+    </attack>
+    <attack name="sand attack" interval="2150" range="1" chance="17" min="-147" max="-255">
+    </attack>
+    <attack name="harden" interval="5500" range="1" chance="70"></attack>
+    <attack name="rock slide" interval="3300" range="10" chance="21" min="-456" max="-672">
+    </attack>
+    <attack name="earthshock" interval="2600" range="1" chance="15" min="-740" max="-972">
+    </attack>
+    <attack name="divine caldera" interval="5000" chance="30" min="-110" max="-700">    </attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="TYRANITAR!"/>
+    <voice sentence="NITAAAAAAAR!"/>
+    <voice sentence="TYRAAAAAN!"/>
+  </voices>
+	<loot>
+	<item id="8864" countmax="6" chance="24000"/> -- stone orb
+	<item id="1294" countmax="100" chance="72000"/> -- small stone
+	<item id="2280" countmax="1" chance="2500"/> -- rock stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

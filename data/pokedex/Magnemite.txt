@@ -1,0 +1,13 @@
+Name: Magnemite
+Type: electric
+Required level: 15
+
+Evolutions:
+Magnemite, requires level 15
+Magneton, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

@@ -1,0 +1,13 @@
+Name: Corsola
+Type: water
+Required level: 50
+
+Evolutions:
+none
+
+Moves/ataques:
+construção
+
+Ability:
+Dig
+Surf

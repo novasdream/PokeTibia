@@ -1,0 +1,24 @@
+General:
+It's named Sandslash (ground).
+Can be used at level 55.
+
+Status:
+It's base health is 3400.
+It gains 96 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Slash (normal) - m1 - level 55
+Sand Attack (ground) - m2 - level 55
+Mud Shot (ground) - m3 - level 55
+Rollout (ground) - m4 - level 57
+Mud Bomb (ground) - m5 - level 55
+Earthshock (ground) - m6 - level 56
+Shockwave (ground) - m7 - level 59
+
+Habilities:
+Dig (use order on diggable holes)
+Cut (use order on cuttable bushes)
+Rock Smash (use order on smashable rocks)

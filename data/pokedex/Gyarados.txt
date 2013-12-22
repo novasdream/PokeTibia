@@ -1,0 +1,13 @@
+Name: Gyarados
+Type: water
+Required level: 85
+
+Evolutions:
+Magikarp, requires level 5
+Gyarados, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

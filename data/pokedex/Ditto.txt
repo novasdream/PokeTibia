@@ -1,0 +1,12 @@
+Name: Ditto
+Type: normal
+Required level: 40
+
+Evolutions:
+Ditto, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Transform

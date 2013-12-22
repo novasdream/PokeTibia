@@ -1,0 +1,15 @@
+Name: Oddish
+Type: grass
+Required level: 5
+
+Evolutions:
+Oddish, requires level 5
+Gloom, requires level 25
+Vileplume, requires level 50
+Bellossom, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Piloswine" nameDescription="a Wild Piloswine" race="ice" experience="900" speed="220" manacost="600">
+  <health now="18300" max="18300"/>
+  <look type="590" head="20" body="30" legs="40" feet="50" corpse="11449"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-140" max="-180">
+    </attack>
+    <attack name="headbutt" interval="3000" range="1" chance="50" min="-820" max="-830">
+    </attack>
+   <attack name="ice beam" interval="4500" range="5" chance="50" min="-1290" max="-1320">
+    </attack>
+    <attack name="ice wave" interval="4500" range="5" chance="50" min="-895" max="-905">
+    </attack>
+    <attack name="earthshock" interval="12000" range="1" chance="100" min="-970" max="-990">
+    </attack>
+ <attack name="icywind" interval="7500" range="5" chance="80" min="-970" max="-1000">
+    </attack>
+    <attack name="aurora beam" interval="9000" range="5" chance="80" min="-970" max="-980">
+    </attack>
+    <attack name="blizzard" interval="15000" range="5" chance="100" min="-1125" max="-1145">
+    </attack>
+    <attack name="ice oath" interval="12000" range="5" chance="100" min="-1060" max="-1080">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Oiiiiiki!"/>
+	</voices>
+	<loot>
+	<item id="12045" countmax="1" chance="8500"/>-- ice orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="11998" countmax="1" chance="10300"/> -- fur
+	<item id="2290" countmax="1" chance="1000"/> -- ice stone
+	<item id="2287" countmax="1" chance="1600"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

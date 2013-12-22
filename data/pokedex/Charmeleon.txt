@@ -1,0 +1,14 @@
+Name: Charmeleon
+Type: fire
+Required level: 40
+
+Evolutions:
+Charmander, requires level 20
+Charmeleon, requires level 40
+Charizard, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

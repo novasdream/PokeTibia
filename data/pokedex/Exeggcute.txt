@@ -1,0 +1,13 @@
+Name: Exeggcute
+Type: grass
+Required level: 10
+
+Evolutions:
+Exeggcute, requires level 10
+Exeggutor, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

@@ -1,0 +1,13 @@
+Name: Remoraid
+Type: water
+Required level: 10
+
+Evolutions:
+Remoraid, requires level 10
+Octillery, requires level 70
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

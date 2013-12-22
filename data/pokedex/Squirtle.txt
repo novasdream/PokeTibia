@@ -1,0 +1,14 @@
+Name: Squirtle
+Type: water
+Required level: 20
+
+Evolutions:
+Squirtle, requires level 20
+Wartortle, requires level 40
+Blastoise, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

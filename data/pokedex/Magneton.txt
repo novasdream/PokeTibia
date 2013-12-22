@@ -1,0 +1,13 @@
+Name: Magneton
+Type: electric
+Required level: 40
+
+Evolutions:
+Magnemite, requires level 15
+Magneton, requires level 40
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

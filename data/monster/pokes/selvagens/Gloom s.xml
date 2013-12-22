@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gloom" nameDescription="a wild Gloom" race="grass" experience="375" speed="200" manacost="220">
+  <health now="3250" max="3250"/>
+  <look type="74" head="20" body="30" legs="40" feet="50" corpse="6017"/>
+	<targetchange interval="1005" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" chance="100" min="-65" max="-90"/>
+    <attack name="absorb" range="1" interval="3900" chance="50" min="-305" max="-325">
+    </attack>
+  <attack name="acid" range="5" interval="4500" chance="50" min="-370" max="-390">
+    </attack>
+    <attack name="leech seed" range="5" interval="4500" chance="50" min="-25" max="-25">
+    </attack>
+ <attack name="plant carnivore" range="4" interval="9000" chance="80" min="-380" max="-410">
+    </attack>
+  
+    <attack name="poison gas" range="5" interval="13500" chance="100" min="-145" max="-155">
+    </attack>
+    <attack name="poison sting" range="1" interval="7500" chance="80" min="-230" max="-250">
+    </attack>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="GLOOM!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="71" chance="78000"/> -- seeds
+<item id="8851" countmax="3" chance="28000"/> -- leaves
+	<item id="8852" countmax="1" chance="24000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="400"/> -- leaf stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

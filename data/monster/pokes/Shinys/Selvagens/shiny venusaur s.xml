@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venusaur" nameDescription="a shiny venusaur" race="undead" experience="50" speed="190" manacost="360">
+        <health now="100200" max="102000"/>
+	<look type="496" corpse="135"/>
+        <targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+ <attacks>
+
+    <attack name="melee" interval="1700" min="-105" max="-145"/>
+    <attack name="quick attack" interval="2300" chance="22" min="-375" max="-600">
+    </attack>
+    <attack name="leech seed" range="3" interval="4000" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="vine whip" interval="2700" chance="30" min="-480" max="-660">
+    </attack>
+    <attack name="headbutt" interval="2100" range="1" chance="25" min="-140" max="-160">
+    </attack>
+    <attack name="trepadera" interval="2400" range="6" chance="25" min="-180" max="-210">
+    </attack>
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-1490" max="-1500">
+    </attack>
+    <attack name="trepar wave" interval="3000" range="1" chance="22" min="-350" max="-480">
+    </attack>
+    <attack name="solar beam" range="3" interval="4500" chance="20" min="-1800" max="-2200">
+    </attack>
+    <attack name="giant absorb" range="3" interval="4500" chance="20" min="-1800" max="-2200">
+    </attack>
+
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Saur!"/>
+    <voice sentence="VENUSAUR!!"/>
+  </voices>
+ <loot>
+
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>
+

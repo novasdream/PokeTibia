@@ -1,0 +1,12 @@
+Name: Raikou
+Type: Eletrico
+Required level: 270
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Light

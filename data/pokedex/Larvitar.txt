@@ -1,0 +1,16 @@
+Name: Larvitar
+Type: stone
+Required level: 20
+
+Evolutions:
+Larvitar, requires level 20
+Pupitar, requires level 65
+Tyranitar, requires level 90
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Dig
+Rock smash

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Celebi" nameDescription="a Wild Celebi" race="psychic" experience="12000" speed="720" manacost="600">
+  <health now="30000" max="30000"/>
+  <look type="539" head="20" body="30" legs="40" feet="50" corpse="11399"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+ <attacks>
+
+    <attack name="melee" interval="1700" min="-105" max="-445"/>
+    <attack name="razor leaf" interval="2300" chance="22" min="-375" max="-800">
+    </attack>
+    <attack name="vine whip" interval="2700" chance="30" min="-480" max="-860">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="25" min="-140" max="-360">
+    </attack>
+    <attack name="acid" interval="2400" range="6" chance="25" min="-180" max="-410">
+    </attack>
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-2490" max="-2500">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-450" max="-780">
+    </attack>
+
+    <attack name="psy pulse" interval="3500" chance="90" min="-350" max="-1200">
+    </attack>
+    <attack name="ice wav" interval="3500" chance="90" min="-350" max="-1900">
+    </attack>
+    <attack name="solar beam" range="3" interval="4500" chance="20" min="-1800" max="-3200">
+    </attack>
+ </attacks>
+<defenses armor="30" defense="35"/>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Celebi!"/>
+    <voice sentence="Sssss.!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="100" chance="59000"/> -- seeds
+	<item id="8851" countmax="5" chance="21000"/> -- leaves
+	<item id="8852" countmax="3" chance="14000"/> -- bag of polem
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2276" countmax="1" chance="1200"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>
+

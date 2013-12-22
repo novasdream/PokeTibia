@@ -1,0 +1,12 @@
+Name: Unown a
+Type: psychic
+Required level: 60
+
+Evolutions:
+none
+
+Abilitys/Habilidades
+Teleport/Teleport
+Light/Luz
+Blink
+Control minds/Controle mental

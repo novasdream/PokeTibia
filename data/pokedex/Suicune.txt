@@ -1,0 +1,13 @@
+Name: Suicune
+Type: ice
+Required level: 270
+
+Evolutions:
+none
+
+
+Moves: 
+-/-
+
+Ability:
+Fly????

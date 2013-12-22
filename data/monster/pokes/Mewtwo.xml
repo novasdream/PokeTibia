@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mewtwo" nameDescription="a Mewtwo" race="psychic" experience="700" speed="500" manacost="0">
+  <health now="550000" max="550000"/>
+  <look type="34" head="20" body="30" legs="40" feet="50" corpse="5973"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="50"/>
+
+
+  </attacks>
+
+
+  <defenses armor="25" defense="25">
+  </defenses>
+
+
+  <immunities>
+    <immunity fire="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <elements>
+	<element earthPercent="80"/>
+	<element energyPercent="20"/>
+	<element icePercent="10"/>
+  </elements>
+  <voices interval="5000" chance="10">
+    <voice sentence="Mewtwoo!!!" yell="1"/>
+  </voices>
+</monster>

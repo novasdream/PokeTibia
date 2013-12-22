@@ -1,0 +1,14 @@
+Name: Noctowl
+Type: flying
+Required level: 65
+
+Evolutions:
+Hoothoot, requires level 20
+Noctowl, requires level 65
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Fly

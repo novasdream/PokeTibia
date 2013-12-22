@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Smoochum" nameDescription="a Wild Smoochum" race="ice" experience="400" speed="220" manacost="600">
+  <health now="5100" max="5100"/>
+  <look type="609" head="20" body="30" legs="40" feet="50" corpse="11467"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+ 
+  <attacks>
+
+
+    <attack name="melee" interval="1000" chance="50" min="-40" max="-130">
+    </attack>
+  <attack name="quick attack" interval="3000" range="1" chance="50" min="-330" max="-350">
+    </attack>
+    <attack name="ice beam" interval="4500" range="5" chance="50" min="-480" max="-530">
+    </attack>
+    <attack name="ice shard" interval="4500" range="5" chance="50" min="-380" max="-430">
+    </attack>
+    <attack name="iceball" interval="6000" range="5" chance="80" min="-370" max="-390">
+    </attack>
+    <attack name="great love" interval="15000" range="5" chance="100" min="-460" max="-520">
+    </attack>
+
+    <attack name="blizzard" interval="18000" range="5" chance="100" min="-460" max="-480">
+    </attack>
+  </attacks>
+
+  	<voices interval="2000" chance="10">
+		<voice sentence="Smoochuuum!"/>
+		<voice sentence="Smoooo!"/>
+	</voices>
+	<loot>
+		<item id="12045" countmax="1" chance="9000"/><!-- Ice orb -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>
+

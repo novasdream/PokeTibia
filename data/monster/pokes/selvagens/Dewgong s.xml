@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dewgong" nameDescription="a Wild Dewgong" race="ice" experience="1450" speed="270" manacost="0">
+  <health now="10850" max="10850"/>
+  <look type="110" head="20" body="30" legs="40" feet="50" corpse="6038"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="aqua tail" interval="5000" chance="90" min="-50" max="-90">
+    </attack>
+    <attack name="headbutt" interval="3000" chance="90" min="-20" max="-40">
+    </attack>
+    <attack name="ice wave" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+    <attack name="waterball" interval="6500" chance="90" min="-100" max="-150">
+    </attack>
+   <attack name="icywind" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+  <attack name="aurora beam" interval="7000" chance="90" min="-15" max="-99">
+    </attack>
+    <attack name="ice shard" interval="7000" chance="90" min="-770" max="-840">
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-1200" max="-1520">
+    </attack>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Deww!"/>
+    <voice sentence="Dewgoong!"/>
+	</voices>
+	<loot>
+		<item id="2290" chance="800"/><!--  ice Stone -->
+              <item id="12045" countmax="2" chance="52000"/> -- ice orb
+	        <item id="2277" countmax="1" chance="1000"/> -- water stone
+			<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

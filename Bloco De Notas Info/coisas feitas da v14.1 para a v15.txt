@@ -1,0 +1,275 @@
+1-Concertado evoluçao
+>Porygon para Porygon2
+>Houndour para Houndoom
+
+2-Trocado efeito de magias colocado um efeito mais "legal" :
+>Electric Storm
+>Magmar Storm
+>Blizzard
+>Ancient Storm
+>Falling Rocks
+>Egg Storm
+>Psy Storm
+>Pory Storm
+>Dark Storm
+>Shadow Storm
+>Wing Storm
+>Tempest
+>Great Love
+
+3-Magias trocadas ou adicionada nos pokemons.
+>Pidgeot trocado Air Fly Area por Aeroblast
+>Trocado Raging Blast de charmander por Fire Blast
+>Trocado o rage do Charizard por Wing Attack
+>Trocado o Rage do Elder Charizard por Wing Attack
+>Trocado Poison Sting do caterpie para Bug Bite
+>Trocado Bug Bite de weedle para Poison Sting
+>Adicionado Electric Storm nos pokemons Raichu,Shiny Raichu,Ampharos
+>Trocado doubleslap de golduck e posto water gun no move2 pois tava repetido.
+>Trocado m2 de victreebel pois tinha 2 razor leaf e colocado vine whip
+>Trocado bullet seed do victreebel e colocado leaf storm
+>Adicionado harden em Golem, Grimer e Muk
+>Trocado 1 quick attack pois tinha 2 de doduo e dodrio por slash
+>Trocado Aurora beam de lapras por afro rest
+>Tirado um harden do kabuto e posto headbutt
+>Trocado Raging blast do cyndaquil por Fire Blast
+>Tirado um ice beam de remoraid e colocado aurora beam
+>Tirado um mega punch de miltank e posto Punch
+>Tirado charge beam de jolteon e colocado electric storm
+
+4-Dado uma balançeada na vida dos pokemons : 
+>Dragonair
+>Nidoqueen
+>Nidoking
+>Clefairy
+>Clefable
+>Ninetales
+>Jigglypuff
+>Wigglytuff
+>Venomoth
+>Primeape
+>Arcanine
+>Poliwrath
+>Machamp
+>Tentacruel
+>Golem
+>Rapidash
+>Slowbro
+>Dewgong
+>Cloyster
+>Haunter
+>Onix
+>Hypno
+>Kingler
+>Electrode
+>Marowak
+>Hitmonlee
+>Hitmonchan
+>Lickitung
+>Weezing
+>Rhyhorn
+>Rhydon
+>Chansey
+>Tangela
+>Kangaskhan
+>Scyther
+>Jynx
+>Electabuzz
+>Magmar
+>Pinsir
+>Tauros
+>Mini Magikarp
+>Mini Gyarados
+>Gyarados
+>Lapras
+>Ditto
+>Vaporeon
+>Flareon
+>Jolteon
+>Snorlax
+>Dragonite
+>Aipom
+>Ariados
+>Azumarill
+>Cleffa
+>Corsola
+>Crobat
+>Donphan
+>Feraligatr
+>Forretress
+>Furret
+>Girafarig
+>Granbull
+>Heracross
+>Hitmontop
+>Houndoom
+>Igglypuff
+>Kingdra
+>Ledian
+>Ledyba
+>Lanturn
+>Marill
+>Miltank
+>Murkrow
+>Noctowl
+>Octillery
+>Politoed
+>Quagsire
+>Scizor
+>Shuckle
+>Skarmory
+>Skiploom
+>Smeargles
+>Sneasel
+>Snubbull
+>Stantler
+>Steelix
+>Sudowoodo
+>Sunflora
+>Teddiursa
+>Togetic
+>Umbreon
+>Tyranitar
+>Ursaring
+>Wobbuffet
+>Xatu
+
+5-Aperfeiçoado e trocado lvl dos pokemons (DE ACORDO PXG)
+>Starmie (melhorado e passado para lvl 75)
+>Magcargo (melhorado e passado para lvl 75)
+>Magneton (melhorado e passado para lvl 75)
+
+6-Concertado spells
+>Selfdestruct do m6 agora esta acertando o alvo 100% ele estava com falhas.
+>Bullet seed nao tava dando a area.
+
+7-Dado uma mechida nas hunts do mapa alterado hunts de
+>muk
+>magneton
+>starmie
+
+8-Adicionado hunt de pokemons shinys de 30 em 30 min a 1 em 1 hr dependendo de sua raridade.
+obs : colocado um arquivo na pasta bloco de notas uteis com a localizaçao deles.
+obs2 : nao foram tds shinys que foram posto hunt ainda
+
+9-Criando 2 novos tms para o Smeargle Virgem.
+>Tm 6 id : 12157
+>tm 7 id : 12158
+
+10-Feito Quests.
+*Báu
+>Pewter Quest
+>Cerulean Quest
+>Desert Quest
+>Ice Quest
+*Npc
+>Leaf Stone
+>Venom Stone
+>Rock Stone
+>Box 2
+
+obs : tem um arquivo na pasta bloco de notas uteis com as coordenadas de onde se localiza elas.
+
+11-Bug de delay retirado : 
+>M3 do Togetic
+
+12-Box
+>Poliwrath que vinha bugado box 3 concertado
+>Tirado da box 2 Starmie e Magneton pois passaram para lvl 75
+>Tirado da box 3 shiny big magikarp pois nao foi mt aceito na box 3
+>Tirado da box 3 magcargo pois passo para lvl 75
+>Concertado bug do flaaffy que vinha na box 2
+>Cibcertado bug o koffing e Drowzee que vinha na box 1
+
+13-Criado sistema de police e rocket podendo escolher um dos 2 lados
+>So tem quest da box 2 por enquanto
+>Adicionado base da police perto de parllet
+>Para escolher um time vc precisa de ir no tc e subir
+
+14-Todos buracos que precisa de usar rope para subir voi substituido por uma cordinha que ao dar use o player sobe
+
+15-Sisteminha criado basicamente um dos sistemas mais importante para o server erondino vai ser util em mts sistemas um sistema de registro de quests.
+
+16-Inventario modificado
+>Tirado rope
+>Rod foi para o head
+>Novo sistema de registros se encontra na parte de necklace
+>Certificado de cidade esta de baixo do badges
+
+17-First items
+>Trocado 35 great ball por 20 poke ball
+>Vcs conseguem as 20 pokeball e a box zero ao escolher a sua cidade agora :D
+
+18-Sistema de policia e rocket feito :D
+>Sistema ta no começo
+>Se encontra no trade center subindo ele para vc escolher qual dos 2 vc quer ser
+>Com ele vc pode entrar na base do rocket ou na base da policia depende do que vc escolher e fazer quest por enquanto so tem a da box 2
+
+19-Navio preto adicionado em uma ilha onde tem natu xatu e murkrow para poder ir para ilha de togepi onde futuramente vai ter muitas quests.
+
+20-Mapa
+>Criado base da Policia
+>Criado uma nova ilga de togepi
+
+21-Pokemons selvagens kanto/johto/shinys da v14.1 balanceados :D
+
+22-Sprites de pokemons atualizadas : 
+>Squirtle
+>Wartortle
+>Bulbasaur
+>Charmander
+>Charmeleon
+>Elite Hitmonchan
+>Geodude
+>Golem
+>Graveler
+>Hitmonchan
+>Houndour
+>Ivysaur
+
+23-Mudado level dos pokemons shinys (COmo disse no video futuro do poketibia vo fazer essa primeira versao com os shinys com minhas configuraçoes entao eles nao vao esta mesmo lvl que sao na pxg apenas alguns)
+>Shiny Oddish lvl-20
+>Shiny Paras lvl-20
+>Shiny Tentacruel lvl-85
+>Shiny Krabby lvl-20
+>Shiny Kingler lvl-50
+>Shiny Horsea lvl-20
+>Shiny Seadra lvl-50
+>Shiny Electrode lvl-65
+>Shiny Venomoth lvl-75
+>Shiny Beedril lvl-45
+>Shiny Butterfree lvl-45
+>Elite Farfetchd lvl-70
+>Shiny Grimer lvl-30
+>Dark Abra lvl-100
+>Shiny Big Magikarp lvl-50
+
+24-Concertado bug quando saia do surf,ride,fly a velocidade do player abaixava.
+
+25-Criado 24 novos shinys com tds suas habilidades e balanceados.
+1-Shiny Tangela
+2-Shiny Vaporeon
+3-Shiny Jolteon
+4-Shiny Flareon
+5-Shiny Dragonair
+6-Shiny Vileplume
+7-Shiny Golem
+8-Shiny Fearow
+9-Shiny Nidoking
+10-Shiny Hypno
+11-Shiny Cubone
+12-Shiny Marowak
+13-Shiny Alakazam
+14-Shiny Pidgeot
+15-Shiny Pinsir
+16-Shiny Mr.Mime
+17-Shiny Ninetales
+18-Shiny Magneton
+19-Shiny Rhydon
+20-Shiny Dodrio
+21-Shiny Magmar
+22-Shiny Tauros
+23-Shiny Machamp
+24-Big Snorlax
+
+26-Lideres de ginasios ficaram mais forte (foram configurados como se fosse players lvl 200) (isso agr é possivel por causa do novo sistema de balanceamento)

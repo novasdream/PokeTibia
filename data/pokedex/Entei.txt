@@ -1,0 +1,13 @@
+Name: Entei
+Type: 
+Required level: 280
+
+Evolutions:
+none
+
+
+Moves: 
+-/-
+
+Ability:
+Fly???????

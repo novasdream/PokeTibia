@@ -1,0 +1,13 @@
+Name: Shuckle
+Type: stone
+Required level: 30
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig
+Rock smash

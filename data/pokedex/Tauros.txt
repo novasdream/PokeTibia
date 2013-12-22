@@ -1,0 +1,13 @@
+Name: Tauros
+Type: normal
+Required level: 45
+
+Evolutions:
+Tauros, requires level 45
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash
+Ride

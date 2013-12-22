@@ -1,0 +1,13 @@
+Name: Shellder
+Type: ice
+Required level: 10
+
+Evolutions:
+Shellder, requires level 10
+Cloyster, requires level 60
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

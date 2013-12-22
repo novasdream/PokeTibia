@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="death" name="PlayerPokeDeath" event="script" value="playerpdeath.lua"/>
+	<event type="think" name="Flying" event="script" value="flycool.lua"/>
+	<event type="think" name="Tele" event="script" value="poketele.lua"/>
+
+	<event type="direction" name="Wild1" event="script" value="wildpoke.lua"/>
+	<event type="attack" name="Wild2" event="script" value="wildpoke.lua"/>
+	<event type="cast" name="Wild3" event="script" value="wildpoke.lua"/>
+	<event type="cast" name="BlockSpells" event="script" value="wildpoke.lua"/>
+	<event type="cast" name="Controled" event="script" value="controlmind.lua"/>
+	<event type="attack" name="BlockHit3" event="script" value="wildpoke.lua"/>
+	<event type="statschange" name="Exp" event="script" value="exp.lua"/>
+	<event type="direction" name="AvoidLook" event="script" value="wildpoke.lua"/>
+	<event type="attack" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="look" name="Alook" event="script" value="look.lua"/> 
+	<event type="think" name="SetSkull" event="script" value="pokesexo.lua"/>
+	<event type="think" name="SetSkullF" event="script" value="pokesexoF.lua"/>
+	<event type="think" name="SetSkullM" event="script" value="pokesexoM.lua"/>
+	<event type="preparedeath" name="DiePlayerSafari" event="script" value="diesafari.lua"/>
+
+
+<!-- Pokeballs -->
+    <event type="preparedeath" name="DiePoke" event="script" value="goback.lua"/>
+    <event type="logout" name="LogoutPoke" event="script" value="goback.lua"/>
+	
+<!-- Gyn e batalhas -->
+	<event type="cast" name="Gym1" event="script" value="gym.lua"/>
+	<event type="attack" name="Gym2" event="script" value="gym.lua"/>
+	<event type="direction" name="Gym3" event="script" value="gym.lua"/>
+	<event type="death" name="Gym4" event="script" value="gym.lua"/>
+
+
+	<event type="login" name="aloot_reg" event="script" value="aloot.lua"/>
+        <event type="kill" name="aloot_kill" event="script" value="aloot.lua"/>
+
+</creaturescripts>

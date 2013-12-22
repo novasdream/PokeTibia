@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magneton" nameDescription="a shiny magneton" race="electric" experience="3978" speed="170" manacost="250">
+  <health now="13500" max="13500"/>
+  <look type="359" head="20" body="30" legs="40" feet="50" corpse="6076"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<attacks>
+	<attack name="physical" interval="1800" chance="100" range="4" min="-65" max="-100">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+       </attack>
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="MAGNETON!"/>
+    <voice sentence="MAGNE!"/>
+  </voices>
+</monster>

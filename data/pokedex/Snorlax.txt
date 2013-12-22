@@ -1,0 +1,13 @@
+Name: Snorlax
+Type: normal
+Required level: 90
+
+Evolutions:
+Snorlax, requires level 90
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash
+Surf

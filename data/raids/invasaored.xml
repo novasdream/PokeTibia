@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Um pokemon lendario pode invadir o centro de invasao do team vermelho" />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Dragonite s" x="1857" y="889" z="5" />
+</raid>

@@ -1,0 +1,20 @@
+General:
+It's named Rattata (normal).
+Can be used at any level.
+Agressive behavior.
+
+Status:
+It's base health is 350.
+It gains 19 life/level.
+
+Evolutions:
+Raticate (level 20 / 1 heart stone)
+
+Moves used:
+Quick Attack (normal) - m1 - level 1
+Scratch (normal) - m2 - m1 - level 5
+Bite (normal) - m3 - level 7
+Hyper Fang (normal) - m4 - level 11
+
+Habilities:
+None.

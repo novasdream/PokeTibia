@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wartortle" nameDescription="a Wartortle" race="water" experience="1500" speed="280" manacost="0">
+  <health now="4050" max="4050"/>
+  <look type="6" head="0" body="0" legs="0" feet="0" corpse="5978"/>
+
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="15"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="20" attack="33"/>
+  </attacks>
+  <defenses armor="8" defense="10">
+
+  </defenses>
+	<voices interval="2000" chance="10">
+		<voice sentence="Wartortle!"/>
+		<voice sentence="Waar!"/>
+	</voices>
+</monster>

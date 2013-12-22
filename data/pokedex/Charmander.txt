@@ -1,0 +1,14 @@
+Name: Charmander
+Type: fire
+Required level: 20
+
+Evolutions:
+Charmander, requires level 20
+Charmeleon, requires level 40
+Charizard, requires level 85
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

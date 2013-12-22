@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ursaring" nameDescription="a Wild Ursaring" race="normal" experience="1500" speed="220" manacost="0">
+  <health now="24800" max="24800"/>
+  <look type="655" head="20" body="30" legs="40" feet="50" corpse="11512"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+
+  
+<attacks>		
+	<attack name="melee" interval="1550" min="-55" max="-70"/>
+   	<attack name="scratch" interval="3000" chance="50" range="1" target="1" min="-1550" max="-1640">
+    </attack>
+   	<attack name="kick" interval="3000" chance="50" range="1" target="1" min="-1930" max="-2000">
+    </attack>
+   	<attack name="stomp" interval="4500" chance="50" range="5" target="1" min="-1700" max="-1740">
+    </attack>
+   	<attack name="hyper fang" interval="7500" chance="80" range="1" target="1" min="-1870" max="-1895">
+    </attack>
+	<attack name="dizzy punch" interval="10500" chance="80" range="1" target="1" min="-1790" max="-1810">
+    </attack>
+   	<attack name="mega punch" interval="9000" chance="80" range="1" target="1" min="-1690" max="-1710">
+    </attack>
+
+    <attack name="destroyer hand" interval="9000" range="1" chance="80" min="-1790" max="-1830">
+    </attack>
+    <attack name="afro rest" interval="12000" chance="100" range="5" min="-19450" max="-19450">
+    </attack>
+
+  </attacks>
+  
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Ursaring!"/>
+	</voices>
+	
+	<loot>
+	<item id="2289" countmax="1" chance="1900"/> -- heart stone
+<item id="12156" countmax="1" chance="1900"/> -- ancient stone
+	<item id="8853" countmax="1" chance="20000"/> -- bitten apple
+	</loot>
+	
+<script>
+<event name="Exp"/>
+</script>
+</monster>

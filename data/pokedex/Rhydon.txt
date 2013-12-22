@@ -1,0 +1,13 @@
+Name: Rhydon
+Type: stone
+Required level: 75
+
+Evolutions:
+Rhyhorn, requires level 30
+Rhydon, requires level 75
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Rock smash

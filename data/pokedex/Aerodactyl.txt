@@ -1,0 +1,12 @@
+Name: Aerodactyl
+Type: stone
+Required level: 100
+
+Evolutions:
+não possui
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Fly

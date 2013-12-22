@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Flareon" nameDescription="a Shiny Flareon" race="fire" experience="900" speed="210" manacost="250">
+  <health now="15900" max="15900"/>
+  <look type="354" head="20" body="30" legs="40" feet="50" corpse="6059"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="20" attack="50"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Flareoon"/>
+  </voices>
+</monster>

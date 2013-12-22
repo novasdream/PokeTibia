@@ -1,0 +1,20 @@
+General:
+It's named Voltorb (electric).
+Can be used at level 14.
+
+Status:
+It's base health is 620.
+It gains 30 life/level.
+
+Evolutions:
+Electrode (level 38 / 1 thunder stone)
+
+Moves used:
+Slam (normal) - m1 - level 14
+Spark (electric) - m2 - level 14
+Thundershock (electric) - m3 - level 15
+Rollout (ground) - m4 - level 17
+Selfdestruct (normal) - m5 - level 20
+
+Habilities:
+Flash (use order on pokemon)

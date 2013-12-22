@@ -1,0 +1,14 @@
+Name: Zubat
+Type: poison
+Required level: 5
+
+Evolutions:
+Zubat, requires level 5
+Golbat, requires level 35
+Crobat, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

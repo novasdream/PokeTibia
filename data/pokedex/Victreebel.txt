@@ -1,0 +1,14 @@
+Name: Victreebel
+Type: grass
+Required level: 50
+
+Evolutions:
+Bellsprout, requires level 5
+Weepinbell, requires level 25
+Victreebel, requires level 50
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

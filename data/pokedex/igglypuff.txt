@@ -1,0 +1,14 @@
+Name: Igglybuff
+Type: normal
+Required level: 20
+
+Evolutions:
+Igglypuff, requires level 20
+Jigglypuff, requires level 40
+Wigglytuff, requires level 65
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+None

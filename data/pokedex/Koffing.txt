@@ -1,0 +1,13 @@
+Name: Koffing
+Type: poison
+Required level: 15
+
+Evolutions:
+Koffing, requires level 15
+Weezing, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

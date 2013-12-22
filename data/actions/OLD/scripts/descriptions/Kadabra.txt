@@ -1,0 +1,23 @@
+General:
+It's named Kadabra (psychic).
+Can be used at level 45.
+
+Status:
+It's base health is 2500.
+It gains 58 life/level.
+
+Evolutions:
+Alakazam (level 80 / 2 enigma stones)
+
+Moves used:
+Psychic (psychic) - m1 - level 45
+Restore (healing) - m2 - level 45
+Psy Pulse (psychic) - m3 - level 45
+Psycho Shift (psychic) - m4 - level 45
+Calm Mind (psychic) - m5 - level 45
+Psy Beam (psychic) - m6 - level 48
+
+Habilities:
+Teleport (type either /h or h")
+Flash (use order on your pokemon)
+Blink (use order somewhere to teleport)

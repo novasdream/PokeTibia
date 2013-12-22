@@ -1,0 +1,13 @@
+Name: Jynx
+Type: ice
+Required level: 80
+
+Evolutions:
+Smoochum, requires levle 30
+Jynx, requires level 80
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+None

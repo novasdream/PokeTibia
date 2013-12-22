@@ -1,0 +1,13 @@
+Name: Miltank
+Type: normal
+Required level: 80
+
+Evolutions:
+none
+
+Moves/Ataques:
+Em construção 
+
+
+Abilitys/Habilidades:
+Rock smash

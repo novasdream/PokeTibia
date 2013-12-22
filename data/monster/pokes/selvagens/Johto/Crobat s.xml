@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crobat" nameDescription="a Wild Crobat" race="poison" experience="950" speed="320" manacost="600">
+  <health now="17100" max="17100"/>
+  <look type="544" head="20" body="30" legs="40" feet="50" corpse="11404"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+   <attacks>
+    <attack name="melee" interval="1750" min="-81" max="-102"/>
+    <attack name="super sonic" interval="7200" chance="35" range="5" target="1">
+    </attack>
+   <attack name="poison fang" interval="2000" chance="22" range="1" target="1" min="-77" max="-100">
+    </attack>
+<attack name="poison sting" interval="2000" chance="22" range="1" target="1" min="-77" max="-100">
+    </attack>
+ <attack name="poison bomb" interval="2800" chance="12" range="1" target="1" min="-140" max="-250">
+    </attack>
+    <attack name="toxic" interval="2700" chance="17" range="10" target="1" min="-90" max="-99">
+    </attack>
+    <attack name="poisonous wing" interval="2800" chance="12" range="1" target="1" min="-140" max="-150">
+    </attack>
+    <attack name="gastro acid" interval="3300" chance="15" range="10" target="1" min="-210" max="-325">
+    </attack>
+    <attack name="poison oath" interval="3300" chance="15" range="10" target="1" min="-210" max="-425">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="CROBAT!"/>
+    <voice sentence="BAAT!"/>
+  </voices>
+	<loot>
+	<item id="12023" countmax="1" chance="29000"/> -- tooth
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8856" countmax="44" chance="79000"/> -- bottle of poison
+	<item id="2278" countmax="1" chance="1200"/> -- venom stone
+item id="12024" countmax="1" chance="10200"/> -- venom flute
+<item id="12156" countmax="1" chance="1900"/> -- ancient stone
+	</loot>
+	<script>
+	<event name="Exp"/>
+        </script>
+</monster>

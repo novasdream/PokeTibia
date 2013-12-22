@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Swinub" nameDescription="a Swinub" race="undead" experience="2000" speed="220" manacost="600">
+  <health now="4000" max="4000"/>
+  <look type="619" head="20" body="30" legs="40" feet="50" corpse="11477"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="50"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tail whip" interval="1000" chance="50" min="-140" max="-180">
+    </attack>
+    <attack name="icy wind" interval="3000" chance="90" min="-120" max="-140">
+    </attack>
+    <attack name="fury attack" interval="2000" chance="90" min="-180" max="-220">
+    </attack>
+    <attack name="ice shard" interval="3000" chance="90" min="-115" max="-199">
+    </attack>
+    <attack name="scratch" interval="4000" chance="90" min="-298" max="-318">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="50" max="100">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Oiiiiiki!"/>
+	</voices>
+	<loot>
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="2694" countmax="50" chance="65000"/> -- straw
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2079" countmax="1" chance="8500"/>-- horn
+	<item id="2289" countmax="1" chance="1300"/> -- heart stone
+	<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

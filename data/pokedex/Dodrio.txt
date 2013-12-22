@@ -1,0 +1,13 @@
+Name: Dodrio
+Type: flying
+Required level: 45
+
+Evolutions:
+Doduo, requires level 15
+Dodrio, requires level 45
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Ride

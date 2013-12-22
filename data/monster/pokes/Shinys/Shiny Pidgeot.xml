@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Pidgeot" nameDescription="a Shiny Pidgeot" race="flying" experience="5971" speed="280" manacost="200">
+  <health now="18000" max="18000"/>
+  <look type="364" head="0" body="0" legs="0" feet="0" corpse="6020"/>
+
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1700" min="-200" max="-240"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="PIDGEOT!"/>
+    <voice sentence="GEOT!"/>
+  </voices>
+
+
+</monster>

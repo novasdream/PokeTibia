@@ -1,0 +1,21 @@
+General:
+It's named Pidgey (flying).
+Can be used at level 5.
+Non-agressive behavior.
+
+Status:
+It's base health is 380.
+It gains 22 life/level.
+
+Evolutions:
+Pidgeotto (level 20 / 1 heart stone)
+Pidgeot (level 65 / 2 heart stones)
+
+Moves used:
+Quick Attack (normal) - m1 - level 1
+Peck (flying) - m2 - m1 - level 5
+Sand Attack (ground) - m3 - level 8
+Gust (flying) - m4 - level 12
+
+Habilities:
+None.

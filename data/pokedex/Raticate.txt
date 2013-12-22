@@ -1,0 +1,13 @@
+Name: Raticate
+Type: normal
+Required level: 20
+
+Evolutions:
+Rattata, requires level 1
+Raticate, requires level 20
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Dig

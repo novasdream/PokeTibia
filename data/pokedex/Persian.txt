@@ -1,0 +1,13 @@
+Name: Persian
+Type: normal
+Required level: 30
+
+Evolutions:
+Meowth, requires level 15
+Persian, requires level 30
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Cut

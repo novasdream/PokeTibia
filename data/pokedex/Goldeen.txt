@@ -1,0 +1,13 @@
+Name: Goldeen
+Type: water
+Required level: 10
+
+Evolutions:
+Goldeen, requires level 10
+Seaking, requires level 35
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Surf

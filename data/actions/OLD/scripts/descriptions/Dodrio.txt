@@ -1,0 +1,22 @@
+General:
+It's named Dodrio (flying).
+Can be used at level 45.
+Non-agressive behavior.
+
+Status:
+It's base health is 2650.
+It gains 78 life/level.
+
+Evolutions:
+It doesn't evolve.
+
+Moves used:
+Rapid Hit (normal) - m1 - level 45
+Pluck (flying) - m2 - level 45
+Fury Attack (normal) - m3 - level 45
+Rage (normal) - passive
+Drill Peck (flying) - m5 - level 46
+Tri-attack (normal) - m6 - level 49
+
+Habilities:
+Ride (use order on yourself)

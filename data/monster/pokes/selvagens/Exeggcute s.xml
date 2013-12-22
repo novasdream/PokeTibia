@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Exeggcute" nameDescription="a Wild Exeggcute" race="grass" experience="175" speed="200" manacost="280">
+  <health now="1050" max="1050"/>
+  <look type="213" head="20" body="30" legs="40" feet="50" corpse="2982"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-40" max="-90">
+    </attack>
+    <attack name="absorb" interval="4500" range="1" chance="50" min="-180" max="-200">
+    </attack>
+    <attack name="leech seed" interval="4500" range="5" chance="50" min="-10" max="-10">
+    </attack>
+    <attack name="eggbomb" interval="4500" range="5" chance="50" min="-150" max="-180">
+    </attack>
+    <attack name="confusion" interval="7500" range="5" chance="80" min="-190" max="-240">
+    </attack>
+<attack name="trepadera" interval="9000" range="5" chance="80" min="-210" max="-230">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+	<voice sentence="Bsssss!"/>
+    <voice sentence="Bsssssss!"/>
+	</voices>
+ <loot>
+	<item id="8850" countmax="22" chance="45000"/> -- seeds
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,14 @@
+Name: Drowzee
+Type: psychic
+Required level: 25
+
+Evolutions:
+Drowzee, requires level 25
+Hypno, requires level 55
+
+Moves/Ataques:
+Em construção 
+
+Abilitys/Habilidades:
+Teleport
+Light

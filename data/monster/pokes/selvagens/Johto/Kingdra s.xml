@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingdra" nameDescription="a Wild Kingdra" race="water" experience="1100" speed="280" manacost="600">
+  <health now="23000" max="23000"/>
+  <look type="570" head="20" body="30" legs="40" feet="50" corpse="11429"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-240" max="-380">
+    </attack>
+    <attack name="headbutt" interval="4500" chance="90" min="-190" max="-280">
+    </attack>
+    <attack name="mud shot" interval="5000" chance="90" min="-350" max="-700">
+    </attack>
+    <attack name="bubbles" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+    <attack name="water pulse" interval="3000" chance="30" min="-380" max="-520">
+    </attack>
+    <attack name="Bubble Blast" interval="3500" chance="90" min="-300" max="-450">
+    </attack>
+    <attack name="hydro cannon" interval="7000" chance="90" min="-500" max="-900">
+    </attack>
+
+    <attack name="water oath" interval="4500" chance="90" min="-190" max="-280">
+    </attack>
+    <attack name="water bash" interval="5000" chance="90" min="-350" max="-700">
+    </attack>
+    <attack name="hydropump" interval="5000" chance="90" min="-180" max="-320">
+    </attack>
+  </attacks>
+
+
+	<voices interval="5000" chance="100">
+		<voice sentence="Kingdraa!"/>
+		<voice sentence="Kiing!"/>
+	</voices>
+	<loot>
+	        <item id="8820" countmax="3" chance="27000"/> -- water pendant
+<item id="6528" countmax="100" chance="100000"/> -- water gem
+<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+		<item id="2277" countmax="1" chance="1000"/><!-- water stone -->
+		<item id="2285" chance="800"/><!-- crystal Stone -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

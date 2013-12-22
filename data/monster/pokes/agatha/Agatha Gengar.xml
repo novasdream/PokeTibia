@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Agatha Gengar" nameDescription="a Gengar" race="ghost" experience="1000" speed="250" manacost="490">
+  <health now="34200" max="34200"/>
+  <look type="244" head="20" body="30" legs="40" feet="50" corpse="6336"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+ <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-10" max="-30">
+    </attack>
+    <attack name="shadow area" interval="5000" chance="90" min="-3280" max="-3390">
+    </attack>
+    <attack name="shadowball" interval="7000" chance="90" min="-4290" max="-4340">
+    </attack>
+  <attack name="nightshade" interval="6500" chance="90" min="-6640" max="-6700">
+    </attack>
+<attack name="fear" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="shadow shadow" interval="3000" chance="90" min="-2990" max="-3020">
+    </attack>
+    <attack name="nightmare" interval="3000" chance="90" min="-3180" max="-3230">
+    </attack>
+    <attack name="shadowstorm" interval="7000" chance="90" min="-3170" max="-3200">
+    </attack>
+    <attack name="skull bash" interval="6500" chance="90" min="-3530" max="-3550">
+    </attack>
+  </attacks>
+  <voices interval="5000" chance="10">
+	<voice sentence="Gengaaar!"/>
+    <voice sentence="Gengar!"/>
+	</voices>
+</monster>

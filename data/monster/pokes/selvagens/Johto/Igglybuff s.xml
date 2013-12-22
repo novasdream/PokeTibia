@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Igglybuff" nameDescription="a Wild Igglybuff" race="normal" experience="100" speed="220" manacost="600">
+  <health now="3400" max="3400"/>
+  <look type="568" head="20" body="30" legs="40" feet="50" corpse="11427"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+  <attack name="melee" interval="1000" min="-50" max="-80" /> 
+  <attack name="doubleslap" range="1" interval="1900" chance="50" min="-50" max="-150" > </attack>
+  <attack name="punch" range="1" interval="1900" chance="50" min="-50" max="-150" > </attack>
+  <attack name="Guitar Paralizy" interval="4200" chance="41" min="800" max="1200" > </attack>
+  <attack name="selfheal" range="4" interval="4000" chance="100" min="-200" max="-400" > </attack>
+ <attack name="headbutt" range="4" interval="4000" chance="100" min="-200" max="-400" > </attack>
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Igglyy!"/>
+    <voice sentence="buff!"/>
+  </voices>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+<loot>
+		<item id="5946" countmax="1" chance="4000"/><!-- comb -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+</monster>

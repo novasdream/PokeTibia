@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shellder" nameDescription="a Shellder" race="ice" experience="120" speed="180" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="54" head="20" body="30" legs="40" feet="50" corpse="2837"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="30"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="18" attack="18"/>
+  </attacks>
+
+
+  <defenses armor="8" defense="12"/>
+  <elements>
+  <element deathPercent="-5"/>
+  <element physicalPercent="-10"/>
+  </elements>
+  <immunities>
+    <immunity energy="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="SHELDER!"/>
+    <voice sentence="SHELL!"/>
+  </voices>
+</monster>
