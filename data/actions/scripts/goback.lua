@@ -77,7 +77,7 @@ function onUse(cid, item, frompos, item2, topos)
         doTransformItem(item.uid, item.itemid-1)
         doCreatureSay(cid, mbk, TALKTYPE_SAY)
         local summom = getCreatureSummons(cid)
-        local maxh = pokes[getCreatureOutfit(summom[1]).lookType].vida
+        local maxh = pokeLib[getCreatureOutfit(summom[1]).lookType].vida
         local pct2 = ((getCreatureHealth(summom[1])) / (getCreatureMaxHealth(summom[1])))
         local vids = ((getCreatureHealth(summom[1])) - 2)
         doCreatureAddHealth(summom[1], -vids)
