@@ -322,7 +322,7 @@
 <monster name="Falkner Pidgeot" file="pokes/falkner/falkner pidgeot.xml"/>
 <monster name="Bugsy Scyther" file="pokes/bugsy/bugsy scyther.xml"/>
 <monster name="Whitney Miltank" file="pokes/whitney/whitney miltank.xml"/>
-<!---JOHTO---->
+---JOHTO---
 <monster name="Aipom" file="pokes/johto/aipom.xml"/>
 <monster name="Ampharos" file="pokes/johto/ampharos.xml"/>
 <monster name="Ariados" file="pokes/johto/ariados.xml"/>
