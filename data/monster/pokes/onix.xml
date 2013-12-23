@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Onix" nameDescription="an Onix" race="rock" experience="2100" speed="260" manacost="390">
+	<health now="5500" max="5500"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="2990"/>
+	<targetchange interval="100" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="70"/>
+	</attacks>
+  <defenses armor="45" defense="45">
+	</defenses>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="iiix"/>
+	</voices>
+
+ </monster>

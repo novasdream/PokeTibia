@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Swinub" nameDescription="a Wild Swinub" race="ice" experience="500" speed="220" manacost="600">
+  <health now="1950" max="1950"/>
+  <look type="619" head="20" body="30" legs="40" feet="50" corpse="11477"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+ 
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-140" max="-180">
+    </attack>
+    <attack name="headbutt" interval="3000" range="1" chance="50" min="-250" max="-260">
+    </attack>
+   <attack name="ice beam" interval="4500" range="5" chance="50" min="-290" max="-355">
+    </attack>
+    <attack name="ice wave" interval="4500" range="5" chance="50" min="-275" max="-300">
+    </attack>
+    <attack name="iceball" interval="6000" range="5" chance="80" min="-330" max="-340">
+    </attack>
+ <attack name="icywind" interval="7500" range="5" chance="80" min="-350" max="-370">
+    </attack>
+    <attack name="aurora beam" interval="9000" range="5" chance="80" min="-350" max="-370">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Swinuub!"/>
+	</voices>
+	<loot>
+	<item id="12045" countmax="1" chance="8500"/>-- ice orb
+	<item id="11998" countmax="1" chance="10300"/> -- fur
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

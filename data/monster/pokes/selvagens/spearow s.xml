@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spearow" nameDescription="a Wild Spearow" race="flying" experience="275" speed="195" manacost="255">
+  <health now="1100" max="1100"/>
+  <look type="27" head="20" body="30" legs="40" feet="50" corpse="5968"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="8"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="1900" min="-10" max="-20" /> 
+  <attack name="quick attack" interval="3000" range="1" chance="50" min="-170" max="-180"> </attack>
+  <attack name="peck" interval="3900" range="1" chance="50" min="-170" max="-200"> </attack>
+  <attack name="gust" interval="4500" range="5" chance="50" min="-200" max="-225"> </attack>
+  <attack name="drill peck" interval="6000" range="1" chance="80" min="-100" max="-120"> </attack>
+
+
+
+  <attack name="rage" interval="9000" chance="80" range="1" > </attack>
+
+  </attacks>
+
+
+  <defenses armor="8" defense="8"/>
+  <elements>
+	<element icePercent="-5"/>
+	<element earthPercent="3"/>
+	<element holyPercent="7"/>
+	<element deathPercent="-4"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+<voices interval="5000" chance="10">
+    <voice sentence="Spearow!"/>
+    <voice sentence="peaaarow!"/>
+  </voices>
+ <loot>
+		<item id="2694" countmax="8" chance="100000"/><!-- Straw -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+		<item id="8823" countmax="1" chance="30000"/><!-- Feather -->
+  </loot>
+</monster>

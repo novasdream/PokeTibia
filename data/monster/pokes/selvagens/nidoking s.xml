@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a Wild Nidoking" race="poison" experience="975" speed="275" manacost="10000">
+  <health now="12550" max="12550"/>
+  <look type="35" corpse="5995"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="90" defense="10"/>
+
+
+
+
+   <attacks>
+
+  <attack name="melee" interval="2000" min="-40" max="-60" poison="-10" /> 
+  <attack name="quick attack" range="1" interval="3000" chance="50" min="-1215" max="-1255" > </attack>
+  <attack name="bite" range="1" interval="5100" chance="80" min="-1290" max="-1360" > </attack>
+  <attack name="poison fang" interval="3900" chance="50" range="1" target="1" min="-1225" max="-1285" > </attack>
+<attack name="stomp" range="5" interval="10500" chance="80" min="-1305" max="-1330" > </attack>
+  <attack name="horn attack" range="1" interval="9000" chance="80" min="-1250" max="-1260" > </attack>
+	<attack name="shockwave" interval="12000" range="5" chance="100" min="-1260" max="-1280">
+  </attack>
+	<attack name="Earthquake" interval="15000" range="2" chance="100" min="-1440" max="-1460">
+  </attack>
+	<attack name="horn oath" interval="10500" range="5" chance="80" min="-1350" max="-1370">
+  </attack>
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+    <voice sentence="KINNNNGGGG!!!!" yell="1"/>
+  </voices>
+	<loot>
+	<item id="11997" countmax="1" chance="10000"/> -- horn
+	<item id="8868" countmax="1" chance="32000"/> -- nail
+	<item id="2278" countmax="1" chance="900"/> -- venom stone
+        <item id="2287" countmax="1" chance="700"/> -- earth stone
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

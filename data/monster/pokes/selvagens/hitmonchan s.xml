@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Hitmonchan" nameDescription="a Wild Hitmonchan" race="fighting" experience="900" speed="265" manacost="0">
+	
+<health now="12500" max="12500"/>
+	
+<look type="38" corpse="5977"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-60" max="-80">
+    </attack>
+
+    <attack name="thunder punch" interval="3000" range="1" chance="50" min="-1110" max="-1150">
+    </attack>
+    <attack name="fire punch" interval="4500" range="1" chance="50" min="-1180" max="-1200">
+    </attack>
+    <attack name="mega punch" interval="7500" range="1" chance="80" min="-1200" max="-1270">
+    </attack>
+
+    <attack name="shadow punch" interval="7500" range="5" chance="50" min="-1200" max="-1270">
+    </attack>
+    <attack name="punch area" interval="12000" range="5" chance="100" min="-1420" max="-1440">
+    </attack>
+    <attack name="punch bash" interval="12000" range="5" chance="100" min="-1360" max="-1380">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Hitmonchan!"/>
+	</voices>
+<loot>
+<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

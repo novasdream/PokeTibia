@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Omastar" nameDescription="an Omastar" race="water" experience="70" speed="250" manacost="280">
+  <health now="6000" max="6000"/>
+  <look type="192" head="0" body="0" legs="0" feet="0" corpse="5994"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="15"/>
+  </attacks>
+
+
+  <defenses armor="15" defense="15">
+    </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="OMASTAR!" yell="1"/>
+  </voices>
+
+  <elements>
+	<element earthPercent="20"/>
+	<element firePercent="-5"/>
+	<element icePercent="-5"/>
+	<element energyPercent="5"/>
+  </elements>
+  <immunities/>
+</monster>

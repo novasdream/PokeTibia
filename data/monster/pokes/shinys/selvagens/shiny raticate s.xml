@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raticate" nameDescription="a shiny raticate" race="undead" experience="110" speed="340" manacost="0">
+        <health now="9300" max="9300"/>
+	<look type="519" corpse="136"/>
+<targetchange interval="100" chance="0"/>
+<strategy attack="100" defense="0"/>
+<attacks>		
+	<attack name="melee" interval="1550" min="-55" max="-70"/>
+	<attack name="quick attack" interval="1800" chance="16" range="1" target="1" min="-65" max="-85">
+    </attack>
+	<attack name="bite" interval="2100" chance="26" range="1" target="1" min="-80" max="-90">
+    </attack>
+   	<attack name="slash" interval="2400" chance="27" range="1" target="1" min="-80" max="-95">
+    </attack>
+   
+   	<attack name="hyper fang" interval="2400" chance="19" range="1" target="1" min="-100" max="-110">
+    </attack>
+<attack name="body slam" interval="2400" chance="19" range="1" target="1" min="-100" max="-110">
+    </attack>
+   
+</attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="RATICATE!"/>
+    <voice sentence="RAATICATEE!"/>
+  </voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magcargo" nameDescription="a Wild Magcargo" race="fire" experience="1200" speed="150" manacost="590">
+  <health now="12600" max="12600"/>
+  <look type="577" head="20" body="30" legs="40" feet="50" corpse="11436"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+   <attacks>    
+    <attack name="melee" interval="1900" range="1" min="-135" max="-180"/>
+    <attack name="erupt" interval="2000" chance="25" min="-135" max="-145">
+    </attack>
+    <attack name="ember" interval="2000" chance="20" min="-145" max="-155">
+    </attack>
+ <attack name="flamethrower" interval="4000" chance="20" min="-200" max="400">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-265" max="-375">
+    </attack>
+    <attack name="Flame Wheel" interval="2300" chance="17" min="-145" max="-255">
+    </attack>
+	<attack name="harden" interval="4000" chance="35" range="10">
+    </attack>
+    <attack name="magma storm" interval="3100" chance="20" min="-900" max="1200">    </attack>
+    <attack name="rock bash" interval="2500" chance="27" range="1" min="-940" max="-1090">    </attack>
+
+
+
+  </attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="MAGCARBO!"/>
+		<voice sentence="MAAAG!"/>
+		<voice sentence="CAARBO!!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="100" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="42000"/> -- pot of lava
+	<item id="2283" countmax="1" chance="1200"/> -- fire stone
+
+	
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Venonat" nameDescription="a shiny venonat" race="poison" experience="110" speed="340" manacost="0">
+        <health now="3900" max="3900"/>
+	<look type="517" corpse="130"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	  <attacks>
+
+
+  <attack name="melee" interval="1700" min="-50" max="-80" />
+  <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-65" max="-80" > </attack>
+  <attack name="super sonic" interval="7200" chance="35" range="5" target="1" > </attack>
+    <attack name="poison sting" interval="3200" chance="100" min="-35" max="-140"> </attack>
+     <attack name="confusion" interval="2500" chance="26" min="-100" max="-150" > </attack>
+  <attack name="Psychic" range="1" interval="2200" chance="17" min="-40" max="-80" > </attack>
+
+  </attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="Veenonat"/>
+		<voice sentence="Venonat!"/>
+	</voices>
+</monster>

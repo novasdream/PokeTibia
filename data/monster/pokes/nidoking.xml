@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidoking" nameDescription="a Nidoking" race="poison" experience="3000" speed="275" manacost="10000">
+  <health now="6700" max="6700"/>
+  <look type="35" corpse="5995"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="100" attack="110"/>
+  </attacks>
+  
+	<defenses armor="15" defense="22">
+  </defenses>
+  
+  
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+  </voices>
+</monster>

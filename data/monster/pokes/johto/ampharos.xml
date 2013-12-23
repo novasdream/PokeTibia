@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ampharos" nameDescription="an Ampharos" race="electric" experience="30" speed="200" manacost="340">
+	<health now="8500" max="8500"/>
+  <look type="533" head="20" body="30" legs="40" feet="50" corpse="11393"/>
+	<targetchange interval="5" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="20"/>
+	</flags>
+	<attacks>
+		  <attack name="melee" interval="2000" skill="25" attack="15"/>
+	</attacks>
+	
+	<defenses armor="8" defense="8"/>
+	
+  <elements>
+  <element deathPercent="50"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="AMPHAROS"/>
+<voice sentence="PHAROS"/>
+  </voices>
+</monster>

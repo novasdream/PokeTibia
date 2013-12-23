@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Primeape" nameDescription="a Wild Primeape" race="fighting" experience="700" speed="240" manacost="0">
+  <health now="6750" max="6750"/>
+  <look type="103" head="20" body="30" legs="40" feet="50" corpse="6032"/>
+ 		<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-10" max="-40"/>
+    <attack name="scratch" range="1" interval="3000" chance="50" min="-670" max="-700">    </attack>
+	<attack name="triple kick" interval="3000" range="1" chance="50" min="-850" max="-890">    </attack>
+    <attack name="karate chop" range="1" interval="4500" chance="50" min="-720" max="-800">    </attack>
+
+	<attack name="rage" interval="6000" chance="80" range="5" min="-690" max="-710">
+  </attack>
+	<attack name="evasion kick" interval="12000" range="5" chance="100" min="-750" max="-800">    </attack>
+    <attack name="mega kick" range="1" interval="9000" chance="80" min="-850" max="-860">    </attack>
+	<attack name="punch area" interval="12000" range="5" chance="100" min="-990" max="-1015">    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Primeeape!"/>
+  </voices>
+	<loot>
+	<item id="11998" countmax="1" chance="11000"/> -- fur
+<item id="2694" countmax="15" chance="51000"/> -- straw
+	<item id="2281" countmax="1" chance="1300"/> -- punch stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+<item id="12039" countmax="1" chance="14300"/> -- iron bracelet
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
+

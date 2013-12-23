@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Yanma" namedescription="a Yanma" race="bug" experience="2931" speed="182" manacost="250">
+  <health now="4400" max="4400"/>
+  <look type="659" head="20" body="30" legs="40" feet="50" corpse="11516"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="95"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-67" max="-81"/>
+
+
+
+
+  </attacks>
+	<defenses armor="5" defense="5">
+	
+
+
+	
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="YANMA!!!"/>
+    <voice sentence="MAAA!"/>
+    <voice sentence="YAAAN!"/>
+  </voices>
+ 
+</monster>

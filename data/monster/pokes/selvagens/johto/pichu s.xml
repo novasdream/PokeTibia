@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pichu" nameDescription="a Wild Pichu" race="electric" experience="200" speed="250" manacost="600">
+  <health now="2700" max="2700"/>
+  <look type="589" head="20" body="30" legs="40" feet="50" corpse="11448"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="1700" min="-50" max="-80" />
+  <attack name="thundershock" range="4" interval="1800" chance="22" min="-83" max="-108" > </attack>
+  <attack name="thunder punch" range="4" interval="2300" chance="18" min="-80" max="-95" > </attack>
+  <attack name="thunder wave" range="4" interval="2000" chance="16" min="-43" max="-100" > </attack>
+  <attack name="headbutt" range="4" interval="3000" chance="25" min="-100" max="-120" > </attack>
+  <attack name="discharge" range="4" interval="3000" chance="25" min="-100" max="-120" > </attack>
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Pichuuu!"/>
+  </voices>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Erika Tangela" nameDescription="a Tangela" race="undead" experience="285" speed="144" manacost="450">
+  <health now="18000" max="18000"/>
+  <look type="18" head="20" body="30" legs="40" feet="50" corpse="5976"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+   <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-50" max="-90">
+    </attack>
+    <attack name="absorb" interval="3500" chance="90" min="-2280" max="-2320">
+    </attack>
+    <attack name="leech seed" interval="5000" chance="90" min="-230" max="-450">
+    </attack>
+    <attack name="vine whip" interval="4500" chance="90" min="-2250" max="-2270">
+    </attack>
+    <attack name="super vines" interval="6000" chance="90" min="-2440" max="-2460">
+    </attack>
+ <attack name="trepadera" interval="3500" chance="90" min="-2300" max="-2315">
+    </attack>
+    <attack name="mega drain" interval="5000" chance="90" min="-2350" max="-2380">
+    </attack>
+  <attack name="plant bomb" interval="3500" chance="90" min="-2450" max="-2470">
+    </attack>
+  </attacks>
+
+</monster>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmontop" nameDescription="a Wild Hitmontop" race="fighting" experience="1000" speed="320" manacost="600">
+  <health now="11000" max="11000"/>
+  <look type="562" head="20" body="30" legs="40" feet="50" corpse="11421"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-100" max="-300">
+    </attack>
+    <attack name="karate chop" interval="4500" chance="90" min="-190" max="-310">
+    </attack>
+    <attack name="thrash" interval="5000" chance="90" min="-310" max="-730">
+    </attack>
+    <attack name="Dynamicpunch" interval="3500" chance="90" min="-70" max="-470">
+    </attack>
+    <attack name="karate chop" interval="7000" chance="90" min="-390" max="-630">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="100" max="150">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hitmontop!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="1294" countmax="45" chance="62000"/> -- small stone
+	<item id="2281" countmax="1" chance="1500"/> -- punch stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

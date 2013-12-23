@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dratini" nameDescription="a shiny dratini" race="undead" experience="110" speed="340" manacost="0">
+        <health now="5400" max="5400"/>
+	<look type="506" corpse="118"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+    <attacks>
+   <attack name="melee" interval="1000" chance="50" min="-15" max="-35">
+    </attack>
+    <attack name="aqua tail" interval="1000" chance="50" min="-15" max="-35">
+    </attack>
+    <attack name="bubbles" interval="5000" chance="95" min="-300" max="-500">
+    </attack>
+    <attack name="thunder wave" interval="3000" chance="90" min="-130" max="-145">
+    </attack>
+   <attack name="dragon breath" interval="1000" chance="50" min="-15" max="-35">
+    </attack>
+    <attack name="icywind" interval="1000" chance="50" min="-15" max="-35">
+    </attack>
+    <attack name="dragon claw" interval="7000" chance="100" min="-250" max="-500">
+    </attack>
+  </attacks>
+
+	<voices interval="5000" chance="100">
+		<voice sentence="Draatini!"/>
+		<voice sentence="Dratii!"/>
+	</voices>
+	<loot>
+	<item id="2672" countmin="1" countmax="1" chance="3000"/> -- dragon ham
+
+	</loot>
+
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

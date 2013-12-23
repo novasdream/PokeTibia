@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kingler" nameDescription="a Wild Kingler" race="water" experience="625" speed="300" manacost="0">
+  <health now="6400" max="6400"/>
+  <look type="245" corpse="6340"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="bubbles" range="5" interval="3000" chance="50" min="-410" max="-445">
+    </attack>
+    <attack name="slash" range="1" interval="3000" chance="50" min="-610" max="-660" > </attack>
+ <attack name="water gun" range="5" interval="4500" chance="50" min="-430" max="-475">
+    </attack>
+    <attack name="crab hammer" range="1" interval="6000" chance="80" min="-500" max="-515">
+    </attack>
+    <attack name="mud bomb" range="5" interval="6000" chance="80" min="-500" max="-515">
+    </attack>
+    <attack name="harden" interval="9000" range="5" chance="80">
+    </attack>
+    <attack name="water oath" range="5" interval="10500" chance="80" min="-600" max="-615" > </attack>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="KINGLER!!"/>
+  </voices>
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="12014" countmax="1" chance="27000"/> -- crab claw
+	<item id="2277" countmax="1" chance="890"/> -- water stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+
+</monster>

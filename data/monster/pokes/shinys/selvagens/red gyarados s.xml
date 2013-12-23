@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Red Gyarados" nameDescription="a red gyarados" race="undead" experience="25" speed="150" manacost="300">
+	<health now="65000" max="65000"/>
+	<look type="528" corpse="144"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="20"/>
+   <attack name="aqua tail" range="1" interval="2300" chance="18" min="-220" max="-230">
+    </attack>
+    <attack name="bubbles" range="5" interval="2200" chance="19" min="-310" max="-522">
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="14" min="-250" max="-380">
+    </attack>
+    <attack name="dragon breath" range="5" interval="2400" chance="17" min="-500" max="-752">
+    </attack>
+
+    <attack name="Bubble Blast" range="5" interval="2300" chance="18" min="-320" max="-400">
+    </attack>
+    <attack name="hydro cannon" range="5" interval="3700" chance="17" min="-290" max="-430">
+    </attack>
+  
+    <attack name="water oath" interval="2000" chance="25" min="-100" max="-180" > </attack>
+    <attack name="water bash" range="5" interval="2100" chance="18" min="-260" max="-300">    
+    </attack>
+    <attack name="hydropump" interval="4000" chance="18" min="-260" max="-300"> 
+    </attack>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GYARADOS!!"/>
+    <voice sentence="Gyaaa!"/>
+  </voices>
+
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

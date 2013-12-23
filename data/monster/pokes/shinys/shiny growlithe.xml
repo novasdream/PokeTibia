@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Growlithe" nameDescription="a shiny growlithe" race="fire" experience="110" speed="180" manacost="0">
+        <health now="3000" max="3000"/>
+	<look type="505" corpse="117"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="20" attack="13"/>
+		
+	</attacks>
+	<defenses armor="8" defense="10">
+	</defenses>
+	<elements>
+		<element energyPercent="50"/>
+		<element holyPercent="25"/>
+		<element earthPercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Groowlithe!"/>
+	</voices>
+	
+</monster>

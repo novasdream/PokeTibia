@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Poliwrath" nameDescription="a wild Poliwrath" race="water" experience="825" speed="210" manacost="0">
+  <health now="11350" max="11350"/>
+  <look type="104" head="20" body="30" legs="40" feet="50" corpse="6033"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-10" max="-22"/>
+    <attack name="doubleslap" range="1" interval="3000" chance="50" min="-825" max="-850">
+    </attack>
+    <attack name="aqua tail" interval="3000" range="1" chance="50" min="-1175" max="-1245"> </attack>
+    <attack name="water gun" interval="3600" range="5" chance="50" min="-900" max="-965"> </attack>
+    <attack name="Bubblebeam" range="5" interval="7500" chance="80" min="-850" max="-900">
+    </attack>
+    <attack name="Bubble Blast" interval="7500" range="5" chance="80" min="-830" max="-835"> </attack>
+    <attack name="mega punch" interval="7500" range="1" chance="80" min="-995" max="-1005"> </attack>
+    <attack name="water oath" interval="10500" range="5" chance="80" min="-1075" max="-1095"> </attack>
+  <attack name="harden" range="5" interval="12000" chance="100" /> 
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="WRATH!"/>
+    <voice sentence="POLIWRATH!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="100" chance="85000"/> -- water gem
+	<item id="8820" countmax="3" chance="35000"/> -- water pendant
+	<item id="2277" countmax="1" chance="1100"/> -- water stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2281" countmax="1" chance="900"/> -- punch stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

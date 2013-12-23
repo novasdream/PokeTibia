@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandshrew" nameDescription="a Wild Sandshrew" race="ground" experience="290" speed="150" manacost="310">
+  <health now="1750" max="1750"/>
+  <look type="43" head="20" body="30" legs="40" feet="50" corpse="5988"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-25" max="-42"/>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-265" max="-275">
+    </attack>
+   <attack name="mud shot" interval="4500" range="5" chance="50" min="-220" max="-230">
+    </attack>
+ <attack name="earth fang" interval="3900" range="1" chance="50" min="-275" max="-315">
+    </attack>
+    <attack name="rollout" interval="12000" range="5" chance="100" min="-265" max="-275">
+    </attack>
+
+    <attack name="mud bomb" interval="6000" range="5" chance="80" min="-295" max="-315">
+    </attack>
+  <attack name="harden" range="5" interval="6000" chance="80"> 
+    </attack>
+  </attacks>
+  <defenses armor="0" defense="3"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Saand!"/>
+    <voice sentence="Sandshreww!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="1" chance="25000"/> -- sandbag
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12036" countmax="15" chance="62000"/> -- small earth
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

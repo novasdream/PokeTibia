@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Eevee" nameDescription="an Eevee" race="normal" experience="90" speed="370" manacost="0">
+  <health now="2000" max="2000"/>
+  <look type="102" corpse="6364"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pusheable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" attack="15" skill="15"/>
+  </attacks>
+  <defenses armor="10" defense="10"/>
+	<loot>
+	</loot>
+</monster>

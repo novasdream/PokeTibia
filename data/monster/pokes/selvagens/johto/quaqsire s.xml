@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quagsire" nameDescription="a Wild Quagsire" race="water" experience="800" speed="280" manacost="600">
+  <health now="10875" max="10875"/>
+  <look type="595" head="20" body="30" legs="40" feet="50" corpse="11454"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="1"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="-110" attack="-140"/>
+    <attack name="aqua tail" interval="2000" chance="25" min="-90" max="-290" > 
+</attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-250" max="-360">
+    </attack>
+  <attack name="water gun" range="5" interval="2400" chance="15" min="-200" max="-320" > 
+</attack>
+    <attack name="mud shot" range="5" interval="2100" chance="20" min="-260" max="-400">
+    </attack>
+
+    <attack name="gunk shot" range="5" interval="2300" chance="35" min="-200" max="-350">
+    </attack>
+    <attack name="waterball" range="5" interval="3000" chance="25" min="-250" max="-380">   
+ </attack>
+    <attack name="water oath" interval="3000" range="5" chance="22" min="-350" max="-480" > </attack>
+  </attacks>
+
+
+  <defenses armor="30" defense="30">
+
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Quagsireee!"/>
+		<voice sentence="Quagui!"/>
+	</voices>
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8820" countmax="4" chance="50000"/> -- water pendant
+	<item id="2277" countmax="1" chance="1000"/> -- water stone
+	<item id="2287" countmax="1" chance="1600"/> -- earth stone
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+
+  </monster>

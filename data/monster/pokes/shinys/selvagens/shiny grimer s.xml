@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grimer" nameDescription="a shiny grimer" race="undead" experience="110" speed="340" manacost="0">
+        <health now="2600" max="2600"/>
+	<look type="487" corpse="123"/>
+	<targetchange interval="50000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+   <attacks>
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="mud shot" range="5" interval="3000" chance="50" min="-500" max="-530">
+    </attack>
+  <attack name="acid" range="5" interval="4500" chance="50" min="-680" max="-740">
+    </attack>
+<attack name="sludge" range="5" interval="4500" chance="50" min="-470" max="-490">
+    </attack>
+    <attack name="poisonbomb" range="5" interval="6000" chance="80" min="-600" max="-640">
+    </attack>
+    <attack name="gunk shot" range="5" interval="9000" chance="80" min="-680" max="-720">
+    </attack> 
+    <attack name="harden" range="0" interval="6000" chance="80" /> 
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="GRIMER!"/>
+    <voice sentence="GRII!"/>
+    <voice sentence="MER!"/>
+  </voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

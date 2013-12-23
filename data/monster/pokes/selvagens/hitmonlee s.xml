@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hitmonlee" nameDescription="a Wild Hitmonlee" race="fighting" experience="900" speed="265" manacost="0">
+  <health now="12500" max="12500"/>
+  <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+    <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-60" max="-80">
+    </attack>
+    <attack name="triple kick" interval="3000" range="1" chance="50" min="-1080" max="-1150">
+    </attack>
+    <attack name="kick" interval="3000" range="1" chance="50" min="-1110" max="-1150">
+    </attack>
+    <attack name="mega kick" interval="4500" range="1" chance="50" min="-1180" max="-1200">
+    </attack>
+
+    <attack name="evasion kick" interval="7500" range="5" chance="50" min="-1200" max="-1270">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Hitmonlee!"/>
+	</voices>
+<loot>
+<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

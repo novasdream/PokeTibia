@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sunkern" nameDescription="a Sunkern" race="undead" experience="2000" speed="280" manacost="600">
+  <health now="4000" max="4000"/>
+  <look type="618" head="20" body="30" legs="40" feet="50" corpse="11476"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+ <attacks>
+    <attack name="melee" interval="1700" min="-105" max="-145"/>
+    <attack name="razor leaf" interval="2300" chance="22" min="-75" max="-100">
+    </attack>
+    <attack name="vine whip" interval="2700" chance="24" min="-280" max="-360">
+    </attack>
+    <attack name="slash" interval="2100" range="1" chance="23" min="-140" max="-260">
+    </attack>
+    <attack name="acid" interval="2400" range="6" chance="21" min="-180" max="-210">
+    </attack>
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-290" max="-500">
+    </attack>
+    <attack name="poisonbomb" interval="2600" range="6" chance="26" min="-150" max="-180">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-250" max="-580">
+    </attack>
+  </attacks>
+<defenses armor="0" defense="5"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sunnn!"/>
+    <voice sentence="Keeernn!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="78" chance="89000"/> -- seeds
+	<item id="8851" countmax="4" chance="31000"/> -- leaves
+	<item id="8852" countmax="2" chance="24000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="2800"/> -- leaf stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

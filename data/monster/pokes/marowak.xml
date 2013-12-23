@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Marowak" nameDescription="a Marowak" race="ground" experience="450" speed="200" manacost="445">
+  <health now="5000" max="5000"/>
+  <look type="197" head="0" body="0" legs="0" feet="0" corpse="6072"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <attack name="melee" interval="2000" skill="23" attack="33"/>
+</attacks>
+  <defenses armor="15" defense="15"/>
+  <voices interval="5000" chance="10">
+    <voice sentence="MAROWAK!"/>
+   <voice sentence="WAAK"/>
+  </voices>
+</monster>

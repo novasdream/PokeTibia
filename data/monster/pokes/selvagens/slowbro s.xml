@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Slowbro" nameDescription="a Wild Slowbro" race="water" experience="750" speed="180" manacost="320">
+  <health now="7250" max="7250"/>
+  <look type="41" head="20" body="30" legs="40" feet="50" corpse="5986"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="17"/>
+	<attack name="aqua tail" interval="3000" range="1" chance="50" min="-540" max="-580">
+	</attack>
+    <attack name="psy pulse" range="5" interval="4500" chance="50" min="-750" max="-800">
+    </attack>
+   <attack name="water gun" range="5" interval="6000" chance="80" min="-610" max="-630">
+    </attack>
+    <attack name="confusion" range="5" interval="9000" chance="80" min="-650" max="-670">
+    </attack>
+ <attack name="water sky" interval="6000" range="5" chance="80" min="-650" max="-670" > </attack>
+ <attack name="headbutt" interval="7500" range="1" chance="80" min="-630" max="-640" > </attack>
+ <attack name="water oath" interval="10500" range="5" chance="80" min="-710" max="-730" > </attack>
+  </attacks>
+
+
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="3" chance="27000"/> -- water pendant
+	<item id="2277" countmax="1" chance="1000"/> -- water stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12012" countmax="1" chance="2600"/> -- Slow tail
+	<item id="2288" countmax="1" chance="1000"/> -- enigma stone
+	
+	</loot>
+  
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Sloow!"/>
+    <voice sentence="BROO!"/>
+  </voices>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+
+</monster>

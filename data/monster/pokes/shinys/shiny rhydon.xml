@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Rhydon" nameDescription="a Shiny Rhydon" race="rock" experience="4100" speed="210" manacost="505">
+  <health now="19500" max="19500"/>
+  <look type="366" head="0" body="0" legs="0" feet="0" corpse="2858"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+ 
+
+<attacks>
+    <attack name="melee" interval="2000" min="-75" max="-225"/>
+</attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Rhydon!"/>
+  </voices>
+
+</monster>

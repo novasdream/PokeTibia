@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zapdos" nameDescription="a Zapdos" race="electric" experience="16000000" speed="240" manacost="0">
+  <health now="70000" max="70000"/>
+  <look type="199" head="0" body="0" legs="0" feet="0" corpse="6074"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+
+    <attack name="melee" interval="3000" skill="45" attack="85"/>
+
+</attacks>
+
+
+  <defenses armor="15" defense="15">
+    </defenses>
+    <elements>
+		<element firePercent="-10"/>
+		<element earthPercent="20"/>
+		<element physicalPercent="15"/>
+		<element icePercent="20"/>
+  </elements>
+  <immunities>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Zapdos!!"/>
+  </voices>
+</monster>

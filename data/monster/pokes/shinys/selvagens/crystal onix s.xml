@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Onix" nameDescription="a Crystal Onix" race="ice" experience="2100" speed="260" manacost="390">
+	<health now="42500" max="42500"/>
+	<look type="292" head="0" body="0" legs="0" feet="0" corpse="6320"/>
+	<targetchange interval="1000" chance="1000"/>
+	<strategy attack="100" defense="0"/>
+
+    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-80" max="-160">
+    </attack>
+    <attack name="Rock Throw" interval="4500" chance="90" min="-120" max="-180">
+    </attack>
+    <attack name="headbutt" interval="5000" chance="90" min="-520" max="-780">
+    </attack>
+    <attack name="rock slide" interval="3500" chance="90" min="-80" max="-280">
+    </attack>
+    <attack name="earthshock" interval="4500" chance="90" min="-120" max="-180">
+    </attack>
+    <attack name="earth power" interval="5000" chance="90" min="-520" max="-780">
+    </attack>
+    <attack name="shockwave" interval="4500" chance="90" min="-120" max="-180">
+    </attack>
+    <attack name="falling rocks" interval="5000" chance="90" min="-520" max="-780">
+    </attack>
+  </attacks>
+	<voices interval="3000" chance="200">
+		<voice sentence="Onixx"/>
+		<voice sentence="Ooon!"/>
+	</voices>
+ </monster>

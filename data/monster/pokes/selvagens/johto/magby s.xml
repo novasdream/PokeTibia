@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magby" nameDescription="a wild Magby" race="fire" experience="2000" speed="166" manacost="550">
+  <health now="4100" max="4100"/>
+  <look type="386" head="20" body="30" legs="40" feet="50" corpse="11435"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="4500" chance="90" min="-120" max="-210">
+    </attack>
+    <attack name="scratch" interval="1000" chance="50" min="-50" max="-150">
+    </attack>
+    <attack name="fire punch" interval="5000" chance="90" min="-190" max="-320">
+    </attack>
+<attack name="flamethrower" interval="7000" chance="80" min="-200" max="-350">
+    </attack>
+
+    <attack name="Flame Wheel" interval="3500" chance="90" min="-50" max="-150">
+    </attack>
+    <attack name="raging blast" interval="8000" chance="100" min="-100" max="-200">
+    </attack>
+    
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="magbyy!"/>
+  </voices>
+  
+	<loot>
+	<item id="8866" countmax="15" chance="45000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="12000"/> -- pot of lava
+	</loot>
+	
+<script>
+<event name="Exp"/>
+<event name="BlockSpells"/>
+</script>
+</monster>

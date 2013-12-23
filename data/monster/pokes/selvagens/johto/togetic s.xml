@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Togetic" nameDescription="a wild Togetic" race="normal" experience="900" speed="230" manacost="485">
+  <health now="10700" max="10700"/>
+  <look type="622" head="20" body="30" legs="40" feet="50" corpse="11480"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+
+  <attack name="melee" interval="1000" min="-100" max="-150" /> 
+  <attack name="quick attack" range="1" interval="3000" chance="50" min="-920" max="-970" > </attack>
+  <attack name="eggbomb" range="5" interval="4500" chance="50" min="-1200" max="-1280" > </attack>
+  <attack name="egg fire bomb" interval="4500" range="5" chance="50" min="-970" max="-1040" > </attack>
+  <attack name="Multi Slap" range="1" interval="7500" chance="80" min="-1100" max="-1140" > </attack>
+  <attack name="selfheal" interval="12000" range="5" chance="100" min="-10720" max="-10720" > </attack>
+  <attack name="metronome" range="5" interval="13500" chance="100" min="-1270" max="-1340" > </attack>
+    <attack name="great love" interval="15000" range="5" chance="100" min="-1220" max="-1240">
+    </attack>
+    <attack name="leaf magical" range="5" interval="12000" chance="100" min="-1190" max="-1240">
+    </attack>
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+<voice sentence="TOGETIC!"/>
+<voice sentence="TIIIC!"/>
+  </voices>
+
+ <loot>
+	<item id="2289" countmax="1" chance="1000"/> -- heart stone
+	<item id="5946" countmax="1" chance="18000"/> -- comb
+<item id="12004" countmax="1" chance="4000"/> -- toge egg --
+  </loot>
+
+<script>
+	<event name="Exp"/>
+        </script>
+</monster>

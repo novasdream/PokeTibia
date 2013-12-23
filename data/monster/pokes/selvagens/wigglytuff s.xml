@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Wigglytuff" nameDescription="a Wild Wigglytuff" race="normal" experience="650" speed="225" manacost="360">
+  <health now="13000" max="13000"/>
+  <look type="64" head="20" body="30" legs="40" feet="50" corpse="6012"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+
+  <attack name="melee" interval="1000" min="-100" max="-150" /> 
+  <attack name="doubleslap" range="1" interval="3000" chance="50" min="-960" max="-1010" > </attack>
+  <attack name="headbutt" range="1" interval="3000" chance="50" min="-990" max="-1100" > </attack>
+  <attack name="Guitar Paralizy" interval="4500" range="4" chance="50" min="-1010" max="-1040" > </attack>
+  <attack name="hyper voice" range="5" interval="7500" chance="50" min="-1110" max="-1140" > </attack>
+  <attack name="metronome" range="5" interval="12000" chance="100" min="-1130" max="-1230" > </attack>
+  <attack name="Multi Punch" range="1" interval="9000" chance="80" min="-1125" max="-1145"/> 
+  <attack name="Melody" range="5" interval="15000" chance="100" min="-840" max="-850"/> 
+
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="wiglypuff"/>
+  </voices>
+ <loot>
+	<item id="2289" countmax="1" chance="1000"/> -- heart stone
+	<item id="5946" countmax="1" chance="18000"/> -- comb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

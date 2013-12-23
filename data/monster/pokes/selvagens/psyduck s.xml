@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Psyduck" nameDescription="a Wild Psyduck" race="water" experience="325" speed="180" manacost="0">
+  <health now="2400" max="2400"/>
+  <look type="100" head="20" body="30" legs="40" feet="50" corpse="6029"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="doubleslap" range="1" interval="3000" chance="50" min="-240" max="-260">
+    </attack>
+    <attack name="water gun" range="5" interval="4500" chance="50" min="-310" max="-350">
+    </attack>
+    <attack name="headbutt" range="1" interval="4500" chance="50" min="-260" max="-290">
+    </attack>
+    <attack name="confusion" range="5" interval="7500" chance="80" min="-330" max="-350">
+    </attack>
+
+
+    <attack name="water sky" range="4" interval="6000" chance="80" min="-270" max="-310">
+    </attack>
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Psyduck!"/>
+  </voices>
+
+
+	<loot>
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+ <item id="12010" countmax="1" chance="12000"/> -- psyduck pot
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

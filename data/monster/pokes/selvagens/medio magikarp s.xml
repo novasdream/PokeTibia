@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Medio Magikarp" namedescription="a Wild medio magikarp" race="water" experience="110" speed="160" manacost="220">
+  <health now="1900" max="1900"/>
+  <look type="329" head="20" body="30" legs="40" feet="50" corpse="12138"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="splash" interval="1500" range="1" chance="50" min="-245" max="-270">
+    </attack>
+    <attack name="bubbles" interval="3000" range="5" chance="50" min="-280" max="-300">
+    </attack>
+  </attacks>
+
+	<loot>
+	<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	<item id="8820" countmax="1" chance="17000"/> -- water pendant
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Magikarp!"/>
+    <voice sentence="kaaarp!"/>
+  </voices>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Suicune" nameDescription="a Wild Suicune" race="water" experience="15000" speed="420" manacost="600">
+  <health now="60000" max="60000"/>
+  <look type="616" head="20" body="30" legs="40" feet="50" corpse="11474"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+   <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="100"/>
+    <flag runonhealth="1"/>
+  </flags>
+
+  <attacks>
+    <attack name="icy wind" interval="1000" chance="90" min="-1600" max="-3200">
+ </attack>
+   <attack name="ice shard" interval="7000" chance="90" min="-1400" max="-2400"> 
+    </attack>
+    <attack name="water pulse" range="5" interval="2100" chance="20" min="-3600" max="-5000">
+    </attack>
+    <attack name="bubbles" range="5" interval="2600" chance="20" min="-2500" max="-3600">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="35" min="-3000" max="-4500">
+    </attack>
+    <attack name="aqua tail" range="5" interval="3000" chance="25" min="-2500" max="-3800">   
+    </attack>
+    <attack name="water gun" range="5" interval="2400" chance="15" min="-4000" max="-6200" > 
+    </attack>
+    <attack name="ice beam" interval="6500" chance="90" min="-200" max="-2200">
+    </attack>
+    <attack name="water oath" interval="3000" range="5" chance="22" min="-13500" max="-16800" > 
+    </attack>
+  </attacks>
+
+
+  <defenses armor="30" defense="30">
+
+  </defenses>
+  	<voices interval="2000" chance="10">
+		<voice sentence="Suiii!"/>
+	</voices>
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="4" chance="50000"/> -- water pendant
+	<item id="2277" countmax="1" chance="3500"/> -- water stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2145" countmax="1" chance="500"/><!-- small diamond -->
+	<item id="6569" countmax="1" chance="3000"/><!-- rare candy -->
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+
+  </monster>

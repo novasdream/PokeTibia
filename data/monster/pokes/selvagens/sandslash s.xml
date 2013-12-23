@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sandslash" nameDescription="a wild Sandslash" race="ground" experience="750" speed="195" manacost="0">
+  <health now="10175" max="10175"/>
+  <look type="115" head="20" body="30" legs="40" feet="50" corpse="6041"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1700" min="-99" max="-121"/>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-950" max="-980">
+    </attack>
+<attack name="mud shot" interval="4500" range="5" chance="50" min="-1135" max="-1145">
+    </attack>
+    <attack name="earth fang" interval="3900" range="1" chance="50" min="-990" max="-1060">
+    </attack>
+    <attack name="rollout" interval="12000" range="5" chance="100" min="-970" max="-980">
+    </attack>
+    <attack name="earth power" interval="6000" range="5"  chance="80" min="-850" max="-860">
+    </attack>
+    <attack name="shockwave" interval="10500" range="5" chance="80" min="-1080" max="-1100">
+    </attack>
+    <attack name="sand oath" interval="10500" range="5" chance="80" min="-1200" max="-1220">
+    </attack>
+
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="SANDSLASH!"/>
+    <voice sentence="SLAASH!"/>
+  </voices>
+	<loot>
+	<item id="8865" countmax="4" chance="65000"/> -- sandbag
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12036" countmax="100" chance="62000"/> -- small earth
+	<item id="2287" countmax="1" chance="400"/> -- earth stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

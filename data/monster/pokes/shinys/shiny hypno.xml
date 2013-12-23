@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Hypno" nameDescription="a Shiny Hypno" race="psychic" experience="1100" speed="260" manacost="350">
+  <health now="12600" max="12600"/>
+  <look type="356" head="20" body="30" legs="40" feet="50" corpse="6046"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="21" attack="32"/>
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="HYPNO!"/>
+    <voice sentence="PNOOO!"/>
+  </voices>
+</monster>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Croconaw" nameDescription="a wild Croconaw" race="water" experience="800" speed="200" manacost="0">
+  <health now="6750" max="6750"/>
+  <look type="545" head="0" body="0" legs="0" feet="0" corpse="11405"/>
+  <targetchange interval="1000" chance="0"/>
+  
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="-50" attack="-140"/>
+    <attack name="headbutt" interval="3000" range="1" chance="50" min="-470" max="-490" > </attack>
+   <attack name="bubbles" range="5" interval="4500" chance="50" min="-630" max="-680">
+    </attack>
+ <attack name="water gun" range="5" interval="4500" chance="50" min="-560" max="-600" > </attack>
+    <attack name="Bubblebeam" range="5" interval="7500" chance="80" min="-560" max="-580">
+    </attack>
+    <attack name="Bubble Blast" range="5" interval="9000" chance="80" min="-485" max="-495">
+    </attack>
+    <attack name="hydro cannon" range="5" interval="12000" chance="80" min="-680" max="-690">    </attack>
+    <attack name="water oath" interval="10500" range="5" chance="80" min="-600" max="-620" > </attack>
+  </attacks>
+
+
+
+
+
+  	<voices interval="2000" chance="10">
+		<voice sentence="CROCONAAW!"/>
+		<voice sentence="NAAAW!"/>
+	</voices>
+	<loot>
+	<item id="6528" countmax="100" chance="100000"/> -- water gem
+	<item id="8820" countmax="4" chance="50000"/> -- water pendant
+	<item id="2277" countmax="1" chance="1100"/> -- water stone
+	</loot>
+
+<script>
+<event name="Exp"/>
+</script>
+
+  </monster>

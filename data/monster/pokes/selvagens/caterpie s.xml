@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Caterpie" nameDescription="a wild Caterpie" race="bug" experience="50" speed="200" manacost="220">
+  <health now="600" max="600"/>
+  <look type="32" head="20" body="30" legs="40" feet="50" corpse="5971"/>
+
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="8"/>
+  </flags>
+
+
+  <attacks>
+  <attack name="melee" interval="2000" range="1" min="-10" max="-20" /> 
+  <attack name="string shot" range="5" interval="1500" chance="50"> </attack>
+  <attack name="bug bite" range="1" interval="3000" chance="50" min="-122" max="-142" > </attack>
+  <attack name="headbutt" range="1" interval="4500" chance="50" min="-122" max="-132" > </attack>
+
+  </attacks>
+
+
+
+  <defenses armor="1" defense="2"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Pieeeeee"/>
+  </voices>
+	<loot>
+		<item id="8858" countmax="1" chance="1000000"/><!-- Pot of moss bug -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

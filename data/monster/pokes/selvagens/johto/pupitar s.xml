@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pupitar" nameDescription="a Wild Pupitar" race="rock" experience="650" speed="220" manacost="600">
+  <health now="11000" max="11000"/>
+  <look type="594" head="20" body="30" legs="40" feet="50" corpse="11453"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+    <attack name="quick attack" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+    <attack name="headbutt" interval="2300" range="1" chance="20" min="-50" max="-70">
+    </attack>
+    <attack name="rock slide" interval="2700" range="1" chance="24" min="-30" max="-55">
+    </attack>
+    <attack name="earthshock" interval="5500" range="1" chance="24" min="-30" max="-55"></attack>
+  <attack name="rock tomb" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+    <attack name="shockwave" interval="2300" range="1" chance="20" min="-50" max="-70">
+    </attack>
+    <attack name="epicenter" interval="2300" range="1" chance="20" min="-150" max="-170">
+    </attack>
+
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GEO!"/>
+    <voice sentence="DUDE!"/>
+    <voice sentence="GEODUDE!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="1294" countmax="15" chance="62000"/> -- small stone
+<item id="12156" countmax="1" chance="1900"/> -- ancient stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
