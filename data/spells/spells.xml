@@ -396,7 +396,7 @@
 	</instant>
 	<instant name="water spout" words="exori waterspout" lvl="23000" mana="25" prem="1" range="5" exhaustion="2000" needtarget="1" blockwalls="1" needlearn="0" event="script" value="poke/water spout.lua">
 	</instant>
-	<instant name="shadow area" words="exevo vis lux" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/shadow area.lua">
+	<instant name="shadow area" words="exevo vis lux" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Shadow Area.lua">
 	</instant>
 	<instant name="nightmare" words="exevo vis lnerghg" lvl="20003" mana="40" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/nightmare.lua">
 	</instant>
@@ -412,7 +412,7 @@
 	</instant>
 	<instant name="horn oath" words="exori horn" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn oath.lua">
 	</instant>
-	<instant name="horn drill" words="exori ghorn drill" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn drill.lua">
+	<instant name="horn drill" words="exori ghorn drill" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn Drill.lua">
 	</instant>
 	<instant name="swift" words="exori tau" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/swift.lua">
 	</instant>
@@ -424,11 +424,11 @@
 	</instant>
 	<instant name="pay day" words="exoriii pay day" lvl="1" mana="115" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/pay day.lua">
 	</instant>
-	<instant name="Melody" words="exori vulpix" lvl="3005" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="poke/Melody.lua">
+	<instant name="Melody" words="exori vulpix" lvl="3005" mana="115" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="poke/melody.lua">
 	</instant>
 	<instant name="hyper voice" words="exori machow" lvl="3005" mana="115" prem="1" needtarget="1" exhaustion="2000" needlearn="0" event="script" value="poke/hyper voice.lua">
 	</instant>
-	<instant name="selfheal" words="exevo vis hur" lvl="300008" mana="170" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/selfheal.lua">
+	<instant name="selfheal" words="exevo vis hur" lvl="300008" mana="170" direction="1" exhaustion="2000" needlearn="0" event="script" value="poke/Selfheal.lua">
 	</instant>
 	<instant name="horn water" words="exevo gran mas vis" lvl="50005" mana="650" selftarget="1" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn water.lua">
 		
@@ -606,7 +606,7 @@
 </instant>
 <instant name="Bone slash" words="bone slash" lvl="9999" mana="999" prem="1" range="1" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/boneclub.lua">
 </instant>
-<instant name="Earthquake" words="earthquake attack" lvl="9999" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/earthquake.lua">
+<instant name="Earthquake" words="earthquake attack" lvl="9999" mana="20000" prem="1" range="3" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Earthquake.lua">
 </instant>
 <instant name="Multi Punch" words="Multi Punchtest" lvl="10" mana="999" prem="1" range="5" casterTargetOrDirection="1" blockwalls="1" exhaustion="2000" needlearn="0" event="script" value="poke/Multi Punch.lua">
 </instant>
