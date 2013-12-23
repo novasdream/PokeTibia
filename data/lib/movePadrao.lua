@@ -363,9 +363,12 @@
   ["pidgeot"]=799,
 }
 
- pokeLib ={
+pokeMove ={
 	[2] = {
 		name = "Squirtle",
+		level = "20",
+		cons = "50",
+		vida = "1500",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 20,
@@ -435,6 +438,9 @@
 	},
 	[3] = {
 		name = "Persian",
+		level = "30",
+		cons = "90",
+		vida = "3000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -515,6 +521,9 @@
 	},
 	[4] = {
 		name = "Chansey",
+		level = "60",
+		cons = "100",
+		vida = "7000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 60,
@@ -583,7 +592,10 @@
 		},
 	},
 	[5] = {
-		name = "pidgeotto",
+		name = "Pidgeotto",
+		level = "20",
+		cons = "50",
+		vida = "1500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -652,7 +664,10 @@
 		},
 	},
 	[6] = {
-		name = "wartortle",
+		name = "Wartortle",
+		level = "40",
+		cons = "95",
+		vida = "4050",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 40,
@@ -732,7 +747,10 @@
 		},
 	},
 	[7] = {
-		name = "ekans",
+		name = "Ekans",
+		level = "15",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 15,
@@ -791,6 +809,9 @@
 	},
 	[9] = {
 		name = "Mew",
+		level = "600",
+		cons = "1000",
+		vida = "400000",
 		move1 = {
 			spell = "Transform",
 			minLv = 600,
@@ -926,6 +947,9 @@
 	},
 	[10] = {
 		name = "Aerodactyl",
+		level = "100",
+		cons = "240",
+		vida = "15000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 100,
@@ -1039,6 +1063,9 @@
 	},
 	[11] = {
 		name = "Lickitung",
+		level = "55",
+		cons = "90",
+		vida = "5500",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 55,
@@ -1119,6 +1146,9 @@
 	},
 	[13] = {
 		name = "Kabutops",
+		level = "80",
+		cons = "170",
+		vida = "6000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 80,
@@ -1210,6 +1240,9 @@
 	},
 	[14] = {
 		name = "Flareon",
+		level = "55",
+		cons = "80",
+		vida = "5300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -1290,6 +1323,9 @@
 	},
 	[15] = {
 		name = "Scyther",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -1381,6 +1417,9 @@
 	},
 	[16] = {
 		name = "Ponyta",
+		level = "20",
+		cons = "40",
+		vida = "1200",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -1438,7 +1477,10 @@
 		},
 	},
 	[17] = {
-		name = "fearow",
+		name = "Fearow",
+		level = "50",
+		cons = "80",
+		vida = "4000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 50,
@@ -1519,6 +1561,9 @@
 	},
 	[18] = {
 		name = "Tangela",
+		level = "55",
+		cons = "70",
+		vida = "4000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 55,
@@ -1598,7 +1643,10 @@
 		},
 	},
 	[19] = {
-		name = "magikarp",
+		name = "Magikarp",
+		level = "1",
+		cons = "5",
+		vida = "450",
 		move1 = {
 			spell = "Splash",
 			minLv = 1,
@@ -1613,6 +1661,9 @@
 	},
 	[20] = {
 		name = "Hitmonlee",
+		level = "60",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Triple Kick",
 			minLv = 60,
@@ -1670,7 +1721,10 @@
 		},
 	},
 	[21] = {
-		name = "weedle",
+		name = "Weedle",
+		level = "1",
+		cons = "10",
+		vida = "600",
 		move1 = {
 			spell = "String Shot",
 			minLv = 1,
@@ -1706,7 +1760,10 @@
 		},
 	},
 	[22] = {
-		name = "venusaur",
+		name = "Venusaur",
+		level = "85",
+		cons = "190",
+		vida = "8500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -1808,7 +1865,10 @@
 		},
 	},
 	[23] = {
-		name = "charmeleon",
+		name = "Charmeleon",
+		level = "40",
+		cons = "70",
+		vida = "4050",
 		move1 = {
 			spell = "Scratch",
 			minLv = 40,
@@ -1888,7 +1948,10 @@
 		},
 	},
 	[24] = {
-		name = "ivysaur",
+		name = "Ivysaur",
+		level = "40",
+		cons = "85",
+		vida = "4050",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 40,
@@ -1968,7 +2031,10 @@
 		},
 	},
 	[25] = {
-		name = "bulbasaur",
+		name = "Bulbasaur",
+		level = "20",
+		cons = "40",
+		vida = "1500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -2037,7 +2103,10 @@
 		},
 	},
 	[26] = {
-		name = "doduo",
+		name = "Doduo",
+		level = "15",
+		cons = "40",
+		vida = "1200",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 15,
@@ -2106,7 +2175,10 @@
 		},
 	},
 	[27] = {
-		name = "spearow",
+		name = "Spearow",
+		level = "10",
+		cons = "25",
+		vida = "850",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 10,
@@ -2164,7 +2236,10 @@
 		},
 	},
 	[28] = {
-		name = "ditto",
+		name = "Ditto",
+		level = "40",
+		cons = "60",
+		vida = "4000",
 		move1 = {
 			spell = "Transform",
 			minLv = 40,
@@ -2299,7 +2374,10 @@
 		},
 	},
 	[29] = {
-		name = "charmander",
+		name = "Charmander",
+		level = "20",
+		cons = "30",
+		vida = "1500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 20,
@@ -2368,7 +2446,10 @@
 		},
 	},
 	[30] = {
-		name = "pidgey",
+		name = "Pidgey",
+		level = "1",
+		cons = "20",
+		vida = "700",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 1,
@@ -2415,7 +2496,10 @@
 		},
 	},
 	[31] = {
-		name = "metapod",
+		name = "Metapod",
+		level = "15",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 15,
@@ -2473,7 +2557,10 @@
 		},
 	},
 	[32] = {
-		name = "caterpie",
+		name = "Caterpie",
+		level = "1",
+		cons = "10",
+		vida = "600",
 		move1 = {
 			spell = "String Shot",
 			minLv = 1,
@@ -2509,7 +2596,10 @@
 		},
 	},
 	[33] = {
-		name = "horsea",
+		name = "Horsea",
+		level = "10",
+		cons = "20",
+		vida = "800",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 10,
@@ -2568,6 +2658,9 @@
 	},
 	[34] = {
 		name = "Mewtwo",
+		level = "700",
+		cons = "1500",
+		vida = "550000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 700,
@@ -2702,7 +2795,10 @@
 		},
 	},
 	[35] = {
-		name = "nidoking",
+		name = "Nidoking",
+		level = "65",
+		cons = "90",
+		vida = "6700",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -2793,7 +2889,10 @@
 		},
 	},
 	[36] = {
-		name = "rattata",
+		name = "Rattata",
+		level = "1",
+		cons = "10",
+		vida = "400",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 1,
@@ -2840,7 +2939,10 @@
 		},
 	},
 	[37] = {
-		name = "weepinbell",
+		name = "Weepinbell",
+		level = "25",
+		cons = "50",
+		vida = "1400",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 25,
@@ -2910,6 +3012,9 @@
 	},
 	[38] = {
 		name = "Hitmonchan",
+		level = "60",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Triple Punch",
 			minLv = 60,
@@ -3000,7 +3105,10 @@
 		},
 	},
 	[39] = {
-		name = "arbok",
+		name = "Arbok",
+		level = "35",
+		cons = "90",
+		vida = "4000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 35,
@@ -3081,6 +3189,9 @@
 	},
 	[40] = {
 		name = "Butterfree",
+		level = "30",
+		cons = "65",
+		vida = "3000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 30,
@@ -3161,6 +3272,9 @@
 	},
 	[41] = {
 		name = "Slowbro",
+		level = "45",
+		cons = "70",
+		vida = "4100",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 45,
@@ -3241,6 +3355,9 @@
 	},
 	[42] = {
 		name = "Staryu",
+		level = "15",
+		cons = "40",
+		vida = "1300",
 		move1 = {
 			spell = "Swift",
 			minLv = 15,
@@ -3309,7 +3426,10 @@
 		},
 	},
 	[43] = {
-		name = "sandshrew",
+		name = "Sandshrew",
+		level = "25",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 25,
@@ -3378,7 +3498,10 @@
 		},
 	},
 	[44] = {
-		name = "zubat",
+		name = "Zubat",
+		level = "5",
+		cons = "15",
+		vida = "800",
 		move1 = {
 			spell = "Absorb",
 			minLv = 5,
@@ -3436,7 +3559,10 @@
 		},
 	},
 	[45] = {
-		name = "beedrill",
+		name = "Beedrill",
+		level = "25",
+		cons = "60",
+		vida = "3000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 25,
@@ -3517,6 +3643,9 @@
 	},
 	[46] = {
 		name = "Exeggutor",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 80,
@@ -3597,6 +3726,9 @@
 	},
 	[47] = {
 		name = "Muk",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 80,
@@ -3687,7 +3819,10 @@
 		},
 	},
 	[48] = {
-		name = "gastly",
+		name = "Gastly",
+		level = "20",
+		cons = "60",
+		vida = "1300",
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 20,
@@ -3746,6 +3881,9 @@
 	},
 	[49] = {
 		name = "Venomoth",
+		level = "50",
+		cons = "80",
+		vida = "4500",
 		move1 = {
 			spell = "Absorb",
 			minLv = 50,
@@ -3825,7 +3963,10 @@
 		},
 	},
 	[50] = {
-		name = "raichu",
+		name = "Raichu",
+		level = "85",
+		cons = "100",
+		vida = "7000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -3928,6 +4069,9 @@
 	},
 	[51] = {
 		name = "Snorlax",
+		level = "90",
+		cons = "150",
+		vida = "9000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 90,
@@ -4008,6 +4152,9 @@
 	},
 	[52] = {
 		name = "Venonat",
+		level = "20",
+		cons = "50",
+		vida = "1300",
 		move1 = {
 			spell = "Absorb",
 			minLv = 20,
@@ -4066,6 +4213,9 @@
 	},
 	[53] = {
 		name = "Pinsir",
+		level = "45",
+		cons = "70",
+		vida = "4500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 45,
@@ -4146,6 +4296,9 @@
 	},
 	[54] = {
 		name = "Shellder",
+		level = "10",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 10,
@@ -4204,6 +4357,9 @@
 	},
 	[55] = {
 		name = "Blastoise",
+		level = "85",
+		cons = "195",
+		vida = "8500",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 85,
@@ -4305,7 +4461,10 @@
 		},
 	},
 	[56] = {
-		name = "oddish",
+		name = "Oddish",
+		level = "5",
+		cons = "15",
+		vida = "800",
 		move1 = {
 			spell = "Absorb",
 			minLv = 5,
@@ -4353,6 +4512,9 @@
 	},
 	[57] = {
 		name = "Farfetchd",
+		level = "45",
+		cons = "80",
+		vida = "4200",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 45,
@@ -4433,6 +4595,9 @@
 	},
 	[58] = {
 		name = "Dratini",
+		level = "20",
+		cons = "40",
+		vida = "2000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 20,
@@ -4501,7 +4666,10 @@
 		},
 	},
 	[59] = {
-		name = "pikachu",
+		name = "Pikachu",
+		level = "40",
+		cons = "75",
+		vida = "3500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 40,
@@ -4582,6 +4750,9 @@
 	},
 	[60] = {
 		name = "Kakuna",
+		level = "15",
+		cons = "35",
+		vida = "1000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 15,
@@ -4640,6 +4811,9 @@
 	},
 	[61] = {
 		name = "Dragonair",
+		level = "60",
+		cons = "120",
+		vida = "5500",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 60,
@@ -4719,7 +4893,10 @@
 		},
 	},
 	[62] = {
-		name = "vulpix",
+		name = "Vulpix",
+		level = "20",
+		cons = "35",
+		vida = "1000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -4778,6 +4955,9 @@
 	},
 	[63] = {
 		name = "Jigglypuff",
+		level = "40",
+		cons = "60",
+		vida = "4000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 40,
@@ -4847,6 +5027,9 @@
 	},
 	[64] = {
 		name = "Wigglytuff",
+		level = "65",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 65,
@@ -4937,7 +5120,10 @@
 		},
 	},
 	[65] = {
-		name = "haunter",
+		name = "Haunter",
+		level = "45",
+		cons = "70",
+		vida = "4000",
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 45,
@@ -5017,7 +5203,10 @@
 		},
 	},
 	[66] = {
-		name = "'nidoranma'",
+		name = "Nidoranma",
+		level = "10",
+		cons = "35",
+		vida = "1000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 10,
@@ -5075,7 +5264,10 @@
 		},
 	},
 	[67] = {
-		name = "charizard",
+		name = "Charizard",
+		level = "85",
+		cons = "140",
+		vida = "8500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 85,
@@ -5177,7 +5369,10 @@
 		},
 	},
 	[68] = {
-		name = "clefable",
+		name = "Clefable",
+		level = "65",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 65,
@@ -5268,7 +5463,10 @@
 		},
 	},
 	[69] = {
-		name = "raticate",
+		name = "Raticate",
+		level = "20",
+		cons = "70",
+		vida = "1700",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -5326,7 +5524,10 @@
 		},
 	},
 	[70] = {
-		name = "'nidoranfe'",
+		name = "Nidoranfe",
+		level = "10",
+		cons = "25",
+		vida = "1000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 10,
@@ -5384,7 +5585,10 @@
 		},
 	},
 	[71] = {
-		name = "nidorina",
+		name = "Nidorina",
+		level = "25",
+		cons = "60",
+		vida = "3000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 25,
@@ -5454,6 +5658,9 @@
 	},
 	[72] = {
 		name = "Cloyster",
+		level = "60",
+		cons = "70",
+		vida = "4500",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 60,
@@ -5533,7 +5740,10 @@
 		},
 	},
 	[73] = {
-		name = "clefairy",
+		name = "Clefairy",
+		level = "40",
+		cons = "60",
+		vida = "4000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 40,
@@ -5602,7 +5812,10 @@
 		},
 	},
 	[74] = {
-		name = "gloom",
+		name = "Gloom",
+		level = "25",
+		cons = "50",
+		vida = "2000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 25,
@@ -5672,6 +5885,9 @@
 	},
 	[75] = {
 		name = "Slowpoke",
+		level = "15",
+		cons = "55",
+		vida = "1000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 15,
@@ -5741,6 +5957,9 @@
 	},
 	[76] = {
 		name = "Magmar",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Triple fire",
 			minLv = 80,
@@ -5832,6 +6051,9 @@
 	},
 	[77] = {
 		name = "Rhyhorn",
+		level = "30",
+		cons = "60",
+		vida = "1500",
 		move1 = {
 			spell = "Horn Attack",
 			minLv = 30,
@@ -5900,7 +6122,10 @@
 		},
 	},
 	[78] = {
-		name = "nidorino",
+		name = "Nidorino",
+		level = "25",
+		cons = "65",
+		vida = "3000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 25,
@@ -5969,7 +6194,10 @@
 		},
 	},
 	[79] = {
-		name = "nidoqueen",
+		name = "Nidoqueen",
+		level = "65",
+		cons = "90",
+		vida = "6700",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -6060,7 +6288,10 @@
 		},
 	},
 	[80] = {
-		name = "pidgeot",
+		name = "Pidgeot",
+		level = "80",
+		cons = "100",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -6163,6 +6394,9 @@
 	},
 	[81] = {
 		name = "Paras",
+		level = "5",
+		cons = "15",
+		vida = "750",
 		move1 = {
 			spell = "Scratch",
 			minLv = 5,
@@ -6210,6 +6444,9 @@
 	},
 	[82] = {
 		name = "Diglett",
+		level = "10",
+		cons = "45",
+		vida = "1000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 10,
@@ -6268,6 +6505,9 @@
 	},
 	[83] = {
 		name = "Dugtrio",
+		level = "35",
+		cons = "80",
+		vida = "3000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 35,
@@ -6336,7 +6576,10 @@
 		},
 	},
 	[86] = {
-		name = "vileplume",
+		name = "Vileplume",
+		level = "50",
+		cons = "90",
+		vida = "4500",
 		move1 = {
 			spell = "Absorb",
 			minLv = 50,
@@ -6416,7 +6659,10 @@
 		},
 	},
 	[88] = {
-		name = "arcanine",
+		name = "Arcanine",
+		level = "80",
+		cons = "130",
+		vida = "8000",
 		move1 = {
 			spell = "Bite",
 			minLv = 80,
@@ -6508,6 +6754,9 @@
 	},
 	[92] = {
 		name = "Omanyte",
+		level = "20",
+		cons = "50",
+		vida = "2500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -6588,6 +6837,9 @@
 	},
 	[93] = {
 		name = "Tauros",
+		level = "45",
+		cons = "70",
+		vida = "4500",
 		move1 = {
 			spell = "Slamsh",
 			minLv = 45,
@@ -6667,7 +6919,10 @@
 		},
 	},
 	[94] = {
-		name = "drowzee",
+		name = "Drowzee",
+		level = "25",
+		cons = "55",
+		vida = "1400",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 25,
@@ -6737,6 +6992,9 @@
 	},
 	[95] = {
 		name = "Parasect",
+		level = "50",
+		cons = "110",
+		vida = "4000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 50,
@@ -6816,7 +7074,10 @@
 		},
 	},
 	[96] = {
-		name = "tentacool",
+		name = "Tentacool",
+		level = "15",
+		cons = "50",
+		vida = "1000",
 		move1 = {
 			spell = "Acid",
 			minLv = 15,
@@ -6886,6 +7147,9 @@
 	},
 	[97] = {
 		name = "Porygon",
+		level = "45",
+		cons = "80",
+		vida = "4200",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 45,
@@ -6966,6 +7230,9 @@
 	},
 	[98] = {
 		name = "Kabuto",
+		level = "20",
+		cons = "70",
+		vida = "2500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 20,
@@ -7046,6 +7313,9 @@
 	},
 	[99] = {
 		name = "Golduck",
+		level = "55",
+		cons = "150",
+		vida = "5000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 55,
@@ -7115,6 +7385,9 @@
 	},
 	[100] = {
 		name = "Psyduck",
+		level = "20",
+		cons = "50",
+		vida = "1400",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 20,
@@ -7172,7 +7445,10 @@
 		},
 	},
 	[101] = {
-		name = "seel",
+		name = "Seel",
+		level = "20",
+		cons = "50",
+		vida = "1600",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 20,
@@ -7241,7 +7517,10 @@
 		},
 	},
 	[102] = {
-		name = "eevee",
+		name = "Eevee",
+		level = "20",
+		cons = "60",
+		vida = "2000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -7311,6 +7590,9 @@
 	},
 	[103] = {
 		name = "Primeape",
+		level = "50",
+		cons = "100",
+		vida = "4300",
 		move1 = {
 			spell = "Scratch",
 			minLv = 50,
@@ -7390,7 +7672,10 @@
 		},
 	},
 	[104] = {
-		name = "poliwrath",
+		name = "Poliwrath",
+		level = "65",
+		cons = "90",
+		vida = "5500",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 65,
@@ -7482,6 +7767,9 @@
 	},
 	[105] = {
 		name = "Meowth",
+		level = "15",
+		cons = "50",
+		vida = "1200",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 15,
@@ -7540,6 +7828,9 @@
 	},
 	[106] = {
 		name = "Mankey",
+		level = "15",
+		cons = "60",
+		vida = "1000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 15,
@@ -7597,7 +7888,10 @@
 		},
 	},
 	[108] = {
-		name = "tentacruel",
+		name = "Tentacruel",
+		level = "80",
+		cons = "120",
+		vida = "6500",
 		move1 = {
 			spell = "Acid",
 			minLv = 80,
@@ -7689,6 +7983,9 @@
 	},
 	[109] = {
 		name = "Growlithe",
+		level = "25",
+		cons = "60",
+		vida = "1400",
 		move1 = {
 			spell = "Bite",
 			minLv = 25,
@@ -7757,7 +8054,10 @@
 		},
 	},
 	[110] = {
-		name = "dewgong",
+		name = "Dewgong",
+		level = "65",
+		cons = "90",
+		vida = "5000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 65,
@@ -7848,7 +8148,10 @@
 		},
 	},
 	[111] = {
-		name = "poliwag",
+		name = "Poliwag",
+		level = "5",
+		cons = "20",
+		vida = "800",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 5,
@@ -7895,7 +8198,10 @@
 		},
 	},
 	[112] = {
-		name = "krabby",
+		name = "Krabby",
+		level = "10",
+		cons = "45",
+		vida = "820",
 		move1 = {
 			spell = "Bubbles",
 			minLv = 10,
@@ -7953,7 +8259,10 @@
 		},
 	},
 	[113] = {
-		name = "machoke",
+		name = "Machoke",
+		level = "45",
+		cons = "80",
+		vida = "3500",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 45,
@@ -8033,7 +8342,10 @@
 		},
 	},
 	[114] = {
-		name = "ninetales",
+		name = "Ninetales",
+		level = "65",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -8113,7 +8425,10 @@
 		},
 	},
 	[115] = {
-		name = "sandslash",
+		name = "Sandslash",
+		level = "65",
+		cons = "95",
+		vida = "4000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 65,
@@ -8193,7 +8508,10 @@
 		},
 	},
 	[116] = {
-		name = "golem",
+		name = "Golem",
+		level = "70",
+		cons = "120",
+		vida = "8000",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 70,
@@ -8296,6 +8614,9 @@
 	},
 	[117] = {
 		name = "Gyarados",
+		level = "85",
+		cons = "140",
+		vida = "9000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 85,
@@ -8397,7 +8718,10 @@
 		},
 	},
 	[118] = {
-		name = "machop",
+		name = "Machop",
+		level = "20",
+		cons = "60",
+		vida = "1000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 20,
@@ -8466,7 +8790,10 @@
 		},
 	},
 	[119] = {
-		name = "hypno",
+		name = "Hypno",
+		level = "55",
+		cons = "80",
+		vida = "4200",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 55,
@@ -8546,7 +8873,10 @@
 		},
 	},
 	[120] = {
-		name = "dodrio",
+		name = "Dodrio",
+		level = "45",
+		cons = "80",
+		vida = "4000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 45,
@@ -8626,7 +8956,10 @@
 		},
 	},
 	[121] = {
-		name = "machamp",
+		name = "Machamp",
+		level = "80",
+		cons = "125",
+		vida = "7000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 80,
@@ -8706,7 +9039,10 @@
 		},
 	},
 	[122] = {
-		name = "golbat",
+		name = "Golbat",
+		level = "35",
+		cons = "50",
+		vida = "3000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 35,
@@ -8786,7 +9122,10 @@
 		},
 	},
 	[123] = {
-		name = "voltorb",
+		name = "Voltorb",
+		level = "15",
+		cons = "30",
+		vida = "1100",
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 15,
@@ -8844,7 +9183,10 @@
 		},
 	},
 	[124] = {
-		name = "cubone",
+		name = "Cubone",
+		level = "20",
+		cons = "35",
+		vida = "1000",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 20,
@@ -8902,7 +9244,10 @@
 		},
 	},
 	[125] = {
-		name = "electrode",
+		name = "Electrode",
+		level = "35",
+		cons = "50",
+		vida = "4000",
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 35,
@@ -8983,6 +9328,9 @@
 	},
 	[192] = {
 		name = "Omastar",
+		level = "80",
+		cons = "140",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -9074,6 +9422,9 @@
 	},
 	[193] = {
 		name = "Lapras",
+		level = "80",
+		cons = "120",
+		vida = "7000",
 		move1 = {
 			spell = "Triple ice",
 			minLv = 80,
@@ -9176,6 +9527,9 @@
 	},
 	[195] = {
 		name = "Jolteon",
+		level = "55",
+		cons = "80",
+		vida = "5300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -9255,7 +9609,10 @@
 		},
 	},
 	[196] = {
-		name = "geodude",
+		name = "Geodude",
+		level = "15",
+		cons = "60",
+		vida = "1000",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 15,
@@ -9325,6 +9682,9 @@
 	},
 	[197] = {
 		name = "Marowak",
+		level = "55",
+		cons = "70",
+		vida = "5000",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 55,
@@ -9405,6 +9765,9 @@
 	},
 	[198] = {
 		name = "Kangaskhan",
+		level = "80",
+		cons = "130",
+		vida = "8000",
 		move1 = {
 			spell = "Bite",
 			minLv = 80,
@@ -9496,6 +9859,9 @@
 	},
 	[199] = {
 		name = "Zapdos",
+		level = "250",
+		cons = "500",
+		vida = "70000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 250,
@@ -9620,6 +9986,9 @@
 	},
 	[200] = {
 		name = "Rhydon",
+		level = "75",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Horn Attack",
 			minLv = 75,
@@ -9711,6 +10080,9 @@
 	},
 	[210] = {
 		name = "Dragonite",
+		level = "100",
+		cons = "200",
+		vida = "10000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 100,
@@ -9823,7 +10195,10 @@
 		},
 	},
 	[212] = {
-		name = "poliwhirl",
+		name = "Poliwhirl",
+		level = "25",
+		cons = "45",
+		vida = "2500",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 25,
@@ -9893,6 +10268,9 @@
 	},
 	[213] = {
 		name = "Exeggcute",
+		level = "10",
+		cons = "25",
+		vida = "800",
 		move1 = {
 			spell = "Absorb",
 			minLv = 10,
@@ -9950,7 +10328,10 @@
 		},
 	},
 	[214] = {
-		name = "grimer",
+		name = "Grimer",
+		level = "15",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 15,
@@ -10020,6 +10401,9 @@
 	},
 	[215] = {
 		name = "Vaporeon",
+		level = "55",
+		cons = "80",
+		vida = "5300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -10099,7 +10483,10 @@
 		},
 	},
 	[217] = {
-		name = "magnemite",
+		name = "Magnemite",
+		level = "15",
+		cons = "25",
+		vida = "800",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 15,
@@ -10157,7 +10544,10 @@
 		},
 	},
 	[218] = {
-		name = "alakazam",
+		name = "Alakazam",
+		level = "80",
+		cons = "95",
+		vida = "7200",
 		move1 = {
 			spell = "Agility",
 			minLv = 80,
@@ -10259,7 +10649,10 @@
 		},
 	},
 	[219] = {
-		name = "kadabra",
+		name = "Kadabra",
+		level = "45",
+		cons = "60",
+		vida = "3300",
 		move1 = {
 			spell = "Agility",
 			minLv = 45,
@@ -10351,6 +10744,9 @@
 	},
 	[220] = {
 		name = "Rapidash",
+		level = "50",
+		cons = "90",
+		vida = "5000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 50,
@@ -10441,7 +10837,10 @@
 		},
 	},
 	[223] = {
-		name = "magneton",
+		name = "Magneton",
+		level = "75",
+		cons = "100",
+		vida = "4500",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 75,
@@ -10511,6 +10910,9 @@
 	},
 	[228] = {
 		name = "Koffing",
+		level = "15",
+		cons = "50",
+		vida = "1000",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 15,
@@ -10580,6 +10982,9 @@
 	},
 	[231] = {
 		name = "Weezing",
+		level = "35",
+		cons = "60",
+		vida = "3500",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 35,
@@ -10648,7 +11053,10 @@
 		},
 	},
 	[240] = {
-		name = "victreebel",
+		name = "Victreebel",
+		level = "50",
+		cons = "100",
+		vida = "5000",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 50,
@@ -10728,7 +11136,10 @@
 		},
 	},
 	[244] = {
-		name = "gengar",
+		name = "Gengar",
+		level = "80",
+		cons = "135",
+		vida = "7200",
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 80,
@@ -10819,7 +11230,10 @@
 		},
 	},
 	[245] = {
-		name = "kingler",
+		name = "Kingler",
+		level = "40",
+		cons = "60",
+		vida = "4000",
 		move1 = {
 			spell = "Bubbles",
 			minLv = 40,
@@ -10899,7 +11313,10 @@
 		},
 	},
 	[246] = {
-		name = "MrMime",
+		name = "Mrmime",
+		level = "60",
+		cons = "100",
+		vida = "4300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 60,
@@ -10990,7 +11407,10 @@
 		},
 	},
 	[247] = {
-		name = "graveler",
+		name = "Graveler",
+		level = "40",
+		cons = "85",
+		vida = "3500",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 40,
@@ -11070,7 +11490,10 @@
 		},
 	},
 	[248] = {
-		name = "onix",
+		name = "Onix",
+		level = "50",
+		cons = "90",
+		vida = "5500",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 50,
@@ -11151,6 +11574,9 @@
 	},
 	[249] = {
 		name = "Starmie",
+		level = "75",
+		cons = "100",
+		vida = "4500",
 		move1 = {
 			spell = "Swift",
 			minLv = 75,
@@ -11230,7 +11656,10 @@
 		},
 	},
 	[250] = {
-		name = "bellsprout",
+		name = "Bellsprout",
+		level = "5",
+		cons = "20",
+		vida = "900",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 5,
@@ -11277,7 +11706,8 @@
 		},
 	},
 	[258] = {
-		name = "restSnorlax",
+		name = "Restsnorlax",
+-- Faltando dados de level
 		move1 = {
 			spell = "Zzzzz",
 			minLv = 90,
@@ -11368,7 +11798,10 @@
 		},
 	},
 	[262] = {
-		name = "abra",
+		name = "Abra",
+		level = "15",
+		cons = "25",
+		vida = "1000",
 		move1 = {
 			spell = "Agility",
 			minLv = 15,
@@ -11427,6 +11860,9 @@
 	},
 	[265] = {
 		name = "Moltres",
+		level = "250",
+		cons = "500",
+		vida = "70000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 250,
@@ -11551,6 +11987,9 @@
 	},
 	[272] = {
 		name = "Seaking",
+		level = "35",
+		cons = "80",
+		vida = "2800",
 		move1 = {
 			spell = "Horn Attack",
 			minLv = 35,
@@ -11631,6 +12070,9 @@
 	},
 	[274] = {
 		name = "Goldeen",
+		level = "10",
+		cons = "30",
+		vida = "830",
 		move1 = {
 			spell = "Horn Attack",
 			minLv = 10,
@@ -11688,7 +12130,10 @@
 		},
 	},
 	[276] = {
-		name = "seadra",
+		name = "Seadra",
+		level = "45",
+		cons = "75",
+		vida = "3600",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 45,
@@ -11769,6 +12214,9 @@
 	},
 	[281] = {
 		name = "Electabuzz",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 80,
@@ -11860,6 +12308,9 @@
 	},
 	[282] = {
 		name = "Jynx",
+		level = "80",
+		cons = "130",
+		vida = "7000",
 		move1 = {
 			spell = "Triple ice",
 			minLv = 80,
@@ -11951,6 +12402,9 @@
 	},
 	[283] = {
 		name = "Articuno",
+		level = "250",
+		cons = "500",
+		vida = "70000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 250,
@@ -12074,7 +12528,10 @@
 		},
 	},
 	[284] = {
-		name = "sandshrew",
+		name = "Sandshrew",
+		level = "25",
+		cons = "30",
+		vida = "1000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 25,
@@ -12143,7 +12600,10 @@
 		},
 	},
 	[285] = {
-		name = "sandslash",
+		name = "Sandslash",
+		level = "65",
+		cons = "95",
+		vida = "4000",
 		move1 = {
 			spell = "Scratch",
 			minLv = 65,
@@ -12223,7 +12683,8 @@
 		},
 	},
 	[286] = {
-		name = "electroderoll",
+		name = "Electroderoll",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 35,
@@ -12303,7 +12764,8 @@
 		},
 	},
 	[287] = {
-		name = "voltorbroll",
+		name = "Voltorbroll",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 15,
@@ -12361,7 +12823,8 @@
 		},
 	},
 	[288] = {
-		name = "golemroll",
+		name = "Golemroll",
+-- Faltando dados de level
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 70,
@@ -12463,7 +12926,8 @@
 		},
 	},
 	[292] = {
-		name = "crystalonix",
+		name = "Crystalonix",
+-- Faltando dados de level
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 100,
@@ -12543,7 +13007,8 @@
 		},
 	},
 	[294] = {
-		name = "eldercharizard",
+		name = "Eldercharizard",
+-- Faltando dados de level
 		move1 = {
 			spell = "Scratch",
 			minLv = 100,
@@ -12646,6 +13111,9 @@
 	},
 	[301] = {
 		name = "Hitmonlee",
+		level = "60",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Triple Kick",
 			minLv = 60,
@@ -12703,7 +13171,8 @@
 		},
 	},
 	[327] = {
-		name = "MiniGyarados",
+		name = "Minigyarados",
+-- Faltando dados de level
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 40,
@@ -12794,7 +13263,8 @@
 		},
 	},
 	[328] = {
-		name = "bigmagikarp",
+		name = "Bigmagikarp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Splash",
 			minLv = 40,
@@ -12830,7 +13300,8 @@
 		},
 	},
 	[329] = {
-		name = "mediomagikarp",
+		name = "Mediomagikarp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Splash",
 			minLv = 20,
@@ -12866,7 +13337,8 @@
 		},
 	},
 	[330] = {
-		name = "minimagikarp",
+		name = "Minimagikarp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Splash",
 			minLv = 1,
@@ -12880,7 +13352,8 @@
 		},
 	},
 	[332] = {
-		name = "shinybigmagikarp",
+		name = "Shinybigmagikarp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Splash",
 			minLv = 60,
@@ -12905,7 +13378,8 @@
 		},
 	},
 	[334] = {
-		name = "shinygolbat",
+		name = "Shinygolbat",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 60,
@@ -12986,6 +13460,7 @@
 	},
 	[337] = {
 		name = "Smearglevirgen",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 40,
@@ -13022,6 +13497,7 @@
 	},
 	[338] = {
 		name = "Smeargle2",
+-- Faltando dados de level
 		move1 = {
 			spell = "String Shot",
 			minLv = 40,
@@ -13091,6 +13567,7 @@
 	},
 	[339] = {
 		name = "Smeargle3",
+-- Faltando dados de level
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 40,
@@ -13171,6 +13648,7 @@
 	},
 	[340] = {
 		name = "Smeargle4",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 40,
@@ -13251,6 +13729,7 @@
 	},
 	[342] = {
 		name = "Smeargle5",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 40,
@@ -13342,6 +13821,7 @@
 	},
 	[344] = {
 		name = "Smeargle6",
+-- Faltando dados de level
 		move1 = {
 			spell = "Agility",
 			minLv = 40,
@@ -13433,6 +13913,7 @@
 	},
 	[345] = {
 		name = "Smeargle7",
+-- Faltando dados de level
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 40,
@@ -13512,7 +13993,8 @@
 		},
 	},
 	[348] = {
-		name = "bigSnorlax",
+		name = "Bigsnorlax",
+-- Faltando dados de level
 		move1 = {
 			spell = "Scratch",
 			minLv = 150,
@@ -13603,7 +14085,8 @@
 		},
 	},
 	[349] = {
-		name = "shinyalakazam",
+		name = "Shinyalakazam",
+-- Faltando dados de level
 		move1 = {
 			spell = "Agility",
 			minLv = 100,
@@ -13705,7 +14188,8 @@
 		},
 	},
 	[350] = {
-		name = "shinycubone",
+		name = "Shinycubone",
+-- Faltando dados de level
 		move1 = {
 			spell = "Headbutt",
 			minLv = 40,
@@ -13763,7 +14247,8 @@
 		},
 	},
 	[351] = {
-		name = "shinydodrio",
+		name = "Shinydodrio",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -13843,7 +14328,8 @@
 		},
 	},
 	[352] = {
-		name = "ShinyDragonair",
+		name = "Shinydragonair",
+-- Faltando dados de level
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 80,
@@ -13934,7 +14420,8 @@
 		},
 	},
 	[353] = {
-		name = "shinyfearow",
+		name = "Shinyfearow",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -14014,7 +14501,8 @@
 		},
 	},
 	[354] = {
-		name = "shinyFlareon",
+		name = "Shinyflareon",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -14094,7 +14582,8 @@
 		},
 	},
 	[355] = {
-		name = "shinygolem",
+		name = "Shinygolem",
+-- Faltando dados de level
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 85,
@@ -14196,7 +14685,8 @@
 		},
 	},
 	[356] = {
-		name = "shinyhypno",
+		name = "Shinyhypno",
+-- Faltando dados de level
 		move1 = {
 			spell = "Headbutt",
 			minLv = 70,
@@ -14276,7 +14766,8 @@
 		},
 	},
 	[357] = {
-		name = "shinyJolteon",
+		name = "Shinyjolteon",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -14356,7 +14847,8 @@
 		},
 	},
 	[358] = {
-		name = "shinymachamp",
+		name = "Shinymachamp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 100,
@@ -14447,7 +14939,8 @@
 		},
 	},
 	[359] = {
-		name = "shinymagneton",
+		name = "Shinymagneton",
+-- Faltando dados de level
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 90,
@@ -14516,7 +15009,8 @@
 		},
 	},
 	[360] = {
-		name = "shinyMarowak",
+		name = "Shinymarowak",
+-- Faltando dados de level
 		move1 = {
 			spell = "Headbutt",
 			minLv = 65,
@@ -14596,7 +15090,8 @@
 		},
 	},
 	[361] = {
-		name = "shinyMrMime",
+		name = "Shinymrmime",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -14687,7 +15182,8 @@
 		},
 	},
 	[362] = {
-		name = "shinynidoking",
+		name = "Shinynidoking",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -14778,7 +15274,8 @@
 		},
 	},
 	[363] = {
-		name = "shinyninetales",
+		name = "Shinyninetales",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -14858,7 +15355,8 @@
 		},
 	},
 	[364] = {
-		name = "shinypidgeot",
+		name = "Shinypidgeot",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -14960,7 +15458,8 @@
 		},
 	},
 	[365] = {
-		name = "shinyPinsir",
+		name = "Shinypinsir",
+-- Faltando dados de level
 		move1 = {
 			spell = "Scratch",
 			minLv = 70,
@@ -15040,7 +15539,8 @@
 		},
 	},
 	[366] = {
-		name = "shinyRhydon",
+		name = "Shinyrhydon",
+-- Faltando dados de level
 		move1 = {
 			spell = "Horn Attack",
 			minLv = 100,
@@ -15131,7 +15631,8 @@
 		},
 	},
 	[367] = {
-		name = "shinyTauros",
+		name = "Shinytauros",
+-- Faltando dados de level
 		move1 = {
 			spell = "Slamsh",
 			minLv = 65,
@@ -15211,7 +15712,8 @@
 		},
 	},
 	[368] = {
-		name = "shinyVaporeon",
+		name = "Shinyvaporeon",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -15291,7 +15793,8 @@
 		},
 	},
 	[369] = {
-		name = "shinyvileplume",
+		name = "Shinyvileplume",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 80,
@@ -15371,7 +15874,8 @@
 		},
 	},
 	[370] = {
-		name = "shinyTangela",
+		name = "Shinytangela",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 80,
@@ -15451,7 +15955,8 @@
 		},
 	},
 	[371] = {
-		name = "shinyMagmar",
+		name = "Shinymagmar",
+-- Faltando dados de level
 		move1 = {
 			spell = "Triple fire",
 			minLv = 100,
@@ -15542,7 +16047,8 @@
 		},
 	},
 	[483] = {
-		name = "shinybeedrill",
+		name = "Shinybeedrill",
+-- Faltando dados de level
 		move1 = {
 			spell = "String Shot",
 			minLv = 60,
@@ -15622,7 +16128,8 @@
 		},
 	},
 	[484] = {
-		name = "shinyVenomoth",
+		name = "Shinyvenomoth",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 80,
@@ -15702,7 +16209,8 @@
 		},
 	},
 	[485] = {
-		name = "shinyButterfree",
+		name = "Shinybutterfree",
+-- Faltando dados de level
 		move1 = {
 			spell = "String Shot",
 			minLv = 60,
@@ -15782,7 +16290,8 @@
 		},
 	},
 	[486] = {
-		name = "eliteHitmonchan",
+		name = "Elitehitmonchan",
+-- Faltando dados de level
 		move1 = {
 			spell = "Triple Punch",
 			minLv = 100,
@@ -15873,7 +16382,8 @@
 		},
 	},
 	[487] = {
-		name = "shinygrimer",
+		name = "Shinygrimer",
+-- Faltando dados de level
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 40,
@@ -15942,7 +16452,8 @@
 		},
 	},
 	[488] = {
-		name = "shinyMuk",
+		name = "Shinymuk",
+-- Faltando dados de level
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 100,
@@ -16033,7 +16544,8 @@
 		},
 	},
 	[489] = {
-		name = "shinytentacruel",
+		name = "Shinytentacruel",
+-- Faltando dados de level
 		move1 = {
 			spell = "Acid",
 			minLv = 100,
@@ -16124,7 +16636,8 @@
 		},
 	},
 	[491] = {
-		name = "darkabra",
+		name = "Darkabra",
+-- Faltando dados de level
 		move1 = {
 			spell = "Agility",
 			minLv = 120,
@@ -16226,7 +16739,8 @@
 		},
 	},
 	[493] = {
-		name = "shinyarcanine",
+		name = "Shinyarcanine",
+-- Faltando dados de level
 		move1 = {
 			spell = "Bite",
 			minLv = 100,
@@ -16317,7 +16831,8 @@
 		},
 	},
 	[495] = {
-		name = "shinyBlastoise",
+		name = "Shinyblastoise",
+-- Faltando dados de level
 		move1 = {
 			spell = "Headbutt",
 			minLv = 100,
@@ -16419,7 +16934,8 @@
 		},
 	},
 	[496] = {
-		name = "shinyvenusaur",
+		name = "Shinyvenusaur",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -16521,7 +17037,8 @@
 		},
 	},
 	[497] = {
-		name = "shinyElectabuzz",
+		name = "Shinyelectabuzz",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 100,
@@ -16612,7 +17129,8 @@
 		},
 	},
 	[499] = {
-		name = "shinyJynx",
+		name = "Shinyjynx",
+-- Faltando dados de level
 		move1 = {
 			spell = "Triple ice",
 			minLv = 100,
@@ -16703,7 +17221,8 @@
 		},
 	},
 	[500] = {
-		name = "shinykingler",
+		name = "Shinykingler",
+-- Faltando dados de level
 		move1 = {
 			spell = "Bubbles",
 			minLv = 60,
@@ -16783,7 +17302,8 @@
 		},
 	},
 	[501] = {
-		name = "shinyParasect",
+		name = "Shinyparasect",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 60,
@@ -16863,7 +17383,8 @@
 		},
 	},
 	[502] = {
-		name = "shinytentacool",
+		name = "Shinytentacool",
+-- Faltando dados de level
 		move1 = {
 			spell = "Acid",
 			minLv = 30,
@@ -16932,7 +17453,8 @@
 		},
 	},
 	[504] = {
-		name = "shinymagikarp",
+		name = "Shinymagikarp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Splash",
 			minLv = 10,
@@ -16946,7 +17468,8 @@
 		},
 	},
 	[505] = {
-		name = "shinyGrowlithe",
+		name = "Shinygrowlithe",
+-- Faltando dados de level
 		move1 = {
 			spell = "Bite",
 			minLv = 40,
@@ -17015,7 +17538,8 @@
 		},
 	},
 	[506] = {
-		name = "shinyDratini",
+		name = "Shinydratini",
+-- Faltando dados de level
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 40,
@@ -17084,7 +17608,8 @@
 		},
 	},
 	[507] = {
-		name = "shinyhorsea",
+		name = "Shinyhorsea",
+-- Faltando dados de level
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 30,
@@ -17142,7 +17667,8 @@
 		},
 	},
 	[508] = {
-		name = "shinykrabby",
+		name = "Shinykrabby",
+-- Faltando dados de level
 		move1 = {
 			spell = "Bubbles",
 			minLv = 30,
@@ -17200,7 +17726,8 @@
 		},
 	},
 	[509] = {
-		name = "shinyoddish",
+		name = "Shinyoddish",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 30,
@@ -17247,7 +17774,8 @@
 		},
 	},
 	[510] = {
-		name = "shinyParas",
+		name = "Shinyparas",
+-- Faltando dados de level
 		move1 = {
 			spell = "Scratch",
 			minLv = 15,
@@ -17294,7 +17822,8 @@
 		},
 	},
 	[511] = {
-		name = "shinyraichu",
+		name = "Shinyraichu",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -17396,7 +17925,8 @@
 		},
 	},
 	[512] = {
-		name = "shinyrattata",
+		name = "Shinyrattata",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 10,
@@ -17443,7 +17973,8 @@
 		},
 	},
 	[515] = {
-		name = "shinyseadra",
+		name = "Shinyseadra",
+-- Faltando dados de level
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 60,
@@ -17523,7 +18054,8 @@
 		},
 	},
 	[516] = {
-		name = "shinyelectrode",
+		name = "Shinyelectrode",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 80,
@@ -17603,7 +18135,8 @@
 		},
 	},
 	[517] = {
-		name = "shinyVenonat",
+		name = "Shinyvenonat",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 30,
@@ -17661,7 +18194,8 @@
 		},
 	},
 	[518] = {
-		name = "shinyvoltorb",
+		name = "Shinyvoltorb",
+-- Faltando dados de level
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 30,
@@ -17719,7 +18253,8 @@
 		},
 	},
 	[519] = {
-		name = "shinyraticate",
+		name = "Shinyraticate",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -17777,7 +18312,8 @@
 		},
 	},
 	[520] = {
-		name = "eliteFarfetchd",
+		name = "Elitefarfetchd",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -17857,7 +18393,8 @@
 		},
 	},
 	[521] = {
-		name = "shinyzubat",
+		name = "Shinyzubat",
+-- Faltando dados de level
 		move1 = {
 			spell = "Absorb",
 			minLv = 30,
@@ -17915,7 +18452,8 @@
 		},
 	},
 	[525] = {
-		name = "shinyScyther",
+		name = "Shinyscyther",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -18006,7 +18544,8 @@
 		},
 	},
 	[526] = {
-		name = "eliteHitmonlee",
+		name = "Elitehitmonlee",
+-- Faltando dados de level
 		move1 = {
 			spell = "Triple Kick",
 			minLv = 100,
@@ -18064,7 +18603,8 @@
 		},
 	},
 	[527] = {
-		name = "eliteHitmonlee",
+		name = "Elitehitmonlee",
+-- Faltando dados de level
 		move1 = {
 			spell = "Triple Kick",
 			minLv = 100,
@@ -18122,7 +18662,8 @@
 		},
 	},
 	[528] = {
-		name = "redGyarados",
+		name = "Redgyarados",
+-- Faltando dados de level
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 100,
@@ -18224,7 +18765,10 @@
 		},
 	},
 	[532] = {
-		name = "aipom",
+		name = "Aipom",
+		level = "40",
+		cons = "50",
+		vida = "4000",
 		move1 = {
 			spell = "Agility",
 			minLv = 40,
@@ -18305,6 +18849,9 @@
 	},
 	[533] = {
 		name = "Ampharos",
+		level = "80",
+		cons = "140",
+		vida = "8500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -18407,6 +18954,9 @@
 	},
 	[534] = {
 		name = "Ariados",
+		level = "35",
+		cons = "50",
+		vida = "4000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 35,
@@ -18487,6 +19037,9 @@
 	},
 	[535] = {
 		name = "Azumarill",
+		level = "65",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 65,
@@ -18566,7 +19119,10 @@
 		},
 	},
 	[536] = {
-		name = "bayleef",
+		name = "Bayleef",
+		level = "40",
+		cons = "60",
+		vida = "4350",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 40,
@@ -18647,6 +19203,9 @@
 	},
 	[537] = {
 		name = "Bellossom",
+		level = "50",
+		cons = "70",
+		vida = "5000",
 		move1 = {
 			spell = "Absorb",
 			minLv = 50,
@@ -18727,6 +19286,9 @@
 	},
 	[538] = {
 		name = "Blissey",
+		level = "100",
+		cons = "200",
+		vida = "10000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -18818,6 +19380,9 @@
 	},
 	[539] = {
 		name = "Celebi",
+		level = "600",
+		cons = "800",
+		vida = "550000",
 		move1 = {
 			spell = "Agility",
 			minLv = 600,
@@ -18953,6 +19518,9 @@
 	},
 	[540] = {
 		name = "Chikorita",
+		level = "20",
+		cons = "60",
+		vida = "1500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -19022,6 +19590,9 @@
 	},
 	[541] = {
 		name = "Chinchou",
+		level = "15",
+		cons = "40",
+		vida = "1500",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 15,
@@ -19080,6 +19651,9 @@
 	},
 	[542] = {
 		name = "Cleffa",
+		level = "20",
+		cons = "60",
+		vida = "2000",
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 20,
@@ -19138,6 +19712,9 @@
 	},
 	[543] = {
 		name = "Corsola",
+		level = "50",
+		cons = "80",
+		vida = "4500",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 50,
@@ -19218,6 +19795,9 @@
 	},
 	[544] = {
 		name = "Crobat",
+		level = "80",
+		cons = "120",
+		vida = "7500",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 80,
@@ -19309,6 +19889,9 @@
 	},
 	[545] = {
 		name = "Croconaw",
+		level = "40",
+		cons = "60",
+		vida = "4350",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 40,
@@ -19388,7 +19971,10 @@
 		},
 	},
 	[547] = {
-		name = "cyndaquil",
+		name = "Cyndaquil",
+		level = "20",
+		cons = "50",
+		vida = "1500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 20,
@@ -19457,7 +20043,10 @@
 		},
 	},
 	[548] = {
-		name = "delibird",
+		name = "Delibird",
+		level = "45",
+		cons = "80",
+		vida = "4500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 50,
@@ -19538,6 +20127,9 @@
 	},
 	[549] = {
 		name = "Donphan",
+		level = "80",
+		cons = "120",
+		vida = "7000",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 80,
@@ -19617,7 +20209,10 @@
 		},
 	},
 	[550] = {
-		name = "dunsparce",
+		name = "Dunsparce",
+		level = "30",
+		cons = "60",
+		vida = "1600",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -19676,6 +20271,9 @@
 	},
 	[551] = {
 		name = "Elekid",
+		level = "30",
+		cons = "70",
+		vida = "2300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -19745,6 +20343,9 @@
 	},
 	[552] = {
 		name = "Entei",
+		level = "280",
+		cons = "500",
+		vida = "100000",
 		move1 = {
 			spell = "Bite",
 			minLv = 250,
@@ -19868,7 +20469,10 @@
 		},
 	},
 	[553] = {
-		name = "espeon",
+		name = "Espeon",
+		level = "55",
+		cons = "80",
+		vida = "5300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -19949,6 +20553,9 @@
 	},
 	[554] = {
 		name = "Feraligatr",
+		level = "85",
+		cons = "130",
+		vida = "8500",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 85,
@@ -20051,6 +20658,9 @@
 	},
 	[555] = {
 		name = "Flaaffy",
+		level = "40",
+		cons = "85",
+		vida = "4050",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 40,
@@ -20130,7 +20740,10 @@
 		},
 	},
 	[556] = {
-		name = "forretress",
+		name = "Forretress",
+		level = "65",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 65,
@@ -20211,6 +20824,9 @@
 	},
 	[557] = {
 		name = "Furret",
+		level = "35",
+		cons = "50",
+		vida = "4000",
 		move1 = {
 			spell = "Slash",
 			minLv = 35,
@@ -20279,7 +20895,10 @@
 		},
 	},
 	[558] = {
-		name = "girafarig",
+		name = "Girafarig",
+		level = "80",
+		cons = "90",
+		vida = "7500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -20371,6 +20990,9 @@
 	},
 	[559] = {
 		name = "Gligar",
+		level = "40",
+		cons = "65",
+		vida = "3000",
 		move1 = {
 			spell = "Slash",
 			minLv = 40,
@@ -20439,7 +21061,10 @@
 		},
 	},
 	[560] = {
-		name = "granbull",
+		name = "Granbull",
+		level = "65",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -20531,6 +21156,9 @@
 	},
 	[561] = {
 		name = "Heracross",
+		level = "80",
+		cons = "100",
+		vida = "8000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -20622,6 +21250,9 @@
 	},
 	[562] = {
 		name = "Hitmontop",
+		level = "60",
+		cons = "100",
+		vida = "6500",
 		move1 = {
 			spell = "Triple Top",
 			minLv = 60,
@@ -20712,7 +21343,8 @@
 		},
 	},
 	[563] = {
-		name = "HoOh",
+		name = "Hooh",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 800,
@@ -20847,7 +21479,10 @@
 		},
 	},
 	[564] = {
-		name = "hoothoot",
+		name = "Hoothoot",
+		level = "20",
+		cons = "50",
+		vida = "1500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -20916,7 +21551,10 @@
 		},
 	},
 	[565] = {
-		name = "hoppip",
+		name = "Hoppip",
+		level = "5",
+		cons = "15",
+		vida = "800",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 5,
@@ -20963,7 +21601,10 @@
 		},
 	},
 	[566] = {
-		name = "houndoom",
+		name = "Houndoom",
+		level = "80",
+		cons = "100",
+		vida = "7300",
 		move1 = {
 			spell = "Bite",
 			minLv = 80,
@@ -21055,6 +21696,9 @@
 	},
 	[567] = {
 		name = "Houndour",
+		level = "25",
+		cons = "60",
+		vida = "1500",
 		move1 = {
 			spell = "Bite",
 			minLv = 20,
@@ -21124,6 +21768,7 @@
 	},
 	[568] = {
 		name = "Igglybuff",
+-- Faltando dados de level
 		move1 = {
 			spell = "Doubleslap",
 			minLv = 20,
@@ -21181,7 +21826,10 @@
 		},
 	},
 	[569] = {
-		name = "jumpluff",
+		name = "Jumpluff",
+		level = "50",
+		cons = "90",
+		vida = "4000",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 50,
@@ -21261,7 +21909,10 @@
 		},
 	},
 	[570] = {
-		name = "kingdra",
+		name = "Kingdra",
+		level = "100",
+		cons = "140",
+		vida = "9000",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 100,
@@ -21363,7 +22014,10 @@
 		},
 	},
 	[571] = {
-		name = "lanturn",
+		name = "Lanturn",
+		level = "75",
+		cons = "100",
+		vida = "6000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 75,
@@ -21454,7 +22108,10 @@
 		},
 	},
 	[572] = {
-		name = "larvitar",
+		name = "Larvitar",
+		level = "20",
+		cons = "70",
+		vida = "2500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 20,
@@ -21523,7 +22180,10 @@
 		},
 	},
 	[573] = {
-		name = "ledian",
+		name = "Ledian",
+		level = "35",
+		cons = "60",
+		vida = "4000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 35,
@@ -21603,7 +22263,10 @@
 		},
 	},
 	[574] = {
-		name = "ledyba",
+		name = "Ledyba",
+		level = "15",
+		cons = "40",
+		vida = "2000",
 		move1 = {
 			spell = "String Shot",
 			minLv = 15,
@@ -21662,6 +22325,9 @@
 	},
 	[575] = {
 		name = "Lugia",
+		level = "600",
+		cons = "1000",
+		vida = "165000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 600,
@@ -21796,7 +22462,10 @@
 		},
 	},
 	[576] = {
-		name = "magby",
+		name = "Magby",
+		level = "30",
+		cons = "60",
+		vida = "2300",
 		move1 = {
 			spell = "Scratch",
 			minLv = 30,
@@ -21865,7 +22534,10 @@
 		},
 	},
 	[577] = {
-		name = "magcargo",
+		name = "Magcargo",
+		level = "75",
+		cons = "100",
+		vida = "5100",
 		move1 = {
 			spell = "Erupt",
 			minLv = 75,
@@ -21956,7 +22628,10 @@
 		},
 	},
 	[578] = {
-		name = "mantine",
+		name = "Mantine",
+		level = "80",
+		cons = "130",
+		vida = "8300",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 80,
@@ -22048,6 +22723,9 @@
 	},
 	[579] = {
 		name = "Mareep",
+		level = "20",
+		cons = "70",
+		vida = "1500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -22117,6 +22795,9 @@
 	},
 	[580] = {
 		name = "Marill",
+		level = "20",
+		cons = "50",
+		vida = "2500",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 20,
@@ -22186,6 +22867,9 @@
 	},
 	[581] = {
 		name = "Meganium",
+		level = "85",
+		cons = "170",
+		vida = "8500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -22287,7 +22971,10 @@
 		},
 	},
 	[582] = {
-		name = "miltank",
+		name = "Miltank",
+		level = "80",
+		cons = "140",
+		vida = "8600",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -22378,7 +23065,10 @@
 		},
 	},
 	[583] = {
-		name = "misdreavus",
+		name = "Misdreavus",
+		level = "80",
+		cons = "140",
+		vida = "6500",
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 80,
@@ -22480,7 +23170,10 @@
 		},
 	},
 	[584] = {
-		name = "murkrow",
+		name = "Murkrow",
+		level = "55",
+		cons = "70",
+		vida = "5200",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 50,
@@ -22560,7 +23253,10 @@
 		},
 	},
 	[585] = {
-		name = "natu",
+		name = "Natu",
+		level = "20",
+		cons = "50",
+		vida = "1300",
 		move1 = {
 			spell = "Agility",
 			minLv = 30,
@@ -22629,7 +23325,10 @@
 		},
 	},
 	[586] = {
-		name = "noctowl",
+		name = "Noctowl",
+		level = "65",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 65,
@@ -22720,7 +23419,10 @@
 		},
 	},
 	[587] = {
-		name = "octillery",
+		name = "Octillery",
+		level = "70",
+		cons = "80",
+		vida = "7000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 70,
@@ -22800,7 +23502,10 @@
 		},
 	},
 	[588] = {
-		name = "phanpy",
+		name = "Phanpy",
+		level = "20",
+		cons = "70",
+		vida = "1300",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 20,
@@ -22869,7 +23574,10 @@
 		},
 	},
 	[589] = {
-		name = "pichu",
+		name = "Pichu",
+		level = "20",
+		cons = "60",
+		vida = "1500",
 		move1 = {
 			spell = "Thunder Shock",
 			minLv = 20,
@@ -22928,6 +23636,9 @@
 	},
 	[590] = {
 		name = "Piloswine",
+		level = "80",
+		cons = "140",
+		vida = "7100",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 80,
@@ -23018,7 +23729,10 @@
 		},
 	},
 	[591] = {
-		name = "pineco",
+		name = "Pineco",
+		level = "10",
+		cons = "50",
+		vida = "1300",
 		move1 = {
 			spell = "String Shot",
 			minLv = 10,
@@ -23087,7 +23801,10 @@
 		},
 	},
 	[592] = {
-		name = "politoed",
+		name = "Politoed",
+		level = "65",
+		cons = "80",
+		vida = "6200",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 65,
@@ -23168,6 +23885,9 @@
 	},
 	[593] = {
 		name = "Porygon2",
+		level = "75",
+		cons = "140",
+		vida = "6000",
 		move1 = {
 			spell = "Super Sonic",
 			minLv = 75,
@@ -23269,7 +23989,10 @@
 		},
 	},
 	[594] = {
-		name = "pupitar",
+		name = "Pupitar",
+		level = "65",
+		cons = "100",
+		vida = "4500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 60,
@@ -23350,6 +24073,7 @@
 	},
 	[595] = {
 		name = "Quaqsire",
+-- Faltando dados de level
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 65,
@@ -23429,7 +24153,10 @@
 		},
 	},
 	[597] = {
-		name = "quilava",
+		name = "Quilava",
+		level = "40",
+		cons = "60",
+		vida = "4350",
 		move1 = {
 			spell = "Scratch",
 			minLv = 40,
@@ -23509,7 +24236,10 @@
 		},
 	},
 	[598] = {
-		name = "qwilfish",
+		name = "Qwilfish",
+		level = "55",
+		cons = "80",
+		vida = "4000",
 		move1 = {
 			spell = "Acid",
 			minLv = 50,
@@ -23579,6 +24309,9 @@
 	},
 	[599] = {
 		name = "Raikou",
+		level = "270",
+		cons = "500",
+		vida = "100000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 250,
@@ -23702,7 +24435,10 @@
 		},
 	},
 	[600] = {
-		name = "remoraid",
+		name = "Remoraid",
+		level = "10",
+		cons = "40",
+		vida = "1000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 10,
@@ -23772,6 +24508,9 @@
 	},
 	[601] = {
 		name = "Scizor",
+		level = "100",
+		cons = "130",
+		vida = "10000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -23885,6 +24624,9 @@
 	},
 	[602] = {
 		name = "Sentret",
+		level = "15",
+		cons = "50",
+		vida = "1200",
 		move1 = {
 			spell = "Slash",
 			minLv = 15,
@@ -23942,7 +24684,10 @@
 		},
 	},
 	[603] = {
-		name = "shuckle",
+		name = "Shuckle",
+		level = "30",
+		cons = "50",
+		vida = "3500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -24011,7 +24756,10 @@
 		},
 	},
 	[604] = {
-		name = "skarmory",
+		name = "Skarmory",
+		level = "85",
+		cons = "130",
+		vida = "8000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 85,
@@ -24102,7 +24850,10 @@
 		},
 	},
 	[605] = {
-		name = "skiploom",
+		name = "Skiploom",
+		level = "25",
+		cons = "40",
+		vida = "3000",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 25,
@@ -24172,6 +24923,9 @@
 	},
 	[606] = {
 		name = "Slowking",
+		level = "100",
+		cons = "155",
+		vida = "9000",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 100,
@@ -24285,6 +25039,9 @@
 	},
 	[607] = {
 		name = "Slugma",
+		level = "15",
+		cons = "60",
+		vida = "1200",
 		move1 = {
 			spell = "Erupt",
 			minLv = 15,
@@ -24354,6 +25111,7 @@
 	},
 	[608] = {
 		name = "Smeargle1",
+-- Faltando dados de level
 		move1 = {
 			spell = "Agility",
 			minLv = 40,
@@ -24412,6 +25170,9 @@
 	},
 	[609] = {
 		name = "Smoochum",
+		level = "30",
+		cons = "80",
+		vida = "2300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 30,
@@ -24481,6 +25242,9 @@
 	},
 	[610] = {
 		name = "Sneasel",
+		level = "55",
+		cons = "70",
+		vida = "5000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -24572,6 +25336,9 @@
 	},
 	[611] = {
 		name = "Snubbull",
+		level = "20",
+		cons = "50",
+		vida = "2500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 20,
@@ -24641,6 +25408,9 @@
 	},
 	[612] = {
 		name = "Spinarak",
+		level = "10",
+		cons = "20",
+		vida = "600",
 		move1 = {
 			spell = "String Shot",
 			minLv = 10,
@@ -24688,6 +25458,9 @@
 	},
 	[613] = {
 		name = "Stantler",
+		level = "55",
+		cons = "70",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -24779,6 +25552,9 @@
 	},
 	[615] = {
 		name = "Sudowoodo",
+		level = "80",
+		cons = "140",
+		vida = "8500",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 80,
@@ -24881,6 +25657,9 @@
 	},
 	[616] = {
 		name = "Suicune",
+		level = "270",
+		cons = "500",
+		vida = "100000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 250,
@@ -25005,6 +25784,9 @@
 	},
 	[617] = {
 		name = "Sunflora",
+		level = "40",
+		cons = "60",
+		vida = "4200",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 30,
@@ -25074,6 +25856,9 @@
 	},
 	[618] = {
 		name = "Sunkern",
+		level = "5",
+		cons = "15",
+		vida = "600",
 		move1 = {
 			spell = "Razor Leaf",
 			minLv = 1,
@@ -25110,6 +25895,9 @@
 	},
 	[619] = {
 		name = "Swinub",
+		level = "15",
+		cons = "50",
+		vida = "1200",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 20,
@@ -25179,6 +25967,9 @@
 	},
 	[620] = {
 		name = "Teddiursa",
+		level = "30",
+		cons = "50",
+		vida = "3500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 30,
@@ -25248,6 +26039,9 @@
 	},
 	[621] = {
 		name = "Togepi",
+		level = "5",
+		cons = "80",
+		vida = "2000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 5,
@@ -25317,6 +26111,9 @@
 	},
 	[622] = {
 		name = "Togetic",
+		level = "65",
+		cons = "80",
+		vida = "5500",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 60,
@@ -25408,6 +26205,9 @@
 	},
 	[623] = {
 		name = "Totodile",
+		level = "20",
+		cons = "70",
+		vida = "1500",
 		move1 = {
 			spell = "Headbutt",
 			minLv = 20,
@@ -25476,7 +26276,10 @@
 		},
 	},
 	[625] = {
-		name = "typhlosion",
+		name = "Typhlosion",
+		level = "85",
+		cons = "140",
+		vida = "8500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 85,
@@ -25578,7 +26381,10 @@
 		},
 	},
 	[626] = {
-		name = "tyranitar",
+		name = "Tyranitar",
+		level = "90",
+		cons = "150",
+		vida = "9000",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 100,
@@ -25681,6 +26487,9 @@
 	},
 	[627] = {
 		name = "Tyrogue",
+		level = "30",
+		cons = "90",
+		vida = "2500",
 		move1 = {
 			spell = "Triple",
 			minLv = 30,
@@ -25750,6 +26559,9 @@
 	},
 	[628] = {
 		name = "Umbreon",
+		level = "55",
+		cons = "80",
+		vida = "5300",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 55,
@@ -25829,7 +26641,8 @@
 		},
 	},
 	[629] = {
-		name = "unowna",
+		name = "Unowna",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -25931,7 +26744,8 @@
 		},
 	},
 	[630] = {
-		name = "unownb",
+		name = "Unownb",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26033,7 +26847,8 @@
 		},
 	},
 	[631] = {
-		name = "unownc",
+		name = "Unownc",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26135,7 +26950,8 @@
 		},
 	},
 	[632] = {
-		name = "unownd",
+		name = "Unownd",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26237,7 +27053,8 @@
 		},
 	},
 	[633] = {
-		name = "unowne",
+		name = "Unowne",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26339,7 +27156,8 @@
 		},
 	},
 	[634] = {
-		name = "unownf",
+		name = "Unownf",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26441,7 +27259,8 @@
 		},
 	},
 	[635] = {
-		name = "unowng",
+		name = "Unowng",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26543,7 +27362,8 @@
 		},
 	},
 	[636] = {
-		name = "unownh",
+		name = "Unownh",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26645,7 +27465,8 @@
 		},
 	},
 	[637] = {
-		name = "unowni",
+		name = "Unowni",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26747,7 +27568,8 @@
 		},
 	},
 	[638] = {
-		name = "unownj",
+		name = "Unownj",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26849,7 +27671,8 @@
 		},
 	},
 	[639] = {
-		name = "unownk",
+		name = "Unownk",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -26951,7 +27774,8 @@
 		},
 	},
 	[640] = {
-		name = "unownl",
+		name = "Unownl",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27053,7 +27877,8 @@
 		},
 	},
 	[641] = {
-		name = "unownm",
+		name = "Unownm",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27155,7 +27980,8 @@
 		},
 	},
 	[642] = {
-		name = "unownn",
+		name = "Unownn",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27257,7 +28083,8 @@
 		},
 	},
 	[643] = {
-		name = "unowno",
+		name = "Unowno",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27359,7 +28186,8 @@
 		},
 	},
 	[644] = {
-		name = "unownp",
+		name = "Unownp",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27461,7 +28289,8 @@
 		},
 	},
 	[645] = {
-		name = "unownq",
+		name = "Unownq",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27563,7 +28392,8 @@
 		},
 	},
 	[646] = {
-		name = "unownr",
+		name = "Unownr",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27665,7 +28495,8 @@
 		},
 	},
 	[647] = {
-		name = "unowns",
+		name = "Unowns",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27767,7 +28598,8 @@
 		},
 	},
 	[648] = {
-		name = "unownt",
+		name = "Unownt",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27869,7 +28701,8 @@
 		},
 	},
 	[649] = {
-		name = "unownu",
+		name = "Unownu",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -27971,7 +28804,8 @@
 		},
 	},
 	[650] = {
-		name = "unownv",
+		name = "Unownv",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -28073,7 +28907,8 @@
 		},
 	},
 	[651] = {
-		name = "unownx",
+		name = "Unownx",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -28175,7 +29010,8 @@
 		},
 	},
 	[652] = {
-		name = "unownw",
+		name = "Unownw",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -28277,7 +29113,8 @@
 		},
 	},
 	[653] = {
-		name = "unowny",
+		name = "Unowny",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -28379,7 +29216,8 @@
 		},
 	},
 	[654] = {
-		name = "unownz",
+		name = "Unownz",
+-- Faltando dados de level
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 100,
@@ -28482,6 +29320,9 @@
 	},
 	[655] = {
 		name = "Ursaring",
+		level = "90",
+		cons = "170",
+		vida = "9500",
 		move1 = {
 			spell = "Scratch",
 			minLv = 90,
@@ -28573,6 +29414,9 @@
 	},
 	[656] = {
 		name = "Wobbuffet",
+		level = "80",
+		cons = "120",
+		vida = "9000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -28675,6 +29519,9 @@
 	},
 	[657] = {
 		name = "Wooper",
+		level = "20",
+		cons = "60",
+		vida = "1200",
 		move1 = {
 			spell = "Aqua Tail",
 			minLv = 20,
@@ -28744,6 +29591,9 @@
 	},
 	[658] = {
 		name = "Xatu",
+		level = "75",
+		cons = "70",
+		vida = "7300",
 		move1 = {
 			spell = "Agility",
 			minLv = 75,
@@ -28835,6 +29685,9 @@
 	},
 	[659] = {
 		name = "Yanma",
+		level = "50",
+		cons = "80",
+		vida = "4400",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 50,
@@ -28915,6 +29768,9 @@
 	},
 	[664] = {
 		name = "Donphan",
+		level = "80",
+		cons = "120",
+		vida = "7000",
 		move1 = {
 			spell = "Mud Shot",
 			minLv = 80,
@@ -28994,7 +29850,10 @@
 		},
 	},
 	[675] = {
-		name = "miltank",
+		name = "Miltank",
+		level = "80",
+		cons = "140",
+		vida = "8600",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -29086,6 +29945,9 @@
 	},
 	[724] = {
 		name = "Steelix",
+		level = "100",
+		cons = "150",
+		vida = "10000",
 		move1 = {
 			spell = "Rock Throw",
 			minLv = 100,
@@ -29187,7 +30049,8 @@
 		},
 	},
 	[798] = {
-		name = "shinygengar",
+		name = "Shinygengar",
+-- Faltando dados de level
 		move1 = {
 			spell = "Shadow Area",
 			minLv = 100,
@@ -29278,7 +30141,10 @@
 		},
 	},
 	[799] = {
-		name = "pidgeot",
+		name = "Pidgeot",
+		level = "80",
+		cons = "100",
+		vida = "6000",
 		move1 = {
 			spell = "Quick Attack",
 			minLv = 80,
@@ -29380,3 +30246,5 @@
 		},
 	},
 }
+
+
