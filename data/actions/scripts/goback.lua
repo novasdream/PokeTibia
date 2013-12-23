@@ -123,7 +123,7 @@ function onUse(cid, item, frompos, item2, topos)
           return true
         end
         local removed = doCreateItem(1285, 1, getThingPos(cid))
-        doSummonMonster(cid, i)
+        doSummonMonster(cid, pokemon.name)
         local pk = getCreatureSummons(cid)[1]
         doTeleportThing(pk, getClosestFreeTile(pk, getThingPos(cid)), false)
         doRemoveItem(removed, 1)
