@@ -413,7 +413,7 @@
 	<instant name="horn oath" words="exori horn" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn oath.lua">
 	</instant>
 	<instant name="horn drill" words="exori ghorn drill" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/horn Drill.lua">
-	</instant>
+	</instant>  
 	<instant name="swift" words="exori tau" lvl="3003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/swift.lua">
 	</instant>
 	<instant name="Bubblebeam" words="exori dig" lvl="30003" mana="160" prem="1" exhaustion="2000" needlearn="0" event="script" value="poke/Bubblebeam.lua">
