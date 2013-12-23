@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Jumpluff" nameDescription="a wild Jumpluff" race="grass" experience="800" speed="320" manacost="600">
+  <health now="8500" max="8500"/>
+  <look type="569" head="20" body="30" legs="40" feet="50" corpse="11428"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+<attacks>
+    <attack name="melee" interval="2000" skill="25" attack="-20"/>
+    <attack name="razor leaf" interval="2400" chance="22" min="-70" max="-80"> </attack>
+   <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-60" > </attack>
+    <attack name="vine whip" interval="3000" chance="24" min="-150" max="-200"> </attack>
+    <attack name="plant carnivore" interval="2100" range="1" chance="23" min="-80" max="-100"> </attack>
+    <attack name="trepadera" interval="2100" range="1" chance="23" min="-180" max="-200"> </attack>
+    <attack name="mega drain" range="3" interval="7000" chance="15" min="-150" max="-200" > </attack>
+
+    <attack name="leaf storm" interval="3000" range="4" chance="19" min="-490" max="-700">
+    </attack>
+    <attack name="poisonbomb" interval="2600" range="6" chance="26" min="-450" max="-580">
+    </attack>
+    <attack name="leaf blade" interval="3000" range="1" chance="22" min="-350" max="-480">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Jumpluff!"/>
+    <voice sentence="Juumm!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="78" chance="89000"/> -- seeds
+	<item id="8851" countmax="4" chance="31000"/> -- leaves
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8852" countmax="2" chance="24000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="1000"/> -- leaf stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

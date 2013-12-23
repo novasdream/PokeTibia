@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mini Magikarp" nameDescription="a Wild mini magikarp" race="water" experience="30" speed="100" manacost="0">
+  <health now="250" max="250"/>
+  <look type="330" head="20" body="30" legs="40" feet="50" corpse="12139"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="2500" min="-4" max="-9"/>
+    <attack name="splash" interval="1500" range="1" chance="50" min="-66" max="-91"/>
+  </attacks>
+
+	<loot>
+	<item id="6528" countmax="5" chance="100000"/>
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

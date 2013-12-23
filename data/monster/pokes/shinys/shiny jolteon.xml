@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Shiny Jolteon" namedescription="a Shiny Jolteon" race="electric" experience="30" speed="240" manacost="0">
+  <health now="15900" max="15900"/>
+  <look type="357" head="20" body="30" legs="40" feet="50" corpse="6044"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+ 
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="20" attack="60"/>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Jolteooon!"/>
+
+  </voices>
+</monster>

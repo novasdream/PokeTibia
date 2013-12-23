@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magneton" nameDescription="a wild Magneton" race="electric" experience="625" speed="170" manacost="250">
+  <health now="12000" max="12000"/>
+  <look type="223" head="20" body="30" legs="40" feet="50" corpse="6076"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+	<attack name="physical" interval="2000" chance="100" range="4" min="-22" max="-40">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="super sonic" range="5" interval="3000" chance="50">
+    </attack>
+    <attack name="electric wave" range="5" interval="4500" chance="50" min="-1110" max="-1150">
+    </attack>
+    <attack name="thunderbolt" range="5" interval="4500" chance="50" min="-1110" max="-1150">
+    </attack>
+    <attack name="sonicboom" range="4" interval="6000" chance="80" min="-1150" max="-1280">
+    </attack>
+    <attack name="thunder" range="5" interval="9000" chance="80" min="-1150" max="-1280">
+    </attack>
+
+    <attack name="electric storm" range="5" interval="15000" chance="100" min="-1320" max="-1340">
+    </attack>
+    
+</attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="MAGNETON!"/>
+    <voice sentence="MAGNE!"/>
+  </voices>
+	<loot>
+	<item id="8861" countmax="27" chance="75000"/> -- screw
+	<item id="8862" countmax="1" chance="15000"/> -- elec box
+	<item id="8863" countmax="1" chance="15200"/> -- imam
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2279" countmax="1" chance="1100"/> -- thunder stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

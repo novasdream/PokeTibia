@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elekid" nameDescription="a Wild Elekid" race="undead" experience="4500" speed="120" manacost="340">
+	<health now="4400" max="4400"/>
+	<look type="387" head="0" body="0" legs="0" feet="0" corpse="11410"/>
+	<targetchange interval="10000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	
+  <attacks>
+    <attack name="melee" interval="1800" range="1" min="-128" max="-156"/>
+    <attack name="quick attack" range="3" interval="2000" chance="19" min="-115" max="-129">
+    </attack>
+    <attack name="thunder punch" range="1" interval="2500" chance="18" min="-90" max="-120">
+    </attack>
+    <attack name="thunderbolt" range="1" interval="2100" chance="21" min="-150" max="-240">
+    </attack>
+    <attack name="thunder fang" range="1" interval="3000" chance="40" min="-250" max="-400">
+    </attack>
+    <attack name="discharge" range="1" interval="3500" chance="25">
+    </attack>
+<attack name="thunder" range="1" interval="2500" chance="18" min="-90" max="-120">
+    </attack>
+    <attack name="electric storm" range="1" interval="2100" chance="21" min="-150" max="-240">
+    </attack>
+  </attacks>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Elekid!"/>
+	</voices>
+		<loot>
+	<item id="8862" countmax="1" chance="10000"/> -- elec box
+	<item id="8861" countmax="50" chance="100000"/> -- screw
+	</loot>
+	<script>
+<event name="Exp"/>
+</script>
+</monster>

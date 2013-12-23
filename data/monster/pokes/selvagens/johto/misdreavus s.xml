@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Misdreavus" nameDescription="a Wild Misdreavus" race="ghost" experience="900" speed="280" manacost="600">
+  <health now="17700" max="17700"/>
+  <look type="583" head="20" body="30" legs="40" feet="50" corpse="11442"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="shadow area" interval="1000" chance="50" min="-20" max="-120">
+    </attack>
+    <attack name="shadowball" interval="4000" chance="90" min="-250" max="-390">
+    </attack>
+<attack name="night shade" interval="6500" chance="90" min="-1050" max="-1232">
+    </attack>
+<attack name="fear" interval="4000" chance="35" range="10">
+  </attack>
+    <attack name="shadow shadow" interval="3000" chance="90" min="-740" max="-1280">
+    </attack>
+  <attack name="dark cannon" interval="3000" chance="90" min="-740" max="-1280">
+    </attack>
+    <attack name="shadowstorm" interval="7000" chance="90" min="-290" max="-500">
+    </attack>
+      <attack name="ghost bash" interval="3000" chance="90" min="-740" max="-1280">
+    </attack>
+  <attack name="tri darkghost" interval="3000" chance="90" min="-740" max="-1280">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+	<voice sentence="Buuuuuh!"/>
+    <voice sentence="Uaaaaahhh!"/>
+	</voices>
+ <loot>
+        <item id="8869" countmax="1" chance="32500"/>-- future orb
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2286" countmax="1" chance="1500"/>-- Darkness Stone
+	<item id="12050" countmax="5" chance="15500"/> -- traces of ghost
+
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

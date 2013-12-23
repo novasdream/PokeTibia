@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Nidoking" nameDescription="a Shiny Nidoking" race="poison" experience="3000" speed="275" manacost="10000">
+  <health now="20100" max="20100"/>
+  <look type="362" corpse="5995"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="90" defense="10"/>
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="100" attack="110"/>
+  </attacks>
+  
+  
+  
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Nidooking!" yell="1"/>
+  </voices>
+</monster>

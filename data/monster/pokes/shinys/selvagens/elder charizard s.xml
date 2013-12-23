@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Charizard" nameDescription="a elder charizard" race="undead" experience="110" speed="340" manacost="0">
+        <health now="53500" max="53500"/>
+	<look type="294" corpse="2954"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-205" max="-280"/>
+    <attack name="scratch" interval="1400" chance="25" min="-435" max="-695">
+    </attack>
+    <attack name="ember" interval="1700" chance="20" min="-845" max="-1255">
+    </attack>
+    <attack name="flamethrower" interval="4000" chance="30" min="-845" max="-1255">
+    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-365" max="-875">
+    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-345" max="-755">
+    </attack>
+	<attack name="wing attack" interval="4000" chance="17" min="-345" max="-755">
+    </attack>
+ <attack name="fire blast" interval="3100" chance="20" min="-900" max="-1400">
+    </attack>
+ <attack name="magma storm" interval="3800" chance="27">
+    </attack>
+    <attack name="tri flames" interval="2700" chance="21" min="-845" max="-1355">
+    </attack>
+  </attacks>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

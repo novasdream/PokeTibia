@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tentacruel" nameDescription="a Tentacruel" race="water" experience="6280" speed="270" manacost="0">
+  <health now="6500" max="6500"/>
+  <look type="108" head="20" body="30" legs="40" feet="50" corpse="6037"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="45" attack="16"/>
+  </attacks>
+  <defenses armor="13" defense="23"/>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tentaa!"/>
+    <voice sentence="Tentacrueel!"/>
+  </voices>
+</monster>

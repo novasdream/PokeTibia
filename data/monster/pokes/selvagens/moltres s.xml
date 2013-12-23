@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Moltres" nameDescription="a Moltres" race="fire" experience="5000" speed="270" manacost="0">
+  <health now="15000" max="15000"/>
+  <look type="265" head="20" body="30" legs="40" feet="50" corpse="7330"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="tackle" interval="1000" chance="50" min="-300" max="-350">
+    </attack>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-8200" max="-8500">
+    </attack>
+    <attack name="peck" interval="4500" range="1" chance="50" min="-18500" max="-18900">
+    </attack>
+    <attack name="flamethrower" interval="4500" range="1" chance="50" min="-10100" max="-10600">
+    </attack>
+    <attack name="fireball" interval="6000" range="5" chance="80" min="-10800" max="-11100">
+    </attack>
+    <attack name="flames" interval="12000" range="5" chance="100" min="-17600" max="-17700">
+    </attack>
+    <attack name="tornado" interval="15000" range="5" chance="100" min="-27600" max="-27700">
+    </attack>
+    <attack name="fire blast" interval="15000" range="5" chance="100" min="-71600" max="-71700">
+    </attack>
+ 
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Mooohhhhoooo!"/>
+	</voices>
+	<loot>
+	<item id="2283" countmax="1" chance="2500"/> -- fire stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2132" countmax="1" chance="15000"/> -- moltres feather
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

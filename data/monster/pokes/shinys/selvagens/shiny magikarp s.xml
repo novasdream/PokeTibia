@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Magikarp" nameDescription="a shiny magikarp" race="undead" experience="110" speed="340" manacost="0">
+        <health now="2350" max="2350"/>
+	<look type="504" corpse="105"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+    <attack name="melee" interval="2500" min="-4" max="-9"/>
+    <attack name="splash" interval="2500" min="-4" max="-9"/>
+  </attacks>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

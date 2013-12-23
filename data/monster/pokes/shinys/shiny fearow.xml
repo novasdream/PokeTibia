@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Fearow" nameDescription="a Shiny Fearow" race="flying" experience="900" speed="250" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="353" head="20" body="30" legs="40" feet="50" corpse="5992"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="35" attack="30"/>
+  </attacks>
+
+
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Feaarroow!"/>
+
+  </voices>
+</monster>

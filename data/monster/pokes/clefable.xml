@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Clefable" nameDescription="a Clefable" race="normal" experience="305" speed="255" manacost="100">
+  <health now="6500" max="6500"/>
+  <look type="68" head="20" body="30" legs="40" feet="50" corpse="6006"/>
+	<targetchange interval="1000" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="62" attack="68"/>
+</attacks>
+
+
+  <defenses armor="11" defense="11"/>
+
+  <elements>
+  <element physicalPercent="35"/>
+  <element firePercent="-10"/>
+  <element holyPercent="-25"/>
+  </elements>
+  <immunities>
+    <immunity earth="1"/>
+    <immunity death="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="100"> 
+    <voice sentence="Fablee!" yell="1"/>
+
+  </voices>
+</monster>

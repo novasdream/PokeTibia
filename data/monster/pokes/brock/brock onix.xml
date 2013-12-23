@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brock Onix" nameDescription="a Onix" race="undead" experience="2100" speed="260" manacost="390">
+	<health now="23500" max="23500"/>
+	<look type="248" head="0" body="0" legs="0" feet="0" corpse="2990"/>
+	<targetchange interval="100" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	    <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-80" max="-160">
+    </attack>
+    <attack name="Rock Throw" interval="4500" chance="90" min="-2360" max="-2370">
+    </attack>
+    <attack name="headbutt" interval="5000" chance="90" min="-2780" max="-2830">
+    </attack>
+    <attack name="rock slide" interval="3500" chance="90" min="-2440" max="-2460">
+    </attack>
+    <attack name="earthshock" interval="4500" chance="90" min="-2530" max="-2550">
+    </attack>
+    <attack name="earth power" interval="5000" chance="90" min="-2160" max="-2170">
+    </attack>
+    <attack name="shockwave" interval="4500" chance="90" min="-2420" max="-2450">
+    </attack>
+    <attack name="falling rocks" interval="5000" chance="90" min="-2580" max="-2600">
+    </attack>
+  </attacks>
+	<voices interval="3000" chance="200">
+		<voice sentence="Oniix"/>
+		<voice sentence="iiix"/>
+	</voices>
+
+	
+ </monster>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golduck" nameDescription="a Wild Golduck" race="water" experience="750" speed="265" manacost="0">
+  <health now="13250" max="13250"/>
+  <look type="99" head="95" body="116" legs="119" feet="115" corpse="6028"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-100" max="-150"/>
+    <attack name="doubleslap" range="1" interval="3000" chance="50" min="-840" max="-860">
+    </attack>
+    <attack name="water gun" range="1" interval="4500" chance="50" min="-915" max="-985">
+    </attack>
+    <attack name="headbutt" range="1" interval="4500" chance="50" min="-880" max="-930">
+    </attack>
+    <attack name="Confusion" range="5" interval="7500" chance="80" min="-940" max="-990">
+    </attack>
+    <attack name="water sky" range="4" interval="6000" chance="80" min="-920" max="-930">
+    </attack>
+    <attack name="psybeam" interval="7500" chance="80" range="5" min="-920" max="-930">
+    </attack>
+
+
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Golduck!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+       <item id="12011" countmax="1" chance="10000"/> -- karate duck
+ <item id="12001" countmax="1" chance="15000"/> -- ruby
+	<item id="2277" countmax="1" chance="1100"/> -- water stone
+        <item id="2288" countmax="1" chance="850"/> -- enigma stone
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

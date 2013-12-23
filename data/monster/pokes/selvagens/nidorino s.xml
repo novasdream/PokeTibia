@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Nidorino" nameDescription="a Wild Nidorino" race="poison" experience="350" speed="220" manacost="0">
+  <health now="4625" max="4625"/>
+  <look type="78" head="20" body="30" legs="40" feet="50" corpse="6019"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+
+ <attacks>
+
+  <attack name="melee" interval="2000" min="-40" max="-60" poison="-10" /> 
+  <attack name="quick attack" interval="3000" range="1" chance="50" min="-305" max="-352">
+ </attack>
+  <attack name="bite" interval="9000" range="1" chance="80" min="-405" max="-465">
+ </attack>
+  <attack name="poison fang" interval="9000" range="1" chance="50" min="-340" max="-380">
+ </attack>
+<attack name="stomp" interval="19500" range="5" chance="80" min="-380" max="-430">
+ </attack>
+  <attack name="horn attack" interval="19500" range="1" chance="80" min="-400" max="-410">
+ </attack>
+	<attack name="rage" interval="13500" range="5" chance="80" min="-290" max="-300">
+  </attack>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="nidooooriinaa!"/>
+  </voices>
+	<loot>
+	<item id="8868" countmax="1" chance="32000"/> -- nail
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2278" countmax="1" chance="900"/> -- venom stone
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

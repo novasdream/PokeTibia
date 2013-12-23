@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ho oh" nameDescription="a Wild Ho-oh" race="fire" experience="25000" speed="520" manacost="600">
+  <health now="90000" max="90000"/>
+  <look type="563" head="20" body="30" legs="40" feet="50" corpse="11422"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>
+
+    <attack name="peck" interval="1000" chance="50" min="-3000" max="-3500">
+    </attack>
+    <attack name="fire fang" interval="1000" chance="50" min="-3000" max="-3050">
+    </attack>
+    <attack name="fire blast" interval="4500" chance="90" min="-500" max="-5500">
+    </attack>
+    <attack name="magma storm" interval="5000" chance="90" min="-5000" max="-5500">
+    </attack>
+    <attack name="ember" interval="3500" chance="90" min="-3500" max="-7000">
+    </attack>
+    <attack name="flamethrower" interval="8000" chance="90" min="-15900" max="-18500">
+    </attack>
+    <attack name="twister" interval="6000" chance="90" min="-3000" max="-6000">
+    </attack>
+
+  </attacks>
+  <defenses armor="1" defense="1">
+    <defense name="Intense Healing" interval="5000" chance="100" min="1000" max="1000">
+    </defense>
+  </defenses>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hoooohooooo!"/>
+	</voices>
+	<loot>
+	<item id="2283" countmax="1" chance="65000"/> -- fire stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+ 	<item id="6569" countmax="1" chance="1000"/><!-- rare candy -->
+	<item id="2142" countmax="1" chance="500"/> <!-- diamond -->
+		<item id="2145" countmax="2" chance="2000"/><!-- small diamond -->
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gligar" nameDescription="a Wild Gligar" race="poison" experience="500" speed="320" manacost="600">
+  <health now="5600" max="5600"/>
+  <look type="559" head="20" body="30" legs="40" feet="50" corpse="11418"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" min="-125" max="-142"/>
+    <attack name="slash" range="1" interval="3000" chance="25" min="-127" max="-142">
+    </attack>
+    <attack name="poison fang" range="1" interval="2300" chance="18" min="-115" max="-120">
+    </attack>
+    <attack name="whirlwind" interval="1800" chance="23" min="-126" max="-148">
+    </attack>
+    <attack name="toxic needle" interval="2000" chance="21" min="-136" max="-148">
+    </attack>
+    <attack name="poisonous wing" interval="2400" chance="23" min="-156" max="-168">
+    </attack>
+<attack name="bug wing" interval="2400" chance="23" min="-156" max="-168">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Gligar!"/>
+    <voice sentence="GLiiii!"/>
+  </voices>
+	<loot>
+	<item id="12023" countmax="1" chance="25000"/> -- tooth
+	<item id="8856" countmax="15" chance="62000"/> --bottle of poison
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

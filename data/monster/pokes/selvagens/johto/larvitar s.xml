@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Larvitar" nameDescription="a Wild Larvitar" race="rock" experience="400" speed="220" manacost="600">
+  <health now="3900" max="3900"/>
+  <look type="572" head="20" body="30" legs="40" feet="50" corpse="11431"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+<attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+    <attack name="scratch" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+    <attack name="headbutt" interval="2300" range="1" chance="20" min="-50" max="-70">
+    </attack>
+    <attack name="rock slide" interval="2700" range="1" chance="24" min="-30" max="-55">
+    </attack>
+    <attack name="earthshock" interval="5500" range="1" chance="24" min="-30" max="-55"></attack>
+  <attack name="rock tomb" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+    <attack name="shockwave" interval="2300" range="1" chance="20" min="-50" max="-70">
+    </attack>
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Larvitaar!"/>
+    <voice sentence="Larviii!"/>
+  </voices>
+
+	<loot>
+	<item id="8864" countmax="1" chance="11000"/> -- stone orb
+	<item id="1294" countmax="15" chance="62000"/> -- small stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

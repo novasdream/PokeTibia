@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Krabby" namedescription="a Wild Krabby" race="water" experience="150" speed="180" manacost="305">
+  <health now="1270" max="1270"/>
+  <look type="112" head="20" body="30" legs="40" feet="50" corpse="6039"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+
+  <attacks>
+
+    <attack name="melee" interval="1800" range="1" chance="100" min="-40" max="-60"/>
+    <attack name="bubbles" range="5" interval="3000" chance="50" min="-180" max="-195">
+    </attack>
+    <attack name="slash" range="1" interval="3000" chance="50" min="-200" max="-340" > </attack>
+ <attack name="water gun" range="5" interval="4500" chance="50" min="-150" max="-195">
+    </attack>
+    <attack name="crab hammer" range="1" interval="6000" chance="80" min="-220" max="-240">
+    </attack>
+    <attack name="mud bomb" range="5" interval="6000" chance="80" min="-200" max="-215">
+    </attack>
+
+
+
+  </attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Krabby"/>
+  </voices>
+	<loot>
+		<item id="6528" countmin="7" countmax="19" chance="85000"/> -- water gem
+	        <item id="12014" countmax="1" chance="17000"/> -- crab claw
+			<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

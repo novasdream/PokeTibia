@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tyrogue" nameDescription="a Wild Tyrogue" race="fighting" experience="200" speed="320" manacost="600">
+  <health now="5200" max="5200"/>
+  <look type="627" head="20" body="30" legs="40" feet="50" corpse="11484"/>
+	<targetchange interval="5" chance="1000"/>
+<strategy attack="100" defense="0"/>
+	
+
+<attacks>		
+	<attack name="melee" interval="1550" min="-55" max="-70"/>
+
+   	<attack name="punch" interval="4500" chance="50" range="1" target="1" min="-490" max="-535">
+    </attack>
+   	<attack name="karate chop" interval="4500" chance="50" range="1" target="1" min="-410" max="-440">
+    </attack>
+
+
+</attacks>	
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tyrogue!"/>
+    <voice sentence="rogueee!"/>
+  </voices>
+	<loot>
+	<item id="8853" countmax="10" chance="89000"/> -- apple bite
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

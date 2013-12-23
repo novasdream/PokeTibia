@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Golem" nameDescription="a wild Golem" race="rock" experience="850" speed="200" manacost="0">
+  <health now="16400" max="16400"/>
+  <look type="116" head="20" body="30" legs="40" feet="50" corpse="6043"/>
+	<targetchange interval="10000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-12" max="-25"/>
+    <attack name="rock throw" interval="3000" range="5" chance="50" min="-1260" max="-1300">
+    </attack>
+    <attack name="punch" interval="3900" range="1" chance="50" min="-1670" max="-1720">
+    </attack>
+    <attack name="rock slide" interval="6000" range="4" chance="80" min="-1420" max="-1430">
+    </attack>
+ <attack name="rollout" interval="12000" range="4" chance="100" min="-1250" max="-1280">
+    </attack>
+ <attack name="rock tomb" interval="7500" range="5" chance="80" min="-1400" max="-1450">
+    </attack>
+ <attack name="Destroyer Hand" interval="9000" range="2" chance="80" min="-1450" max="-1470">
+    </attack>
+    <attack name="falling rocks" interval="15000" range="5" chance="100" min="-1620" max="-1630">
+    </attack>
+
+</attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLEM!"/>
+    <voice sentence="GOOLEM!"/>
+    <voice sentence="LEM!"/>
+  </voices>
+	<loot>
+	<item id="8864" countmax="6" chance="24000"/> -- stone orb
+	<item id="1294" countmax="100" chance="72000"/> -- small stone
+	<item id="2280" countmax="1" chance="1500"/> -- rock stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+
+</script>
+</monster>

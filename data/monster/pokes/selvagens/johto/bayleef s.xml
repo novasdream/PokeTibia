@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bayleef" nameDescription="a Wild Bayleef" race="grass" experience="700" speed="370" manacost="390">
+  <health now="6750" max="6750"/>
+  <look type="536" head="20" body="30" legs="40" feet="50" corpse="11396"/>
+ 
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+ <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="-20"/>
+
+    <attack name="quick attack" interval="3000" range="1" chance="50" min="-480" max="-490"> </attack>
+
+    <attack name="razor leaf" interval="4500" range="5" chance="50" min="-680" max="-720"> </attack>
+
+    <attack name="vine whip" interval="4500" range="3" chance="50" min="-540" max="-580"> </attack>
+
+    <attack name="plant carnivore" interval="12000" range="5" chance="100" min="-670" max="-690"> </attack>
+
+    <attack name="trepadera" range="5" interval="12000" chance="100" min="-640" max="-660" > </attack>
+    <attack name="solar beam" range="5" interval="15000" chance="100" min="-720" max="-740" > </attack>
+    <attack name="trepar wave" interval="12000" range="5" chance="100" min="-670" max="-690">
+    </attack>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Bayyy!"/>
+    <voice sentence="Bayleef!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="44" chance="59000"/> -- seeds
+	<item id="8851" countmax="2" chance="21000"/> -- leaves
+	<item id="8852" countmax="1" chance="14000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="700"/> -- leaf stone
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

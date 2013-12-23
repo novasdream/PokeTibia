@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Porygon2" nameDescription="a Wild Porygon2" race="psychic" experience="1000" speed="220" manacost="600">
+  <health now="16500" max="16500"/>
+  <look type="593" head="20" body="30" legs="40" feet="50" corpse="11452"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+ 
+  <attacks>
+	<attack name="physical" interval="1000" chance="100" range="3" min="-171" max="-201">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="psy pulse" interval="1700" chance="22" min="-254" max="-350">
+	</attack>
+	<attack name="psychic" interval="2500" chance="26" min="-202" max="-371">
+	</attack>
+	<attack name="psycho shift" interval="2500" chance="22" min="-192" max="-493">
+	</attack>
+	<attack name="restore" interval="4200" chance="41" min="700" max="1200">
+	</attack>
+	<attack name="psybeam" interval="3500" chance="21" min="-850" max="-1450">
+	</attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+<voice sentence="POOORY!"/>
+<voice sentence="GOON!"/>
+<voice sentence="PORYGOON!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="1" chance="55500"/> -- future orb
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8870" countmax="1" chance="24000"/> -- psy spoon
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

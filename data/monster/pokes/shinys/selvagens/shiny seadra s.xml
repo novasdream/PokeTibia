@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Seadra" nameDescription="a shiny seadra" race="undead" experience="110" speed="340" manacost="0">
+        <health now="19800" max="19800"/>
+	<look type="515" corpse="131"/>
+	<targetchange interval="10000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <attacks>
+    <attack name="melee" interval="2000" range="1" min="-15" max="-20"/>
+    <attack name="mud shot" range="5" interval="3000" chance="50" min="-900" max="-920">
+    </attack>
+    <attack name="bubbles" range="5" interval="4500" chance="50" min="-1140" max="-1200">
+    </attack>
+    <attack name="water gun" range="5" interval="4500" chance="50" min="-1000" max="-1060">
+    </attack>
+    <attack name="water pulse" range="5" interval="5100" chance="80" min="-1330" max="-1360">
+    </attack>
+    <attack name="water sky" range="5" interval="4500" chance="50" min="-1040" max="-1060">
+    </attack>
+    <attack name="hydro cannon" range="5" interval="15000" chance="100" min="-1300" max="-1320">
+    </attack>
+    <attack name="water oath" range="5" interval="7500" chance="80" min="-1160" max="-1200">
+    </attack>
+  </attacks>
+    <voices interval="6000" chance="0">
+      <voice sentence="SEADRA!"/>
+      <voice sentence="DRA!"/>
+    </voices>
+<script>
+<event name="Exp"/>
+</script>
+  </monster>

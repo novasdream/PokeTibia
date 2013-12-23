@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Corsola" nameDescription="a Wild Corsola" race="water" experience="700" speed="420" manacost="600">
+  <health now="8500" max="8500"/>
+  <look type="543" head="20" body="30" legs="40" feet="50" corpse="11403"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="2000" range="1" min="-80" max="-90"/>
+    <attack name="aqua tail" range="5" interval="2100" chance="18" min="-100" max="-250">
+    </attack>
+   <attack name="rock throw" interval="2000" chance="17" min="-15" max="-30">
+    </attack>
+  <attack name="water gun" range="5" interval="2400" chance="14" min="-320" max="-430">
+    </attack>
+    <attack name="waterball" range="5" interval="2300" chance="15" min="-150" max="-160">
+    </attack>
+    <attack name="Bubble Blast" range="5" interval="2600" chance="20" min="-200" max="-332">
+    </attack>
+    <attack name="hydro cannon" interval="2300" range="1" chance="20" min="-50" max="-80">
+    </attack>
+    <attack name="water oath" interval="2700" range="1" chance="24" min="-30" max="-55">
+    </attack>
+
+
+  </attacks>
+
+
+  <voices interval="5000" chance="100">
+    <voice sentence="Corsolaa!!"/>
+  </voices>
+	<loot>
+	<item id="6528" countmax="41" chance="100000"/> -- water gem
+	<item id="8820" countmax="1" chance="27000"/> -- water pendant
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+
+</monster>

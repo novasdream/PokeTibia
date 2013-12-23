@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zubat" nameDescription="a shiny zubat" race="undead" experience="1110" speed="340" manacost="0">
+        <health now="2450" max="2450"/>
+	<look type="521" corpse="114"/>
+	<targetchange interval="5000" chance="0"/>
+<targetchange interval="100" chance="0"/>
+  <attacks>
+    <attack name="melee" interval="2000" min="-11" max="-30"/>
+    <attack name="absorb" interval="4500" chance="24" range="1" target="1" min="-40" max="-60">
+    </attack>
+    <attack name="poison sting" interval="3400" chance="22" range="1" target="1" min="-35" max="-45">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="45" range="5" target="1">
+    </attack>
+  <attack name="poison fang" interval="3400" chance="22" range="1" target="1" min="-35" max="-45">
+    </attack>
+    <attack name="toxic" interval="3900" chance="17" range="10" target="1" min="-61" max="-81">
+    </attack>
+</attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZUBAT!"/>
+    <voice sentence="BAT!"/>
+  </voices>
+	<loot>
+
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

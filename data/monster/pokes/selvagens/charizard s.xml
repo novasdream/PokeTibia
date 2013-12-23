@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Charizard" nameDescription="a Wild charizard" race="fire" experience="1100" speed="220" manacost="590">
+  <health now="20400" max="20400"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="6005"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="2000" range="1" min="-205" max="-280"/>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-1465" max="-1480">
+    </attack>
+    <attack name="ember" interval="4500" range="5" chance="50" min="-2085" max="-2150">
+    </attack>
+    <attack name="flamethrower" interval="4500" range="3" chance="50" min="-1600" max="-1655">
+    </attack>
+    <attack name="fireball" interval="7500" range="5" chance="80" min="-1660" max="-1715">
+    </attack>
+    <attack name="fire fang" interval="6000" range="1" chance="80" min="-1680" max="-1685">
+    </attack>
+	<attack name="wing attack" interval="7500" range="5" chance="80" min="-1495" max="-1505">
+    </attack>
+ <attack name="fire blast" interval="15000" range="5" chance="100" min="-1860" max="-1865">
+    </attack>
+ <attack name="magma storm" interval="15000" range="5" chance="100" min="-1960" max="-1975">
+    </attack>
+    <attack name="tri flames" interval="12000" range="5" chance="100" min="-1830" max="-1845">
+    </attack>
+  </attacks>
+
+	<voices interval="5000" chance="10">
+		<voice sentence="CHARIZARD!"/>
+		<voice sentence="ZAAARD!"/>
+		<voice sentence="CHARII!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="100" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="42000"/> -- pot of lava
+        <item id="8868" countmax="1" chance="42000"/> -- nail
+	<item id="2283" countmax="1" chance="1000"/> -- fire stone
+        <item id="12006" countmax="1" chance="3000"/> -- dragon tooth
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

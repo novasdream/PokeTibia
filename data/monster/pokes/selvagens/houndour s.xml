@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Houndour" nameDescription="a Houndour" race="fire" experience="600" speed="320" manacost="600">
+  <health now="4000" max="4000"/>
+  <look type="567" head="20" body="30" legs="40" feet="50" corpse="11426"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-175" max="-190"/>
+    <attack name="char" interval="3000" chance="100" min="-0" max="-150">
+    <attack name="quick attack" interval="2000" chance="25" min="-135" max="-145" > </attack>
+    <attack name="ember" interval="2000" chance="20" min="-45" max="-105" > </attack>
+   <attack name="scratch" interval="2400" chance="27" range="1" target="1" min="-170" max="-195">
+    </attack>
+   <attack name="bite" interval="2100" chance="26" range="1" target="1" min="-150" max="-190">
+    </attack>
+</attack>
+  </attacks>
+  <defenses armor="4" defense="15">
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Houndouurr!"/>
+    <voice sentence="Houuuunn!"/>
+  </voices>
+	<loot>
+		<item id="8866" countmax="10" chance="50000"/><!-- Essence of fire -->
+		<item id="8867" countmax="1" chance="30000"/><!-- Pot of lava -->
+		<item id="8868" countmax="1" chance="5000"/><!-- Nail -->
+		<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+
+</monster>

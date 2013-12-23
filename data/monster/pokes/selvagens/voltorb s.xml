@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Voltorb" nameDescription="a wild Voltorb" race="electric" experience="160" speed="150" manacost="300">
+  <health now="1550" max="1550"/>
+  <look type="123" head="20" body="30" legs="40" feet="50" corpse="6049"/>
+	<targetchange interval="5000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-28" max="-36"/>
+    <attack name="thundershock" interval="4500" range="5" chance="50" min="-215" max="-235">
+
+    </attack>
+    <attack name="quick attack" interval="3000" range="1" chance="50" min="-225" max="-245">
+
+    </attack>
+   <attack name="thunder wave" interval="4500" range="5" chance="50" min="-215" max="-245">
+
+    </attack>
+    <attack name="rollout" interval="12000" range="5" chance="100" min="-205" max="-215">
+
+    </attack>
+ 
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="VOLTORB!"/>
+    <voice sentence="TORB!"/>
+    <voice sentence="VOL!"/>
+  </voices>
+<script>
+<event name="Exp"/>
+</script>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+</monster>

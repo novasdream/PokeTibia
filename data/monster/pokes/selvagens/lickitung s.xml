@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Lickitung" nameDescription="a Wild Lickitung" race="normal" experience="900" speed="300" manacost="0">
+    <health now="10450" max="10450"/>
+    <look type="11" corpse="2953"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+    <attack name="melee" interval="1000" chance="50" min="-40" max="-180">
+    </attack>
+  <attack name="super sonic" interval="3000" range="5" chance="50" min="-0" max="-0">
+    </attack>
+  <attack name="punch" interval="4500" range="1" chance="50" min="-1050" max="-1090">
+    </attack>
+    <attack name="doubleslap" interval="4500" range="1" chance="50" min="-760" max="-770">
+    </attack>
+    <attack name="lick lick" interval="9000" range="5" chance="80" min="-910" max="-950">
+    </attack>
+    <attack name="mega punch" interval="9000" range="1" chance="80" min="-890" max="-910">
+    </attack>
+    <attack name="Squishy Licking" interval="15000" range="5" chance="100" min="-980" max="-1000">
+    </attack>
+  <attack name="headbutt" interval="7500" range="1" chance="80" min="-870" max="-890">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Liiick!"/>
+    <voice sentence="Licki!"/>
+	</voices>
+	<loot>
+
+	<item id="2289" countmax="1" chance="1000"/> -- heart stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="12002" countmax="1" chance="13000"/> -- tongue
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

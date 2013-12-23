@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hoothoot" nameDescription="a Wild Hoothoot" race="flying" experience="400" speed="320" manacost="600">
+  <health now="2500" max="2500"/>
+  <look type="564" head="20" body="30" legs="40" feet="50" corpse="11423"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+     <attack name="melee" interval="1900" min="-70" max="-80"/>
+    <attack name="quick attack" interval="2400" chance="15" min="-137" max="-145">
+    </attack>
+    <attack name="peck" interval="3000" chance="25" min="-157" max="-172">
+    </attack>
+    <attack name="gust" interval="2800" chance="20" min="-180" max="-222">
+    </attack>
+    <attack name="confusion" range="1" interval="2700" chance="19" min="-120" max="-140">
+    </attack>
+    <attack name="psychic" range="1" interval="2300" chance="19" min="-110" max="-125">
+    </attack>
+<attack name="dreameater" range="1" interval="2700" chance="19" min="-120" max="-140">
+    </attack>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="hoot!"/>
+    <voice sentence="Hooothooot!"/>
+  </voices>
+
+	<loot>
+	<item id="2694" countmax="19" chance="65000"/> -- straw
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8823" countmax="2" chance="30000"/> -- feather
+	</loot>
+  <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="AvoidLook"/>
+	<event name="Exp"/>
+        </script>
+</monster>

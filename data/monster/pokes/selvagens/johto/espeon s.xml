@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Espeon" nameDescription="a Wild Espeon" race="psychic" experience="2000" speed="320" manacost="600">
+  <health now="6000" max="6000"/>
+  <look type="553" head="20" body="30" legs="40" feet="50" corpse="11412"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+ 
+  <attacks>
+	<attack name="psy pulse" interval="1000" chance="22" min="-154" max="-300">
+	</attack>
+	<attack name="psychic" interval="1500" chance="26" min="-402" max="-611">
+	</attack>
+	<attack name="psycho shift" interval="1500" chance="22" min="-192" max="-393">
+	</attack>
+	<attack name="restore" interval="3200" chance="41" min="600" max="900">
+	</attack>
+	<attack name="psybeam" interval="1500" chance="21" min="-250" max="-450">
+	</attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+<voice sentence="Espeonn!"/>
+<voice sentence="Auuu!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="1" chance="55500"/> -- future orb
+	<item id="8870" countmax="1" chance="24000"/> -- psy spoon
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="2288" countmax="1" chance="1200"/> -- enigma stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

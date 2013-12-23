@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Meganium" nameDescription="a wild Meganium" race="grass" experience="1150" speed="280" manacost="620">
+  <health now="22950" max="22950"/>
+  <look type="581" head="20" body="30" legs="40" feet="50" corpse="11440"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+ <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="-20"/>
+
+    <attack name="quick attack" interval="3000" range="1" chance="50" min="-1460" max="-1475"> </attack>
+
+    <attack name="razor leaf" interval="4500" range="5" chance="50" min="-1930" max="-1970"> </attack>
+
+    <attack name="vine whip" interval="4500" range="3" chance="50" min="-1545" max="-1595"> </attack>
+
+    <attack name="plant carnivore" interval="12000" range="5" chance="100" min="-1775" max="-1805"> </attack>
+
+    <attack name="trepadera" range="5" interval="12000" chance="100" min="-1820" max="-1835" > </attack>
+    <attack name="solar beam" range="5" interval="15000" chance="100" min="-1950" max="-1975" > </attack>
+    <attack name="trepar wave" interval="12000" range="5" chance="100" min="-1870" max="-1885">
+    </attack>
+    <attack name="reflect" interval="12000" range="5" chance="100">
+    </attack>
+    <attack name="Aromatherapy" interval="15000" range="5" chance="100" min="-41275" max="-41275">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="MEGANIIUMMM!"/>
+    <voice sentence="MEGAAAA!!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="78" chance="89000"/> -- seeds
+	<item id="8851" countmax="4" chance="31000"/> -- leaves
+	<item id="8852" countmax="2" chance="24000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="1100"/> -- leaf stone
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

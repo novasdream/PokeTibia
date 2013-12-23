@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Aerodactyl" namedescription="a Wild Aerodactyl" race="rock" experience="2000" speed="210" manacost="250">
+  <health now="39000" max="39000"/>
+  <look type="10" head="20" body="30" legs="40" feet="50" corpse="6338"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="1800" min="-285" max="-405"/>
+    <attack name="scratch" interval="3000" range="1" chance="50" min="-2250" max="-2350">
+    </attack>
+    <attack name="rock throw" interval="4500" range="5" chance="50" min="-2910" max="-3020">
+    </attack>
+    <attack name="rock slide" interval="4500" range="1" chance="50" min="-2350" max="-2420">
+    </attack>
+    <attack name="Wings Ruller" interval="9000" range="5" chance="80" min="-2460" max="-2520">
+    </attack>
+    <attack name="rock tomb" interval="7500" range="5" chance="80" min="-2510" max="-2530">
+    </attack>
+    <attack name="falling rocks" interval="13500" range="5" chance="100" min="-2680" max="-2720">
+    </attack>
+    <attack name="ancient power" interval="15000" range="5" chance="100" min="-2650" max="-2670">
+    </attack>
+    <attack name="rock bash" interval="10500" range="5" chance="80" min="-2510" max="-2520">
+    </attack>
+    <attack name="ancient storm" interval="15000" range="5" chance="100" min="-2710" max="-2750">
+    </attack>
+
+  </attacks>
+
+  	<voices interval="2000" chance="10">
+		<voice sentence="Aeroodactyl!"/>
+		<voice sentence="Aeeeero!"/>
+	</voices>
+	<loot>
+	<item id="8864" countmax="10" chance="11000"/> -- stone orb
+	<item id="2280" countmax="1" chance="500"/> -- rock stone
+	<item id="2285" chance="800"/><!-- crystal Stone -->
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

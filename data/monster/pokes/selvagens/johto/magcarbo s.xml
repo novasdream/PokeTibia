@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magcarbo" nameDescription="a wild Magcarbo" race="fire" experience="950" speed="150" manacost="590">
+  <health now="11800" max="11800"/>
+  <look type="577" head="20" body="30" legs="40" feet="50" corpse="11436"/>
+  <targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+   <attacks>    
+     <attack name="melee" interval="1200" range="1" min="-195" max="-230"/>
+    <attack name="trifire" interval="2000" chance="50" min="-300" max="-500"></attack>
+    <attack name="divine caldera" interval="5000" chance="30" min="-10" max="-700">    </attack>
+    <attack name="ember" interval="3000" chance="30" min="-0" max="-280">    </attack>
+    <attack name="quick attack" interval="2000" chance="25" min="-150" max="-250" > </attack>
+    <attack name="ember" interval="2000" chance="40" min="-180" max="-250" > </attack>
+   <attack name="scratch" interval="2400" chance="27" range="1" target="1" min="-170" max="-295">    </attack>
+   <attack name="bite" interval="2100" chance="26" range="1" target="1" min="-150" max="-290">    </attack>
+    <attack name="fire blast" interval="2300" chance="25" min="-345" max="-455">    </attack>
+    <attack name="fire blast" interval="3100" chance="20" min="-900" max="1200">    </attack>
+    <attack name="trifire" interval="2500" chance="27" range="1" min="-940" max="-1090">    </attack>
+    <attack name="fireball" interval="2500" chance="15" min="-300" max="-375">    </attack>
+    <attack name="fire fang" interval="2300" chance="17" min="-300" max="-600">    </attack>
+    <attack name="flamethrower" interval="4000" chance="20" min="-500" max="-100">    </attack>
+
+
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	<voices interval="5000" chance="10">
+		<voice sentence="MAGCARBO!"/>
+		<voice sentence="MAAAG!"/>
+		<voice sentence="CAARBO!!"/>
+	</voices>
+	<loot>
+	<item id="8866" countmax="100" chance="85000"/> -- essence of fire
+	<item id="8867" countmax="1" chance="42000"/> -- pot of lava
+	<item id="2283" countmax="1" chance="1200"/> -- fire stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+
+	
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

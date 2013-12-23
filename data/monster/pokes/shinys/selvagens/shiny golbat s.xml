@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Golbat" namedescription="a wild shiny Golbat" race="poison" experience="600" speed="288" manacost="250">
+  <health now="15800" max="15800"/>
+  <look type="334" head="20" body="30" legs="40" feet="50" corpse="12141"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <attacks>
+    <attack name="melee" interval="1750" min="-81" max="-102"/>
+    <attack name="absorb" interval="3500" chance="24" range="1" target="1" min="-165" max="-180">
+    </attack>
+    <attack name="poison sting" interval="2000" chance="22" range="1" target="1" min="-77" max="-100">
+    </attack>
+    <attack name="super sonic" interval="7200" chance="35" range="5" target="1">
+    </attack>
+    <attack name="poison fang" interval="2000" chance="22" range="1" target="1" min="-77" max="-100">
+    </attack>
+    <attack name="toxic" interval="2700" chance="17" range="10" target="1" min="-90" max="-99">
+    </attack>
+    <attack name="whirlwind" interval="3300" chance="15" range="10" target="1" min="-210" max="-325">
+    </attack>
+    <attack name="poisonous wing" interval="2800" chance="12" range="1" target="1" min="-140" max="-150">
+    </attack>
+
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="GOLBAT!"/>
+    <voice sentence="BAAT!"/>
+  </voices>
+
+	<script>
+	<event name="Exp"/>
+        </script>
+</monster>

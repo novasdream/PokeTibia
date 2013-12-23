@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chikorita" nameDescription="a Wild Chikorita" race="grass" experience="400" speed="270" manacost="330">
+  <health now="2700" max="2700"/>
+  <look type="540" head="20" body="30" legs="40" feet="50" corpse="11400"/>
+
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+
+    <attack name="melee" interval="2000" skill="25" attack="-20"/>
+
+    <attack name="quick attack" interval="3000" range="1" chanse="50" min="-240" max="-250"> </attack>
+ 
+    <attack name="razor leaf" interval="4500" range="5" chance="50" min="-250" max="-280"> </attack>
+
+    <attack name="vine whip" interval="4500" range="5" chance="50" min="-260" max="-300"> </attack>
+
+    <attack name="plant carnivore" interval="12000" range="5" chance="100" min="-340" max="-360"> </attack>
+
+    <attack name="trepadera" range="5" interval="12000" chance="100" min="-330" max="-350" > </attack>
+    <attack name="solar beam" range="5" interval="15000" chance="100" min="-430" max="-460" > </attack>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Chiko!"/>
+    <voice sentence="Chikorita!"/>
+  </voices>
+ <loot>
+	<item id="8850" countmax="25" chance="45000"/> -- seeds
+	<item id="8851" countmax="1" chance="16500"/> -- leaves
+	<item id="8852" countmax="1" chance="9000"/> -- bag of polem
+  </loot>
+        <script>
+	<event name="Exp"/>
+        </script>
+</monster>

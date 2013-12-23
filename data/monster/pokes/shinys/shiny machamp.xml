@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Machamp" nameDescription="a Shiny Machamp" race="fighting" experience="5900" speed="240" manacost="0">
+  <health now="21000" max="21000"/>
+  <look type="358" head="20" body="30" legs="40" feet="50" corpse="6048"/>
+	<targetchange interval="5" chance="1000"/>
+  <strategy attack="100" defense="0"/>
+
+
+  <attacks>
+    <attack name="melee" interval="2000" skill="40" attack="50"/>
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Machaaamp"/>
+    <voice sentence="Machaam"/>
+  </voices>
+</monster>

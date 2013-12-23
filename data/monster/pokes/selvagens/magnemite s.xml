@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magnemite" nameDescription="a wild Magnemite" race="electric" experience="235" speed="125" manacost="320">
+  <health now="1175" max="1175"/>
+  <look type="217" head="20" body="30" legs="40" feet="50" corpse="6056"/>
+	<targetchange interval="10000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+	<attack name="physical" interval="2000" chance="100" range="4" min="-22" max="-40">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+    <attack name="super sonic" range="5" interval="4500" chance="50">
+    </attack>
+    <attack name="electric wave" range="5" interval="4500" chance="50" min="-250" max="-280">
+    </attack>
+    <attack name="thunderbolt" range="5" interval="4500" chance="50" min="-205" max="-230">
+    </attack>
+    <attack name="sonicboom" range="4" interval="6000" chance="80" min="-240" max="-260">
+    </attack>
+    <attack name="headbutt" range="1" interval="6000" chance="80" min="-260" max="-285">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="MITE!"/>
+    <voice sentence="MAGNEMITE!"/>
+  </voices>
+<script>
+<event name="Exp"/>
+</script>
+	<loot>
+	<item id="8861" countmax="13" chance="65000"/> -- screw
+	<item id="8862" countmax="1" chance="9000"/> -- elec box
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8863" countmax="1" chance="9200"/> -- imam
+	</loot>
+</monster>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bellossom" nameDescription="a Wild Bellossom" race="grass" experience="900" speed="250" manacost="600">
+  <health now="8500" max="8500"/>
+  <look type="537" head="20" body="30" legs="40" feet="50" corpse="11397"/>
+	<targetchange interval="5" chance="1000"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+ <attacks>
+    <attack name="melee" interval="1700" range="1" chance="100" min="-95" max="-100"/>
+    <attack name="absorb" range="1" interval="1900" chance="18" min="-200" max="-220">
+    </attack>
+    <attack name="leech seed" range="3" interval="7000" chance="15" min="-50" max="-60">
+    </attack>
+    <attack name="vine whip" interval="2000" chance="20" min="-255" max="-380">
+    </attack>
+
+    <attack name="poisonbomb" interval="2400" chance="19" min="-490" max="-740">
+    </attack>
+    <attack name="poison gas" interval="3200" chance="20" min="-440" max="-700">
+    </attack>
+    <attack name="bullet seed" interval="3400" chance="20" min="-380" max="-500">
+    </attack>
+<attack name="plant bomb" interval="3200" chance="20" min="-440" max="-700">
+    </attack>
+  </attacks>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Bellossom!"/>
+    <voice sentence="Beelllosom!"/>
+  </voices>
+        <script>
+	<event name="BlockHit3"/>
+	<event name="BlockSpells"/>
+	<event name="Exp"/>
+	<event name="AvoidLook"/>
+        </script>
+ <loot>
+ <item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	<item id="8852" countmax="4" chance="42000"/> -- bag of polem
+	<item id="2276" countmax="1" chance="1100"/> -- leaf stone
+	<item id="8851" countmax="1" chance="10000"/> -- leaves
+  </loot>
+</monster>

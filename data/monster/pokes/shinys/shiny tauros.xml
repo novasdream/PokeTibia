@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Tauros" nameDescription="a Shiny Tauros" race="normal" experience="1450" speed="230" manacost="490">
+  <health now="13500" max="13500"/>
+  <look type="367" head="0" body="0" legs="0" feet="0" corpse="6302"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+<attacks>
+    <attack name="melee" interval="2000" min="-0" max="-140"/>
+</attacks>
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Tauuros!"/>
+  </voices>
+
+
+</monster>

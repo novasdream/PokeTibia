@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Machoke" nameDescription="a Wild Machoke" race="fighting" experience="675" speed="220" manacost="0">
+  <health now="7100" max="7100"/>
+  <look type="113" head="20" body="30" legs="40" feet="50" corpse="4251"/>
+	<targetchange interval="100" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+
+
+  <attacks>
+    <attack name="melee" interval="1900" range="1" min="-10" max="-40"/>
+    <attack name="doubleslap" interval="3000" range="1" chance="50" min="-520" max="-545">    </attack>
+    <attack name="punch" range="1" interval="3000" chance="50" min="-760" max="-790">    </attack>
+    <attack name="karate chop" interval="4500" range="1" chance="50" min="-565" max="-615">    </attack>
+    <attack name="ground chop" range="5" interval="9000" chance="80" min="-640" max="-690">    </attack>
+  <attack name="mega punch" range="1" interval="9000" chance="80" min="-635" max="-655">    </attack>
+    <attack name="fist machine" range="3" interval="12000" chance="100" min="-695" max="-715">    </attack>
+  <attack name="multi punch" range="1" interval="12000" chance="100" min="-685" max="-710">    </attack>
+  </attacks>
+
+
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Machooke!"/>
+  </voices>
+	<loot>
+	<item id="1294" countmax="45" chance="62000"/> -- small stone
+	<item id="2281" countmax="1" chance="800"/> -- punch stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+	</loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>

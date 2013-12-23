@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Dodrio" nameDescription="a shiny dodrio" race="flying" experience="2142" speed="265" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="351" head="20" body="30" legs="40" feet="50" corpse="6047"/>
+	<targetchange interval="4000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+
+    <attack name="melee" interval="1600" range="1" min="-87" max="-112"/>
+
+  </attacks>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="DODRIO!"/>
+<voice sentence="DRIO!"/>
+  </voices>
+	<loot>
+	</loot>
+
+</monster>

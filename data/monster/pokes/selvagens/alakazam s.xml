@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Alakazam" nameDescription="a wild Alakazam" race="psychic" experience="1000" speed="180" manacost="490">
+  <health now="14800" max="14800"/>
+  <look type="218" head="20" body="30" legs="40" feet="50" corpse="6057"/>
+	<targetchange interval="1000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <attacks>
+	<attack name="physical" interval="1000" chance="100" range="3" min="-121" max="-231">
+
+	<attribute key="shootEffect" value="eartharrow"/>
+
+   	</attack>
+	<attack name="agility" interval="3000" range="3" chance="50" min="-1240" max="-1270">
+	</attack>
+	<attack name="psybeam" interval="4500" range="5" chance="50" min="-1880" max="-1950">
+	</attack>
+	<attack name="psy pulse" interval="7500" range="5" chance="80" min="-1390" max="-1420">
+	</attack>
+	<attack name="psycho shift" interval="4500" range="5" chance="50" min="-1340" max="-1380">
+	</attack>
+	<attack name="confusion" interval="12000" range="5" chance="100" min="-1460" max="-1480">
+	</attack>
+	<attack name="psyusion" interval="15000" range="5" chance="100" min="-1630" max="-1690">
+	</attack>
+	<attack name="reflect" interval="12000" range="5" chance="100">
+	</attack>
+	<attack name="mind blast" interval="10500" range="5" chance="80" min="-1320" max="-1340">
+	</attack>
+<attack name="restore" interval="15000" range="5" chance="100" min="14800" max="14800">
+	</attack>
+  </attacks>
+  <voices interval="5000" chance="10">
+    <voice sentence="ALAKA!"/>
+    <voice sentence="ZAAAM!"/>
+    <voice sentence="ALAKAZAM!"/>
+  </voices>
+ <loot>
+	<item id="8869" countmax="5" chance="85500"/> -- future orb
+	<item id="8870" countmax="1" chance="20000"/> -- psy spoon
+	<item id="2288" countmax="1" chance="1050"/> -- enigma stone
+	<item id="11788" countmax="1" chance="500"/>---- pacotinhos
+  </loot>
+<script>
+<event name="Exp"/>
+</script>
+</monster>
