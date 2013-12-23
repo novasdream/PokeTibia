@@ -128,8 +128,8 @@ function onUse(cid, item, frompos, item2, topos)
         doTeleportThing(pk, getClosestFreeTile(pk, getThingPos(cid)), false)
         doRemoveItem(removed, 1)
         doCreatureSetLookDir(pk, 2)
-        local maxh = pokes[getCreatureOutfit(pk).lookType].vida
-        local levellife = ((getPlayerLevel(cid)) * (pokes[getCreatureOutfit(pk).lookType].cons))
+        local maxh = pokemon.vida
+        local levellife = ((getPlayerLevel(cid)) * (pokemon.cons))
         local health = tonumber(getItemAttribute(item.uid, "poke"):match("%[(.-)/"))
         doConvinceCreature(cid, pk)
         doCreatureAddHealth(pk, health-maxh)
