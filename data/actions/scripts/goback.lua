@@ -117,7 +117,6 @@ function onUse(cid, item, frompos, item2, topos)
     end
 	pokemon = pokeLib[pokeList[getItemAttribute(item.uid, "poke"):sub(9, findLetter(getItemAttribute(item.uid, "poke"), "'")-1)]]
 	if(pokemon) then
-
         if getPlayerLevel(cid) < pokemon.level then
           doPlayerSendCancel(cid, "You need level "..x.level.." or higher to use this pokemon.")
           return true
@@ -148,8 +147,9 @@ function onUse(cid, item, frompos, item2, topos)
         setPlayerStorageValue(cid, 61204, 1)
         registerCreatureEvent(pk, "DiePoke")
         registerCreatureEvent(pk, "Exp")
-        break
+        
       end
-  end
+
+	  end
   return TRUE
 end
