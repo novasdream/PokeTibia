@@ -1,4 +1,4 @@
-pokelist = {
+pokeList = {
   ["squirtle"]=2,
   ["persian"]=3,
   ["chansey"]=4,
