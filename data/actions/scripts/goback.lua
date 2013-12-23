@@ -115,9 +115,10 @@ function onUse(cid, item, frompos, item2, topos)
     if #getCreatureSummons(cid) >= 1 then
       return doPlayerSendCancel(cid, "You have already summoned a pokemon.")
     end
-	name_pokemon = getItemAttribute(item.uid, "poke"):sub(9, findLetter(getItemAttribute(item.uid, "poke"), "'")-1):lower()
+	name_pokemon = getItemAttribute(item.uid, "poke"):sub(9, findLetter(getItemAttribute(item.uid, "poke"), "'")-1)
 	print(name_pokemon)
-	pokemon = pokeLib[pokeList[name_pokemon]]
+	print(name_pokemon:lower())
+	pokemon = pokeLib[pokeList[name_pokemon:lower()]]
 	if(pokemon) then
         if getPlayerLevel(cid) < pokemon.level then
           doPlayerSendCancel(cid, "You need level "..x.level.." or higher to use this pokemon.")
