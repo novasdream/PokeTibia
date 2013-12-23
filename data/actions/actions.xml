@@ -354,7 +354,7 @@
         <action itemid="1435" event="script" value="vermelho.lua"/>
 	
 	<action actionid="3038" event="script" value="GoPortrait.lua"/>
-	<action actionid="3086" event="script" value="goDesertents.lua"/>
+	<action actionid="3086" event="script" value="godesertents.lua"/>
 	<action actionid="8630" event="script" value="pvpsistem.lua"/>
 	<action uniqueid="2315" event="script" value="Psyduck.lua"/>
 	<action uniqueid="6527" event="script" value="PewterQuest.lua"/>
