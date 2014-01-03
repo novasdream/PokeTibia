@@ -134,6 +134,7 @@ local rides = {
 
 
 
+	registerCreatureEvent(cid, "minimumLevel")
 	registerCreatureEvent(cid, "GuildMotd")
 	registerCreatureEvent(cid, "PlayerPokeDeath")
 	registerCreatureEvent(cid, "LogoutPoke")
