@@ -40,6 +40,7 @@
 	<event type="death" name="Gym4" event="script" value="gym.lua"/>
 
 
+	<event type="login" name="minimumLevel" event="script" value="minimumLevel.lua"/>
 	<event type="login" name="aloot_reg" event="script" value="aloot.lua"/>
         <event type="kill" name="aloot_kill" event="script" value="aloot.lua"/>
 
