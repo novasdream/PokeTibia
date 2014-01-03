@@ -121,7 +121,7 @@ function onUse(cid, item, frompos, item2, topos)
 	pokemon = pokeLib[pokeList[name_pokemon:lower()]]
 	if(pokemon) then
         if getPlayerLevel(cid) < pokemon.level then
-          doPlayerSendCancel(cid, "You need level "..x.level.." or higher to use this pokemon.")
+          doPlayerSendCancel(cid, "You need level "..pokemon.level.." or higher to use this pokemon.")
           return true
         end
         local removed = doCreateItem(1285, 1, getThingPos(cid))
