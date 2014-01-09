@@ -9,9 +9,7 @@ function onThink(interval, lastExecution)
 "No mapa se encontra algumas quests tanto por báu e por npcs.",
 "Fora as quests vcs podem ganhar premios somente nesse test server por a cada determinado lvl ganhado.",
 "Cartinhas por enquanto sao somente para coleçao junte-as talvez faço evento para esse test server usando elas.",
-"Reporte os bugs encontrados http://tibiapoketibia-erondino.weebly.com/bugs.html.",
 "Os 4 primeiros colocados desse test server vao ganhar premios no outro test server.",
-"Informaçoes desse test server acesse : http://tibiapoketibia-erondino.weebly.com/poketibia-server-test-v145.html.",
 
 }	
   -- Fim de Configurações
