@@ -127,7 +127,7 @@ local playerpos = {x=getCreaturePosition(cid).x, y=getCreaturePosition(cid).y+1,
 
         if(isInArray(config.waters, itemEx.itemid)) then
                 doSendMagicEffect(toPos, CONST_ME_LOSEENERGY)
-                doPlayerAddSkillTry(cid, 6, 1)
+                doPlayerAddSkillTry(cid, 6, 2)
 
                         if skill >= 100 then
                                 local random = math.random(0, 35)
