@@ -152,7 +152,7 @@ function onUse(cid, item, frompos, item2, topos)
         registerCreatureEvent(pk, "DiePoke")
         registerCreatureEvent(pk, "Exp")
 		
-		cdBar(cid, pokemon)
+		cdBarPokemon(cid,pokemon)
       end
 
 	  end
