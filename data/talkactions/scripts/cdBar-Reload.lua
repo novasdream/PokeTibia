@@ -232,4 +232,5 @@ end
  
 function onSay(cid, words, param)
  cdBar(cid)
+ return true
 end
