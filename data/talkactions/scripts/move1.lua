@@ -976,7 +976,7 @@ function onSay(cid)
       end
     end
   end
-  sendCDBar(pokemon)
+  sendCDBar(pokemon) 
   local delay = 200
   randnee = math.random(1,100)
   if randnee >= 1 and randnee <= 37 then
