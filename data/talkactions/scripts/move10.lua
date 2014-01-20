@@ -290,7 +290,8 @@ end
 		addEvent(storm, 700, {cid = cid, el = null, ar = ws4, ef = CONST_ME_POFF})
 		addEvent(storm, 1200, {cid = cid, el = null, ar = ws1, ef = CONST_ME_POFF})
 		addEvent(storm, 1800, {cid = cid, el = null, ar = ws3, ef = CONST_ME_POFF})
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Selfdestruct" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -305,7 +306,8 @@ end
 		addEvent(doAreaCombatHealth, 150, getCreatureSummons(cid)[1], element, getThingPos(getCreatureSummons(cid)[1]), destruct2, -(((num1)+(getPlayerLevel(cid)*(num3)))*0.7), -(((num2)+(getPlayerLevel(cid)*(num3)))*0.8), 5)
 		addEvent(doAreaCombatHealth, 250, getCreatureSummons(cid)[1], element, getThingPos(getCreatureSummons(cid)[1]), destruct3, -(((num1)+(getPlayerLevel(cid)*(num3)))*0.4), -(((num2)+(getPlayerLevel(cid)*(num3)))*0.5), 5)
 		setPlayerStorageValue(getCreatureSummons(cid)[1], 33, 1)
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Future Sight" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -324,7 +326,8 @@ end
 		end
 		setPlayerStorageValue(getCreatureSummons(cid)[1], 35, 1)
 		addEvent(normal, 8000, {cid = cid})
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 
 -------------------------------------------------------------ADICIONADAS-----------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -336,7 +339,8 @@ end
 		doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 14)
 		doCreatureAddHealth(getCreatureSummons(cid)[1], ((num2)+((getPlayerLevel(cid))*(num3))))
 		doSendAnimatedText(getThingPos(getCreatureSummons(cid)[1]), "+"..((num2)+((getPlayerLevel(cid))*(num3))).."", 35)
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Wardog" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -352,7 +356,8 @@ end
 		addEvent(damage, 800, {cid = cid})
 		addEvent(damage, 1200, {cid = cid})
 		addEvent(damage, 1500, {cid = cid})
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 		
       elseif pokemon.move10.spell == "Leaf Storm" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
@@ -369,13 +374,15 @@ end
 			end
 		end
 		addEvent(shoot, 0, {cid = cid})
-	        return 0
+	        sendCDBar(cid, pokemon) 
+ return 0
 elseif pokemon.move10.spell == "Transform" then
 doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", "..pokemon.move10.spell.."!", TALKTYPE_SAY)
 exhaustion.set(cid, pokemon.move10.ex, pokemon.move10.cd, pokemon.move10.base1, pokemon.move10.base2, pokemon.move10.bonus, pokemon.move10.target, pokemon.move10.type)
 doSetCreatureOutfit(getCreatureSummons(cid)[1], getCreatureOutfit(getCreatureTarget(cid)), 130000000)
-return 0
+sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Restore" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -383,7 +390,8 @@ return 0
 		doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 14)
 		doCreatureAddHealth(getCreatureSummons(cid)[1], ((num2)+((getPlayerLevel(cid))*(num3))))
 		doSendAnimatedText(getThingPos(getCreatureSummons(cid)[1]), "+"..((num2)+((getPlayerLevel(cid))*(num3))).."", 35)
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Psychicmew" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -400,7 +408,8 @@ return 0
 		addEvent(storm, 700, {cid = cid, el = null, ar = ps2, ef = CONST_ME_POFF})
 		addEvent(storm, 1000, {cid = cid, el = element, ar = ps1, ef = 133})
 		addEvent(storm, 1200, {cid = cid, el = element, ar = ps1, ef = CONST_ME_POFF})
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 
 elseif pokemon.move10.spell == "Rage" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
@@ -424,7 +433,8 @@ elseif pokemon.move10.spell == "Rage" then
 		addEvent(hit, 4000, {cid = cid, hitalvo = hitalvo})
 		addEvent(hit, 5000, {cid = cid, hitalvo = hitalvo})
 		addEvent(hit, 6000, {cid = cid, hitalvo = hitalvo})
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 
 	elseif pokemon.move10.spell == "Mew Especialy" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
@@ -450,7 +460,8 @@ elseif pokemon.move10.spell == "Rage" then
 		addEvent(storm, 1200, {cid = cid, el = null, ar = self, ef = 235})
 		addEvent(storm, 1500, {cid = cid, el = null, ar = self, ef = 235})
 
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Celebi Especialy" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -475,7 +486,8 @@ elseif pokemon.move10.spell == "Rage" then
 		addEvent(storm, 1200, {cid = cid, el = null, ar = self, ef = 54})
 		addEvent(storm, 1500, {cid = cid, el = null, ar = self, ef = 54})
 
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Lugia Especialy" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -500,7 +512,8 @@ elseif pokemon.move10.spell == "Rage" then
 		addEvent(storm, 1200, {cid = cid, el = null, ar = self, ef = 53})
 		addEvent(storm, 1500, {cid = cid, el = null, ar = self, ef = 53})
 
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -523,7 +536,8 @@ elseif pokemon.move10.spell == "Rage" then
 		addEvent(tornado, 1200, {cid = cid, ef = CONST_ME_POFF, ar = tor2, el = null})
 		addEvent(tornado, 1900, {cid = cid, ef = CONST_ME_POFF, ar = tor2, el = null})
 		addEvent(tornado, 1900, {cid = cid, ef = CONST_ME_POFF, ar = tor3, el = null})
-	        return 0
+	        sendCDBar(cid, pokemon) 
+ return 0
 elseif pokemon.move10.spell == "Harden" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -554,7 +568,8 @@ elseif pokemon.move10.spell == "Harden" then
 		addEvent(efect, 9100, {cid = cid, hardname = hardname})
 		addEvent(efect, 10600, {cid = cid, hardname = hardname})
 		addEvent(chard, 11000, {cid = cid})		
-	        return 0
+	        sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "X-Scissor" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -576,7 +591,8 @@ elseif pokemon.move10.spell == "Harden" then
 
 		addEvent(attaque, 0, {cid = cid})
 		addEvent(attaque, 500, {cid = cid})
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 elseif pokemon.move10.spell == "Mewtwo Especialy" then
 doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -613,7 +629,8 @@ local function hitdois(params)
 		end
 		addEvent(hit, 480, {cid = cid, hitalvo = hitalvo})
 		addEvent(hitdois, 1050, {cid = cid, hitalvo = hitalvo})
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 elseif pokemon.move10.spell == "Hooh Especialy" then
 doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -650,7 +667,8 @@ local function hitdois(params)
 		end
 		addEvent(hit, 480, {cid = cid, hitalvo = hitalvo})
 		addEvent(hitdois, 1050, {cid = cid, hitalvo = hitalvo})
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 	  elseif pokemon.move10.spell == "Hyper Beam" then
 		if getCreatureLookDir(getCreatureSummons(cid)[1]) == 0 then
 		doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureSummons(cid)[1]), wg1n, -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 152)
@@ -672,13 +690,15 @@ local function hitdois(params)
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move10.spell.."!", TALKTYPE_SAY)
 		exhaustion.set(cid, pokemon.move10.ex, pokemon.move10.cd)
-		return 0
+		sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Leaf Blade" then
 	doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 	doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
 	exhaustion.set(cid, pokemon.move10.ex, pokemon.move10.cd)
 	doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureTarget(cid)), 0, -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 54)
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Earthshock" then
 	doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 	doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -688,7 +708,8 @@ local function hitdois(params)
 	sps.x = sps.x+1
 	sps.y = sps.y+1
 	doSendMagicEffect(sps, 127)
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Gastro Acid" then
 	doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 	doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -710,7 +731,8 @@ local function hitdois(params)
 	doSendDistanceShoot(pos3, getThingPos(target), 14)
 	doSendDistanceShoot(pos2, posb, 14)
 	doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureTarget(cid)), acid, -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 143)
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	elseif pokemon.move10.spell == "Water Oath" then
 		doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move10.spell).."!", TALKTYPE_MONSTER)
 		doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..",  "..pokemon.move10.spell.."!", TALKTYPE_SAY)
@@ -726,7 +748,8 @@ local function hitdois(params)
 			end
 		end
 		addEvent(shoot, 0, {cid = cid})
-	return 0
+	sendCDBar(cid, pokemon) 
+ return 0
 	end
 return 0
 end
