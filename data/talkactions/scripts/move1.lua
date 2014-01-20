@@ -562,7 +562,7 @@ function onSay(cid)
     addEvent(string, 3000, {alvo = alvo})
     addEvent(normalstr, 3050, {alvo = alvo})
     return 0
-  elseif pokemon.move1.spell == "Zzzzz" then
+  else if pokemon.move1.spell == "Zzzzz" then
     doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move1.spell).."!", TALKTYPE_MONSTER)
     doCreatureSay(cid, ""..getCreatureName(getCreatureSummons(cid)[1])..", use "..pokemon.move1.spell.."!", TALKTYPE_SAY)
     exhaustion.set(cid, pokemon.move1.ex, pokemon.move1.cd)
