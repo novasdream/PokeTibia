@@ -6,6 +6,9 @@
 	<talkaction log="yes" words="/reloadCDs"  event="script" value="test_cd.lua"/>
 	<talkaction log="yes" words="/test"  event="script" value="teste.lua"/>-->
 
+	
+	<talkaction log="yes" words="/cdBar-Reload"  event="script" value="cdBar-Reload.lua"/>
+	
 	<talkaction log="yes" words="/addskill" access="6" event="function" value="addSkill"/>
 
 	<talkaction words="/go" access="5" event="script" value="t.lua"/>
