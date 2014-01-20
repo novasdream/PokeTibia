@@ -753,7 +753,7 @@ function onSay(cid)
     doSendMagicEffect(getThingPos(getCreatureSummons(cid)[1]), 14)
     doCreatureAddHealth(getCreatureSummons(cid)[1], newlife)
     doSendAnimatedText(getThingPos(getCreatureSummons(cid)[1]), "+"..newlife.."", 35)
-	sendCDBar(pokemon)
+	sendCDBar(cid, pokemon)
     return 0
   elseif pokemon.move1.spell == "Water Pulse" then
     doCreatureSay(getCreatureSummons(cid)[1], ""..string.upper(pokemon.move1.spell).."!", TALKTYPE_MONSTER)
