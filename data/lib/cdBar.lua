@@ -125,3 +125,152 @@ function sendCDBar(cid, pokemon)
 	--	doPlayerSendCancel(cid, "12|,3|5|10,3|5|10,3|5|10,3|5|10,3|5|10,3|5|10,3|5|10,3|5|10")
 	
 end
+
+
+function cdBar(cid)
+
+		if #getCreatureSummons(cid) == 0 then
+			return 0
+		end
+		pokemon = pokeLib[getCreatureOutfit(getCreatureSummons(cid)[1]).lookType]
+	  
+		doPlayerSendCancel(cid, "12//,")	
+		local cdBarName = "12&"
+		local cdBarCD 	= "12|"
+		if(pokemon.move1) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move1.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move1.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move1.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move1.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move2) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move2.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move2.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move2.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move2.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move3) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move3.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move3.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move3.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move3.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move4) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move4.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move4.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move4.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move4.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move5) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move5.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move5.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move5.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move5.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move6) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move6.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move6.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move6.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move6.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move7) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move7.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move7.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move7.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move7.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move8) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move8.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move8.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move8.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move8.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move9) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move9.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move9.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move9.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move9.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move10) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move10.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move10.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move10.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move10.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move11) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move11.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move11.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move11.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move11.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+		if(pokemon.move12) then
+			seconds = 0
+			if (exhaustion.get(cid, pokemon.move12.ex)) then
+				seconds = math.floor(((exhaustion.get(cid, pokemon.move12.ex)) + 1))
+			end
+			cdBarName = cdBarName ..","..pokemon.move12.spell
+			cdBarCD = 	cdBarCD ..",".. seconds .."|".. pokemon.level .."|"..pokemon.move12.minLv
+		else 
+			cdBarName = cdBarName ..",n/n"
+			cdBarCD = 	cdBarCD ..",0|0|0"
+		end
+        doPlayerSendCancel(cid, cdBarName)
+	--	doPlayerSendCancel(cid, cdBarCD)
+		doPlayerSendCancel(cid, "")
+
+end
