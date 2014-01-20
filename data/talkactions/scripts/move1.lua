@@ -447,7 +447,7 @@ function onSay(cid)
     doSendDistanceShoot(getThingPos(getCreatureSummons(cid)[1]), getThingPos(getCreatureTarget(cid)), 14)
     doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureTarget(cid)), 0, -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 20)
     return 0
-  else if pokemon.move1.spell == "Water Gun" then
+  elseif pokemon.move1.spell == "Water Gun" then
     if getCreatureLookDir(getCreatureSummons(cid)[1]) == 0 then
       doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureSummons(cid)[1]), (wg1n), -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 74)
       doAreaCombatHealth(getCreatureSummons(cid)[1], element, getThingPos(getCreatureSummons(cid)[1]), (wg2n), -((num1)+(getPlayerLevel(cid)*(num3))), -((num2)+(getPlayerLevel(cid)*(num3))), 75)
@@ -976,6 +976,7 @@ function onSay(cid)
       end
     end
   end
+  sendCDBar(pokemon)
   local delay = 200
   randnee = math.random(1,100)
   if randnee >= 1 and randnee <= 37 then
