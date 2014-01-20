@@ -1,4 +1,4 @@
-function sendCDBar(pokemon) 
+function sendCDBar(cid, pokemon) 
 	m1	= "0/0/0"
 	m2 =  "0/0/0"
 	m3 =  "0/0/0"
