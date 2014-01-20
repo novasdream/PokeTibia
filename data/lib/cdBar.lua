@@ -132,8 +132,15 @@ function cdBar(cid)
 		if #getCreatureSummons(cid) == 0 then
 			return 0
 		end
+		
 		pokemon = pokeLib[getCreatureOutfit(getCreatureSummons(cid)[1]).lookType]
 	  
+	    cdBarPokemon(cid,pokemon)
+
+end
+
+function cdBarPokemon(cid,pokemon)
+
 		doPlayerSendCancel(cid, "12//,")	
 		local cdBarName = "12&"
 		local cdBarCD 	= "12|"
@@ -272,5 +279,4 @@ function cdBar(cid)
         doPlayerSendCancel(cid, cdBarName)
 	--	doPlayerSendCancel(cid, cdBarCD)
 		doPlayerSendCancel(cid, "")
-
 end
