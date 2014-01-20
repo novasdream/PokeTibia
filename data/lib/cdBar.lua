@@ -1,6 +1,16 @@
 function sendCDBar(pokemon) 
-
-	local m1 = m2 = m3 = m4 = m5 = m6 = m7 = m8 = m9 = m10 = m11 = m12 = "0/0/0"
+	m1	= "0/0/0"
+	m2 =  "0/0/0"
+	m3 =  "0/0/0"
+	m4 =  "0/0/0"
+	m5 =  "0/0/0"
+	m6 =  "0/0/0"
+	m7 =  "0/0/0"
+	m8 =  "0/0/0"
+	m9 =  "0/0/0"
+	m10 = "0/0/0"
+	m11 = "0/0/0"
+	m12 = "0/0/0"
 	if(pokemon) then
 	
 		if(pokemon.move1)then
