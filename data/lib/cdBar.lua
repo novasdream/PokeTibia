@@ -277,6 +277,6 @@ function cdBarPokemon(cid,pokemon)
 			cdBarCD = 	cdBarCD ..",0|0|0"
 		end
         doPlayerSendCancel(cid, cdBarName)
-	--	doPlayerSendCancel(cid, cdBarCD)
+		doPlayerSendCancel(cid, cdBarCD)
 		doPlayerSendCancel(cid, "")
 end
